@@ -1,6 +1,6 @@
 {
   "current": {
-    "header_layout": "03",
+    "header_layout": "01",
     "footer_layout": "04",
     "colors_solid_button_labels": "#ffffff",
     "colors_accent_1": "#212121",
@@ -140,9 +140,8 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo": "shopify:\/\/shop_images\/atoms-logo_ab356fac-ace1-43d8-8c8a-369c6f83533b.png",
-          "logo_text": "Atoms",
-          "logo_font": "helvetica_n4",
+          "logo_text": "PEAKSHOP",
+          "logo_font": "space_mono_n7",
           "logo_width": 100,
           "menu": "main-menu",
           "menu_type_desktop": "dropdown",
@@ -261,7 +260,6 @@
         "type": "header-02",
         "settings": {
           "color_scheme": "background-1",
-          "logo": "shopify:\/\/shop_images\/atoms-logo_ab356fac-ace1-43d8-8c8a-369c6f83533b.png",
           "logo_text": "Atoms",
           "logo_font": "helvetica_n4",
           "logo_width": 100,
