@@ -1,6 +1,6 @@
 {
   "current": {
-    "header_layout": "03",
+    "header_layout": "01",
     "footer_layout": "04",
     "colors_solid_button_labels": "#ffffff",
     "colors_accent_1": "#212121",
@@ -19,9 +19,9 @@
     "newsletter_popup_desc": "Sign Up for exclusive updates, \nnew arrivals & insider only discounts",
     "newsletter_popup_note": "No, thanks",
     "favicon": "shopify:\/\/shop_images\/favicon.png",
-    "type_header_font": "din_next_slab_n4",
+    "type_header_font": "space_mono_n7",
     "heading_scale": 100,
-    "type_body_font": "karla_n4",
+    "type_body_font": "space_mono_n4",
     "body_scale": 100,
     "page_width": 1300,
     "spacing_sections": 0,
@@ -121,7 +121,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "<p>Limited Time Only! Get 10% Off Your First Order in 2023 With Code <strong>Ubtrex2020<\/strong><\/p>",
+              "text": "<p>Free shipping on all orders over $70 <\/p>",
               "content_alignment": "center"
             }
           }
@@ -130,7 +130,7 @@
           "announcement-bar-0"
         ],
         "settings": {
-          "bg_colors": "#c1ab7c",
+          "bg_colors": "#000000",
           "text_colors": "#ffffff",
           "full_width": true,
           "mod_class": ""
@@ -140,9 +140,8 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo": "shopify:\/\/shop_images\/atoms-logo_ab356fac-ace1-43d8-8c8a-369c6f83533b.png",
-          "logo_text": "Atoms",
-          "logo_font": "helvetica_n4",
+          "logo_text": "PEAKSHOP",
+          "logo_font": "space_mono_n7",
           "logo_width": 100,
           "menu": "main-menu",
           "menu_type_desktop": "dropdown",
@@ -261,7 +260,6 @@
         "type": "header-02",
         "settings": {
           "color_scheme": "background-1",
-          "logo": "shopify:\/\/shop_images\/atoms-logo_ab356fac-ace1-43d8-8c8a-369c6f83533b.png",
           "logo_text": "Atoms",
           "logo_font": "helvetica_n4",
           "logo_width": 100,
@@ -360,11 +358,10 @@
         "type": "header-03",
         "settings": {
           "color_scheme": "background-1",
-          "logo": "shopify:\/\/shop_images\/atoms-logo_ab356fac-ace1-43d8-8c8a-369c6f83533b.png",
-          "logo_text": "",
-          "logo_font": "helvetica_n4",
+          "logo_text": "PEAKSHOP",
+          "logo_font": "space_mono_n4",
           "logo_width": 100,
-          "menu": "fashion",
+          "menu": "main-menu",
           "menu_type_desktop": "mega",
           "show_line_separator": true,
           "enable_sticky_header": false,
