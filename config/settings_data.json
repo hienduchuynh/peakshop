@@ -133,7 +133,8 @@
           "bg_colors": "#000000",
           "text_colors": "#ffffff",
           "full_width": true,
-          "mod_class": ""
+          "mod_class": "",
+          "margin_bottom": 24
         }
       },
       "header": {
