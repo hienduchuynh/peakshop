@@ -132,7 +132,7 @@
         "settings": {
           "bg_colors": "#000000",
           "text_colors": "#ffffff",
-          "full_width": true,
+          "full_width": false,
           "mod_class": "",
           "margin_bottom": 24
         }
