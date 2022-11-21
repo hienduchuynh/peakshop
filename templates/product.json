@@ -1,0 +1,326 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "16f42ac6-234c-40c1-8226-851ef479c4a9": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+            "stars_fill_color": "#d6ed07",
+            "star_size": 15,
+            "text_align": "flex-start",
+            "product": "{{product}}",
+            "stars_text_empty": "No reviews"
+          }
+        },
+        "6c4a7f7f-6a5e-4f46-99c0-1deeed649816": {
+          "type": "rating",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "23ebf0a2-bba6-4be2-8af7-6c1bacfbe482": {
+          "type": "short_description",
+          "settings": {
+            "word_number": "120"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "855dcf26-c523-484d-a4b9-5297801c8a9e": {
+          "type": "trust_badges",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/image-trust_9cf48f22-6c8a-4a39-b604-64b168dc56be.webp"
+          }
+        },
+        "479cb26a-2b36-482e-87b5-082d713b02ab": {
+          "type": "custom_information",
+          "settings": {
+            "icon": "<svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fal\" data-icon=\"shipping-fast\" role=\"img\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 640 512\"><path fill=\"currentColor\" d=\"M280 192c4.4 0 8-3.6 8-8v-16c0-4.4-3.6-8-8-8H40c-4.4 0-8 3.6-8 8v16c0 4.4 3.6 8 8 8h240zm352 192h-24V275.9c0-16.8-6.8-33.3-18.8-45.2l-83.9-83.9c-11.8-12-28.3-18.8-45.2-18.8H416V78.6c0-25.7-22.2-46.6-49.4-46.6H113.4C86.2 32 64 52.9 64 78.6V96H8c-4.4 0-8 3.6-8 8v16c0 4.4 3.6 8 8 8h240c4.4 0 8-3.6 8-8v-16c0-4.4-3.6-8-8-8H96V78.6c0-8.1 7.8-14.6 17.4-14.6h253.2c9.6 0 17.4 6.5 17.4 14.6V384H207.6C193 364.7 170 352 144 352c-18.1 0-34.6 6.2-48 16.4V288H64v144c0 44.2 35.8 80 80 80s80-35.8 80-80c0-5.5-.6-10.8-1.6-16h195.2c-1.1 5.2-1.6 10.5-1.6 16 0 44.2 35.8 80 80 80s80-35.8 80-80c0-5.5-.6-10.8-1.6-16H632c4.4 0 8-3.6 8-8v-16c0-4.4-3.6-8-8-8zm-488 96c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48zm272-320h44.1c8.4 0 16.7 3.4 22.6 9.4l83.9 83.9c.8.8 1.1 1.9 1.8 2.8H416V160zm80 320c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48zm80-96h-16.4C545 364.7 522 352 496 352s-49 12.7-63.6 32H416v-96h160v96zM256 248v-16c0-4.4-3.6-8-8-8H8c-4.4 0-8 3.6-8 8v16c0 4.4 3.6 8 8 8h240c4.4 0 8-3.6 8-8z\"><\/path><\/svg>",
+            "title": "Free Shipping",
+            "text_description": "<p>Free standard shipping on orders over $99<\/p>\n<p>Estimated to be delivered on 12\/01\/2022 - 15\/10\/2022.<\/p>"
+          }
+        },
+        "d8158e35-345d-45bb-ac02-c0953b57edc6": {
+          "type": "custom_information",
+          "settings": {
+            "icon": "<svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fal\" data-icon=\"shield-alt\" role=\"img\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 512 512\">\n    <path fill=\"currentColor\" d=\"M466.5 83.7l-192-80a48.15 48.15 0 0 0-36.9 0l-192 80C27.7 91.1 16 108.6 16 128c0 198.5 114.5 335.7 221.5 380.3 11.8 4.9 25.1 4.9 36.9 0C360.1 472.6 496 349.3 496 128c0-19.4-11.7-36.9-29.5-44.3zM262.2 478.8c-4 1.6-8.4 1.6-12.3 0C152 440 48 304 48 128c0-6.5 3.9-12.3 9.8-14.8l192-80c3.9-1.6 8.4-1.6 12.3 0l192 80c6 2.5 9.9 8.3 9.8 14.8.1 176-103.9 312-201.7 350.8zM256 411V100l-142.7 59.5c10.1 120.1 77.1 215 142.7 251.5zm-32-66.8c-36.4-39.9-65.8-97.8-76.1-164.5L224 148z\"><\/path>\n<\/svg>",
+            "title": "Free Returns",
+            "text_description": "Learn More."
+          }
+        },
+        "dc98c7b2-e8a0-48bc-9c46-23d28257277f": {
+          "type": "custom_information",
+          "settings": {
+            "icon": "<svg aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fal\" data-icon=\"exclamation-triangle\" role=\"img\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" viewbox=\"0 0 576 512\"><path fill=\"currentColor\" d=\"M270.2 160h35.5c3.4 0 6.1 2.8 6 6.2l-7.5 196c-.1 3.2-2.8 5.8-6 5.8h-20.5c-3.2 0-5.9-2.5-6-5.8l-7.5-196c-.1-3.4 2.6-6.2 6-6.2zM288 388c-15.5 0-28 12.5-28 28s12.5 28 28 28 28-12.5 28-28-12.5-28-28-28zm281.5 52L329.6 24c-18.4-32-64.7-32-83.2 0L6.5 440c-18.4 31.9 4.6 72 41.6 72H528c36.8 0 60-40 41.5-72zM528 480H48c-12.3 0-20-13.3-13.9-24l240-416c6.1-10.6 21.6-10.7 27.7 0l240 416c6.2 10.6-1.5 24-13.8 24z\"><\/path><\/svg>",
+            "title": "Covid-19 Shipping Delay Notice",
+            "text_description": ""
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "collapsible-row-2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Size chart",
+            "icon": "clipboard",
+            "content": "<p><em>\"This is demonstration content, designed to showcase how pages could look with your own content\"<\/em><\/p><p><strong>How to measure yourself:<br\/><\/strong>Size Guide: S=US 4-6, M=US 8-10, L=US 12-14, XL=16.<br\/>To find the perfect fit, simply put on your favourite underwear and measure yourself directly on your body. Then use the size chart and the information found in the product description to find your fit.<\/p>",
+            "image": "shopify:\/\/shop_images\/Group_1new-table-size_2.png",
+            "image_ratio": "43",
+            "page": ""
+          }
+        },
+        "collapsible-row-1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Shipping & Returns",
+            "icon": "truck",
+            "content": "<p>- Ships Worldwide<br\/>- Free Shipping all orders over $50 (the contiguous US only)<br\/>- Free returns\/exchanges up to 30 days from purchase<\/p>",
+            "image_ratio": "43",
+            "page": ""
+          }
+        },
+        "collapsible-row-0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "HELP & ADVICE",
+            "icon": "chat_bubble",
+            "content": "<p>Our fashion consultants are on hand & ready to support you.Get in touch via our contact form here.<\/p>",
+            "image_ratio": "43",
+            "page": ""
+          }
+        },
+        "collapsible-row-3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Care Instructions",
+            "icon": "heart",
+            "content": "",
+            "image_ratio": "43",
+            "page": ""
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "4ed73133-889e-4b76-8238-606645cba794": {
+          "type": "tabs",
+          "settings": {
+            "title_tabs": "Shipping",
+            "content_tabs": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium enim ut fringilla. Quisque eu lacus enim. Proin eleifend, mi eu aliquam euismod, arcu tortor consectetur nisi, et elementum nibh felis vel ante. Fusce nec tristique enimdoloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.<\/p>",
+            "image_ratio_tabs": "portrait"
+          }
+        },
+        "e42fa36e-34fb-4e00-a8c8-39f23c4446a2": {
+          "type": "tabs",
+          "settings": {
+            "title_tabs": "Payment",
+            "content_tabs": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium enim ut fringilla. Quisque eu lacus enim. Proin eleifend, mi eu aliquam euismod, arcu tortor consectetur nisi, et elementum nibh felis vel ante. Fusce nec tristique enimdoloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam perspiciatis unde omnis iste natus error sit voluptatem accusantium enim ut fringilla. Quisque eu lacus enim. Proin eleifend, mi eu aliquam euismod, arcu tortor consectetur nisi, et elementum nibh felis vel ante. Fusce nec tristique enimdoloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.voluptatem quia voluptas sit aspernatur aut odit aut fugit.<\/p>",
+            "image_tabs": "shopify:\/\/shop_images\/image-trust_9cf48f22-6c8a-4a39-b604-64b168dc56be.webp",
+            "image_ratio_tabs": "43"
+          }
+        },
+        "fd92e9af-7e7a-4fb9-8ca2-69e1f16c1c95": {
+          "type": "tabs",
+          "settings": {
+            "title_tabs": "FAQ",
+            "content_tabs": "<p>This is FAQ<\/p>",
+            "image_tabs": "shopify:\/\/shop_images\/fashion-ins-04.jpg",
+            "image_ratio_tabs": "43"
+          }
+        },
+        "e417982b-3458-49aa-8bdc-84807b310d68": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "16f42ac6-234c-40c1-8226-851ef479c4a9",
+        "6c4a7f7f-6a5e-4f46-99c0-1deeed649816",
+        "price",
+        "23ebf0a2-bba6-4be2-8af7-6c1bacfbe482",
+        "variant_picker",
+        "quantity_selector",
+        "855dcf26-c523-484d-a4b9-5297801c8a9e",
+        "479cb26a-2b36-482e-87b5-082d713b02ab",
+        "d8158e35-345d-45bb-ac02-c0953b57edc6",
+        "dc98c7b2-e8a0-48bc-9c46-23d28257277f",
+        "description",
+        "collapsible-row-2",
+        "collapsible-row-1",
+        "collapsible-row-0",
+        "collapsible-row-3",
+        "buy_buttons",
+        "share",
+        "4ed73133-889e-4b76-8238-606645cba794",
+        "e42fa36e-34fb-4e00-a8c8-39f23c4446a2",
+        "fd92e9af-7e7a-4fb9-8ca2-69e1f16c1c95",
+        "e417982b-3458-49aa-8bdc-84807b310d68"
+      ],
+      "settings": {
+        "layout_product": "default",
+        "enable_sticky_info": true,
+        "media_size": "medium",
+        "gallery_layout": "thumbnail_slider",
+        "gallery_position": "bottom",
+        "item_ratio": "43",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "layout_description": "tabs",
+        "enable_add_cart_bottom": true,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "b56b38a8-e2f8-4c99-903d-bdd158723b66": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--15049366536265__b56b38a8-e2f8-4c99-903d-bdd158723b66-1668061523daf060dc-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/feature-1.png",
+            "image_position": "bottom",
+            "title": "#Vintage #Unique Fall\/Spring Furniture Collection",
+            "title_size": "h3",
+            "icon": "none",
+            "icon_position": "left",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": "",
+            "link_style": "link",
+            "padding_left": 0,
+            "padding_right": 96,
+            "image_spacing": 48
+          }
+        },
+        "template--15049366536265__b56b38a8-e2f8-4c99-903d-bdd158723b66-1668061523daf060dc-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/photo-04.png",
+            "image_position": "top",
+            "title": "#Urban #Solid Mid Rise Zespy Trackie Clothing Loobook SS’20",
+            "title_size": "h3",
+            "icon": "none",
+            "icon_position": "left",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": "",
+            "link_style": "link",
+            "padding_left": 0,
+            "padding_right": 0,
+            "image_spacing": 48
+          }
+        }
+      },
+      "block_order": [
+        "template--15049366536265__b56b38a8-e2f8-4c99-903d-bdd158723b66-1668061523daf060dc-0",
+        "template--15049366536265__b56b38a8-e2f8-4c99-903d-bdd158723b66-1668061523daf060dc-1"
+      ],
+      "settings": {
+        "title": "",
+        "sub-title": "",
+        "mod_class": "background-none",
+        "heading_size": "h4",
+        "layout": "grid",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "row_alignment": "top",
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 32,
+        "padding_bottom": 64
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h3",
+        "heading_style": "01",
+        "description": "",
+        "description_style": "body",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 24,
+        "padding_bottom": 48
+      }
+    },
+    "6b8f86f8-8759-48b8-a34f-5bc028e7e729": {
+      "type": "ja-recent-products",
+      "settings": {
+        "title": "Recent Product",
+        "heading_size": "h3",
+        "title_style": "02",
+        "description": "",
+        "description_style": "body",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "b56b38a8-e2f8-4c99-903d-bdd158723b66",
+    "product-recommendations",
+    "6b8f86f8-8759-48b8-a34f-5bc028e7e729"
+  ]
+}

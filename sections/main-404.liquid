@@ -1,0 +1,71 @@
+<style type="text/css">
+  .template-404 .title + * {
+    margin-top: 1rem;
+  }
+
+  .code-error {
+    color: var(--color-base-accent-2);
+    font-size: 15rem;
+    font-weight: 700;
+    margin: 0;
+    line-height: 1;
+  }
+
+  .code-message {
+    font-size: 3.6rem;
+    font-weight: 700;
+    margin: 2rem 0;
+  }
+
+
+  @media screen and (min-width: 750px) {
+    .template-404 .title + * {
+      margin-top: 2rem;
+    }
+
+    .code-error {
+      font-size: 20rem;
+    }
+  }
+
+
+</style>
+{%- liquid
+  assign image = section.settings.image_404
+-%}
+
+<div class="template-404 page-width page-margin center">
+  {% if image != blank %}
+    <img
+    src="{{ image | image_url: width: 400 }}"
+    class="image-404"
+    loading="lazy"
+    width="auto"
+    height="auto"
+    >
+  {% else %}
+  <p class="code-error">
+    {{ 'templates.404.subtext' | t }}
+  </p>
+  {% endif %}
+  <h1 class="code-message">
+  {{ 'templates.404.title' | t }}
+  </h1>
+  <a href="{{ routes.all_products_collection_url }}" class="button redirect-home">
+    {{ 'general.continue_shopping' | t }}
+  </a>
+</div>
+{% schema %}
+{
+  "name": "t:sections.main-404.name",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image_404",
+      "label": "t:sections.main-404.settings.pick__image.label"
+    }
+  ]
+}
+{% endschema %}

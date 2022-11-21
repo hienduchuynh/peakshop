@@ -1,0 +1,17 @@
+<!-- START OF LIST TAGS -->
+<div class="list-tag">
+  {% if section.settings.blog_show_tags %}
+    <h3 class="mod-title">Tags</h3>
+    <ul>
+      {% if blog.all_tags.size >= 1 %}
+        {%- for tag in blog.all_tags -%}
+          <li>
+            <a href="{{ blog.url }}/tagged/{{ tag | handle }}">{{ tag }}</a>{% unless forloop.last %} {% endunless %}
+          </li>
+        {%- endfor -%}
+      {% else %}
+        <li><a class="not-found">Not Tag Found</a></li>
+      {% endif %}
+    </ul>
+  {% endif %}
+</div>

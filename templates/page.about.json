@@ -1,0 +1,83 @@
+{
+  "sections": {
+    "61f849a9-f600-4591-8f82-0e40cc947bc5": {
+      "type": "breadcrumb",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28,
+        "suffix-class": "about-us-title"
+      }
+    },
+    "d907dfba-3a8d-4c3a-a756-aca10721690e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14995394134089__d907dfba-3a8d-4c3a-a756-aca10721690e-16650398972b716996-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>With more than 36 stores spanning 8 states, Atoms is a nationally recognized active wear manufacturer and retailer. We’re passionate about active lifestyles – and it goes way beyond apparel.<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "44929001-e0af-4679-92e9-15be36596752": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/minimalist-retail-clothing-display.jpg"
+          }
+        },
+        "4682a639-6655-4fc0-b29d-3105b6eaa917": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Atoms caters to thoughtful shoppers who appreciate unique designs and top quality pieces you just can’t find anywhere else. We are constantly curating fresh new collections and looking for the next big thing our customers will love. Founded in Chicago in 2015, we are proud to be your Online Clothing Shop that you can rely on for our expert service and care.<\/p>"
+          }
+        },
+        "400a6ab5-7b62-492c-818e-fc31d57eda3f": {
+          "type": "text",
+          "settings": {
+            "text": "<p>In 2015, we opened the ways to our leader store in Chicago, US. In this space we work crosswise over various mediums from fashion and photography to accommodation. There’s nothing we won’t do. Joint efforts are constantly invited and sustained. <\/p>"
+          }
+        },
+        "96e9d6a0-f261-46c6-823d-f5906f0bc94f": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Summer 2016 saw the dispatch of ‘Atoms’ ‘s eponymous mark, which centers around quality, wearability and present day effortlessness. We cherish the sentiment of unisex garments, so we plan in light of the two sexual orientations. The mark exists outside of fashion seasons. We will continue adding to the line consistently, so keep your eyes stripped.<\/p>"
+          }
+        },
+        "2f0a103f-07e5-4a08-ab83-2aa0bcf050bc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>2018 imprints the beginning of our first worldwide endeavor. Venturing into the US advertise, ‘Atoms’ has arrived in a standout amongst L.A’s most looked for after retail areas, Platform. Exhibiting our most cherished British brands and banding together with any semblance of Psychic Sisters, an energizing new section is standing by.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14995394134089__d907dfba-3a8d-4c3a-a756-aca10721690e-16650398972b716996-0",
+        "44929001-e0af-4679-92e9-15be36596752",
+        "4682a639-6655-4fc0-b29d-3105b6eaa917",
+        "400a6ab5-7b62-492c-818e-fc31d57eda3f",
+        "96e9d6a0-f261-46c6-823d-f5906f0bc94f",
+        "2f0a103f-07e5-4a08-ab83-2aa0bcf050bc"
+      ],
+      "settings": {
+        "class_suffix": "about-us",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": false,
+        "padding_top": 96,
+        "padding_bottom": 96
+      }
+    }
+  },
+  "order": [
+    "61f849a9-f600-4591-8f82-0e40cc947bc5",
+    "main",
+    "d907dfba-3a8d-4c3a-a756-aca10721690e"
+  ]
+}

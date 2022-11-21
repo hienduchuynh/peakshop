@@ -1,0 +1,48 @@
+{
+  "sections": {
+    "166382168102e080c5": {
+      "type": "breadcrumb",
+      "settings": {
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "show_collection_full_width": false,
+        "color_scheme": "none",
+        "hero_align_content": "left"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 12,
+        "columns_desktop": 4,
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "show_product_description": true,
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 0,
+        "padding_bottom": 48,
+        "enable_sidebar_top_seller": false,
+        "carousels_total_products": 3,
+        "auto_rotate": false,
+        "slider_visual": "dots",
+        "change_slides_speed": 5
+      }
+    }
+  },
+  "order": [
+    "166382168102e080c5",
+    "banner",
+    "product-grid"
+  ]
+}

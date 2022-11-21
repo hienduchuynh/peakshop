@@ -1,0 +1,8 @@
+.product-recommendations {
+    display: block;
+}
+
+.product-recommendations:not(.product-recommendations--loaded) {
+    padding: 0;
+    margin: 0;
+}

@@ -1,0 +1,49 @@
+
+{% comment %} 
+Edit the 2 values right below: what's your blog handle and how many articles do you want to show?
+{% endcomment %}
+
+{% assign how_many_articles_to_show = 4 %}
+
+<!-- START OF LATEST BLOG POSTS -->
+<div class="lastest-posts">
+  {% if section.settings.blog_show_lastest_post %}
+    <h3 class="mod-title">Recent Posts</h3>
+  {% endif %}
+
+  <div class="latest-blog-posts-list">
+
+      {%- if blog.articles.size >= 1 -%}
+        {% for article in blog.articles limit: how_many_articles_to_show %}
+          <div class="post-item">
+            <div class="thumbnail-article">
+              <img
+                srcset="{% if article.image.width >= 350 %}{{ article.image | image_url: width: 350 }} 350w,{% endif %}
+                  {% if article.image.width >= 750 %}{{ article.image | image_url: width: 750 }} 750w,{% endif %}
+                  {% if article.image.width >= 1100 %}{{ article.image | image_url: width: 1100 }} 1100w,{% endif %}
+                  {% if article.image.width >= 1500 %}{{ article.image | image_url: width: 1500 }} 1500w,{% endif %}
+                  {% if article.image.width >= 2200 %}{{ article.image | image_url: width: 2200 }} 2200w,{% endif %}
+                  {% if article.image.width >= 3000 %}{{ article.image | image_url: width: 3000 }} 3000w,{% endif %}
+                  {{ article.image | image_url }} {{ article.image.width }}w"
+                sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 }}px, (min-width: 750px) calc(100vw - 10rem), 100vw"
+                src="{{ article.image | image_url: width: 64 }}"
+                loading="lazy"
+                width="64"
+                height="64"
+                alt="{{ article.image.alt | escape }}">
+            </div>
+            {{ article.title | link_to: article.url }}
+          </div>
+        {% endfor %}
+      {%- elsif blog.articles.size == 0 -%}
+        <div class="blog-placeholder">
+          <div class="placeholder media media--landscape">
+            {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+          </div>
+          <h5>{{ 'sections.featured_blog.onboarding_title' | t }}</h5>
+        </div>
+      {%- endif -%} 
+
+
+  </div>
+</div>

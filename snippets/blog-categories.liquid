@@ -1,0 +1,20 @@
+{% comment %} Blog categories {% endcomment %}
+
+{% assign categories = section.settings.blog_categories | split: ',' %}
+
+<div class="blog-categories">
+  {% if section.settings.blog_categories %}
+    <h3 class="mod-title">Categories</h3>
+    {% for link in linklists.main-menu.links -%}
+      {% assign title_link = link.title | downcase %}
+      {% if title_link == "blog" %}
+        {% for categories in link.links %}
+          <li class="category-item">
+            <span class="icon-svg"> {% render 'icon-folder' %}</span>
+          {{ categories.url | link_to: categories.url }}
+          </li>
+        {% endfor %}
+      {% endif %}
+    {%- endfor %}
+  {% endif %}
+</div>

@@ -1,0 +1,25 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-blog",
+      "settings": {
+        "show_breadcrumb": false,
+        "layout": "grid",
+        "description": "Create a stunning blog that suits your style. Choose from a selection of easy to use templates all with flexible layouts",
+        "show_image": true,
+        "image_height": "medium",
+        "show_date": true,
+        "show_author": true,
+        "sidebar": "full",
+        "blog_show_tags": false,
+        "blog_show_lastest_post": false,
+        "blog_categories": false,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
