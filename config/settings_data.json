@@ -360,11 +360,10 @@
         "type": "header-03",
         "settings": {
           "color_scheme": "background-1",
-          "logo": "shopify:\/\/shop_images\/atoms-logo_ab356fac-ace1-43d8-8c8a-369c6f83533b.png",
           "logo_text": "",
           "logo_font": "helvetica_n4",
           "logo_width": 100,
-          "menu": "fashion",
+          "menu": "main-menu",
           "menu_type_desktop": "mega",
           "show_line_separator": true,
           "enable_sticky_header": false,
