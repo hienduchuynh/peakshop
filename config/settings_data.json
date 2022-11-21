@@ -121,7 +121,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "<p>Limited Time Only! Get 10% Off Your First Order in 2023 With Code <strong>Ubtrex2020<\/strong><\/p>",
+              "text": "<p>Free shipping on all orders over $70 <\/p>",
               "content_alignment": "center"
             }
           }
@@ -130,7 +130,7 @@
           "announcement-bar-0"
         ],
         "settings": {
-          "bg_colors": "#c1ab7c",
+          "bg_colors": "#000000",
           "text_colors": "#ffffff",
           "full_width": true,
           "mod_class": ""
