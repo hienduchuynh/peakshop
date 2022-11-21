@@ -361,7 +361,7 @@
         "settings": {
           "color_scheme": "background-1",
           "logo_text": "PEAKSHOP",
-          "logo_font": "helvetica_n4",
+          "logo_font": "space_mono_n4",
           "logo_width": 100,
           "menu": "main-menu",
           "menu_type_desktop": "mega",
