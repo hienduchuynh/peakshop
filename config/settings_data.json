@@ -23,7 +23,11 @@
     "heading_scale": 100,
     "type_body_font": "space_mono_n4",
     "body_scale": 100,
+<<<<<<< HEAD
     "page_width": 1872,
+=======
+    "page_width": 1600,
+>>>>>>> ac22e5360fd8a9aaf598db50e9bb93185e649ae8
     "spacing_sections": 0,
     "spacing_grid_horizontal": 24,
     "spacing_grid_vertical": 24,
