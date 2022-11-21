@@ -305,8 +305,8 @@
         "id": "page_width",
         "min": 1000,
         "max": 1920,
-        "step": 4,
-        "default": 1872,
+        "step": 10,
+        "default": 1870,
         "unit": "px",
         "label": "t:settings_schema.layout.settings.page_width.label"
       },
