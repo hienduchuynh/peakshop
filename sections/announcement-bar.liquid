@@ -1,4 +1,14 @@
 {% style %}
+#shopify-section-announcement-bar {
+  margin-bottom: {{ section.settings.margin_bottom | times: 0.75 | round: 0 }}px;
+}
+
+@media screen and (min-width: 750px) {
+  #shopify-section-announcement-bar {
+    margin-bottom: {{ section.settings.margin_bottom }}px;
+  }
+}
+
 .announcement-bar {
   --color-foreground: {{ section.settings.text_colors.red }}, {{ section.settings.text_colors.green }}, {{ section.settings.text_colors.blue }};
   --color-background: {{ section.settings.bg_colors.red }}, {{ section.settings.bg_colors.green }}, {{ section.settings.bg_colors.blue }};
@@ -24,6 +34,7 @@
   display: inline-block;
   margin: 0 .8rem;
 } 
+
 .announcement-bar__link:hover {
   background: transparent;
   color: var(--color-base-accent-3);
@@ -33,7 +44,7 @@
   margin:  0;
 }
 {% endstyle %}
-<div class="announcement-bar gradient" role="region" aria-label="{{ 'sections.header.announcement' | t }}">
+<div class="announcement-bar gradient {% if section.settings.container %}announcement--container container{% endif %}" role="region" aria-label="{{ 'sections.header.announcement' | t }}">
   <div class="{% if section.settings.full_width %}announcement--full-width{%- else -%}page-width{% endif %}">
     <div class="announcement-bar-inner">
     {%- for block in section.blocks -%}
@@ -81,6 +92,12 @@
       "type": "checkbox",
       "id": "full_width",
       "label": "Full width",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "container",
+      "label": "Show container on desktop",
       "default": false
     },
     {

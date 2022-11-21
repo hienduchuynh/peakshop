@@ -226,13 +226,17 @@
       {%- render 'cart-drawer' -%}
     {%- endif -%}
 
-    {% render 'wrapper-header' %}
-    
-    <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
-      {{ content_for_layout }}
-    </main>
+    <div class="ja-wrapper">
+      <div class="ja-container">
+        {% render 'wrapper-header' %}
+        
+        <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
+          {{ content_for_layout }}
+        </main>
 
-    {% render 'wrapper-footer' %}
+        {% render 'wrapper-footer' %}
+      </div>
+    </div>
 
     <ul hidden>
       <li id="a11y-refresh-page-message">{{ 'accessibility.refresh_page' | t }}</li>
