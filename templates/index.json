@@ -13,7 +13,7 @@
             "button_label": "VIEW ALL PRODUCTS",
             "link": "shopify:\/\/collections\/all",
             "link_style": "outline",
-            "box_align": "middle-right",
+            "box_align": "middle-left",
             "box_width": 50,
             "button_label2": "",
             "link2": "",
