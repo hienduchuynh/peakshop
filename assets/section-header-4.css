@@ -2,3 +2,31 @@
 .header-wrapper {
     z-index: 3;
 }
+
+.header {
+    display: grid;
+    grid-template-areas: "heading mainmenu";
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    align-items: center;
+}
+
+.header > .header__heading, 
+.header > .header__heading-link {
+    width: auto;
+    padding-left: 7.2rem;
+    padding-right: 7.2rem;
+}
+
+.header_menu_wrapper {
+    display: flex;
+    grid-area: mainmenu;
+    justify-content: space-between;
+    padding-left: 7.2rem;
+    padding-right: 7.2rem;
+}
+
+.header-04 {
+    padding-left: 0;
+    padding-right: 0;
+}
