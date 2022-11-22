@@ -24,9 +24,13 @@
 }
 
 .header_menu_wrapper {
-    display: flex;
-    grid-area: mainmenu;
-    justify-content: space-between;
+    display: grid;
+    grid-area: "mainmenu";
+    grid-template-areas: "navigation icons";
+    grid-template-columns: 2fr 1fr;
+}
+
+.header__inline-menu {
     padding-left: 4.8rem;
     padding-right: 4.8rem;
 }
@@ -42,6 +46,14 @@
 .header-04 {
     padding-left: 0;
     padding-right: 0;
+}
+
+.header__icons {
+    justify-self: end;
+}
+
+.header__icon--cart {
+    margin-right: 0;
 }
 
 /* Menu */
