@@ -3785,7 +3785,7 @@
         "slide_height": {
           "label": "Slide height",
           "options__1": {
-            "label": "Adapt to first image"
+            "label": "Square"
           },
           "options__2": {
             "label": "Small"
@@ -3795,9 +3795,6 @@
           },
           "options__4": {
             "label": "Large"
-          },
-          "options__5": {
-            "label": "Width\/Height : 16\/9"
           }
         },
         "slider_visual": {
