@@ -522,8 +522,8 @@
           "margin_bottom": 24,
           "padding_top": 20,
           "padding_bottom": 20,
-          "border_thickness": 0,
-          "border_opacity": 0
+          "border_thickness": 2,
+          "border_opacity": 100
         }
       }
     },
