@@ -14,19 +14,38 @@
 .header > .header__heading, 
 .header > .header__heading-link {
     width: auto;
-    padding-left: 7.2rem;
-    padding-right: 7.2rem;
+    text-transform: uppercase;
+    padding-left: 4.8rem;
+    padding-right: 4.8rem;
+}
+
+.header > .header__heading > .header__heading-link {
+    padding: 0;
 }
 
 .header_menu_wrapper {
     display: flex;
     grid-area: mainmenu;
     justify-content: space-between;
-    padding-left: 7.2rem;
-    padding-right: 7.2rem;
+    padding-left: 4.8rem;
+    padding-right: 4.8rem;
+}
+
+.header:not(.header--middle-left) .header__inline-menu {
+    margin-top: 0;
+}
+
+.header__inline-menu {
+    margin-left: 0;
 }
 
 .header-04 {
     padding-left: 0;
     padding-right: 0;
+}
+
+/* Menu */
+.header__menu-item {
+    padding-left: 0;
+    padding-right: 3.2rem;
 }

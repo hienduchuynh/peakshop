@@ -107,6 +107,10 @@
     width: {{ section.settings.logo_width }}px;
   }
 
+  .header_menu_wrapper {
+    border-left: {{ section.settings.border_thickness }}px solid rgba(0, 0, 0, {{ section.settings.border_opacity }});
+  }
+
   @media screen and (min-width: 750px) {
     .section-header {
       margin-bottom: {{ section.settings.margin_bottom }}px;
@@ -398,9 +402,9 @@
               alt: logo_alt
             }}
           {%- else if section.settings.logo_text != blank -%}
-            <span class="h2 logo_text">{{ section.settings.logo_text }}</span>
+            <span class="h3 logo_text">{{ section.settings.logo_text }}</span>
           {%- else -%}
-            <span class="h2">{{ shop.name }}</span>
+            <span class="h3">{{ shop.name }}</span>
           {%- endif -%}
         </a>
     {%- if request.page_type == 'index' -%}
