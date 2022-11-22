@@ -13,6 +13,11 @@
   padding-bottom: 56.25%;
 }
 
+.banner--square:before {
+  content: "";
+  padding-bottom: 100%;
+}
+
 @media only screen and (max-width: 749px) {
   .banner--169:not(.banner--mobile-bottom):before {
     display: block !important;

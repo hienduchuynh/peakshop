@@ -1,0 +1,7 @@
+.ja-slider .slideshow__slide {
+	flex-direction: row;
+}
+
+.ja-slider .slideshow__media {
+	position: relative;
+}
