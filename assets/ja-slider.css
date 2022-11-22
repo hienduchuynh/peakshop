@@ -5,3 +5,7 @@
 .ja-slider .slideshow__media {
 	position: relative;
 }
+
+.ja-slider .slideshow__text-wrapper {
+	justify-content: flex-start;
+}
