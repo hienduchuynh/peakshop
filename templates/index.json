@@ -1,328 +1,44 @@
 {
   "sections": {
-    "1663955354d4347362": {
-      "type": "slideshow",
+    "6864dd0c-c495-4724-b40d-52c73fb74e3c": {
+      "type": "ja-slider",
       "blocks": {
-        "166395535416c40f12-0": {
+        "template--17016615010579__6864dd0c-c495-4724-b40d-52c73fb74e3c-1669105081f3c763ae-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/slide-01.jpg",
-            "heading": "Winter\/Spring Clothing 2020 Collections",
-            "heading_size": "h1",
-            "subheading": "Cursus elit, iaculis platea integer nisl sapien egestas. Itae donec ornare iaculis mauris nec ultrices ullamcorper tempus dignissim, sed at maecenas elit odio blandit sem.",
-            "button_label": "Shop all new arrivals",
-            "link": "shopify:\/\/collections\/decor",
-            "link_style": "solid",
-            "box_align": "middle-center",
-            "box_width": 46,
-            "button_label2": "",
-            "link2": "shopify:\/\/collections\/dishes",
-            "link_style2": "solid",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "166395535416c40f12-1": {
-          "type": "slide",
-          "settings": {
-            "heading": "OUR ICONIC DUNGAREES, ARE BACK IN STOCK",
+            "heading": "Image slide",
             "heading_size": "h3",
-            "subheading": "Free Smiling female in trendy wear and stylish sunglasses standing with paper shopping bags on background of gray wall and browsing mobile phone",
-            "button_label": "Shop Collections",
-            "link": "shopify:\/\/collections\/furniture",
-            "link_style": "solid",
-            "box_align": "top-left",
-            "box_width": 46,
-            "button_label2": "",
-            "link2": "",
-            "link_style2": "solid",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "e1060bfc-75f4-426b-b95f-72555e63ec82": {
-          "type": "slide",
-          "settings": {
-            "heading": "UP TO 50% OFF STYLES",
-            "heading_size": "h3",
-            "subheading": "Our latest endeavour features designs from around the world with materials so comfortable you won't want to wear anything else every again.",
-            "button_label": "Shop Collections",
-            "link": "shopify:\/\/collections\/decor",
-            "link_style": "solid",
-            "box_align": "middle-center",
-            "box_width": 46,
-            "button_label2": "",
-            "link2": "",
-            "link_style2": "solid",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "166395535416c40f12-0",
-        "166395535416c40f12-1",
-        "e1060bfc-75f4-426b-b95f-72555e63ec82"
-      ],
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "large",
-        "slider_visual": "dots",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "show_text_below": false,
-        "accessibility_info": "",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "addition_class": "fashion-slideshow"
-      }
-    },
-    "f5ad21fe-41a0-4e66-a080-39a4452e7ca3": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--15056364503113__f5ad21fe-41a0-4e66-a080-39a4452e7ca3-16683925881b3cb5af-0": {
-          "type": "column",
-          "settings": {
-            "image_position": "top",
-            "title": "Free Shipping Orders $60+",
-            "title_size": "h4",
-            "icon": "truck",
-            "icon_position": "left",
-            "text": "",
-            "link_label": "",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
             "link": "",
-            "link_style": "link",
-            "padding_left": 32,
-            "padding_right": 32,
-            "image_spacing": 25
-          }
-        },
-        "template--15056364503113__f5ad21fe-41a0-4e66-a080-39a4452e7ca3-16683925881b3cb5af-1": {
-          "type": "column",
-          "settings": {
-            "image_position": "top",
-            "title": "30-days free return policy",
-            "title_size": "h4",
-            "icon": "dairy_free",
-            "icon_position": "left",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "link_style": "link",
-            "padding_left": 32,
-            "padding_right": 32,
-            "image_spacing": 25
-          }
-        },
-        "template--15056364503113__f5ad21fe-41a0-4e66-a080-39a4452e7ca3-16683925881b3cb5af-2": {
-          "type": "column",
-          "settings": {
-            "image_position": "top",
-            "title": "100% Secure Payments",
-            "title_size": "h4",
-            "icon": "plane",
-            "icon_position": "left",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "link_style": "link",
-            "padding_left": 32,
-            "padding_right": 32,
-            "image_spacing": 25
-          }
-        }
-      },
-      "block_order": [
-        "template--15056364503113__f5ad21fe-41a0-4e66-a080-39a4452e7ca3-16683925881b3cb5af-0",
-        "template--15056364503113__f5ad21fe-41a0-4e66-a080-39a4452e7ca3-16683925881b3cb5af-1",
-        "template--15056364503113__f5ad21fe-41a0-4e66-a080-39a4452e7ca3-16683925881b3cb5af-2"
-      ],
-      "settings": {
-        "title": "",
-        "sub-title": "",
-        "mod_class": "border-darker type-02",
-        "heading_size": "h4",
-        "layout": "grid",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "row_alignment": "top",
-        "column_alignment": "center",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 24,
-        "padding_bottom": 24
-      }
-    },
-    "dc646dd5-5ce4-43d9-8821-2cdc64d8608f": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--15049366437961__dc646dd5-5ce4-43d9-8821-2cdc64d8608f-16678032585a7fdc53-0": {
-          "type": "column",
-          "settings": {
-            "image_position": "bottom",
-            "title": "#Vintage #Unique Fall\/Spring Clothing Collection",
-            "title_size": "h2",
-            "icon": "none",
-            "icon_position": "left",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "Shop The Collection",
-            "link": "shopify:\/\/collections\/mens",
-            "link_style": "link",
-            "padding_left": 0,
-            "padding_right": 100,
-            "image_spacing": 64
-          }
-        },
-        "template--15049366437961__dc646dd5-5ce4-43d9-8821-2cdc64d8608f-16678032585a7fdc53-1": {
-          "type": "column",
-          "settings": {
-            "image_position": "top",
-            "title": "#Urban #Solid Mid Rise Zespy Trackie Clothing Loobook SS’20",
-            "title_size": "h2",
-            "icon": "none",
-            "icon_position": "left",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "Shop The Collection",
-            "link": "shopify:\/\/collections\/mens",
-            "link_style": "link",
-            "padding_left": 100,
-            "padding_right": 0,
-            "image_spacing": 64
-          }
-        }
-      },
-      "block_order": [
-        "template--15049366437961__dc646dd5-5ce4-43d9-8821-2cdc64d8608f-16678032585a7fdc53-0",
-        "template--15049366437961__dc646dd5-5ce4-43d9-8821-2cdc64d8608f-16678032585a7fdc53-1"
-      ],
-      "settings": {
-        "title": "",
-        "sub-title": "",
-        "mod_class": "background-none fashion-collection",
-        "heading_size": "h4",
-        "layout": "grid",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "row_alignment": "top",
-        "column_alignment": "center",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 96,
-        "padding_bottom": 0
-      }
-    },
-    "16639099959fcc61f9": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Best Selling Products",
-        "heading_size": "h2",
-        "title_style": "02",
-        "description_style": "subtitle",
-        "description": "<p>Cursus elit, iaculis platea integer nisl sapien egestas. Itae donec ornare iaculis mauris nec ultrices ullamcorper tempus dignissim. Purus odio blandit sem.<\/p>",
-        "show_description": false,
-        "collection": "mens",
-        "show_card_collection": false,
-        "products_to_show": 6,
-        "columns_desktop": 3,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "outline",
-        "enable_desktop_slider": true,
-        "slider_visual": "dots",
-        "color_scheme": "background-1",
-        "desktop_layout": "left",
-        "image_ratio": "portrait",
-        "show_secondary_image": true,
-        "show_vendor": true,
-        "show_rating": true,
-        "show_product_description": true,
-        "enable_quick_add": true,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 96,
-        "padding_bottom": 0,
-        "mod_class": "fashion-collection-list"
-      }
-    },
-    "41e85b73-2874-409d-acd8-0ab5e2227c6a": {
-      "type": "slideshow",
-      "blocks": {
-        "template--15056364503113__41e85b73-2874-409d-acd8-0ab5e2227c6a-16684147992fa80b08-0": {
-          "type": "slide",
-          "settings": {
-            "heading": "Summer Sale: Stylish Womens",
-            "heading_size": "h1",
-            "subheading": "Cursus elit, iaculis platea integer nisl sapien egestas. Itae donec ornare iaculis mauris nec ultrices ullamcorper tempus dignissim, sed at maecenas elit odio blandit sem.",
-            "button_label": "Shop all new arrivals",
-            "link": "shopify:\/\/collections\/decor",
-            "link_style": "solid",
-            "box_align": "middle-center",
-            "box_width": 58,
-            "button_label2": "",
-            "link2": "shopify:\/\/collections\/dishes",
-            "link_style2": "solid",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "template--15056364503113__41e85b73-2874-409d-acd8-0ab5e2227c6a-16684147992fa80b08-1": {
-          "type": "slide",
-          "settings": {
-            "heading": "OUR ICONIC DUNGAREES, ARE BACK IN STOCK",
-            "heading_size": "h3",
-            "subheading": "Free Smiling female in trendy wear and stylish sunglasses standing with paper shopping bags on background of gray wall and browsing mobile phone",
-            "button_label": "Shop Collections",
-            "link": "shopify:\/\/collections\/furniture",
             "link_style": "solid",
             "box_align": "middle-center",
             "box_width": 50,
             "button_label2": "",
             "link2": "",
             "link_style2": "solid",
-            "show_text_box": false,
+            "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
         },
-        "template--15056364503113__41e85b73-2874-409d-acd8-0ab5e2227c6a-16684147992fa80b08-2": {
+        "template--17016615010579__6864dd0c-c495-4724-b40d-52c73fb74e3c-1669105081f3c763ae-1": {
           "type": "slide",
           "settings": {
-            "heading": "UP TO 50% OFF STYLES",
+            "heading": "Image slide",
             "heading_size": "h3",
-            "subheading": "Our latest endeavour features designs from around the world with materials so comfortable you won't want to wear anything else every again.",
-            "button_label": "Shop Collections",
-            "link": "shopify:\/\/collections\/decor",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
             "link_style": "solid",
             "box_align": "middle-center",
             "box_width": 50,
             "button_label2": "",
             "link2": "",
             "link_style2": "solid",
-            "show_text_box": false,
+            "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "background-1",
@@ -331,263 +47,24 @@
         }
       },
       "block_order": [
-        "template--15056364503113__41e85b73-2874-409d-acd8-0ab5e2227c6a-16684147992fa80b08-0",
-        "template--15056364503113__41e85b73-2874-409d-acd8-0ab5e2227c6a-16684147992fa80b08-1",
-        "template--15056364503113__41e85b73-2874-409d-acd8-0ab5e2227c6a-16684147992fa80b08-2"
+        "template--17016615010579__6864dd0c-c495-4724-b40d-52c73fb74e3c-1669105081f3c763ae-0",
+        "template--17016615010579__6864dd0c-c495-4724-b40d-52c73fb74e3c-1669105081f3c763ae-1"
       ],
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "169",
-        "slider_visual": "dots",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
         "auto_rotate": false,
         "change_slides_speed": 5,
         "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand",
-        "padding_top": 36,
-        "padding_bottom": 36,
+        "accessibility_info": "ja_slider about our brand",
+        "padding_top": 0,
+        "padding_bottom": 0,
         "addition_class": ""
-      }
-    },
-    "60cc2e97-2f66-46c2-97b2-1f011b00994b": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Recent Arrivals",
-        "heading_size": "h2",
-        "title_style": "02",
-        "description_style": "subtitle",
-        "description": "<p>Cursus elit, iaculis platea integer nisl sapien egestas. Itae donec ornare iaculis mauris nec ultrices ullamcorper tempus dignissim. Purus odio blandit sem.<\/p>",
-        "show_description": false,
-        "collection": "women",
-        "show_card_collection": false,
-        "products_to_show": 6,
-        "columns_desktop": 3,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "slider_visual": "dots",
-        "color_scheme": "background-1",
-        "desktop_layout": "left",
-        "image_ratio": "portrait",
-        "show_secondary_image": true,
-        "show_vendor": true,
-        "show_rating": true,
-        "show_product_description": true,
-        "enable_quick_add": true,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 96,
-        "padding_bottom": 96,
-        "mod_class": "fashion-collection-list"
-      }
-    },
-    "852a22c8-3302-4a08-9752-571a7d4ca859": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--15049366437961__852a22c8-3302-4a08-9752-571a7d4ca859-1667894991c4a70bcf-0": {
-          "type": "column",
-          "settings": {
-            "image_position": "top",
-            "title": "#Vintage Spring Clothing",
-            "title_size": "h4",
-            "icon": "none",
-            "icon_position": "left",
-            "text": "<p>Cursus elit, iaculis platea integer nisl sapien egestas. Vitae donec ornare iaculis mauris nec ultrices dignissim.<\/p>",
-            "link_label": "I am a button",
-            "link": "",
-            "link_style": "link",
-            "padding_left": 0,
-            "padding_right": 0,
-            "image_spacing": 0
-          }
-        },
-        "template--15049366437961__852a22c8-3302-4a08-9752-571a7d4ca859-1667894991c4a70bcf-1": {
-          "type": "column",
-          "settings": {
-            "image_position": "top",
-            "title": "",
-            "title_size": "h4",
-            "icon": "none",
-            "icon_position": "left",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "link_style": "link",
-            "padding_left": 0,
-            "padding_right": 0,
-            "image_spacing": 0
-          }
-        },
-        "template--15049366437961__852a22c8-3302-4a08-9752-571a7d4ca859-1667894991c4a70bcf-2": {
-          "type": "column",
-          "settings": {
-            "image_position": "top",
-            "title": "#Vintage Spring Clothing",
-            "title_size": "h4",
-            "icon": "none",
-            "icon_position": "left",
-            "text": "<p>Cursus elit, iaculis platea integer nisl sapien egestas. Vitae donec ornare iaculis mauris nec ultrices dignissim.<\/p>",
-            "link_label": "I am a button",
-            "link": "",
-            "link_style": "link",
-            "padding_left": 0,
-            "padding_right": 0,
-            "image_spacing": 0
-          }
-        },
-        "522f3e78-c586-402f-82a3-0a7a31252702": {
-          "type": "column",
-          "settings": {
-            "image_position": "top",
-            "title": "",
-            "title_size": "h4",
-            "icon": "none",
-            "icon_position": "left",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "link_style": "link",
-            "padding_left": 0,
-            "padding_right": 0,
-            "image_spacing": 0
-          }
-        }
-      },
-      "block_order": [
-        "template--15049366437961__852a22c8-3302-4a08-9752-571a7d4ca859-1667894991c4a70bcf-0",
-        "template--15049366437961__852a22c8-3302-4a08-9752-571a7d4ca859-1667894991c4a70bcf-1",
-        "template--15049366437961__852a22c8-3302-4a08-9752-571a7d4ca859-1667894991c4a70bcf-2",
-        "522f3e78-c586-402f-82a3-0a7a31252702"
-      ],
-      "settings": {
-        "title": "",
-        "sub-title": "",
-        "mod_class": "background-none fashion-ins-blog",
-        "heading_size": "h4",
-        "layout": "full_bleed",
-        "image_width": "full",
-        "image_ratio": "square",
-        "columns_desktop": 4,
-        "row_alignment": "middle",
-        "column_alignment": "center",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "https:\/\/www.instagram.com\/joomlart\/",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "1c4d1ae3-c5b9-4a39-af6a-c98a5fb68429": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--15056364503113__1c4d1ae3-c5b9-4a39-af6a-c98a5fb68429-1668568897d077082c-0": {
-          "type": "column",
-          "settings": {
-            "image_position": "top",
-            "title": "",
-            "title_size": "h4",
-            "icon": "none",
-            "icon_position": "left",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "link_style": "link",
-            "padding_left": 0,
-            "padding_right": 0,
-            "image_spacing": 0
-          }
-        },
-        "template--15056364503113__1c4d1ae3-c5b9-4a39-af6a-c98a5fb68429-1668568897d077082c-1": {
-          "type": "column",
-          "settings": {
-            "image_position": "top",
-            "title": "#Vintage Spring Clothing",
-            "title_size": "h4",
-            "icon": "none",
-            "icon_position": "left",
-            "text": "<p>Cursus elit, iaculis platea integer nisl sapien egestas. Vitae donec ornare iaculis mauris nec ultrices dignissim.<\/p>",
-            "link_label": "I am a button",
-            "link": "",
-            "link_style": "link",
-            "padding_left": 0,
-            "padding_right": 0,
-            "image_spacing": 0
-          }
-        },
-        "template--15056364503113__1c4d1ae3-c5b9-4a39-af6a-c98a5fb68429-1668568897d077082c-2": {
-          "type": "column",
-          "settings": {
-            "image_position": "top",
-            "title": "",
-            "title_size": "h4",
-            "icon": "none",
-            "icon_position": "left",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "link_style": "link",
-            "padding_left": 0,
-            "padding_right": 0,
-            "image_spacing": 0
-          }
-        },
-        "dcc6d323-6547-4066-ad28-6651af027634": {
-          "type": "column",
-          "settings": {
-            "image_position": "top",
-            "title": "#Vintage Spring Clothing",
-            "title_size": "h4",
-            "icon": "none",
-            "icon_position": "left",
-            "text": "<p>Cursus elit, iaculis platea integer nisl sapien egestas. Vitae donec ornare iaculis mauris nec ultrices dignissim.<\/p>",
-            "link_label": "I am a button",
-            "link": "",
-            "link_style": "link",
-            "padding_left": 0,
-            "padding_right": 0,
-            "image_spacing": 0
-          }
-        }
-      },
-      "block_order": [
-        "template--15056364503113__1c4d1ae3-c5b9-4a39-af6a-c98a5fb68429-1668568897d077082c-0",
-        "template--15056364503113__1c4d1ae3-c5b9-4a39-af6a-c98a5fb68429-1668568897d077082c-1",
-        "template--15056364503113__1c4d1ae3-c5b9-4a39-af6a-c98a5fb68429-1668568897d077082c-2",
-        "dcc6d323-6547-4066-ad28-6651af027634"
-      ],
-      "settings": {
-        "title": "",
-        "sub-title": "",
-        "mod_class": "background-none fashion-ins-blog",
-        "heading_size": "h4",
-        "layout": "full_bleed",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 4,
-        "row_alignment": "middle",
-        "column_alignment": "center",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 0,
-        "padding_bottom": 0
       }
     }
   },
   "order": [
-    "1663955354d4347362",
-    "f5ad21fe-41a0-4e66-a080-39a4452e7ca3",
-    "dc646dd5-5ce4-43d9-8821-2cdc64d8608f",
-    "16639099959fcc61f9",
-    "41e85b73-2874-409d-acd8-0ab5e2227c6a",
-    "60cc2e97-2f66-46c2-97b2-1f011b00994b",
-    "852a22c8-3302-4a08-9752-571a7d4ca859",
-    "1c4d1ae3-c5b9-4a39-af6a-c98a5fb68429"
+    "6864dd0c-c495-4724-b40d-52c73fb74e3c"
   ]
 }
