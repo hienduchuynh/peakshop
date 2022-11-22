@@ -24,7 +24,7 @@
     "type_body_font": "space_mono_n4",
     "body_scale": 100,
     "page_width": 1870,
-    "spacing_sections": 0,
+    "spacing_sections": 24,
     "spacing_grid_horizontal": 24,
     "spacing_grid_vertical": 24,
     "buttons_border_thickness": 1,
@@ -169,7 +169,6 @@
             "type": "logo_image",
             "settings": {
               "show_logo": true,
-              "image": "shopify:\/\/shop_images\/atoms-logo_ab356fac-ace1-43d8-8c8a-369c6f83533b.png",
               "image_width": 150,
               "alignment": ""
             }
@@ -200,7 +199,7 @@
             "type": "link_list",
             "settings": {
               "heading": "Other Pages",
-              "menu": "others-page"
+              "menu": ""
             }
           },
           "footer-0": {
