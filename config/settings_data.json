@@ -134,8 +134,7 @@
           "text_colors": "#ffffff",
           "full_width": false,
           "container": false,
-          "mod_class": "",
-          "margin_bottom": 24
+          "mod_class": ""
         }
       },
       "header": {
@@ -518,7 +517,6 @@
           "menu": "main-menu",
           "menu_type_desktop": "dropdown",
           "enable_sticky_header": true,
-          "margin_bottom": 24,
           "padding_top": 20,
           "padding_bottom": 20,
           "border_thickness": 2,
