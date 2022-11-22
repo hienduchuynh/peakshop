@@ -332,7 +332,8 @@
           "label": "Header Layout",
           "label__1": "Header 01",
           "label__2": "Header 02",
-          "label__3": "Header 03"
+          "label__3": "Header 03",
+          "label__4": "Header 04"
         },
         "footer_layout": {
           "label": "Footer Layout",

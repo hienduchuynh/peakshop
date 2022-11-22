@@ -26,6 +26,10 @@
           {
             "value": "03",
             "label": "t:settings_schema.multilayout.settings.header_layout.label__3"
+          },
+          {
+            "value": "04",
+            "label": "t:settings_schema.multilayout.settings.header_layout.label__4"
           }
         ],
         "default": "03"
