@@ -12,7 +12,7 @@
             "subheading": "Fusce posuere nec ipsum a volutpat. In at dictum est, at pulvinar mauris. Sed hendrerit nisl a tincidunt placerat. Suspendisse potenti. Sed at maximus est. Mauris vel auctor ex. Morbi at fermentum urna, in cursus leo. Sed aliquam auctor ante, id pharetra augue aliquet in. Sed at rutrum odio.",
             "button_label": "VIEW ALL PRODUCTS",
             "link": "shopify:\/\/collections\/all",
-            "link_style": "solid",
+            "link_style": "outline",
             "box_align": "middle-right",
             "box_width": 50,
             "button_label2": "",
