@@ -50,10 +50,20 @@
 
 .header__icons {
     justify-self: end;
+    width: auto;
 }
 
 .header__icon--cart {
     margin-right: 0;
+}
+
+.header:not(.header--top-center) * > .header__search,
+.header .header__icon--cart {
+    height: 100%;
+    align-items: center;
+    padding: 2.4rem;
+    width: auto;
+    height: auto;
 }
 
 /* Menu */
