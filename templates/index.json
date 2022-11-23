@@ -460,7 +460,7 @@
         "blog": "news",
         "post_limit": 4,
         "columns_desktop": 4,
-        "color_scheme": "accent-2",
+        "color_scheme": "accent-3",
         "show_image": true,
         "show_date": true,
         "show_author": false,
