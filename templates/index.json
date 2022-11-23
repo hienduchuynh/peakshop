@@ -77,7 +77,7 @@
             "link_label": "",
             "link": "",
             "link_style": "link",
-            "desktop_content_position": "middle-center",
+            "desktop_content_position": "bottom-left",
             "desktop_content_alignment": "center"
           }
         },
@@ -89,7 +89,7 @@
             "link_label": "",
             "link": "",
             "link_style": "link",
-            "desktop_content_position": "middle-center",
+            "desktop_content_position": "bottom-left",
             "desktop_content_alignment": "center"
           }
         },
@@ -101,7 +101,7 @@
             "link_label": "",
             "link": "",
             "link_style": "link",
-            "desktop_content_position": "middle-center",
+            "desktop_content_position": "bottom-left",
             "desktop_content_alignment": "center"
           }
         }
