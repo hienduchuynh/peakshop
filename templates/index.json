@@ -243,8 +243,8 @@
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36,
-        "border_thickness": 0,
-        "border_opacity": 0
+        "border_thickness": 2,
+        "border_opacity": 100
       }
     },
     "de99a705-2695-4857-953e-c4d63681937b": {
