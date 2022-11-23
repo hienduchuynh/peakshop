@@ -265,7 +265,7 @@
         "view_all_style": "solid",
         "enable_desktop_slider": true,
         "slider_visual": "counter",
-        "color_scheme": "background-1",
+        "color_scheme": "accent-1",
         "desktop_layout": "left",
         "image_ratio": "adapt",
         "show_secondary_image": false,
