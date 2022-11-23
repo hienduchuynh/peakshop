@@ -469,6 +469,28 @@
         "border_opacity": 100,
         "addition_class": ""
       }
+    },
+    "c6f98de6-047d-4264-a053-0e2a5b108dab": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Blog posts",
+        "heading_size": "h2",
+        "title_style": "01",
+        "description_style": "body",
+        "description": "",
+        "blog": "news",
+        "post_limit": 4,
+        "columns_desktop": 4,
+        "color_scheme": "accent-2",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
     }
   },
   "order": [
@@ -479,6 +501,7 @@
     "1ae5d19b-0d31-4b2e-8a50-43e86c054bb5",
     "7afcf70d-4f53-4da2-9322-a5c118360a18",
     "b7d4689b-aa5d-4fbd-93cf-446d84d85100",
-    "cb809454-489b-40a4-895f-7a4805ef7846"
+    "cb809454-489b-40a4-895f-7a4805ef7846",
+    "c6f98de6-047d-4264-a053-0e2a5b108dab"
   ]
 }
