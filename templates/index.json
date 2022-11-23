@@ -355,6 +355,55 @@
         "padding_bottom": 48,
         "mod_class": ""
       }
+    },
+    "b7d4689b-aa5d-4fbd-93cf-446d84d85100": {
+      "type": "image-banner",
+      "blocks": {
+        "template--17016615010579__b7d4689b-aa5d-4fbd-93cf-446d84d85100-16691955563a648ee6-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Peak TaiChi Plus Men's Professional Running Shoes",
+            "heading_size": "h0"
+          }
+        },
+        "template--17016615010579__b7d4689b-aa5d-4fbd-93cf-446d84d85100-16691955563a648ee6-1": {
+          "type": "text",
+          "settings": {
+            "text": "Vans Skate Half Cab Bruce Lee Black\/Yellow",
+            "text_style": "subtitle"
+          }
+        },
+        "template--17016615010579__b7d4689b-aa5d-4fbd-93cf-446d84d85100-16691955563a648ee6-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "VIEW ALL PRODUCTS",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17016615010579__b7d4689b-aa5d-4fbd-93cf-446d84d85100-16691955563a648ee6-0",
+        "template--17016615010579__b7d4689b-aa5d-4fbd-93cf-446d84d85100-16691955563a648ee6-1",
+        "template--17016615010579__b7d4689b-aa5d-4fbd-93cf-446d84d85100-16691955563a648ee6-2"
+      ],
+      "settings": {
+        "mod_class": "",
+        "image": "shopify:\/\/shop_images\/3481b27143ca1c5acf3d419e7ffe4a91.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
@@ -363,6 +412,7 @@
     "dea5835c-24f7-475f-a0a4-51739b13776e",
     "de99a705-2695-4857-953e-c4d63681937b",
     "1ae5d19b-0d31-4b2e-8a50-43e86c054bb5",
-    "7afcf70d-4f53-4da2-9322-a5c118360a18"
+    "7afcf70d-4f53-4da2-9322-a5c118360a18",
+    "b7d4689b-aa5d-4fbd-93cf-446d84d85100"
   ]
 }
