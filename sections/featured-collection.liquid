@@ -59,7 +59,22 @@
       <div class="collection__title title-wrapper title-wrapper--no-top-margin title-wrapper-{{ section.settings.title_style }} {% if section.settings.full_width == false %}page-width{% endif %}{% if show_mobile_slider %} title-wrapper--self-padded-tablet-down{% endif %}{% if show_desktop_slider %} collection__title--desktop-slider{% endif %}">
         <div class="inner">
           {%- if section.settings.title != blank -%}
-            <h2 class="title {{ section.settings.heading_size }}">{{ section.settings.title | escape }}</h2>
+            <h2 class="title {{ section.settings.heading_size }}">
+              {% if section.settings.title_style == "03" %}
+              <marquee behavior="alternate" direction="left">
+                <span>{{ section.settings.title | escape }}</span>
+                <span>{{ section.settings.title | escape }}</span> 
+                <span>{{ section.settings.title | escape }}</span>
+              </marquee>
+              <marquee behavior="alternate" direction="right">
+                <span>{{ section.settings.title | escape }}</span>
+                <span>{{ section.settings.title | escape }}</span> 
+                <span>{{ section.settings.title | escape }}</span>
+              </marquee>
+              {% else %}
+                {{ section.settings.title | escape }}
+              {% endif %}
+            </h2>
           {%- endif -%}
 
           {%- if section.settings.description != blank or section.settings.show_description and section.settings.collection.description != empty -%}
