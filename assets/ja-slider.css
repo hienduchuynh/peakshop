@@ -1,3 +1,7 @@
+.ja-slider .slider--everywhere {
+	margin-bottom: 0;
+}
+
 .ja-slider .slideshow__slide {
 	flex-direction: row;
 }
@@ -38,4 +42,34 @@
 .ja-slider .banner__heading + .banner__buttons,
 .ja-slider .banner__text + .banner__buttons {
 	margin-top: var(--grid-desktop-horizontal-spacing);
+}
+
+.ja-slider .slider-buttons {
+	position: static;
+}
+
+.ja-slider .slider-buttons .slider-button {
+	position: absolute;
+	top: 50%;
+	width: 7.2rem;
+	height: 7.2rem;
+	opacity: 0;
+	display: none;
+	border: 2px solid rgba(0, 0, 0, 100);
+	background-color: #fff;
+	transform: translateY(-50%);
+	transition: all 600ms;
+}
+
+.ja-slider:hover .slider-buttons .slider-button {
+	display: inline-block;
+	opacity: 1;
+}
+
+.ja-slider .slider-buttons .slider-button--prev {
+	left: 0;
+}
+
+.ja-slider .slider-buttons .slider-button--next {
+	right: 0;
 }
