@@ -41,7 +41,22 @@
     {%- unless section.settings.heading == blank -%}
       <div class="blogs__title title-wrapper title-wrapper--no-top-margin title-wrapper-{{ section.settings.title_style }} page-width{% if show_mobile_slider %} title-wrapper--self-padded-tablet-down{% endif %}">
         <div class="inner">
-          <h2 id="SectionHeading-{{ section.id }}" class="blog__title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</h2>
+          <h2 id="SectionHeading-{{ section.id }}" class="blog__title {{ section.settings.heading_size }}">
+            {% if section.settings.title_style == "03" %}
+              <marquee behavior="alternate" direction="left">
+                <span>{{ section.settings.heading | escape }}</span>
+                <span>{{ section.settings.heading | escape }}</span> 
+                <span>{{ section.settings.heading | escape }}</span>
+              </marquee>
+              <marquee behavior="alternate" direction="right">
+                <span>{{ section.settings.heading | escape }}</span>
+                <span>{{ section.settings.heading | escape }}</span> 
+                <span>{{ section.settings.heading | escape }}</span>
+              </marquee>
+              {% else %}
+                {{ section.settings.heading | escape }}
+              {% endif %}
+          </h2>
 
           {%- if section.settings.description != blank -%}
             <div class="blogs__description {{ section.settings.description_style }}">{{ section.settings.description }}</div>
@@ -145,9 +160,13 @@
         {
           "value": "02",
           "label": "t:sections.featured-blog.settings.title_style.options__2.label"
+        },
+        {
+          "value": "03",
+          "label": "t:sections.featured-blog.settings.title_style.options__3.label"
         }
       ],
-      "default": "01"
+      "default": "03"
     },
     {
       "type": "select",
@@ -208,6 +227,10 @@
         {
           "value": "accent-2",
           "label": "t:sections.all.colors.accent_2.label"
+        },
+        {
+          "value": "accent-3",
+          "label": "t:sections.all.colors.accent_3.label"
         },
         {
           "value": "background-1",
