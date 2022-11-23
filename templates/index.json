@@ -411,11 +411,12 @@
         "template--17016615010579__cb809454-489b-40a4-895f-7a4805ef7846-16691955570c9dd991-0": {
           "type": "slide",
           "settings": {
-            "heading": "Image slide",
-            "heading_size": "h3",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
+            "image": "shopify:\/\/shop_images\/slide-03.jpg",
+            "heading": "Vans x Peak Shoes Collection",
+            "heading_size": "h1",
+            "subheading": "Fusce posuere nec ipsum a volutpat. In at dictum est, at pulvinar mauris. Sed hendrerit nisl a tincidunt placerat. Suspendisse potenti. Sed at maximus est. Mauris vel auctor ex. Morbi at fermentum urna, in cursus leo. Sed aliquam auctor ante, id pharetra augue aliquet in. Sed at rutrum odio.",
+            "button_label": "VIEW ALL PRODUCTS",
+            "link": "shopify:\/\/collections\/all",
             "link_style": "solid",
             "box_align": "middle-center",
             "box_width": 50,
