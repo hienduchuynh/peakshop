@@ -233,7 +233,7 @@
           "c89fdad8-d9a3-4d2e-8dd2-12c15d171a9d"
         ],
         "settings": {
-          "color_scheme": "accent-1",
+          "color_scheme": "inverse",
           "enable_country_selector": true,
           "enable_language_selector": true,
           "payment_enable": true,
