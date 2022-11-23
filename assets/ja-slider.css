@@ -9,3 +9,33 @@
 .ja-slider .slideshow__text-wrapper {
 	justify-content: flex-start;
 }
+
+.ja-slider .slideshow__text {
+	height: 100%;
+}
+
+.ja-slider .banner__heading {
+	--color-background: 0,0,0;
+	--color-foreground: 255,255,255;
+	background: rgba(var(--color-background));
+	-webkit-box-shadow: -2.4rem 0 0 rgba(var(--color-background)),2.4rem 0 0 rgba(var(--color-background));
+	box-shadow: -2.4rem 0 0 rgba(var(--color-background)), 2.4rem 0 0 rgba(var(--color-background));
+	-webkit-box-decoration-break: clone;
+	box-decoration-break: clone;
+	color: rgba(var(--color-foreground));
+	display: inline;
+	margin-top: 0;
+	margin-bottom: 2.4rem;
+	margin-left: 2.4rem;
+	padding: 2px 0;
+	text-transform: uppercase;
+	font-size: 96px;
+	line-height: 1.6;
+	font-weight: normal;
+}
+
+.ja-slider .banner__heading + .banner__text,
+.ja-slider .banner__heading + .banner__buttons,
+.ja-slider .banner__text + .banner__buttons {
+	margin-top: var(--grid-desktop-horizontal-spacing);
+}
