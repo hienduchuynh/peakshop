@@ -322,6 +322,39 @@
         "border_opacity": 100,
         "addition_class": ""
       }
+    },
+    "7afcf70d-4f53-4da2-9322-a5c118360a18": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "NEW ARRIVALS",
+        "heading_size": "h4",
+        "title_style": "03",
+        "description_style": "body",
+        "description": "",
+        "show_description": false,
+        "collection": "",
+        "show_card_collection": false,
+        "products_to_show": 12,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "slider_visual": "counter",
+        "color_scheme": "accent-2",
+        "desktop_layout": "left",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "show_product_description": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 48,
+        "padding_bottom": 48,
+        "mod_class": ""
+      }
     }
   },
   "order": [
@@ -329,6 +362,7 @@
     "21d4cf4d-5f90-4180-9277-6afc709981dd",
     "dea5835c-24f7-475f-a0a4-51739b13776e",
     "de99a705-2695-4857-953e-c4d63681937b",
-    "1ae5d19b-0d31-4b2e-8a50-43e86c054bb5"
+    "1ae5d19b-0d31-4b2e-8a50-43e86c054bb5",
+    "7afcf70d-4f53-4da2-9322-a5c118360a18"
   ]
 }
