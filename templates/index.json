@@ -227,7 +227,7 @@
       "settings": {
         "title": "",
         "sub-title": "",
-        "mod_class": "",
+        "mod_class": "clients-list",
         "heading_size": "h4",
         "layout": "full_bleed",
         "image_width": "full",
