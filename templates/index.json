@@ -28,11 +28,11 @@
         "template--17016615010579__6864dd0c-c495-4724-b40d-52c73fb74e3c-1669105081f3c763ae-1": {
           "type": "slide",
           "settings": {
-            "heading": "Image slide",
+            "heading": "Fruity S31 Skateboard Desk Collection",
             "heading_size": "h3",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
+            "subheading": "Fusce posuere nec ipsum a volutpat. In at dictum est, at pulvinar mauris. Sed hendrerit nisl a tincidunt placerat. Suspendisse potenti. Sed at maximus est. Mauris vel auctor ex. Morbi at fermentum urna, in cursus leo. Sed aliquam auctor ante, id pharetra augue aliquet in. Sed at rutrum odio.",
+            "button_label": "VIEW ALL PRODUCTS",
+            "link": "shopify:\/\/collections\/all",
             "link_style": "solid",
             "box_align": "middle-center",
             "box_width": 50,
@@ -242,9 +242,7 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 0,
-        "padding_bottom": 0,
-        "border_thickness": 2,
-        "border_opacity": 100
+        "padding_bottom": 0
       }
     },
     "de99a705-2695-4857-953e-c4d63681937b": {
