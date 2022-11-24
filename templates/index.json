@@ -8,7 +8,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/slide-01.jpg",
             "heading": "Real 2022 Skateboard Desks",
-            "heading_size": "h3",
+            "heading_size": "h1",
             "subheading": "Fusce posuere nec ipsum a volutpat. In at dictum est, at pulvinar mauris. Sed hendrerit nisl a tincidunt placerat. Suspendisse potenti. Sed at maximus est. Mauris vel auctor ex. Morbi at fermentum urna, in cursus leo. Sed aliquam auctor ante, id pharetra augue aliquet in. Sed at rutrum odio.",
             "button_label": "VIEW ALL PRODUCTS",
             "link": "shopify:\/\/collections\/all",
@@ -264,7 +264,7 @@
         "view_all_style": "solid",
         "enable_desktop_slider": true,
         "slider_visual": "counter",
-        "color_scheme": "accent-1",
+        "color_scheme": "accent-4",
         "desktop_layout": "left",
         "image_ratio": "adapt",
         "show_secondary_image": false,
@@ -454,7 +454,7 @@
       "settings": {
         "heading": "Blog posts",
         "heading_size": "h2",
-        "title_style": "01",
+        "title_style": "03",
         "description_style": "body",
         "description": "",
         "blog": "news",
