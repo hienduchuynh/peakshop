@@ -264,7 +264,7 @@
         "view_all_style": "solid",
         "enable_desktop_slider": true,
         "slider_visual": "counter",
-        "color_scheme": "accent-1",
+        "color_scheme": "accent-4",
         "desktop_layout": "left",
         "image_ratio": "adapt",
         "show_secondary_image": false,
@@ -454,7 +454,7 @@
       "settings": {
         "heading": "Blog posts",
         "heading_size": "h2",
-        "title_style": "01",
+        "title_style": "03",
         "description_style": "body",
         "description": "",
         "blog": "news",
