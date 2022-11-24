@@ -250,7 +250,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "BEST SELLERS",
-        "heading_size": "h4",
+        "heading_size": "hxl",
         "title_style": "03",
         "description_style": "body",
         "description": "",
@@ -327,7 +327,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "NEW ARRIVALS",
-        "heading_size": "h4",
+        "heading_size": "hxl",
         "title_style": "03",
         "description_style": "body",
         "description": "",
@@ -453,13 +453,14 @@
       "type": "featured-blog",
       "settings": {
         "heading": "Blog posts",
-        "heading_size": "h2",
+        "heading_size": "hxl",
         "title_style": "03",
         "description_style": "body",
         "description": "",
         "blog": "news",
         "post_limit": 4,
         "columns_desktop": 4,
+        "full_width": false,
         "color_scheme": "accent-3",
         "show_image": true,
         "show_date": true,
