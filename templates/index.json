@@ -74,7 +74,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/collection-1.jpg",
-            "title": "Column",
+            "title": "Skateboard",
             "link_label": "",
             "link": "",
             "link_style": "link",
@@ -86,7 +86,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/collection-2.jpg",
-            "title": "Column",
+            "title": "Clothing",
             "link_label": "",
             "link": "",
             "link_style": "link",
@@ -98,7 +98,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/collection-3.jpg",
-            "title": "Column",
+            "title": "Shoes",
             "link_label": "",
             "link": "",
             "link_style": "link",
@@ -114,7 +114,7 @@
       ],
       "settings": {
         "title": "",
-        "heading_size": "h4",
+        "heading_size": "h5",
         "layout": "full_bleed",
         "item_ratio": "169",
         "columns_desktop": 3,
