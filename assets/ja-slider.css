@@ -16,6 +16,13 @@
 
 .ja-slider .slideshow__text {
 	height: 100%;
+	position: relative;
+	padding-bottom: 8rem;
+}
+
+.ja-slider .slideshow__text .banner__buttons {
+	position: absolute;
+	bottom: 0;
 }
 
 .ja-slider .banner__heading {
