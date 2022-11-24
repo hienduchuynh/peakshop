@@ -110,6 +110,16 @@
           "label": "Accent 3",
           "info": "Used as hightlight color."
         },
+        "gradient_accent_3": {
+          "label": "Accent 3 gradient"
+        },
+        "colors_accent_4": {
+          "label": "Accent 4",
+          "info": "Used as second hightlight color."
+        },
+        "gradient_accent_4": {
+          "label": "Accent 4 gradient"
+        },
         "header__1": {
           "content": "Primary colors"
         },
@@ -414,6 +424,9 @@
         },
         "accent_3": {
           "label": "Accent 3"
+        },
+        "accent_4": {
+          "label": "Accent 4"
         },
         "background_1": {
           "label": "Background 1"
