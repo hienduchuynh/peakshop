@@ -15,16 +15,6 @@
           "settings": {
           }
         },
-        "16f42ac6-234c-40c1-8226-851ef479c4a9": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
-          "settings": {
-            "stars_fill_color": "#d6ed07",
-            "star_size": 15,
-            "text_align": "flex-start",
-            "product": "{{product}}",
-            "stars_text_empty": "No reviews"
-          }
-        },
         "6c4a7f7f-6a5e-4f46-99c0-1deeed649816": {
           "type": "rating",
           "disabled": true,
@@ -56,7 +46,6 @@
         "855dcf26-c523-484d-a4b9-5297801c8a9e": {
           "type": "trust_badges",
           "settings": {
-            "image_1": "shopify:\/\/shop_images\/image-trust_9cf48f22-6c8a-4a39-b604-64b168dc56be.webp"
           }
         },
         "479cb26a-2b36-482e-87b5-082d713b02ab": {
@@ -94,7 +83,6 @@
             "heading": "Size chart",
             "icon": "clipboard",
             "content": "<p><em>\"This is demonstration content, designed to showcase how pages could look with your own content\"<\/em><\/p><p><strong>How to measure yourself:<br\/><\/strong>Size Guide: S=US 4-6, M=US 8-10, L=US 12-14, XL=16.<br\/>To find the perfect fit, simply put on your favourite underwear and measure yourself directly on your body. Then use the size chart and the information found in the product description to find your fit.<\/p>",
-            "image": "shopify:\/\/shop_images\/Group_1new-table-size_2.png",
             "image_ratio": "43",
             "page": ""
           }
@@ -154,7 +142,6 @@
           "settings": {
             "title_tabs": "Payment",
             "content_tabs": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium enim ut fringilla. Quisque eu lacus enim. Proin eleifend, mi eu aliquam euismod, arcu tortor consectetur nisi, et elementum nibh felis vel ante. Fusce nec tristique enimdoloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam perspiciatis unde omnis iste natus error sit voluptatem accusantium enim ut fringilla. Quisque eu lacus enim. Proin eleifend, mi eu aliquam euismod, arcu tortor consectetur nisi, et elementum nibh felis vel ante. Fusce nec tristique enimdoloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.voluptatem quia voluptas sit aspernatur aut odit aut fugit.<\/p>",
-            "image_tabs": "shopify:\/\/shop_images\/image-trust_9cf48f22-6c8a-4a39-b604-64b168dc56be.webp",
             "image_ratio_tabs": "43"
           }
         },
@@ -163,20 +150,13 @@
           "settings": {
             "title_tabs": "FAQ",
             "content_tabs": "<p>This is FAQ<\/p>",
-            "image_tabs": "shopify:\/\/shop_images\/fashion-ins-04.jpg",
             "image_ratio_tabs": "43"
-          }
-        },
-        "e417982b-3458-49aa-8bdc-84807b310d68": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
-          "settings": {
           }
         }
       },
       "block_order": [
         "vendor",
         "title",
-        "16f42ac6-234c-40c1-8226-851ef479c4a9",
         "6c4a7f7f-6a5e-4f46-99c0-1deeed649816",
         "price",
         "23ebf0a2-bba6-4be2-8af7-6c1bacfbe482",
@@ -195,8 +175,7 @@
         "share",
         "4ed73133-889e-4b76-8238-606645cba794",
         "e42fa36e-34fb-4e00-a8c8-39f23c4446a2",
-        "fd92e9af-7e7a-4fb9-8ca2-69e1f16c1c95",
-        "e417982b-3458-49aa-8bdc-84807b310d68"
+        "fd92e9af-7e7a-4fb9-8ca2-69e1f16c1c95"
       ],
       "settings": {
         "layout_product": "default",
@@ -220,7 +199,6 @@
         "template--15049366536265__b56b38a8-e2f8-4c99-903d-bdd158723b66-1668061523daf060dc-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/feature-1.png",
             "image_position": "bottom",
             "title": "#Vintage #Unique Fall\/Spring Furniture Collection",
             "title_size": "h3",
@@ -238,7 +216,6 @@
         "template--15049366536265__b56b38a8-e2f8-4c99-903d-bdd158723b66-1668061523daf060dc-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/photo-04.png",
             "image_position": "top",
             "title": "#Urban #Solid Mid Rise Zespy Trackie Clothing Loobook SS’20",
             "title_size": "h3",
@@ -315,12 +292,40 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1669279353b37b0c19": {
+      "type": "apps",
+      "blocks": {
+        "6e7917c1-ee9e-4479-855a-1fd22826cd53": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+          }
+        },
+        "5b110c58-d9d6-4015-9196-1706dc5036e1": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+            "stars_fill_color": "#000000",
+            "star_size": 15,
+            "text_align": "center",
+            "product": "{{product}}",
+            "stars_text_empty": "No reviews"
+          }
+        }
+      },
+      "block_order": [
+        "6e7917c1-ee9e-4479-855a-1fd22826cd53",
+        "5b110c58-d9d6-4015-9196-1706dc5036e1"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
     "b56b38a8-e2f8-4c99-903d-bdd158723b66",
     "product-recommendations",
-    "6b8f86f8-8759-48b8-a34f-5bc028e7e729"
+    "6b8f86f8-8759-48b8-a34f-5bc028e7e729",
+    "1669279353b37b0c19"
   ]
 }
