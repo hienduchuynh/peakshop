@@ -406,7 +406,9 @@
         "color_scheme": "background-1",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
-        "show_text_below": true
+        "show_text_below": true,
+        "border_thickness": 2,
+        "border_opacity": 100
       }
     },
     "cb809454-489b-40a4-895f-7a4805ef7846": {
