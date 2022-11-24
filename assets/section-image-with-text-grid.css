@@ -104,6 +104,10 @@
     background: rgb(var(--color-background));
 }
 
+.image-with-text-grid .grid__item .banner__content--bottom-left .inner {
+    max-width: unset;
+}
+
 .image-with-text-grid .grid__item .banner__content--bottom-left h3 {
     margin: 0 0 calc(var(--grid-desktop-horizontal-spacing)*-1) calc(var(--grid-desktop-horizontal-spacing)*-1);
     padding: 0.8rem 1.6rem;
