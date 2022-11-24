@@ -276,6 +276,8 @@
         "swipe_on_mobile": true,
         "padding_top": 48,
         "padding_bottom": 48,
+        "border_thickness": 2,
+        "border_opacity": 100,
         "mod_class": ""
       }
     },
@@ -353,6 +355,8 @@
         "swipe_on_mobile": true,
         "padding_top": 48,
         "padding_bottom": 48,
+        "border_thickness": 2,
+        "border_opacity": 100,
         "mod_class": ""
       }
     },
@@ -469,7 +473,9 @@
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 48,
-        "padding_bottom": 48
+        "padding_bottom": 48,
+        "border_thickness": 2,
+        "border_opacity": 100
       }
     }
   },
