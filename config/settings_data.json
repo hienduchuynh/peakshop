@@ -214,12 +214,6 @@
             "settings": {
               "show_social": true
             }
-          },
-          "c89fdad8-d9a3-4d2e-8dd2-12c15d171a9d": {
-            "type": "breadcrumb",
-            "settings": {
-              "alignment_breadcrumb": "left"
-            }
           }
         },
         "block_order": [
@@ -230,8 +224,7 @@
           "footer-1",
           "d2d2e96b-3357-4d10-b4d2-a65c9178bc68",
           "footer-0",
-          "1d548923-6d7b-4763-976b-1a519ede76c2",
-          "c89fdad8-d9a3-4d2e-8dd2-12c15d171a9d"
+          "1d548923-6d7b-4763-976b-1a519ede76c2"
         ],
         "settings": {
           "color_scheme": "inverse",
