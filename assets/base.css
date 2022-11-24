@@ -219,6 +219,15 @@
   --border-radius: var(--card-corner-radius);
   --border-width: var(--card-border-width);
   --border-opacity: var(--card-border-opacity);
+  --shadow-horizontal-offset: 0px;
+  --shadow-vertical-offset: 0px;
+  --shadow-blur-radius: 0px;
+  --shadow-opacity: 0%;
+  --shadow-visible: 0px;
+}
+
+.contains-card:hover,
+.card:hover {
   --shadow-horizontal-offset: var(--card-shadow-horizontal-offset);
   --shadow-vertical-offset: var(--card-shadow-vertical-offset);
   --shadow-blur-radius: var(--card-shadow-blur-radius);
