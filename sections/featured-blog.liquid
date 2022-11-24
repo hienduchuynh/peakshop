@@ -39,7 +39,7 @@
 <div class="blog color-{{ section.settings.color_scheme }} gradient{% if section.settings.heading == blank %} no-heading{% endif %}">
   <div class="isolate{% if posts_displayed < 3 and section.settings.full_width == false %} page-width-tablet{% endif %} section-{{ section.id }}-padding {% if section.settings.full_width %} blog--full-width{% endif %}">
     {%- unless section.settings.heading == blank -%}
-      <div class="blogs__title title-wrapper title-wrapper--no-top-margin title-wrapper-{{ section.settings.title_style }} {% if section.settings.full_width == false %} page-width{% endif %}{% if show_mobile_slider %} title-wrapper--self-padded-tablet-down{% endif %}">
+      <div class="blogs__title title-wrapper title-wrapper--no-top-margin title-wrapper-{{ section.settings.title_style }} {% if section.settings.full_width == false and section.settings.title_style != "03" %} page-width{% endif %}{% if show_mobile_slider %} title-wrapper--self-padded-tablet-down{% endif %}">
         <div class="inner">
           <h2 id="SectionHeading-{{ section.id }}" class="blog__title title {{ section.settings.heading_size }}">
             {% if section.settings.title_style == "03" %}
