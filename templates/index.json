@@ -76,10 +76,10 @@
             "image": "shopify:\/\/shop_images\/collection-1.jpg",
             "title": "Skateboard",
             "link_label": "",
-            "link": "",
-            "link_style": "link",
+            "link": "shopify:\/\/collections",
+            "link_style": "outline",
             "desktop_content_position": "bottom-left",
-            "desktop_content_alignment": "center"
+            "desktop_content_alignment": "left"
           }
         },
         "template--17016615010579__21d4cf4d-5f90-4180-9277-6afc709981dd-1669167040bd7eb463-1": {
@@ -88,7 +88,7 @@
             "image": "shopify:\/\/shop_images\/collection-2.jpg",
             "title": "Clothing",
             "link_label": "",
-            "link": "",
+            "link": "shopify:\/\/collections",
             "link_style": "link",
             "desktop_content_position": "bottom-left",
             "desktop_content_alignment": "center"
@@ -100,7 +100,7 @@
             "image": "shopify:\/\/shop_images\/collection-3.jpg",
             "title": "Shoes",
             "link_label": "",
-            "link": "",
+            "link": "shopify:\/\/collections",
             "link_style": "link",
             "desktop_content_position": "bottom-left",
             "desktop_content_alignment": "center"
