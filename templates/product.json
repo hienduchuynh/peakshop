@@ -197,69 +197,6 @@
         "padding_bottom": 48
       }
     },
-    "b56b38a8-e2f8-4c99-903d-bdd158723b66": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--15049366536265__b56b38a8-e2f8-4c99-903d-bdd158723b66-1668061523daf060dc-0": {
-          "type": "column",
-          "settings": {
-            "image_position": "bottom",
-            "title": "#Vintage #Unique Fall\/Spring Furniture Collection",
-            "title_size": "h3",
-            "icon": "none",
-            "icon_position": "left",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": "",
-            "link_style": "link",
-            "padding_left": 0,
-            "padding_right": 96,
-            "image_spacing": 48
-          }
-        },
-        "template--15049366536265__b56b38a8-e2f8-4c99-903d-bdd158723b66-1668061523daf060dc-1": {
-          "type": "column",
-          "settings": {
-            "image_position": "top",
-            "title": "#Urban #Solid Mid Rise Zespy Trackie Clothing Loobook SS’20",
-            "title_size": "h3",
-            "icon": "none",
-            "icon_position": "left",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": "",
-            "link_style": "link",
-            "padding_left": 0,
-            "padding_right": 0,
-            "image_spacing": 48
-          }
-        }
-      },
-      "block_order": [
-        "template--15049366536265__b56b38a8-e2f8-4c99-903d-bdd158723b66-1668061523daf060dc-0",
-        "template--15049366536265__b56b38a8-e2f8-4c99-903d-bdd158723b66-1668061523daf060dc-1"
-      ],
-      "settings": {
-        "title": "",
-        "sub-title": "",
-        "mod_class": "background-none",
-        "heading_size": "h4",
-        "layout": "grid",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "row_alignment": "top",
-        "column_alignment": "center",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 32,
-        "padding_bottom": 64
-      }
-    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -327,7 +264,6 @@
   },
   "order": [
     "main",
-    "b56b38a8-e2f8-4c99-903d-bdd158723b66",
     "product-recommendations",
     "1669279353b37b0c19",
     "6b8f86f8-8759-48b8-a34f-5bc028e7e729"
