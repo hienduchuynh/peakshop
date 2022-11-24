@@ -101,6 +101,15 @@
 .image-with-text-grid .grid__item .content .image-with-text__heading {
     color: rgb(var(--color-foreground));
     font-weight: 700;
+    background: rgb(var(--color-background));
+}
+
+.image-with-text-grid .grid__item .banner__content--bottom-left h3 {
+    margin: 0 0 calc(var(--grid-desktop-horizontal-spacing)*-1) calc(var(--grid-desktop-horizontal-spacing)*-1);
+    padding: 0.8rem 1.6rem;
+    border-radius: var(--text-boxes-radius);
+    border-top: var(--text-boxes-border-width) solid rgba(var(--color-foreground), var(--text-boxes-border-opacity));
+    border-right: var(--text-boxes-border-width) solid rgba(var(--color-foreground), var(--text-boxes-border-opacity));
 }
 
 .image-with-text-grid .grid__item .content {
