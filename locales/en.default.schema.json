@@ -459,6 +459,9 @@
         },
         "options__4": {
           "label": "Extra large"
+        },
+        "options__5": {
+          "label": "XX-Large"
         }
       },
       "heading_style": {
@@ -774,6 +777,9 @@
         },
         "columns_desktop": {
           "label": "Number of columns on desktop"
+        },
+        "full_width": {
+          "label": "Make blogs full width"
         },
         "show_view_all": {
           "label": "Enable \"View all\" button if blog includes more blog posts than shown"
