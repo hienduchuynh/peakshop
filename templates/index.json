@@ -30,11 +30,11 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/slide-02.jpg",
             "heading": "Fruity S31 Skateboard Desk Collection",
-            "heading_size": "h3",
+            "heading_size": "hxl",
             "subheading": "Fusce posuere nec ipsum a volutpat. In at dictum est, at pulvinar mauris. Sed hendrerit nisl a tincidunt placerat. Suspendisse potenti. Sed at maximus est. Mauris vel auctor ex. Morbi at fermentum urna, in cursus leo. Sed aliquam auctor ante, id pharetra augue aliquet in. Sed at rutrum odio.",
             "button_label": "VIEW ALL PRODUCTS",
             "link": "shopify:\/\/collections\/all",
-            "link_style": "solid",
+            "link_style": "outline",
             "box_align": "middle-center",
             "box_width": 80,
             "button_label2": "",
