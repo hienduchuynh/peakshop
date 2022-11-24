@@ -210,8 +210,8 @@
         "color_scheme": "background-1",
         "image_ratio": "portrait",
         "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
+        "show_vendor": true,
+        "show_rating": true,
         "columns_mobile": "2",
         "padding_top": 24,
         "padding_bottom": 48
