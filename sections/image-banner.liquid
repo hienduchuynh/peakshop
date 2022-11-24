@@ -2,10 +2,6 @@
 
 {%- if section.settings.adapt_height_first_image and section.settings.image != blank -%}
   {%- style -%}
-  #Banner-{{ section.id }} {
-    border: {{ section.settings.border_thickness }}px solid rgba(0, 0, 0, {{ section.settings.border_opacity }});
-  }
-
   @media screen and (max-width: 749px) {
     #Banner-{{ section.id }}::before,
     #Banner-{{ section.id }} .banner__media::before,
@@ -28,6 +24,10 @@
 {%- endif -%}
 
 {%- style -%}
+  #Banner-{{ section.id }} {
+    border: {{ section.settings.border_thickness }}px solid rgba(0, 0, 0, {{ section.settings.border_opacity }});
+  }
+  
   #Banner-{{ section.id }}::after {
     opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
   }
