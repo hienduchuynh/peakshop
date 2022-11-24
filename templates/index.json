@@ -378,7 +378,7 @@
           "settings": {
             "button_label_1": "VIEW ALL PRODUCTS",
             "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": false,
+            "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
