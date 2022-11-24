@@ -191,8 +191,11 @@
     margin-bottom: 0;
 }
 
-.card--card.card--media>.card__content {
+.card--card.card--media > .card__content {
     margin-top: calc(0rem - var(--card-image-padding));
+    padding-left: var(--card-image-padding);
+    padding-right: var(--card-image-padding);
+    padding-bottom: var(--card-image-padding);
 }
 
 .card--standard.card--text a::after,
