@@ -2,6 +2,10 @@
 
 {%- if section.settings.adapt_height_first_image and section.settings.image != blank -%}
   {%- style -%}
+  #Banner-{{ section.id }} {
+    border: {{ section.settings.border_thickness }}px solid rgba(0, 0, 0, {{ section.settings.border_opacity }});
+  }
+
   @media screen and (max-width: 749px) {
     #Banner-{{ section.id }}::before,
     #Banner-{{ section.id }} .banner__media::before,
@@ -307,6 +311,30 @@
       "id": "show_text_below",
       "default": true,
       "label": "t:sections.image-banner.settings.show_text_below.label"
+    },
+    {
+      "type": "header",
+      "content": "t:settings_schema.global.settings.header__border.content"
+    },
+    {
+      "type": "range",
+      "id": "border_thickness",
+      "min": 0,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "label": "t:settings_schema.global.settings.thickness.label",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "border_opacity",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "label": "t:settings_schema.global.settings.opacity.label",
+      "default": 0
     }
   ],
   "blocks": [
