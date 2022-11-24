@@ -37,11 +37,11 @@
   endif
 -%}
 <div class="blog color-{{ section.settings.color_scheme }} gradient{% if section.settings.heading == blank %} no-heading{% endif %}">
-  <div class="isolate{% if posts_displayed < 3 %} page-width-tablet{% endif %} section-{{ section.id }}-padding {% if section.settings.full_width %} blog--full-width{% endif %}">
+  <div class="isolate{% if posts_displayed < 3 and section.settings.full_width == false %} page-width-tablet{% endif %} section-{{ section.id }}-padding {% if section.settings.full_width %} blog--full-width{% endif %}">
     {%- unless section.settings.heading == blank -%}
       <div class="blogs__title title-wrapper title-wrapper--no-top-margin title-wrapper-{{ section.settings.title_style }} {% if section.settings.full_width == false %} page-width{% endif %}{% if show_mobile_slider %} title-wrapper--self-padded-tablet-down{% endif %}">
         <div class="inner">
-          <h2 id="SectionHeading-{{ section.id }}" class="blog__title {{ section.settings.heading_size }}">
+          <h2 id="SectionHeading-{{ section.id }}" class="blog__title title {{ section.settings.heading_size }}">
             {% if section.settings.title_style == "03" %}
               <marquee behavior="alternate" direction="left">
                 <span>{{ section.settings.heading | escape }}</span>
@@ -74,7 +74,7 @@
       </div>
     {%- endunless -%}
     {%- if section.settings.blog != blank and section.settings.blog.articles_count > 0 -%}
-      <slider-component class="slider-mobile-gutter {% if show_mobile_slider == false or section.settings.full_width == false %} page-width {% endif %} {% if show_mobile_slider == true or section.settings.full_width == false %}page-width-desktop{% endif %}">
+      <slider-component class="slider-mobile-gutter {% if section.settings.full_width == false %} page-width {% if show_mobile_slider == true %} page-width-desktop{% endif %}{% endif %}">
         <ul id="Slider-{{ section.id }}"
           class="blog__posts articles-wrapper contains-card{% if settings.card_style == 'standard' %} contains-card--standard{% endif %} grid grid--peek grid--{{ columns_mobile_int }}-col-tablet grid--{{ section.settings.columns_desktop }}-col-desktop {% if show_mobile_slider %} slider slider--mobile{% endif %}"
           role="list"
@@ -99,7 +99,7 @@
         {%- endif -%}
       </slider-component>
     {%- else -%}
-      <slider-component class="slider-mobile-gutter {% if show_mobile_slider == false %} page-width {% else %} page-width-desktop{% endif %}">
+      <slider-component class="slider-mobile-gutter {% if section.settings.full_width == false %} page-width {% if show_mobile_slider == true %} page-width-desktop{% endif %}{% endif %}">
         <div class="placeholder media media--landscape">
           {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
         </div>
