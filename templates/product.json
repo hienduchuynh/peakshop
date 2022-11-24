@@ -276,6 +276,33 @@
         "padding_bottom": 48
       }
     },
+    "1669279353b37b0c19": {
+      "type": "apps",
+      "blocks": {
+        "5b110c58-d9d6-4015-9196-1706dc5036e1": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+            "stars_fill_color": "#000000",
+            "star_size": 15,
+            "text_align": "center",
+            "product": "{{product}}",
+            "stars_text_empty": "No reviews"
+          }
+        },
+        "6e7917c1-ee9e-4479-855a-1fd22826cd53": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "5b110c58-d9d6-4015-9196-1706dc5036e1",
+        "6e7917c1-ee9e-4479-855a-1fd22826cd53"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "6b8f86f8-8759-48b8-a34f-5bc028e7e729": {
       "type": "ja-recent-products",
       "settings": {
@@ -292,40 +319,13 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "1669279353b37b0c19": {
-      "type": "apps",
-      "blocks": {
-        "6e7917c1-ee9e-4479-855a-1fd22826cd53": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
-          "settings": {
-          }
-        },
-        "5b110c58-d9d6-4015-9196-1706dc5036e1": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
-          "settings": {
-            "stars_fill_color": "#000000",
-            "star_size": 15,
-            "text_align": "center",
-            "product": "{{product}}",
-            "stars_text_empty": "No reviews"
-          }
-        }
-      },
-      "block_order": [
-        "6e7917c1-ee9e-4479-855a-1fd22826cd53",
-        "5b110c58-d9d6-4015-9196-1706dc5036e1"
-      ],
-      "settings": {
-        "include_margins": true
-      }
     }
   },
   "order": [
     "main",
     "b56b38a8-e2f8-4c99-903d-bdd158723b66",
     "product-recommendations",
-    "6b8f86f8-8759-48b8-a34f-5bc028e7e729",
-    "1669279353b37b0c19"
+    "1669279353b37b0c19",
+    "6b8f86f8-8759-48b8-a34f-5bc028e7e729"
   ]
 }
