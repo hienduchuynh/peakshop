@@ -3070,6 +3070,17 @@
         "name": "Page"
       }
     },
+    "page-title": {
+      "name": "Page Title",
+      "settings": {
+        "page": {
+          "label": "Page Title"
+        }
+      },
+      "presets": {
+        "name": "Page Title"
+      }
+    },
     "product-recommendations": {
       "name": "Product recommendations",
       "settings": {
