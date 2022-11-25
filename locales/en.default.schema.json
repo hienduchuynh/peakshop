@@ -1984,6 +1984,9 @@
           },
           "options__3": {
             "label": "Numbers"
+          },
+          "options__4": {
+            "label": "Navigation"
           }
         },
         "change_slides_speed": {
@@ -3354,6 +3357,9 @@
           },
           "options__3": {
             "label": "Numbers"
+          },
+          "options__4": {
+            "label": "Navigation"
           }
         },
         "auto_rotate": {
@@ -3858,6 +3864,9 @@
           },
           "options__3": {
             "label": "Numbers"
+          },
+          "options__4": {
+            "label": "Navigation"
           }
         },
         "auto_rotate": {
