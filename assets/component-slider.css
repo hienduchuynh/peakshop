@@ -5,7 +5,10 @@ slider-component {
 }
 
 slider-component.slider-component-full-width {
-    --desktop-margin-left-first-item: 1.5rem;
+    --desktop-margin-left-first-item: 2.4rem;
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 @media screen and (max-width: 749px) {
@@ -150,14 +153,14 @@ slider-component.slider-component-full-width {
         margin-right: 5rem;
     }
     .slider-component-full-width .slider--desktop {
-        scroll-padding-left: 1.5rem;
+        scroll-padding-left: 2.4rem;
     }
     .slider-component-full-width .slider--desktop .slider__slide:first-child {
-        margin-left: 1.5rem;
-        scroll-margin-left: 1.5rem;
+        margin-left: 2.4rem;
+        scroll-margin-left: 2.4rem;
     }
     .slider-component-full-width .slider--desktop .slider__slide:last-child {
-        margin-right: 1.5rem;
+        margin-right: 2.4rem;
     }
     .slider--desktop.grid--5-col-desktop .grid__item {
         width: calc( (100% - var(--desktop-margin-left-first-item)) / 5 - var(--grid-desktop-horizontal-spacing) * 2);

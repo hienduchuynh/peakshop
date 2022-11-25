@@ -67,6 +67,10 @@
   }
 }
 
+.collection .card .card__information {
+  padding-left: 0;
+  padding-right: 0;
+}
 
 .collection__description > * {
   margin: 0;
@@ -114,7 +118,7 @@
 }
 
 .collection__view-all a:not(.link) {
-  margin-top: 6.4rem;
+  margin-top: 4.8rem;
 }
 
 .collection__view-all a span:first-child{
