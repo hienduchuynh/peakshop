@@ -18,19 +18,17 @@
 
 {%- if article and article != empty -%}
   {%- liquid
-    assign ratio = 1
-    if media_aspect_ratio == 'portrait'
-    assign ratio = 0.8
-    endif
-    if ratio == 0 or ratio == nil
-      assign ratio = 1
+    assign ratio = media_aspect_ratio
+    if media_height != "adapt"
+     assign ratio = 1
     endif
   -%}
+
   <div class="card-wrapper underline-links-hover">
     {% comment %} <article aria-labelledby="Article-{{ article.id }}"> {% endcomment %}
     <div class="card article-card
       card--{{ settings.card_style }}
-      {% if media_height and media_height != 'adapt' %} article-card__image--{{ media_height }}{% endif %}
+      {% if media_height and media_height != 'adapt' %} article-card__image--{{ media_height }} {% endif %}
       {% if article.image and show_image %} card--media{% else %} card--text{% endif %}
       {% if settings.card_style == 'card' %} color-{{ settings.card_color_scheme }} gradient{% endif %}
       {% if settings.card_style == 'card' and media_height == nil and article.image == empty or show_image == false %} ratio{% endif %}"
@@ -103,7 +101,7 @@
           {%- endif -%}
         </div>
       </div>
-      <div class="card__content">
+      <div class="card__content {% if alignment_content == "center" %} center {% endif %} {% if alignment_content == "right" %} right {% endif %}">
         <div class="card__information">
           <div class="article-card__info">
             {%- if show_date -%}

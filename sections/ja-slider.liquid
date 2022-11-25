@@ -104,7 +104,8 @@
             {%- endif -%}
           </div>
           <div class="grid__item slideshow__text-wrapper banner__content color-{{ block.settings.color_scheme }} gradient">
-            <div class="slideshow__text slideshow__text--{{ block.settings.text_alignment }} slideshow__text-mobile--{{ block.settings.text_alignment_mobile }}">{%- if block.settings.heading != blank -%}
+            <div class="slideshow__text slideshow__text--{{ block.settings.text_alignment }} slideshow__text-mobile--{{ block.settings.text_alignment_mobile }}">
+              {%- if block.settings.heading != blank -%}
                 <h2 class="banner__heading {{ block.settings.heading_size }}">{{ block.settings.heading | escape }}</h2>
               {%- endif -%}
               {%- if block.settings.subheading != blank -%}
