@@ -1,8 +1,5 @@
-<link rel="stylesheet" href="{{ 'component-rte.css' | asset_url }}" media="print" onload="this.media='all'">
-<link rel="stylesheet" href="{{ 'section-main-page.css' | asset_url }}" media="print" onload="this.media='all'">
-
-<noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
-<noscript>{{ 'section-main-page.css' | asset_url | stylesheet_tag }}</noscript>
+<link rel="stylesheet" href="{{ 'section-page-title.css' | asset_url }}" media="print" onload="this.media='all'">
+<noscript>{{ 'section-page-title.css' | asset_url | stylesheet_tag }}</noscript>
 
 {%- style -%}
   .section-{{ section.id }}-padding {
@@ -19,10 +16,25 @@
 {%- endstyle -%}
 
 <div class="color-{{ section.settings.color_scheme }} gradient">
-  <div class="page-width page-width--narrow section-{{ section.id }}-padding">
-    <h2 class="page-title {{ section.settings.heading_size }}">
-      {{ section.settings.page-title }}
-    </h2>
+  <div class="page-width section-{{ section.id }}-padding page-title-wrapper">
+    {%- if section.settings.page-title != blank -%}
+      <h2 class="page-title {{ section.settings.heading_size }}">
+        {% if section.settings.title_style == "03" %}
+          <marquee behavior="alternate" direction="left">
+            <span>{{ section.settings.page-title | escape }}</span>
+            <span>{{ section.settings.page-title | escape }}</span>
+            <span>{{ section.settings.page-title | escape }}</span>
+          </marquee>
+          <marquee behavior="alternate" direction="right">
+            <span>{{ section.settings.page-title | escape }}</span>
+            <span>{{ section.settings.page-title | escape }}</span>
+            <span>{{ section.settings.page-title | escape }}</span>
+          </marquee>
+        {% else %}
+          {{ section.settings.page-title | escape }}
+        {% endif %}
+      </h2>
+    {%- endif -%}
   </div>
 </div>
 
@@ -43,18 +55,45 @@
         "id": "heading_size",
         "options": [
           {
-            "value": "h2",
+            "value": "h3",
             "label": "t:sections.all.heading_size.options__1.label"
-          }, {
-            "value": "h1",
+          },
+          {
+            "value": "h2",
             "label": "t:sections.all.heading_size.options__2.label"
-          }, {
-            "value": "h0",
+          },
+          {
+            "value": "h1",
             "label": "t:sections.all.heading_size.options__3.label"
+          },
+          {
+            "value": "h0",
+            "label": "t:sections.all.heading_size.options__4.label"
+          }, {
+            "value": "hxl",
+            "label": "t:sections.all.heading_size.options__5.label"
           }
         ],
-        "default": "h1",
+        "default": "hxl",
         "label": "t:sections.all.heading_size.label"
+      },
+      {
+        "type": "select",
+        "id": "title_style",
+        "label": "t:sections.page-title.settings.title_style.label",
+        "options": [
+          {
+            "value": "01",
+            "label": "t:sections.page-title.settings.title_style.options__1.label"
+          }, {
+            "value": "02",
+            "label": "t:sections.page-title.settings.title_style.options__2.label"
+          }, {
+            "value": "03",
+            "label": "t:sections.page-title.settings.title_style.options__3.label"
+          }
+        ],
+        "default": "03"
       },
       {
         "type": "select",
@@ -82,8 +121,7 @@
         ],
         "default": "background-1",
         "label": "t:sections.all.colors.label"
-      },
-      {
+      }, {
         "type": "header",
         "content": "t:sections.all.padding.section_padding_heading"
       }, {
