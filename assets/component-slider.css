@@ -438,3 +438,31 @@ slider-component.slider-component-full-width {
 .slideshow__media.banner__media.media.placeholder {
     background-color: rgb(33, 33, 33);
 }
+
+/* Slide Navigation */
+.slider-navigation .slider-button {
+    position: absolute;
+    top: 50%;
+    width: 7.2rem;
+    height: 7.2rem;
+    opacity: 0;
+    display: none;
+    border: 2px solid rgba(0, 0, 0, 100);
+    background-color: #fff;
+    transform: translateY(-50%);
+    transition: all 600ms;
+    z-index: 5;
+}
+
+slider-component:hover .slider-button {
+    display: inline-block;
+    opacity: 1;
+}
+
+.slider-navigation .slider-button--prev {
+    left: -2px;
+}
+
+.slider-navigation .slider-button--next {
+    right: -2px;
+}
