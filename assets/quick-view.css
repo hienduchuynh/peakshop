@@ -2,8 +2,8 @@
     position: absolute;
     z-index: 2;
     left: auto;
-    right: calc(var(--card-image-padding) + 1.6rem);
-    top: calc(var(--card-image-padding) + 1.6rem);
+    right: 1.6rem;
+    top: 1.6rem;
     transform: translate3d(10px,0,0);
 }
 
