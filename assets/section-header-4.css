@@ -85,6 +85,7 @@
     left: -25%;
     margin-top: -1px;
     background: rgb(var(--color-base-text));
+    transition: all var(--duration-long) ease;
 }
 
 .header__active-menu-item {
