@@ -47,7 +47,6 @@ if (!customElements.get('quick-view-modal')) {
 
     setInnerHTML(element, html) {
       element.innerHTML = html;
-      console.log('fuck');
 
       // Reinjects the script tags to allow execution. By default, scripts are disabled when using element.innerHTML.
       element.querySelectorAll('script').forEach(oldScriptTag => {
