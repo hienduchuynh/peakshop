@@ -21,19 +21,8 @@
 <div class="color-{{ section.settings.color_scheme }} gradient">
   <div class="page-width page-width--narrow section-{{ section.id }}-padding">
     <h2 class="page-title {{ section.settings.heading_size }}">
-      {%- if section.settings.page.title != blank -%}
-        {{ section.settings.page.title | escape }}
-      {%- else -%}
-        {{ 'sections.page.title' | t }}
-      {%- endif -%}
+      {{ section.settings.page-title }}
     </h2>
-    <div class="rte">
-      {%- if section.settings.page.content != blank -%}
-        {{ section.settings.page.content }}
-      {%- else -%}
-        <div class='page-placeholder-wrapper placeholder'>{{ 'page' | placeholder_svg_tag: 'page-placeholder' }}</div>
-      {%- endif -%}
-    </div>
   </div>
 </div>
 
@@ -46,6 +35,7 @@
       {
         "type": "text",
         "id": "page-title",
+        "default": "Page Title",
         "label": "t:sections.page-title.settings.page-title.label"
       },
       {
