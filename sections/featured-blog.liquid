@@ -82,7 +82,7 @@
         >
           {%- for article in section.settings.blog.articles limit: section.settings.post_limit -%}
             <li id="Slide-{{ section.id }}-{{ forloop.index }}" class="blog__post grid__item article slider__slide slider__slide--full-width">
-              {% render 'article-card', blog: section.settings.blog, article: article, media_aspect_ratio: 1.66, show_image: section.settings.show_image, show_date: section.settings.show_date, show_author: section.settings.show_author, show_excerpt: true %}
+              {% render 'article-card', blog: section.settings.blog, article: article, media_aspect_ratio: article.image.aspect_ratio, show_image: section.settings.show_image, show_date: section.settings.show_date, show_author: section.settings.show_author, show_excerpt: true, media_height: section.settings.image_height %}
             </li>
           {%- endfor -%}
         </ul>
@@ -274,6 +274,31 @@
       "default": true,
       "label": "t:sections.featured-blog.settings.show_image.label",
       "info": "t:sections.featured-blog.settings.show_image.info"
+    },
+    {
+      "type": "select",
+      "id": "image_height",
+      "options": [
+        {
+          "value": "adapt",
+          "label": "t:sections.featured-blog.settings.image_height.options__1.label"
+        },
+        {
+          "value": "small",
+          "label": "t:sections.featured-blog.settings.image_height.options__2.label"
+        },
+        {
+          "value": "medium",
+          "label": "t:sections.featured-blog.settings.image_height.options__3.label"
+        },
+        {
+          "value": "large",
+          "label": "t:sections.featured-blog.settings.image_height.options__4.label"
+        }
+      ],
+      "default": "adapt",
+      "label": "t:sections.featured-blog.settings.image_height.label",
+      "info": "t:sections.featured-blog.settings.image_height.info"
     },
     {
       "type": "checkbox",
