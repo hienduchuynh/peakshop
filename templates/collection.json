@@ -4,7 +4,8 @@
       "type": "page-title",
       "settings": {
         "page-title": "Page Title",
-        "heading_size": "h1",
+        "heading_size": "hxl",
+        "title_style": "03",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 0
