@@ -292,7 +292,7 @@
     }
 }
 
-.bg-links-hover:hover a {
+.bg-links-hover:hover .card__heading a {
     background: rgba(var(--color-base-accent-3));
     -webkit-box-shadow: -0.4rem 0 0 rgba(var(--color-base-accent-3)), 0.4rem 0 0 rgba(var(--color-base-accent-3));
     box-shadow: -0.4rem 0 0 rgba(var(--color-base-accent-3)), 0.4rem 0 0 rgba(var(--color-base-accent-3));
