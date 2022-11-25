@@ -440,6 +440,11 @@ slider-component.slider-component-full-width {
 }
 
 /* Slide Navigation */
+.slider-navigation {
+    --color-button: 255,255,255;
+    --color-button-text: 0, 0, 0;
+}
+
 .slider-navigation .slider-button {
     position: absolute;
     top: 50%;
@@ -447,16 +452,22 @@ slider-component.slider-component-full-width {
     height: 7.2rem;
     opacity: 0;
     display: none;
-    border: 2px solid rgba(0, 0, 0, 100);
-    background-color: #fff;
+    border: 2px solid rgba(var(--color-button-text));
+    background-color: rgba(var(--color-button));
     transform: translateY(-50%);
     transition: all 600ms;
     z-index: 5;
+    color: rgba(var(--color-button-text));
 }
 
 slider-component:hover .slider-button {
     display: inline-block;
     opacity: 1;
+    color: rgba(0, 0, 0, 1);
+}
+
+.slider-navigation .slider-button:not([disabled]):hover {
+  color: rgb(var(--color-button-text));
 }
 
 .slider-navigation .slider-button--prev {
