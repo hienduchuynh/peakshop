@@ -220,7 +220,7 @@
     </script>
   </head>
 
-  <body class="gradient">
+  <body class="gradient page-{{ template | handleize }}">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ "accessibility.skip_to_text" | t }}
     </a>
@@ -233,7 +233,7 @@
       <div class="ja-container">
         {% render 'wrapper-header' %}
         
-        <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
+        <main id="MainContent" class="content-for-layout focus-none main-{{ template | handleize }}" role="main" tabindex="-1">
           {{ content_for_layout }}
         </main>
 
