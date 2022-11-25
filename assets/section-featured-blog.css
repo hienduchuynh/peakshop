@@ -94,8 +94,18 @@
   background-color: rgb(var(--color-background));
 }
 
+.blog__post {
+  align-items: baseline;
+}
+
 .blog__posts .card-wrapper {
   width: 100%;
+  height: auto;
+}
+
+.article-card__image {
+  border-radius: var(--card-corner-radius);
+  border: var(--card-border-width) solid rgba(var(--color-foreground), var(--card-border-opacity));
 }
 
 .blog__button {
@@ -150,10 +160,6 @@
 
 .blog .title-wrapper-with-link.title-wrapper-01 .inner .link {
   text-decoration: none;
-}
-
-.blog__posts .card-wrapper .card--media .ratio::before {
-  padding-bottom: 66.66%;
 }
 
 .blog__view-all a span:first-child{
