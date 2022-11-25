@@ -24,7 +24,7 @@
     endif
   -%}
 
-  <div class="card-wrapper underline-links-hover">
+  <div class="card-wrapper bg-links-hover">
     {% comment %} <article aria-labelledby="Article-{{ article.id }}"> {% endcomment %}
     <div class="card article-card
       card--{{ settings.card_style }}
@@ -72,7 +72,7 @@
                 <span>{{ article.author }}</span>
               {%- endif -%}
             </div>
-            <h3 class="card__heading{% if show_excerpt %} {% endif %}">
+            <h3 class="card__heading{% if show_excerpt %} h5{% endif %}">
               <a href="{{ article.url }}" class="full-unstyled-link">
                 {{ article.title | escape }}
               </a>
@@ -111,7 +111,7 @@
               <span>{{ article.author }}</span>
             {%- endif -%}
           </div>
-          <h3 class="card__heading{% if show_excerpt %} h4{% endif %}">
+          <h3 class="card__heading{% if show_excerpt %} h5{% endif %}">
             <a href="{{ article.url }}" class="full-unstyled-link">
               {{ article.title | escape }}
             </a>

@@ -105,11 +105,16 @@
 
 .color-background-2 .button--secondary,
 .color-accent-1 .button--secondary,
-.color-accent-2 .button--secondary,
-.color-accent-3 .button--secondary,
-.color-accent-4 .button--secondary {
+.color-accent-3 .button--secondary {
 	--color-button: var(--color-background);
 	--color-button-text: var(--color-foreground);
+}
+
+.color-accent-4 .button--secondary,
+.color-accent-2 .button--secondary {
+	--color-button: 255, 255, 255;
+	--color-button-text: 0, 0, 0;
+	background: rgba(var(--color-button));
 }
 
 .color-inverse .button--secondary {
