@@ -342,7 +342,7 @@
         "show_view_all": true,
         "view_all_style": "outline",
         "enable_desktop_slider": false,
-        "slider_visual": "counter",
+        "slider_visual": "nav",
         "color_scheme": "accent-2",
         "desktop_layout": "left",
         "image_ratio": "square",
