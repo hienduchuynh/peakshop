@@ -1,5 +1,10 @@
 {
   "sections": {
+    "897bf27f-cb64-43b9-9e8f-2acc016490a7": {
+      "type": "breadcrumb",
+      "settings": {
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "settings": {
@@ -27,7 +32,7 @@
         "filter_type": "vertical",
         "enable_sorting": true,
         "columns_mobile": "2",
-        "padding_top": 0,
+        "padding_top": 24,
         "padding_bottom": 48,
         "enable_sidebar_top_seller": false,
         "carousels_total_products": 3,
@@ -39,6 +44,7 @@
     }
   },
   "order": [
+    "897bf27f-cb64-43b9-9e8f-2acc016490a7",
     "banner",
     "product-grid"
   ]
