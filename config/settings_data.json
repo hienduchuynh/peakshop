@@ -523,7 +523,7 @@
               "show_logo": true,
               "image": "shopify:\/\/shop_images\/footer-logo.png",
               "image_width": 100,
-              "alignment": "center"
+              "alignment": ""
             }
           },
           "2f02cd74-f52f-4875-bdfb-336290c29213": {
