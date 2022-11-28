@@ -7,6 +7,9 @@
     margin-bottom: 0;
     padding-bottom: 2rem;
 }
+.collection-hero__text-wrapper {
+    width: 100%;
+}
 
 @media screen and (min-width: 750px) {
     .collection-hero.collection-hero--with-image {
@@ -21,10 +24,21 @@
         padding-bottom: 0;
         width: 100%;
     }
+    .collection-hero__text-wrapper {
+        width: 100%;
+    }
 }
 
-.collection-hero__text-wrapper {
-    color: #333;
+@media screen and (min-width: 980px) {
+    .collection-hero__text-wrapper {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .collection-hero__text-wrapper {
+        width: 45%;
+    }
 }
 
 .collection-hero__text-wrapper h1 {
@@ -49,6 +63,12 @@
 
 .collection-hero__title {
     margin: 0;
+    text-transform: uppercase;
+}
+.collection-hero__title span {
+    background: #000;
+    color: #fff;
+    padding: 0 10px;
 }
 
 .collection-hero__title+.collection-hero__description {

@@ -1,6 +1,5 @@
 {{ 'component-card.css' | asset_url | stylesheet_tag }}
 {{ 'section-collection-list.css' | asset_url | stylesheet_tag }}
-{{ 'section-page-title.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
   .section-{{ section.id }}-padding {
@@ -21,23 +20,7 @@
 {%- endstyle -%}
 
 <div class="page-width section-{{ section.id }}-padding">
-  <div class="section page-title-wrapper">
-    <h2 class="page-title hxl">
-      <marquee behavior="alternate" direction="left">
-        <span>{{ section.settings.title | escape }}</span>
-        <span>{{ section.settings.title | escape }}</span>
-        <span>{{ section.settings.title | escape }}</span>
-        <span>{{ section.settings.title | escape }}</span>
-      </marquee>
-      <marquee behavior="alternate" direction="right">
-        <span>{{ section.settings.title | escape }}</span>
-        <span>{{ section.settings.title | escape }}</span>
-        <span>{{ section.settings.title | escape }}</span>
-        <span>{{ section.settings.title | escape }}</span>
-      </marquee>
-    </h2>
-  </div>
-
+  <h2 class="title title--primary h2">{{ section.settings.title | escape }}</h2>
   {%- liquid
     case section.settings.sort
       when 'products_high' or 'products_low'
