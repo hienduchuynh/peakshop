@@ -66,18 +66,19 @@
         "template--17016615043347__8ff5f0a8-d3a4-4b22-91fb-691d80607732-166962352788ee3923-1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/client-02.png",
             "image_position": "top",
-            "title": "Column",
+            "title": "",
             "title_size": "h4",
             "icon": "none",
             "icon_position": "left",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "",
             "link_label": "",
             "link": "",
             "link_style": "link",
-            "padding_left": 32,
-            "padding_right": 32,
-            "image_spacing": 25
+            "padding_left": 0,
+            "padding_right": 0,
+            "image_spacing": 0
           }
         },
         "template--17016615043347__8ff5f0a8-d3a4-4b22-91fb-691d80607732-166962352788ee3923-2": {
