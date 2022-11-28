@@ -39,7 +39,7 @@
         "auto_rotate": false,
         "slider_visual": "dots",
         "change_slides_speed": 5,
-        "enable_recently_products": true
+        "enable_recently_products": false
       }
     }
   },
