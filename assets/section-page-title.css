@@ -13,6 +13,6 @@
 	overflow: hidden;
 	text-transform: uppercase;
 }
-.page-title-wrapper .page-title:hover {
+.page-title-wrapper .page-title span:hover {
 	color: rgba(var(--color-base-text));
 }
