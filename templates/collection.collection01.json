@@ -41,11 +41,93 @@
         "change_slides_speed": 5,
         "enable_recently_products": false
       }
+    },
+    "95e8de70-2183-42b5-bd4e-0f3bc8e161c5": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--17016615305491__95e8de70-2183-42b5-bd4e-0f3bc8e161c5-166962453863af0598-0": {
+          "type": "column",
+          "settings": {
+            "image_position": "top",
+            "title": "Column",
+            "title_size": "h4",
+            "icon": "none",
+            "icon_position": "left",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": "",
+            "link_style": "link",
+            "padding_left": 32,
+            "padding_right": 32,
+            "image_spacing": 25
+          }
+        },
+        "template--17016615305491__95e8de70-2183-42b5-bd4e-0f3bc8e161c5-166962453863af0598-1": {
+          "type": "column",
+          "settings": {
+            "image_position": "top",
+            "title": "Column",
+            "title_size": "h4",
+            "icon": "none",
+            "icon_position": "left",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": "",
+            "link_style": "link",
+            "padding_left": 32,
+            "padding_right": 32,
+            "image_spacing": 25
+          }
+        },
+        "template--17016615305491__95e8de70-2183-42b5-bd4e-0f3bc8e161c5-166962453863af0598-2": {
+          "type": "column",
+          "settings": {
+            "image_position": "top",
+            "title": "Column",
+            "title_size": "h4",
+            "icon": "none",
+            "icon_position": "left",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": "",
+            "link_style": "link",
+            "padding_left": 32,
+            "padding_right": 32,
+            "image_spacing": 25
+          }
+        }
+      },
+      "block_order": [
+        "template--17016615305491__95e8de70-2183-42b5-bd4e-0f3bc8e161c5-166962453863af0598-0",
+        "template--17016615305491__95e8de70-2183-42b5-bd4e-0f3bc8e161c5-166962453863af0598-1",
+        "template--17016615305491__95e8de70-2183-42b5-bd4e-0f3bc8e161c5-166962453863af0598-2"
+      ],
+      "settings": {
+        "title": "",
+        "sub-title": "",
+        "mod_class": "clients-list",
+        "heading_size": "h4",
+        "layout": "full_bleed",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "row_alignment": "top",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "897bf27f-cb64-43b9-9e8f-2acc016490a7",
     "banner",
-    "product-grid"
+    "product-grid",
+    "95e8de70-2183-42b5-bd4e-0f3bc8e161c5"
   ]
 }
