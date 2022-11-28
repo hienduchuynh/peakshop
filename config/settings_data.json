@@ -1,7 +1,7 @@
 {
   "current": {
     "header_layout": "04",
-    "footer_layout": "01",
+    "footer_layout": "05",
     "colors_solid_button_labels": "#ffffff",
     "colors_accent_1": "#000000",
     "gradient_accent_1": "",
@@ -280,7 +280,7 @@
             "type": "link_list",
             "settings": {
               "heading": "Other Page",
-              "menu": "others-page"
+              "menu": ""
             }
           },
           "footer-6": {
@@ -302,14 +302,13 @@
             "type": "link_list",
             "settings": {
               "heading": "Support",
-              "menu": "surpport"
+              "menu": ""
             }
           },
           "8f6ec5ca-267e-4429-ac3d-c23358b328da": {
             "type": "logo_image",
             "settings": {
               "show_logo": true,
-              "image": "shopify:\/\/shop_images\/Untitled.png",
               "image_width": 110,
               "alignment": "center"
             }
@@ -318,7 +317,7 @@
             "type": "link_list",
             "settings": {
               "heading": "Social",
-              "menu": "social"
+              "menu": ""
             }
           },
           "dc583b2f-778a-4ff4-b937-d06ab7eaf604": {
@@ -378,7 +377,7 @@
             "type": "link_list",
             "settings": {
               "heading": "Others Pages",
-              "menu": "others-page"
+              "menu": ""
             }
           },
           "8b21a90f-5211-41ac-a2fc-0a1ff3fd96c4": {
@@ -392,7 +391,6 @@
             "type": "logo_image",
             "settings": {
               "show_logo": true,
-              "image": "shopify:\/\/shop_images\/atoms-light_79ebb958-8908-40f3-8ea2-7d4c623a3bbc.png",
               "image_width": 100,
               "alignment": "center"
             }
@@ -416,7 +414,6 @@
             "type": "newsletter",
             "settings": {
               "newsletter_enable": true,
-              "newsletter_icon": "shopify:\/\/shop_images\/Vector.png",
               "newsletter_heading": "Sign Up to Receive 15% Off Your First Order",
               "newsletter_intro": ""
             }
