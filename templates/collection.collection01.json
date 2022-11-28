@@ -48,59 +48,100 @@
         "template--17016615305491__95e8de70-2183-42b5-bd4e-0f3bc8e161c5-166962453863af0598-0": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/client-01.png",
             "image_position": "top",
-            "title": "Column",
+            "title": "",
             "title_size": "h4",
             "icon": "none",
             "icon_position": "left",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "",
             "link_label": "",
             "link": "",
             "link_style": "link",
-            "padding_left": 32,
-            "padding_right": 32,
-            "image_spacing": 25
+            "padding_left": 0,
+            "padding_right": 0,
+            "image_spacing": 0
           }
         },
         "template--17016615305491__95e8de70-2183-42b5-bd4e-0f3bc8e161c5-166962453863af0598-1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/client-02.png",
             "image_position": "top",
-            "title": "Column",
+            "title": "",
             "title_size": "h4",
             "icon": "none",
             "icon_position": "left",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "",
             "link_label": "",
             "link": "",
             "link_style": "link",
-            "padding_left": 32,
-            "padding_right": 32,
-            "image_spacing": 25
+            "padding_left": 0,
+            "padding_right": 0,
+            "image_spacing": 0
           }
         },
         "template--17016615305491__95e8de70-2183-42b5-bd4e-0f3bc8e161c5-166962453863af0598-2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/client-03.png",
             "image_position": "top",
-            "title": "Column",
+            "title": "",
             "title_size": "h4",
             "icon": "none",
             "icon_position": "left",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "",
             "link_label": "",
             "link": "",
             "link_style": "link",
-            "padding_left": 32,
-            "padding_right": 32,
-            "image_spacing": 25
+            "padding_left": 0,
+            "padding_right": 0,
+            "image_spacing": 0
+          }
+        },
+        "30e9d3d3-2dd6-478c-8034-246c02aa8f4d": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/client-04.png",
+            "image_position": "top",
+            "title": "",
+            "title_size": "h4",
+            "icon": "none",
+            "icon_position": "left",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "link_style": "link",
+            "padding_left": 0,
+            "padding_right": 0,
+            "image_spacing": 0
+          }
+        },
+        "22c5bc39-25da-4dd8-941b-2b2d507616ef": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/client-05.png",
+            "image_position": "top",
+            "title": "",
+            "title_size": "h4",
+            "icon": "none",
+            "icon_position": "left",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "link_style": "link",
+            "padding_left": 0,
+            "padding_right": 0,
+            "image_spacing": 0
           }
         }
       },
       "block_order": [
         "template--17016615305491__95e8de70-2183-42b5-bd4e-0f3bc8e161c5-166962453863af0598-0",
         "template--17016615305491__95e8de70-2183-42b5-bd4e-0f3bc8e161c5-166962453863af0598-1",
-        "template--17016615305491__95e8de70-2183-42b5-bd4e-0f3bc8e161c5-166962453863af0598-2"
+        "template--17016615305491__95e8de70-2183-42b5-bd4e-0f3bc8e161c5-166962453863af0598-2",
+        "30e9d3d3-2dd6-478c-8034-246c02aa8f4d",
+        "22c5bc39-25da-4dd8-941b-2b2d507616ef"
       ],
       "settings": {
         "title": "",
