@@ -58,9 +58,9 @@
             "link_label": "",
             "link": "",
             "link_style": "link",
-            "padding_left": 32,
-            "padding_right": 32,
-            "image_spacing": 25
+            "padding_left": 0,
+            "padding_right": 0,
+            "image_spacing": 0
           }
         },
         "template--17016615043347__8ff5f0a8-d3a4-4b22-91fb-691d80607732-166962352788ee3923-1": {
