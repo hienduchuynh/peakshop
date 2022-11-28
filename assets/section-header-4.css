@@ -71,3 +71,27 @@
     padding-left: 0;
     padding-right: 3.2rem;
 }
+
+.header__menu-item > span {
+    position: relative;
+}
+
+.header__menu-item > span:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    top: 50%;
+    left: -25%;
+    margin-top: -1px;
+    background: rgb(var(--color-base-text));
+    transition: all var(--duration-long) ease;
+}
+
+.header__active-menu-item {
+}
+
+.header__menu-item > .header__active-menu-item:before,
+.header__menu-item:hover > span:before {
+    width: 150%;
+}

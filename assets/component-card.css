@@ -198,10 +198,19 @@
 }
 
 .card--card.card--media > .card__content {
-    margin-top: calc(0rem - var(--card-image-padding));
-    padding-left: var(--card-image-padding);
-    padding-right: var(--card-image-padding);
-    padding-bottom: var(--card-image-padding);
+    margin-top: calc(0rem - var(--card-image-padding) / 2);
+    padding-left: calc(var(--card-image-padding)  / 2);
+    padding-right: calc(var(--card-image-padding) / 2);
+    padding-bottom: calc(var(--card-image-padding) / 2);
+}
+
+@media screen and (min-width: 750px) { 
+    .card--card.card--media > .card__content {
+        margin-top: calc(0rem - var(--card-image-padding));
+        padding-left: var(--card-image-padding);
+        padding-right: var(--card-image-padding);
+        padding-bottom: var(--card-image-padding);
+    }
 }
 
 .card--standard.card--text a::after,
@@ -210,6 +219,29 @@
     left: calc(var(--card-border-width) * -1);
     right: calc(var(--card-border-width) * -1);
     top: calc(var(--card-border-width) * -1);
+}
+
+.card__heading a {
+    --color-background: 0, 0, 0;
+    --color-foreground: 255, 255, 255;
+    background: rgba(var(--color-background));
+    -webkit-box-shadow: -0.4rem 0 0 rgba(var(--color-background)), 0.4rem 0 0 rgba(var(--color-background));
+    box-shadow: -0.4rem 0 0 rgba(var(--color-background)), 0.4rem 0 0 rgba(var(--color-background));
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    color: rgba(var(--color-foreground));
+    display: inline;
+    margin-top: 0;
+    margin-bottom: 0.4rem;
+    margin-left: 0.4rem;
+    padding: 2px 0;
+    text-transform: uppercase;
+    line-height: 1.85;
+    font-weight: normal;
+}
+
+.card__heading a:hover {
+    text-decoration: none;
 }
 
 .card__heading a::after {
@@ -267,6 +299,12 @@
         text-decoration: underline;
         text-underline-offset: 0.3rem;
     }
+}
+
+.bg-links-hover:hover .card__heading a {
+    background: rgba(var(--color-base-accent-3));
+    -webkit-box-shadow: -0.4rem 0 0 rgba(var(--color-base-accent-3)), 0.4rem 0 0 rgba(var(--color-base-accent-3));
+    box-shadow: -0.4rem 0 0 rgba(var(--color-base-accent-3)), 0.4rem 0 0 rgba(var(--color-base-accent-3));
 }
 
 .card--standard.card--media .card__inner .card__information,

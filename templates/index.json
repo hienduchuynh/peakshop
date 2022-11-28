@@ -76,7 +76,7 @@
             "image": "shopify:\/\/shop_images\/collection-1.jpg",
             "title": "Skateboard",
             "link_label": "",
-            "link": "shopify:\/\/collections",
+            "link": "shopify:\/\/collections\/skateboard",
             "link_style": "outline",
             "desktop_content_position": "bottom-left",
             "desktop_content_alignment": "left"
@@ -88,7 +88,7 @@
             "image": "shopify:\/\/shop_images\/collection-2.jpg",
             "title": "Clothing",
             "link_label": "",
-            "link": "shopify:\/\/collections",
+            "link": "shopify:\/\/collections\/clothing",
             "link_style": "link",
             "desktop_content_position": "bottom-left",
             "desktop_content_alignment": "center"
@@ -100,7 +100,7 @@
             "image": "shopify:\/\/shop_images\/collection-3.jpg",
             "title": "Shoes",
             "link_label": "",
-            "link": "shopify:\/\/collections",
+            "link": "shopify:\/\/collections\/shoes",
             "link_style": "link",
             "desktop_content_position": "bottom-left",
             "desktop_content_alignment": "center"

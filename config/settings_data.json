@@ -1,7 +1,7 @@
 {
   "current": {
     "header_layout": "04",
-    "footer_layout": "01",
+    "footer_layout": "05",
     "colors_solid_button_labels": "#ffffff",
     "colors_accent_1": "#000000",
     "gradient_accent_1": "",
@@ -280,7 +280,7 @@
             "type": "link_list",
             "settings": {
               "heading": "Other Page",
-              "menu": "others-page"
+              "menu": ""
             }
           },
           "footer-6": {
@@ -302,14 +302,13 @@
             "type": "link_list",
             "settings": {
               "heading": "Support",
-              "menu": "surpport"
+              "menu": ""
             }
           },
           "8f6ec5ca-267e-4429-ac3d-c23358b328da": {
             "type": "logo_image",
             "settings": {
               "show_logo": true,
-              "image": "shopify:\/\/shop_images\/Untitled.png",
               "image_width": 110,
               "alignment": "center"
             }
@@ -318,7 +317,7 @@
             "type": "link_list",
             "settings": {
               "heading": "Social",
-              "menu": "social"
+              "menu": ""
             }
           },
           "dc583b2f-778a-4ff4-b937-d06ab7eaf604": {
@@ -378,7 +377,7 @@
             "type": "link_list",
             "settings": {
               "heading": "Others Pages",
-              "menu": "others-page"
+              "menu": ""
             }
           },
           "8b21a90f-5211-41ac-a2fc-0a1ff3fd96c4": {
@@ -392,7 +391,6 @@
             "type": "logo_image",
             "settings": {
               "show_logo": true,
-              "image": "shopify:\/\/shop_images\/atoms-light_79ebb958-8908-40f3-8ea2-7d4c623a3bbc.png",
               "image_width": 100,
               "alignment": "center"
             }
@@ -416,7 +414,6 @@
             "type": "newsletter",
             "settings": {
               "newsletter_enable": true,
-              "newsletter_icon": "shopify:\/\/shop_images\/Vector.png",
               "newsletter_heading": "Sign Up to Receive 15% Off Your First Order",
               "newsletter_intro": ""
             }
@@ -515,6 +512,66 @@
           "padding_bottom": 20,
           "border_thickness": 2,
           "border_opacity": 100
+        }
+      },
+      "footer-05": {
+        "type": "footer-05",
+        "blocks": {
+          "ddecc46f-d933-4737-8bc3-540bac0e01de": {
+            "type": "logo_image",
+            "settings": {
+              "show_logo": true,
+              "image": "shopify:\/\/shop_images\/footer-logo.png",
+              "image_width": 100,
+              "alignment": ""
+            }
+          },
+          "2f02cd74-f52f-4875-bdfb-336290c29213": {
+            "type": "text",
+            "settings": {
+              "show_heading": false,
+              "heading": "Heading",
+              "show_subtext": true,
+              "subtext": "<p>312 North 24th Street<br\/>Brooklyn, New York 10010<br\/>United States<\/p><p>+33 212 218 8500<br\/>sale@peakshop.com<\/p>"
+            }
+          },
+          "footer-05-0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "",
+              "menu": "footer"
+            }
+          },
+          "e09a2a58-5b5e-4eb4-90aa-29276177996a": {
+            "type": "link_list",
+            "settings": {
+              "heading": "",
+              "menu": "main-menu"
+            }
+          },
+          "bc2627a9-4cb9-4497-a3a4-8bd19ca2f0ba": {
+            "type": "link_list",
+            "settings": {
+              "heading": "",
+              "menu": "footer"
+            }
+          }
+        },
+        "block_order": [
+          "ddecc46f-d933-4737-8bc3-540bac0e01de",
+          "2f02cd74-f52f-4875-bdfb-336290c29213",
+          "footer-05-0",
+          "e09a2a58-5b5e-4eb4-90aa-29276177996a",
+          "bc2627a9-4cb9-4497-a3a4-8bd19ca2f0ba"
+        ],
+        "settings": {
+          "color_scheme": "accent-1",
+          "enable_country_selector": true,
+          "enable_language_selector": true,
+          "payment_enable": true,
+          "margin_top": 0,
+          "padding_top": 36,
+          "padding_bottom": 36
         }
       }
     },

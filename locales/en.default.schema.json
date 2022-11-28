@@ -343,14 +343,16 @@
           "label__1": "Header 01",
           "label__2": "Header 02",
           "label__3": "Header 03",
-          "label__4": "Header 04"
+          "label__4": "Header 04",
+          "label__5": "Header 05"
         },
         "footer_layout": {
           "label": "Footer Layout",
           "label__1": "Footer 01",
           "label__2": "Footer 02",
           "label__3": "Footer 03",
-          "label__4": "Footer 04"
+          "label__4": "Footer 04",
+          "label__5": "Footer 05"
         }
       }
     },

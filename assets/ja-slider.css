@@ -63,7 +63,7 @@
 	border: 2px solid rgba(0, 0, 0, 100);
 	background-color: #fff;
 	transform: translateY(-50%);
-	transition: all 600ms;
+	transition: all var(--duration-long) ease;
 }
 
 .ja-slider:hover .slider-buttons .slider-button {
