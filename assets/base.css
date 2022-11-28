@@ -1344,8 +1344,8 @@ summary::-webkit-details-marker {
 }
 
 .grid--gapless.grid {
-	column-gap: 0;
-	row-gap: 0;
+	--grid-desktop-horizontal-spacing: 0px;
+	--grid-desktop-vertical-spacing: 0px;
 }
 
 @media screen and (max-width: 749px) {
