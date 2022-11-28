@@ -205,9 +205,7 @@
         {% else %}
           0{% endif %}px;
         --buttons-border-width: {% if settings.buttons_border_opacity > 0 %}
-          {{ settings.buttons_border_thickness }}
-        {% else %}
-          0{% endif %}px;
+          {{ settings.buttons_border_thickness }}{% else %}0{% endif %}px;
         --buttons-border-opacity: {{ settings.buttons_border_opacity | divided_by: 100.0 }};
         --buttons-shadow-opacity: {{ settings.buttons_shadow_opacity | divided_by: 100.0 }};
         --buttons-shadow-visible: {% if settings.buttons_shadow_opacity > 0 %}
