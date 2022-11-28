@@ -1222,6 +1222,16 @@ summary::-webkit-details-marker {
 .title-wrapper-03 .title marquee + marquee {
 }
 
+.color-accent-1 .title-wrapper-03 .title,
+.color-inverse .title-wrapper-03 .title { 
+	-webkit-text-stroke-color: rgba(255, 255, 255, 0.2);
+}
+
+.color-accent-1 .title-wrapper-03 .title span:hover,
+.color-inverse .title-wrapper-03 .title span:hover {
+	color: rgba(255, 255, 255);
+}
+
 /* component-grid */
 
 .grid {
