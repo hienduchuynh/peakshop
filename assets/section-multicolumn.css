@@ -389,11 +389,12 @@
 
 /* Clients */
 .clients-list {
-	--grid-desktop-horizontal-spacing: 0px;
 }
+
 .clients-list .multicolumn-card-spacing {
 	padding-top: 0;
 }
+
 @media screen and (max-width: 749px) {
 	.main-collection-collection01 .clients-list,
 	.main-collection-collection02 .clients-list,

@@ -3272,6 +3272,11 @@ details-disclosure > details {
 	border-radius: 0;
 }
 
+.grid--gapless .content-container + .content-container,
+.grid--gapless .grid__item + .grid__item .content-container {
+	border-left: 0;
+}
+
 @media screen and (max-width: 749px) {
 	.content-container--full-width-mobile {
 		border-left: none;
