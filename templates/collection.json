@@ -1,5 +1,10 @@
 {
   "sections": {
+    "cde2e82e-9ee6-4ecc-91f6-a4cf4a607b02": {
+      "type": "breadcrumb",
+      "settings": {
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "settings": {
@@ -39,6 +44,7 @@
     }
   },
   "order": [
+    "cde2e82e-9ee6-4ecc-91f6-a4cf4a607b02",
     "banner",
     "product-grid"
   ]
