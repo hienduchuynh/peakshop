@@ -115,7 +115,7 @@
       "settings": {
         "title": "",
         "heading_size": "h5",
-        "layout": "full_bleed",
+        "layout": "grid--gapless",
         "item_ratio": "169",
         "columns_desktop": 3,
         "columns_mobile": "1",
