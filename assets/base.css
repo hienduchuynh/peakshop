@@ -1503,6 +1503,18 @@ summary::-webkit-details-marker {
 	.grid--2-col-tablet-down .grid__item {
 		width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2);
 	}
+	.grid--2-col-tablet .grid__item {
+		width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2);
+		max-width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2);
+	}
+	.grid--3-col-tablet .grid__item {
+		width: calc(33.33% - var(--grid-desktop-horizontal-spacing) * 2 / 3);
+		max-width: calc(33.33% - var(--grid-desktop-horizontal-spacing) * 2 / 3);
+	}
+	.grid--4-col-tablet .grid__item {
+		width: calc(25% - var(--grid-desktop-horizontal-spacing) * 3 / 4);
+		max-width: calc(25% - var(--grid-desktop-horizontal-spacing) * 3 / 4);
+	}
 	.grid--1-col-tablet-down.grid--peek .grid__item {
 		width: calc(100% - var(--grid-desktop-horizontal-spacing) - 0rem);
 	}
