@@ -901,10 +901,19 @@ summary {
 	position: relative;
 }
 
+
 summary .icon-caret {
 	position: absolute;
 	height: 0.6rem;
 	right: 1.5rem;
+	top: calc(50% - 0.2rem);
+}
+summary .icon-minus,
+summary .icon-plus {
+	position: absolute;
+	height: 9px;
+	width: 9px;
+	right: 0;
 	top: calc(50% - 0.2rem);
 }
 
