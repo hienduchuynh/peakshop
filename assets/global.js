@@ -414,7 +414,8 @@ class HeaderDrawer extends MenuDrawer {
   openMenuDrawer(summaryElement) {
     this.header = this.header || document.getElementById('shopify-section-header')
       || document.getElementById('shopify-section-header-02')
-      || document.getElementById('shopify-section-header-03');
+      || document.getElementById('shopify-section-header-03')
+      || document.getElementById('shopify-section-header-04');
     this.borderOffset = this.borderOffset || this.closest('.header-wrapper').classList.contains('header-wrapper--border-bottom') ? 1 : 0;
     document.documentElement.style.setProperty('--header-bottom-position', `${parseInt(this.header.getBoundingClientRect().bottom - this.borderOffset)}px`);
     this.header.classList.add('menu-open');
