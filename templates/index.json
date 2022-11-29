@@ -298,7 +298,7 @@
             "button_label": "VIEW ALL PRODUCTS",
             "link": "shopify:\/\/collections\/all",
             "link_style": "outline",
-            "box_align": "middle-center",
+            "box_align": "right",
             "box_width": 90,
             "button_label2": "",
             "link2": "",
