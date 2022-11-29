@@ -25,7 +25,7 @@
     "type_body_font": "space_mono_n4",
     "body_scale": 100,
     "page_width": 1870,
-    "spacing_sections": 24,
+    "spacing_sections": 0,
     "spacing_grid_horizontal": 24,
     "spacing_grid_vertical": 24,
     "buttons_border_thickness": 2,
