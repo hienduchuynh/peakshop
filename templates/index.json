@@ -123,7 +123,7 @@
         "padding_top": 0,
         "padding_bottom": 0,
         "margin_top": -24,
-        "margin_bottom": -24
+        "margin_bottom": 0
       }
     },
     "dea5835c-24f7-475f-a0a4-51739b13776e": {
@@ -246,7 +246,7 @@
         "swipe_on_mobile": false,
         "padding_top": 0,
         "padding_bottom": 0,
-        "margin_top": 24,
+        "margin_top": 0,
         "margin_bottom": 24
       }
     },
