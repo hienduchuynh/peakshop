@@ -20,6 +20,22 @@
     border: {{ section.settings.border_thickness }}px solid rgba(0, 0, 0, {{ section.settings.border_opacity }});
   }
 
+  .section-{{ section.id }}-padding ..grid--gapless .content-box-align-right .slideshow__text-wrapper {
+    border-left-width: calc({{ section.settings.border_thickness }}px / 2);
+  }
+
+  .section-{{ section.id }}-padding .grid--gapless .content-box-align-right .slideshow__media {
+    border-right-width: calc({{ section.settings.border_thickness }}px / 2);
+  }
+
+  .section-{{ section.id }}-padding .grid--gapless .content-box-align-left .slideshow__text-wrapper {
+    border-right-width: calc({{ section.settings.border_thickness }}px / 2);
+  }
+
+  .section-{{ section.id }}-padding .grid--gapless .content-box-align-left .slideshow__media {
+    border-left-width: calc({{ section.settings.border_thickness }}px / 2);
+  }
+
   @media screen and (min-width: 750px) {
     #shopify-section-{{ section.id }} {
       margin-top: {{ section.settings.margin_top }}px;
@@ -96,7 +112,7 @@
             }
           }
         </style>
-        <div class="slideshow__slide grid grid__item grid--2-col slider__slide" id="Slide-{{ section.id }}-{{ forloop.index }}" {{ block.shopify_attributes }} role="group" aria-roledescription="{{ 'sections.slideshow.slide' | t }}" aria-label="{{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}" tabindex="-1">
+        <div class="slideshow__slide grid grid__item grid--2-col slider__slide content-box-align-{{ block.settings.box_align }}" id="Slide-{{ section.id }}-{{ forloop.index }}" {{ block.shopify_attributes }} role="group" aria-roledescription="{{ 'sections.slideshow.slide' | t }}" aria-label="{{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}" tabindex="-1">
           <div class="grid__item slideshow__media banner banner__media media banner--{{ section.settings.slide_height }}{% if block.settings.image == blank %} placeholder{% endif %}">
             {%- if block.settings.image -%}
               <img srcset="{%- if block.settings.image.width >= 375 -%}{{ block.settings.image | image_url: width: 375 }} 375w,{%- endif -%}
@@ -423,38 +439,15 @@
             "id": "box_align",
             "options": [
               {
-                "value": "top-left",
+                "value": "left",
                 "label": "t:sections.ja_slider.blocks.slide.settings.box_align.options__1.label"
               },
               {
-                "value": "top-center",
+                "value": "right",
                 "label": "t:sections.ja_slider.blocks.slide.settings.box_align.options__2.label"
-              },
-              {
-                "value": "top-right",
-                "label": "t:sections.ja_slider.blocks.slide.settings.box_align.options__3.label"
-              },
-              {
-                "value": "middle-left",
-                "label": "t:sections.ja_slider.blocks.slide.settings.box_align.options__4.label"
-              }, {
-                "value": "middle-center",
-                "label": "t:sections.ja_slider.blocks.slide.settings.box_align.options__5.label"
-              }, {
-                "value": "middle-right",
-                "label": "t:sections.ja_slider.blocks.slide.settings.box_align.options__6.label"
-              }, {
-                "value": "bottom-left",
-                "label": "t:sections.ja_slider.blocks.slide.settings.box_align.options__7.label"
-              }, {
-                "value": "bottom-center",
-                "label": "t:sections.ja_slider.blocks.slide.settings.box_align.options__8.label"
-              }, {
-                "value": "bottom-right",
-                "label": "t:sections.ja_slider.blocks.slide.settings.box_align.options__9.label"
               }
             ],
-            "default": "middle-center",
+            "default": "right",
             "label": "t:sections.ja_slider.blocks.slide.settings.box_align.label",
             "info": "t:sections.ja_slider.blocks.slide.settings.box_align.info"
           }, {
@@ -492,11 +485,6 @@
               }
             ],
             "default": "solid"
-          }, {
-            "type": "checkbox",
-            "id": "show_text_box",
-            "label": "t:sections.ja_slider.blocks.slide.settings.show_text_box.label",
-            "default": true
           }, {
             "type": "select",
             "id": "text_alignment",
