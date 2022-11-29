@@ -2716,6 +2716,9 @@
           },
           "options__3": {
             "label": "Bottom"
+          },
+          "options__4": {
+            "label": "None"
           }
         },
         "column_alignment": {
