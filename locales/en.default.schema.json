@@ -416,6 +416,14 @@
         "padding_right": "Right padding",
         "image_spacing": "Image vs Content padding"
       },
+      "margin": {
+        "section_margin_heading": "Section margin",
+        "block_margin_heading": "Block margin",
+        "margin_top": "Top margin",
+        "margin_bottom": "Bottom margin",
+        "margin_left": "Left margin",
+        "margin_right": "Right margin"
+      },
       "spacing": "Spacing",
       "colors": {
         "accent_1": {
