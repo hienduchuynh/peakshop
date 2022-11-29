@@ -233,7 +233,7 @@
         "image_ratio": "adapt",
         "columns_desktop": 5,
         "row_alignment": "middle",
-        "column_alignment": "left",
+        "column_alignment": "none",
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
