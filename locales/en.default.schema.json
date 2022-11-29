@@ -353,6 +353,14 @@
           "label__3": "Footer 03",
           "label__4": "Footer 04",
           "label__5": "Footer 05"
+        },
+        "blog_layout": {
+          "label": "Blog Layout",
+          "label__1": "Blog Default",
+          "label__2": "Blog Simple",
+          "label__3": "Blog Full Width",
+          "label__4": "Blog Mansory",
+          "label__5": "Blog List"
         }
       }
     },
