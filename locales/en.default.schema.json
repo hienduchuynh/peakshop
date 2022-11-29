@@ -2515,6 +2515,12 @@
           },
           "options__4": {
             "label": "Stacked full"
+          },
+          "options__5": {
+            "label": "Grid 2 Column"
+          },
+          "options__6": {
+            "label": "Grid 3 Column"
           }
         },
         "gallery_position": {
