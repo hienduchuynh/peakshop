@@ -1865,10 +1865,13 @@
       }
     },
     "main-blog": {
-      "name": "Blog posts",
+      "name": "Main Blog",
       "settings": {
-        "header": {
-          "content": "Blog post card"
+        "header__1": {
+          "content": "Gereral"
+        },
+        "header__2": {
+          "content": "Blog Card"
         },
         "show_image": {
           "label": "Show featured image"
@@ -1879,6 +1882,12 @@
         "show_author": {
           "label": "Show author"
         },
+        "number_article": {
+          "label": "Maximum Article Per Page"
+        },
+        "show_excerpt": {
+          "label": "Show excerpt"
+        },
         "paragraph": {
           "content": "Change excerpts by editing your blog posts. [Learn more](https:\/\/help.shopify.com\/manual\/online-store\/blogs\/writing-blogs#display-an-excerpt-from-a-blog-post)"
         },
@@ -1888,7 +1897,7 @@
             "label": "Grid"
           },
           "options__2": {
-            "label": "Collage"
+            "label": "List"
           },
           "info": "Posts are stacked on mobile."
         },
@@ -1907,6 +1916,247 @@
             "label": "Large (Ratio 3:4)"
           },
           "info": "For best results, use an image with a 3:2 aspect ratio. [Learn more](https:\/\/help.shopify.com\/manual\/shopify-admin\/productivity-tools\/image-editor#understanding-image-aspect-ratio)"
+        },
+        "alignment": {
+          "label": "Alignment",
+          "options__1": {
+            "label": "Left"
+          },
+          "options__2": {
+            "label": "Center"
+          },
+          "options__3": {
+            "label": "Right"
+          }
+        },
+        "alignment__vertical": {
+          "label": "Alignment content vertical",
+          "options__1": {
+            "label": "Start"
+          },
+          "options__2": {
+            "label": "Center"
+          },
+          "options__3": {
+            "label": "End"
+          }
+        }
+      }
+    },
+    "main-sidebar": {
+      "name": "Sidebar",
+      "settings": {
+        "header__1": {
+          "content": "Sidebar"
+        },
+        "general": {
+          "label__1": "Show Sidebar",
+          "label__2": "Show Collapsible Block",
+          "label__3": "Type",
+          "label__4": "Collapsible",
+          "label__5": "Enable Sticky",
+          "options__1": "Vertical",
+          "options__2": "Horizontal",
+          "options__3": "Expanded By Default",
+          "options__4": "Closed By Default",
+          "paragraph__1": {
+            "content": "Heading \/ Title Typography"
+          },
+          "layout": "Layout",
+          "layout_1": "Layout 1",
+          "layout_2": "Layout 2",
+          "use_for_sidebar": "Use for Sidebar"
+        }
+      },
+      "blocks": {
+        "filter": {
+          "name": "Filter",
+          "settings": {
+            "header__1": {
+              "content": "General"
+            },
+            "general": {
+              "label__1": "Show This Block?",
+              "label__2": "Heading",
+              "label__3": "List Tags",
+              "info": "Separate by a comma, i.e 'red, blue, yellow'."
+            }
+          }
+        },
+        "category": {
+          "name": "Categories",
+          "settings": {
+            "header__1": {
+              "content": "General"
+            },
+            "general": {
+              "label__1": "Show Categories?",
+              "label__2": "Heading"
+            }
+          }
+        },
+        "recent-post": {
+          "name": "Recent Post",
+          "settings": {
+            "header__1": {
+              "content": "General"
+            },
+            "general": {
+              "label__1": "Show Recent Post?",
+              "label__2": "Heading",
+              "label__3": "Maximum Posts To Show",
+              "label__4": "Show date"
+            }
+          }
+        },
+        "recent-tags": {
+          "name": "Recent Tag",
+          "settings": {
+            "header__1": {
+              "content": "General"
+            },
+            "general": {
+              "label__1": "Show Recent Tag?",
+              "label__2": "Heading",
+              "label__3": "Maximum Tags To Show",
+              "label__4": "Show Tag Count?"
+            }
+          }
+        },
+        "product_block": {
+          "name": "Product Block",
+          "settings": {
+            "header__1": {
+              "content": "General"
+            },
+            "general": {
+              "label__1": "Show Product Block?",
+              "label__2": "Heading",
+              "label__3": "Collection",
+              "label__4": "Link",
+              "label__5": "Maximum Products To Show",
+              "label__6": "Show Dots",
+              "label__7": "Show Arrows",
+              "layout": "Layout",
+              "grid": "Grid",
+              "slider": "Slider",
+              "position": "Position",
+              "sidebar": "Sidebar",
+              "content": "Content"
+            }
+          }
+        },
+        "image": {
+          "name": "CMS Image",
+          "settings": {
+            "header__1": {
+              "content": "General"
+            },
+            "general": {
+              "label__1": "Show CMS Image?",
+              "label__2": "Heading",
+              "label__3": "Upload Image",
+              "label__4": "Link",
+              "info": "Recommended Image: 340x400px"
+            }
+          }
+        },
+        "text": {
+          "name": "CMS Custom Text",
+          "settings": {
+            "header__1": {
+              "content": "General"
+            },
+            "general": {
+              "label__1": "Show CMS Custom Text?",
+              "label__2": "Heading",
+              "label__3": "Content"
+            }
+          }
+        },
+        "image_gallery": {
+          "name": "Image Gallery",
+          "settings": {
+            "header__1": {
+              "content": "General"
+            },
+            "general": {
+              "image_gallery_swipe_on_mobile": "Layout Mobile Responsive",
+              "list": "List",
+              "scroll_snap": "Scroll Snap",
+              "slider": "Slider",
+              "column": "Column",
+              "title": "Title",
+              "grid_gap": "Grid Gap",
+              "border_radius": "Border Radius",
+              "image_1": "Image 1",
+              "image_2": "Image 2",
+              "image_3": "Image 3",
+              "image_4": "Image 4",
+              "image_5": "Image 5",
+              "image_6": "Image 6",
+              "image_7": "Image 7",
+              "image_8": "Image 8",
+              "show_image_1": "Show Image 1?",
+              "show_image_2": "Show Image 2?",
+              "show_image_3": "Show Image 3?",
+              "show_image_4": "Show Image 4?",
+              "show_image_5": "Show Image 5?",
+              "show_image_6": "Show Image 6?",
+              "show_image_7": "Show Image 7?",
+              "show_image_8": "Show Image 8?",
+              "link_1": "Link 1",
+              "link_2": "Link 2",
+              "link_3": "Link 3",
+              "link_4": "Link 4",
+              "link_5": "Link 5",
+              "link_6": "Link 6",
+              "link_7": "Link 7",
+              "link_8": "Link 8",
+              "type_image_gallery": "When Click On Image",
+              "type_link": "Redirect To URL",
+              "type_popup": "Open Fancybox",
+              "lb_product": "Select Product"
+            }
+          }
+        },
+        "lookbook_banner": {
+          "name": "Banner",
+          "settings": {
+            "header__1": {
+              "content": "General"
+            },
+            "general": {
+              "image": "Image",
+              "link": "Link",
+              "margin_bottom": "Margin Bottom",
+              "title": "Title",
+              "description": "Description",
+              "margin_top_title": "Title Margin Top",
+              "margin_top_des": "Description Margin Top",
+              "fontsize_title": "Font Size Title",
+              "fontsize_des": "Font Size Description",
+              "title_color": "Title Color",
+              "des_color": "Description Color"
+            }
+          }
+        },
+        "block_quote": {
+          "name": "Block Quote",
+          "settings": {
+            "header__1": {
+              "content": "General"
+            },
+            "general": {
+              "title": "Title",
+              "content": "Content",
+              "margin_bottom": "Margin Bottom",
+              "color_content": "Color Content",
+              "bg_color_content": "Background Color Content",
+              "fontsize_content": "Font Size Content",
+              "enable_bg_color": "Enable Background Color"
+            }
+          }
         }
       }
     },
