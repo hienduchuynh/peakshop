@@ -1831,7 +1831,7 @@
       }
     },
     "main-article": {
-      "name": "Blog post",
+      "name": "Main Article",
       "blocks": {
         "featured_image": {
           "name": "Featured image",
@@ -1894,6 +1894,20 @@
               "default": "Cursus elit, iaculis platea integer nisl sapien egestas. Itae donec ornare iaculis mauris nec ultrices ullamcorper tempus dignissim."
             }
           }
+        }
+      },
+      "settings": {
+        "header__1": {
+          "content": "Gereral"
+        },
+        "header__2": {
+          "content": "Content"
+        },
+        "tags": {
+          "content": "Show Tag"
+        },
+        "share": {
+          "content": "Show Share"
         }
       }
     },
