@@ -298,7 +298,7 @@
             "button_label": "VIEW ALL PRODUCTS",
             "link": "shopify:\/\/collections\/all",
             "link_style": "outline",
-            "box_align": "right",
+            "box_align": "left",
             "box_width": 90,
             "button_label2": "",
             "link2": "",
@@ -314,7 +314,7 @@
         "template--17016615010579__1ae5d19b-0d31-4b2e-8a50-43e86c054bb5-1669195266c159ff66-0"
       ],
       "settings": {
-        "layout": "full_bleed",
+        "layout": "grid--gapless",
         "slide_height": "square",
         "slider_visual": "counter",
         "auto_rotate": false,
@@ -429,7 +429,7 @@
             "button_label": "VIEW ALL PRODUCTS",
             "link": "shopify:\/\/collections\/all",
             "link_style": "outline",
-            "box_align": "middle-center",
+            "box_align": "right",
             "box_width": 90,
             "button_label2": "",
             "link2": "",
@@ -445,7 +445,7 @@
         "template--17016615010579__cb809454-489b-40a4-895f-7a4805ef7846-16691955570c9dd991-0"
       ],
       "settings": {
-        "layout": "full_bleed",
+        "layout": "grid--gapless",
         "slide_height": "square",
         "slider_visual": "counter",
         "auto_rotate": false,
