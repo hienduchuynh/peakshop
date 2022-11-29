@@ -15,9 +15,14 @@
           "settings": {
           }
         },
-        "7fab0c20-108b-44a8-8da6-4e9637434e0e": {
-          "type": "rating",
+        "35995b38-4749-4500-9236-5299d3ffed9b": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
           "settings": {
+            "stars_fill_color": "#000000",
+            "star_size": 15,
+            "text_align": "center",
+            "product": "{{product}}",
+            "stars_text_empty": "No reviews"
           }
         },
         "caption": {
@@ -106,6 +111,12 @@
             "share_label": "Share"
           }
         },
+        "2934cffd-00e4-4842-ad2a-5598d4f46d8e": {
+          "type": "product_upsell",
+          "settings": {
+            "product_upsell": "adidas-busenitz-shoes-1"
+          }
+        },
         "423f9496-8e67-4344-b734-c43e77d8c0d5": {
           "type": "tabs",
           "settings": {
@@ -130,17 +141,16 @@
             "image_ratio_tabs": "43"
           }
         },
-        "2934cffd-00e4-4842-ad2a-5598d4f46d8e": {
-          "type": "product_upsell",
+        "11dcb5c3-cae9-4c23-be51-eb0328a3806c": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
           "settings": {
-            "product_upsell": "adidas-busenitz-shoes-1"
           }
         }
       },
       "block_order": [
         "vendor",
         "title",
-        "7fab0c20-108b-44a8-8da6-4e9637434e0e",
+        "35995b38-4749-4500-9236-5299d3ffed9b",
         "caption",
         "price",
         "c4170b8a-b092-47b7-9d44-44e0f62040f9",
@@ -153,10 +163,11 @@
         "collapsible-row-0",
         "collapsible-row-3",
         "share",
+        "2934cffd-00e4-4842-ad2a-5598d4f46d8e",
         "423f9496-8e67-4344-b734-c43e77d8c0d5",
         "003482d6-c4dd-4619-8394-9f780c36c22b",
         "e381e5d5-f86a-48d1-b4a1-b9355fa00f12",
-        "2934cffd-00e4-4842-ad2a-5598d4f46d8e"
+        "11dcb5c3-cae9-4c23-be51-eb0328a3806c"
       ],
       "settings": {
         "layout_product": "default",
