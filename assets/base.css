@@ -104,17 +104,24 @@
 }
 
 .color-background-2 .button--secondary,
-.color-accent-1 .button--secondary,
-.color-accent-3 .button--secondary {
+.color-accent-1 .button--secondary {
 	--color-button: var(--color-background);
 	--color-button-text: var(--color-foreground);
 }
 
+.color-accent-3 .button--secondary {
+
+}
+
 .color-accent-4 .button--secondary,
 .color-accent-2 .button--secondary {
-	--color-button: 255, 255, 255;
-	--color-button-text: 0, 0, 0;
-	background: rgba(var(--color-button));
+}
+
+.color-accent-4 .button--secondary:hover,
+.color-accent-2 .button--secondary:hover,
+.color-accent-3 .button--secondary:hover {
+	background: rgba(255,255,255);
+	opacity: 1;
 }
 
 .color-inverse .button--secondary {
@@ -1346,6 +1353,8 @@ summary::-webkit-details-marker {
 .grid--gapless.grid {
 	--grid-desktop-horizontal-spacing: 0px;
 	--grid-desktop-vertical-spacing: 0px;
+	--grid-mobile-horizontal-spacing: 0px;
+	--grid-mobile-vertical-spacing: 0px;
 }
 
 @media screen and (max-width: 749px) {

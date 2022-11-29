@@ -105,12 +105,23 @@
 }
 
 .card__media {
-    margin: var(--card-image-padding);
-    width: calc(100% - 2 * var(--card-image-padding));
+    margin: calc(var(--card-image-padding)/2);
+    width: calc(100% - 2 * var(--card-image-padding)/2);
 }
 
 .card--standard .card__media {
-    margin: var(--card-image-padding);
+    margin: calc(var(--card-image-padding)/2);
+}
+
+@media screen and (min-width: 750px) {
+    .card__media {
+        margin: var(--card-image-padding);
+        width: calc(100% - 2 * var(--card-image-padding));
+    }
+
+    .card--standard .card__media {
+        margin: var(--card-image-padding);
+    }
 }
 
 .card__inner {
