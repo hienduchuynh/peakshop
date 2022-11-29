@@ -18,9 +18,9 @@
         "8ba29b1b-d522-45c1-925a-4fc8fe0abdd9": {
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
           "settings": {
-            "stars_fill_color": "#000000",
+            "stars_fill_color": "#ffc107",
             "star_size": 15,
-            "text_align": "center",
+            "text_align": "flex-start",
             "product": "{{product}}",
             "stars_text_empty": "No reviews"
           }
