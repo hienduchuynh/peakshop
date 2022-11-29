@@ -67,6 +67,7 @@
         },
         "collapsible-row-2": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Size chart",
             "icon": "clipboard",
@@ -77,6 +78,7 @@
         },
         "collapsible-row-1": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Shipping & Returns",
             "icon": "truck",
@@ -87,6 +89,7 @@
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "HELP & ADVICE",
             "icon": "chat_bubble",
@@ -97,6 +100,7 @@
         },
         "collapsible-row-3": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Care Instructions",
             "icon": "heart",
@@ -113,6 +117,7 @@
         },
         "2934cffd-00e4-4842-ad2a-5598d4f46d8e": {
           "type": "product_upsell",
+          "disabled": true,
           "settings": {
             "product_upsell": "adidas-busenitz-shoes-1"
           }
@@ -175,7 +180,7 @@
         "media_size": "medium",
         "gallery_layout": "thumbnail",
         "gallery_position": "left",
-        "thumbnail_ratio": "34",
+        "thumbnail_ratio": "11",
         "mobile_thumbnails": "hide",
         "hide_variants": true,
         "enable_video_looping": false,
