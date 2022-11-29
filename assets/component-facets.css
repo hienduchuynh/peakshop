@@ -997,7 +997,7 @@ input.mobile-facets__checkbox {
 	}
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 1200px) {
 	.facets-vertical {
 		display: flex;
 	}
@@ -1008,7 +1008,7 @@ input.mobile-facets__checkbox {
 	.facets__form-vertical {
 		display: flex;
 		flex-direction: column;
-		width: 31rem;
+		width: 24rem;
 	}
 	.facets__form-horizontal {
 		display: flex;
@@ -1052,7 +1052,7 @@ input.mobile-facets__checkbox {
 		padding-bottom: 1.5rem;
 	}
 	.facets-vertical .facets-wrapper {
-		padding-right: calc(var(--grid-desktop-horizontal-spacing) * 3);
+		padding-right: var(--grid-desktop-horizontal-spacing);
 	}
 	.facets-vertical .facets-wrapper--no-filters {
 		display: none;
@@ -1190,5 +1190,14 @@ input.mobile-facets__checkbox {
 	}
 	.facets__form-horizontal .facets__disclosure {
 		margin-right: 3.5rem;
+	}
+}
+
+@media screen and (min-width: 1200px) { 
+    .facets__form-vertical {
+		width: 30rem;
+	}
+    .facets-vertical .facets-wrapper {
+		padding-right: calc(var(--grid-desktop-horizontal-spacing) * 3);
 	}
 }

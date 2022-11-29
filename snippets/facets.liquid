@@ -26,7 +26,8 @@
 
 <div class="facets-container{% if filter_type == 'drawer' %} facets-container-drawer{% endif %}">
   {%- if filter_type == 'vertical' or filter_type == 'horizontal' -%}
-    <facet-filters-form class="facets small-hide">
+    {%- comment -%} <facet-filters-form class="facets small-hide"> {%- endcomment -%}
+    <facet-filters-form class="facets tablet-down-hide">
       <form id="FacetFiltersForm" class="{% if filter_type == 'horizontal' %}facets__form facets__form-horizontal{% else %}facets__form-vertical{% endif %}">
         {%- if results.terms -%}
           <input type="hidden" name="q" value="{{ results.terms | escape }}">
@@ -353,7 +354,8 @@
     </facet-filters-form>
     {% comment %} Sorting for vertical filter are grouped with filter when no JS{% endcomment %}
     {%- if enable_sorting and filter_type == 'vertical' -%}
-      <facet-filters-form class="small-hide">
+      {%- comment -%} <facet-filters-form class="small-hide"> {%- endcomment -%}
+      <facet-filters-form class="tablet-down-hide">
         <form class="no-js">
           <div class="facet-filters sorting caption">
             <div class="facet-filters__field">
@@ -389,12 +391,14 @@
     {%- endif -%}    
   {%- endif -%}
   {% comment %}  Drawer and mobile filter {% endcomment %}
-  <menu-drawer class="mobile-facets__wrapper{% if filter_type == 'horizontal' or filter_type == 'vertical' %} medium-hide large-up-hide{% endif %}" data-breakpoint="mobile">
+  {%- comment -%} <menu-drawer class="mobile-facets__wrapper{% if filter_type == 'horizontal' or filter_type == 'vertical' %} medium-hide large-up-hide{% endif %}" data-breakpoint="mobile"> {%- endcomment -%}
+  <menu-drawer class="mobile-facets__wrapper{% if filter_type == 'horizontal' or filter_type == 'vertical' %} desktop-large-up-hide{% endif %}" data-breakpoint="mobile">
     <details class="mobile-facets__disclosure disclosure-has-popup">
       <summary class="mobile-facets__open-wrapper focus-offset">
         <span class="mobile-facets__open{% if filter_type == 'drawer' and enable_filtering == false %} medium-hide large-up-hide{% endif %}">
           {% render 'icon-filter' %}
-          <span class="mobile-facets__open-label button-label medium-hide large-up-hide">
+          {%- comment -%} <span class="mobile-facets__open-label button-label medium-hide large-up-hide"> {%- endcomment -%}
+          <span class="mobile-facets__open-label button-label desktop-large-up-hide">
             {%- if enable_filtering and enable_sorting -%}
               {{ 'products.facets.filter_and_sort' | t }}
             {%- elsif enable_filtering -%}
@@ -403,7 +407,8 @@
               {{ 'products.facets.sort_button' | t }}
             {%- endif -%}
           </span>
-          <span class="mobile-facets__open-label button-label small-hide">
+          {%- comment -%} <span class="mobile-facets__open-label button-label small-hide"> {%- endcomment -%}
+          <span class="mobile-facets__open-label button-label tablet-down-hide">
             {%- if enable_filtering -%}
               {{ 'products.facets.filter_button' | t }}
             {%- endif -%}
@@ -416,7 +421,8 @@
           <div class="mobile-facets__inner gradient">
             <div class="mobile-facets__header">
               <div class="mobile-facets__header-inner">
-                <h2 class="mobile-facets__heading medium-hide large-up-hide">
+                {%- comment -%} <h2 class="mobile-facets__heading medium-hide large-up-hide"> {%- endcomment -%}
+                <h2 class="mobile-facets__heading desktop-large-up-hide">
                   {%- if enable_filtering and enable_sorting -%}
                     {{ 'products.facets.filter_and_sort' | t }}
                   {%- elsif enable_filtering -%}
@@ -425,7 +431,8 @@
                     {{ 'products.facets.sort_button' | t }}
                   {%- endif -%}
                 </h2>
-                <h2 class="mobile-facets__heading small-hide">
+                {%- comment -%} <h2 class="mobile-facets__heading small-hide"> {%- endcomment -%}
+                <h2 class="mobile-facets__heading tablet-down-hide">
                   {%- if enable_filtering -%}
                     {{ 'products.facets.filter_button' | t }}
                   {%- endif -%}
@@ -607,7 +614,8 @@
     </details>
   </menu-drawer>
 
-  <div class="active-facets active-facets-mobile medium-hide large-up-hide">
+  {%- comment -%} <div class="active-facets active-facets-mobile medium-hide large-up-hide"> {%- endcomment -%}
+  <div class="active-facets active-facets-mobile desktop-large-up-hide">
     {%- for filter in results.filters -%}
       {%- for value in filter.active_values -%}
         <facet-remove>
@@ -642,7 +650,8 @@
     </facet-remove>
   </div>
   {% comment %} Sort, product count and filter pills at the end when filter is type of Drawer for the correct tabbing order {% endcomment %}
-  <div class="product-count light{% if filter_type == 'vertical' or filter_type == 'horizontal' %} medium-hide large-up-hide{% endif %}" role="status">
+  {%- comment -%} <div class="product-count light{% if filter_type == 'vertical' or filter_type == 'horizontal' %} medium-hide large-up-hide{% endif %}" role="status"> {%- endcomment -%}
+  <div class="product-count light{% if filter_type == 'vertical' or filter_type == 'horizontal' %} desktop-large-up-hide{% endif %}" role="status">
     <h2 class="product-count__text text-body">
       <span id="ProductCount">
         {%- if results.results_count -%}

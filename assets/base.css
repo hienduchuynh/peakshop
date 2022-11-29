@@ -324,11 +324,21 @@ html.no-js .no-js-hidden {
 	}
 }
 
+@media screen and (max-width: 1199px) {
+	.tablet-down-hide {
+		display: none !important;
+	}
+}
+
 @media screen and (min-width: 1200px) {
 	.page-width--narrow {
 		max-width: var(--page-width);
 		padding: 0 4.8rem;
 	}
+	.desktop-large-up-hide {
+		display: none !important;
+	}
+
 }
 
 .isolate {
