@@ -18,7 +18,7 @@
         "4824f6e2-b41f-4ac5-b670-f23261309780": {
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
           "settings": {
-            "stars_fill_color": "#000000",
+            "stars_fill_color": "#ffc107",
             "star_size": 15,
             "text_align": "flex-start",
             "product": "{{product}}",
@@ -54,6 +54,12 @@
           "settings": {
           }
         },
+        "88e5a97f-9bbf-4883-bfd0-61d9d8ee0332": {
+          "type": "trust_badges",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/image-trust_9cf48f22-6c8a-4a39-b604-64b168dc56be.webp"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -67,6 +73,7 @@
         },
         "collapsible-row-2": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Size chart",
             "icon": "clipboard",
@@ -77,6 +84,7 @@
         },
         "collapsible-row-1": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Shipping & Returns",
             "icon": "truck",
@@ -87,6 +95,7 @@
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "HELP & ADVICE",
             "icon": "chat_bubble",
@@ -97,6 +106,7 @@
         },
         "collapsible-row-3": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Care Instructions",
             "icon": "heart",
@@ -150,6 +160,7 @@
         "2f8c8ec6-a42b-4014-8199-48dede731379",
         "variant_picker",
         "quantity_selector",
+        "88e5a97f-9bbf-4883-bfd0-61d9d8ee0332",
         "buy_buttons",
         "description",
         "collapsible-row-2",
@@ -168,7 +179,7 @@
         "media_size": "small",
         "gallery_layout": "thumbnail",
         "gallery_position": "right",
-        "thumbnail_ratio": "34",
+        "thumbnail_ratio": "11",
         "mobile_thumbnails": "hide",
         "hide_variants": true,
         "enable_video_looping": false,
