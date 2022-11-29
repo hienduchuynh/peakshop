@@ -15,9 +15,14 @@
           "settings": {
           }
         },
-        "7fab0c20-108b-44a8-8da6-4e9637434e0e": {
-          "type": "rating",
+        "35995b38-4749-4500-9236-5299d3ffed9b": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
           "settings": {
+            "stars_fill_color": "#000000",
+            "star_size": 15,
+            "text_align": "flex-start",
+            "product": "{{product}}",
+            "stars_text_empty": "No reviews"
           }
         },
         "caption": {
@@ -62,17 +67,18 @@
         },
         "collapsible-row-2": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Size chart",
             "icon": "clipboard",
             "content": "<p><em>\"This is demonstration content, designed to showcase how pages could look with your own content\"<\/em><\/p><p><strong>How to measure yourself:<br\/><\/strong>Size Guide: S=US 4-6, M=US 8-10, L=US 12-14, XL=16.<br\/>To find the perfect fit, simply put on your favourite underwear and measure yourself directly on your body. Then use the size chart and the information found in the product description to find your fit.<\/p>",
-            "image": "shopify:\/\/shop_images\/Group_1new-table-size_2.png",
             "image_ratio": "43",
             "page": ""
           }
         },
         "collapsible-row-1": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Shipping & Returns",
             "icon": "truck",
@@ -83,6 +89,7 @@
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "HELP & ADVICE",
             "icon": "chat_bubble",
@@ -93,6 +100,7 @@
         },
         "collapsible-row-3": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Care Instructions",
             "icon": "heart",
@@ -105,6 +113,13 @@
           "type": "share",
           "settings": {
             "share_label": "Share"
+          }
+        },
+        "2934cffd-00e4-4842-ad2a-5598d4f46d8e": {
+          "type": "product_upsell",
+          "disabled": true,
+          "settings": {
+            "product_upsell": "adidas-busenitz-shoes-1"
           }
         },
         "423f9496-8e67-4344-b734-c43e77d8c0d5": {
@@ -131,22 +146,16 @@
             "image_ratio_tabs": "43"
           }
         },
-        "447ee1a3-caea-485c-894e-90ec192ce72f": {
+        "11dcb5c3-cae9-4c23-be51-eb0328a3806c": {
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
           "settings": {
-          }
-        },
-        "2934cffd-00e4-4842-ad2a-5598d4f46d8e": {
-          "type": "product_upsell",
-          "settings": {
-            "product_upsell": "accessorize-beach-smock-dress-in-cream"
           }
         }
       },
       "block_order": [
         "vendor",
         "title",
-        "7fab0c20-108b-44a8-8da6-4e9637434e0e",
+        "35995b38-4749-4500-9236-5299d3ffed9b",
         "caption",
         "price",
         "c4170b8a-b092-47b7-9d44-44e0f62040f9",
@@ -159,11 +168,11 @@
         "collapsible-row-0",
         "collapsible-row-3",
         "share",
+        "2934cffd-00e4-4842-ad2a-5598d4f46d8e",
         "423f9496-8e67-4344-b734-c43e77d8c0d5",
         "003482d6-c4dd-4619-8394-9f780c36c22b",
         "e381e5d5-f86a-48d1-b4a1-b9355fa00f12",
-        "447ee1a3-caea-485c-894e-90ec192ce72f",
-        "2934cffd-00e4-4842-ad2a-5598d4f46d8e"
+        "11dcb5c3-cae9-4c23-be51-eb0328a3806c"
       ],
       "settings": {
         "layout_product": "default",
@@ -171,12 +180,11 @@
         "media_size": "medium",
         "gallery_layout": "thumbnail",
         "gallery_position": "left",
-        "item_ratio": "34",
+        "thumbnail_ratio": "11",
         "mobile_thumbnails": "hide",
         "hide_variants": true,
         "enable_video_looping": false,
         "layout_description": "tabs",
-        "enable_add_cart_bottom": false,
         "padding_top": 48,
         "padding_bottom": 48
       }
@@ -186,7 +194,6 @@
       "settings": {
         "heading": "",
         "heading_size": "h1",
-        "cover_image": "shopify:\/\/shop_images\/close-up-of-a-painted-cement-wall-with-splashes-of-colour.jpg",
         "video_url": "https:\/\/www.youtube.com\/watch?v=P1lO5MAm9bQ",
         "description": "",
         "full_width": true,

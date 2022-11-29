@@ -15,20 +15,14 @@
           "settings": {
           }
         },
-        "4de88f25-7b7c-4d7b-a609-d25831404fa5": {
+        "8ba29b1b-d522-45c1-925a-4fc8fe0abdd9": {
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
           "settings": {
             "stars_fill_color": "#000000",
             "star_size": 15,
-            "text_align": "flex-start",
+            "text_align": "center",
             "product": "{{product}}",
             "stars_text_empty": "No reviews"
-          }
-        },
-        "6c4a7f7f-6a5e-4f46-99c0-1deeed649816": {
-          "type": "rating",
-          "disabled": true,
-          "settings": {
           }
         },
         "caption": {
@@ -63,7 +57,6 @@
         "fdeafb54-d166-4bb4-abd3-c7d414fc8b72": {
           "type": "trust_badges",
           "settings": {
-            "image_1": "shopify:\/\/shop_images\/image-trust_9cf48f22-6c8a-4a39-b604-64b168dc56be.webp"
           }
         },
         "299b4341-1681-443b-8444-ac6e8c666502": {
@@ -103,6 +96,7 @@
         },
         "collapsible-row-1": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Shipping & Returns",
             "icon": "truck",
@@ -113,17 +107,18 @@
         },
         "collapsible-row-2": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Size chart",
             "icon": "clipboard",
             "content": "<p><em>\"This is demonstration content, designed to showcase how pages could look with your own content\"<\/em><\/p><p><strong>How to measure yourself:<br\/><\/strong>Size Guide: S=US 4-6, M=US 8-10, L=US 12-14, XL=16.<br\/>To find the perfect fit, simply put on your favourite underwear and measure yourself directly on your body. Then use the size chart and the information found in the product description to find your fit.<\/p>",
-            "image": "shopify:\/\/shop_images\/Group_1new-table-size_2.png",
             "image_ratio": "43",
             "page": ""
           }
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "HELP & ADVICE",
             "icon": "chat_bubble",
@@ -134,6 +129,7 @@
         },
         "collapsible-row-3": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Care Instructions",
             "icon": "heart",
@@ -161,7 +157,6 @@
           "settings": {
             "title_tabs": "Payment",
             "content_tabs": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium enim ut fringilla. Quisque eu lacus enim. Proin eleifend, mi eu aliquam euismod, arcu tortor consectetur nisi, et elementum nibh felis vel ante. Fusce nec tristique enimdoloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam perspiciatis unde omnis iste natus error sit voluptatem accusantium enim ut fringilla. Quisque eu lacus enim. Proin eleifend, mi eu aliquam euismod, arcu tortor consectetur nisi, et elementum nibh felis vel ante. Fusce nec tristique enimdoloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.voluptatem quia voluptas sit aspernatur aut odit aut fugit.<\/p>",
-            "image_tabs": "shopify:\/\/shop_images\/person-stands-on-rocks-poking-out-of-the-ocean-shoreline.jpg",
             "image_ratio_tabs": "43"
           }
         },
@@ -173,7 +168,7 @@
             "image_ratio_tabs": "43"
           }
         },
-        "3d5c498d-3b63-4ddc-88a6-95562bb21135": {
+        "6c0b39d7-d18a-4b37-8e7c-475ff8a893ae": {
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
           "settings": {
           }
@@ -182,8 +177,7 @@
       "block_order": [
         "vendor",
         "title",
-        "4de88f25-7b7c-4d7b-a609-d25831404fa5",
-        "6c4a7f7f-6a5e-4f46-99c0-1deeed649816",
+        "8ba29b1b-d522-45c1-925a-4fc8fe0abdd9",
         "caption",
         "price",
         "e6d5ec74-8a30-42c2-903c-da7540dfa409",
@@ -203,20 +197,19 @@
         "68958ebb-1469-42ec-8cb6-d93d429ba98f",
         "4f9896a2-6cfd-4a53-9038-bac9d78a7c2f",
         "4dd41127-002f-40ac-9c0b-d97a367ffe14",
-        "3d5c498d-3b63-4ddc-88a6-95562bb21135"
+        "6c0b39d7-d18a-4b37-8e7c-475ff8a893ae"
       ],
       "settings": {
         "layout_product": "default",
-        "layout_description": "tabs",
         "enable_sticky_info": false,
-        "enable_add_cart_bottom": false,
-        "gallery_layout": "thumbnail_slider",
-        "gallery_position": "bottom",
         "media_size": "medium",
-        "item_ratio": "43",
+        "gallery_layout": "grid-3-column",
+        "gallery_position": "bottom",
+        "thumbnail_ratio": "34",
         "mobile_thumbnails": "hide",
         "hide_variants": true,
         "enable_video_looping": false,
+        "layout_description": "tabs",
         "padding_top": 48,
         "padding_bottom": 48
       }
@@ -227,7 +220,6 @@
         "template--15049366536265__b56b38a8-e2f8-4c99-903d-bdd158723b66-1668061523daf060dc-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/feature-1.png",
             "image_position": "bottom",
             "title": "#Vintage #Unique Fall\/Spring Furniture Collection",
             "title_size": "h3",
@@ -245,7 +237,6 @@
         "template--15049366536265__b56b38a8-e2f8-4c99-903d-bdd158723b66-1668061523daf060dc-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/photo-04.png",
             "image_position": "top",
             "title": "#Urban #Solid Mid Rise Zespy Trackie Clothing Loobook SS’20",
             "title_size": "h3",

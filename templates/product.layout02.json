@@ -15,7 +15,7 @@
           "settings": {
           }
         },
-        "6bb6fcaa-c0ff-4054-92cb-1f85ceb894fd": {
+        "4824f6e2-b41f-4ac5-b670-f23261309780": {
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
           "settings": {
             "stars_fill_color": "#000000",
@@ -23,12 +23,6 @@
             "text_align": "flex-start",
             "product": "{{product}}",
             "stars_text_empty": "No reviews"
-          }
-        },
-        "492d4e1f-5610-4604-8290-fe388695b0d4": {
-          "type": "rating",
-          "disabled": true,
-          "settings": {
           }
         },
         "caption": {
@@ -77,7 +71,6 @@
             "heading": "Size chart",
             "icon": "clipboard",
             "content": "<p><em>\"This is demonstration content, designed to showcase how pages could look with your own content\"<\/em><\/p><p><strong>How to measure yourself:<br\/><\/strong>Size Guide: S=US 4-6, M=US 8-10, L=US 12-14, XL=16.<br\/>To find the perfect fit, simply put on your favourite underwear and measure yourself directly on your body. Then use the size chart and the information found in the product description to find your fit.<\/p>",
-            "image": "shopify:\/\/shop_images\/Group_1new-table-size_2.png",
             "image_ratio": "43",
             "page": ""
           }
@@ -142,7 +135,7 @@
             "image_ratio_tabs": "43"
           }
         },
-        "6676db19-b7f5-46ff-bcc8-8a77385dc2da": {
+        "78d3045a-5a69-44fd-ac7d-f456ff505470": {
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
           "settings": {
           }
@@ -151,8 +144,7 @@
       "block_order": [
         "vendor",
         "title",
-        "6bb6fcaa-c0ff-4054-92cb-1f85ceb894fd",
-        "492d4e1f-5610-4604-8290-fe388695b0d4",
+        "4824f6e2-b41f-4ac5-b670-f23261309780",
         "caption",
         "price",
         "2f8c8ec6-a42b-4014-8199-48dede731379",
@@ -168,20 +160,19 @@
         "1fe61d9a-cf5c-496e-9c92-1d07ef561358",
         "c333c1c3-5f8a-4f24-95f5-2b69e693841c",
         "eb0dcc05-18a5-48dc-8ae9-98fd56eabd55",
-        "6676db19-b7f5-46ff-bcc8-8a77385dc2da"
+        "78d3045a-5a69-44fd-ac7d-f456ff505470"
       ],
       "settings": {
         "layout_product": "default",
-        "layout_description": "tabs",
         "enable_sticky_info": true,
-        "enable_add_cart_bottom": true,
+        "media_size": "small",
         "gallery_layout": "thumbnail",
         "gallery_position": "right",
-        "media_size": "small",
-        "item_ratio": "169",
+        "thumbnail_ratio": "34",
         "mobile_thumbnails": "hide",
         "hide_variants": true,
         "enable_video_looping": false,
+        "layout_description": "tabs",
         "padding_top": 48,
         "padding_bottom": 48
       }

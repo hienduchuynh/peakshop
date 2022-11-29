@@ -15,7 +15,7 @@
           "settings": {
           }
         },
-        "88277171-0c39-4412-8713-a18ecdfe6b35": {
+        "5e6b44c4-bc44-4c4e-8cfd-8f40fe9517b1": {
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
           "settings": {
             "stars_fill_color": "#000000",
@@ -23,12 +23,6 @@
             "text_align": "flex-start",
             "product": "{{product}}",
             "stars_text_empty": "No reviews"
-          }
-        },
-        "cf7fa043-7662-4310-b021-de08b7346ef2": {
-          "type": "rating",
-          "disabled": true,
-          "settings": {
           }
         },
         "caption": {
@@ -71,7 +65,6 @@
             "heading": "Size chart",
             "icon": "clipboard",
             "content": "<p><em>\"This is demonstration content, designed to showcase how pages could look with your own content\"<\/em><\/p><p><strong>How to measure yourself:<br\/><\/strong>Size Guide: S=US 4-6, M=US 8-10, L=US 12-14, XL=16.<br\/>To find the perfect fit, simply put on your favourite underwear and measure yourself directly on your body. Then use the size chart and the information found in the product description to find your fit.<\/p>",
-            "image": "shopify:\/\/shop_images\/Group_1new-table-size_2.png",
             "image_ratio": "43",
             "page": ""
           }
@@ -112,7 +105,7 @@
             "share_label": "Share"
           }
         },
-        "c0744f1d-c116-4680-9a9e-13a9256682e2": {
+        "1a04436f-0f6f-46dd-8688-7ff1684deb78": {
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
           "settings": {
           }
@@ -121,8 +114,7 @@
       "block_order": [
         "vendor",
         "title",
-        "88277171-0c39-4412-8713-a18ecdfe6b35",
-        "cf7fa043-7662-4310-b021-de08b7346ef2",
+        "5e6b44c4-bc44-4c4e-8cfd-8f40fe9517b1",
         "caption",
         "price",
         "variant_picker",
@@ -134,20 +126,19 @@
         "collapsible-row-0",
         "collapsible-row-3",
         "share",
-        "c0744f1d-c116-4680-9a9e-13a9256682e2"
+        "1a04436f-0f6f-46dd-8688-7ff1684deb78"
       ],
       "settings": {
-        "layout_product": "default",
+        "layout_product": "gallery_full_width",
         "enable_sticky_info": true,
         "media_size": "large",
         "gallery_layout": "stacked_full",
         "gallery_position": "left",
-        "item_ratio": "square",
+        "thumbnail_ratio": "34",
         "mobile_thumbnails": "hide",
         "hide_variants": true,
         "enable_video_looping": false,
         "layout_description": "accordion",
-        "enable_add_cart_bottom": true,
         "padding_top": 48,
         "padding_bottom": 48
       }
