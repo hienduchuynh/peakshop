@@ -104,7 +104,7 @@
             }
           }
         </style>
-        <div class="slideshow__slide grid grid__item grid--2-col slider__slide content-box-align-{{ block.settings.box_align }}" id="Slide-{{ section.id }}-{{ forloop.index }}" {{ block.shopify_attributes }} role="group" aria-roledescription="{{ 'sections.slideshow.slide' | t }}" aria-label="{{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}" tabindex="-1">
+        <div class="slideshow__slide grid grid__item grid--2-col grid--1-col-tablet-down slider__slide content-box-align-{{ block.settings.box_align }}" id="Slide-{{ section.id }}-{{ forloop.index }}" {{ block.shopify_attributes }} role="group" aria-roledescription="{{ 'sections.slideshow.slide' | t }}" aria-label="{{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}" tabindex="-1">
           <div class="grid__item slideshow__media banner banner__media media banner--{{ section.settings.slide_height }}{% if block.settings.image == blank %} placeholder{% endif %}">
             {%- if block.settings.image -%}
               <img srcset="{%- if block.settings.image.width >= 375 -%}{{ block.settings.image | image_url: width: 375 }} 375w,{%- endif -%}
