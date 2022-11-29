@@ -1,18 +1,19 @@
+{%- liquid 
+  assign how_many_articles_to_show = block.settings.number
+  assign title = block.settings.heading
+  assign show = block.settings.show_block
+  assign show_date = block.settings.show_date
+-%}
 
-{% comment %} 
-Edit the 2 values right below: what's your blog handle and how many articles do you want to show?
-{% endcomment %}
-
-{% assign how_many_articles_to_show = 4 %}
-
-<!-- START OF LATEST BLOG POSTS -->
+{%- if show -%}
 <div class="lastest-posts">
-  {% if section.settings.blog_show_lastest_post %}
-    <h3 class="mod-title">Recent Posts</h3>
-  {% endif %}
-
-  <div class="latest-blog-posts-list">
-
+  <div class="mod-header">
+    <h3 class="mod-title">{{ title }}</h3>
+    {% if show_collapse %}
+    <button id="toggle-recent-post" title="Toggle slide-up and slide-down states for the target" class="btn-arrow btn-slide-down" name="button-recent">{% render 'icon-chevron-up' %}</button>
+    {% endif %}
+  </div>
+  <div class="latest-blog-posts-list" id="target2">
       {%- if blog.articles.size >= 1 -%}
         {% for article in blog.articles limit: how_many_articles_to_show %}
           <div class="post-item">
@@ -32,7 +33,10 @@ Edit the 2 values right below: what's your blog handle and how many articles do 
                 height="64"
                 alt="{{ article.image.alt | escape }}">
             </div>
-            {{ article.title | link_to: article.url }}
+            <div class="information-article">
+              {{ article.title | truncatewords: 7, "" | link_to: article.url }}
+              {% if show_date %}<p class="date">{{ article.created_at | date: "%b, %d. 20%y" }}</p>{% endif %}
+            </div>
           </div>
         {% endfor %}
       {%- elsif blog.articles.size == 0 -%}
@@ -47,3 +51,4 @@ Edit the 2 values right below: what's your blog handle and how many articles do 
 
   </div>
 </div>
+{%- endif -%}
