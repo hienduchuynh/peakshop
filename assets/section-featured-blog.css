@@ -100,7 +100,7 @@
 
 .blog__posts .card-wrapper {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .article-card__image {
@@ -162,13 +162,18 @@
   text-decoration: none;
 }
 
+.blog .title-wrapper-with-link.title-wrapper-01 .blog__view-all a {
+  margin-top: 0;
+}
+
 .blog__view-all a span:first-child{
   float: left;
 }
 
 .blog__view-all a {
-  display: flex;
+  display: inline-flex;
   align-items: center;
+  margin-top: 4.8rem;
 }
 
 .blog__view-all a span.icon-wrap {
