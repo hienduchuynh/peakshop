@@ -130,7 +130,7 @@
       ],
       "settings": {
         "layout_product": "gallery_full_width",
-        "enable_sticky_info": true,
+        "enable_sticky_info": false,
         "media_size": "large",
         "gallery_layout": "stacked_full",
         "gallery_position": "left",
