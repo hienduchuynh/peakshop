@@ -94,7 +94,7 @@
 	order: 2;
 }
 
-.ja-slider .content-box-align-right ..slideshow__media {
+.ja-slider .content-box-align-right .slideshow__media {
 	order: 1;
 }
 
@@ -102,6 +102,6 @@
 	order: 1;
 }
 
-.ja-slider .content-box-align-left ..slideshow__media {
+.ja-slider .content-box-align-left .slideshow__media {
 	order: 2;
 }
