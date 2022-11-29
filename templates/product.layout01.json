@@ -1,5 +1,10 @@
 {
   "sections": {
+    "87c8bbc2-876f-4d87-ab69-644813428477": {
+      "type": "breadcrumb",
+      "settings": {
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -241,6 +246,7 @@
     }
   },
   "order": [
+    "87c8bbc2-876f-4d87-ab69-644813428477",
     "main",
     "16641835307bab9de3",
     "product-recommendations",
