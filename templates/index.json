@@ -53,7 +53,7 @@
         "template--17016615010579__6864dd0c-c495-4724-b40d-52c73fb74e3c-1669105081f3c763ae-1"
       ],
       "settings": {
-        "layout": "full_bleed",
+        "layout": "grid--gapless",
         "slide_height": "square",
         "slider_visual": "dots",
         "auto_rotate": false,
@@ -62,6 +62,8 @@
         "accessibility_info": "ja_slider about our brand",
         "padding_top": 0,
         "padding_bottom": 0,
+        "margin_top": 24,
+        "margin_bottom": 0,
         "border_thickness": 2,
         "border_opacity": 100,
         "addition_class": ""
@@ -324,6 +326,8 @@
         "accessibility_info": "ja_slider about our brand",
         "padding_top": 0,
         "padding_bottom": 0,
+        "margin_top": 24,
+        "margin_bottom": 24,
         "border_thickness": 2,
         "border_opacity": 100,
         "addition_class": ""
@@ -454,6 +458,8 @@
         "accessibility_info": "ja_slider about our brand",
         "padding_top": 0,
         "padding_bottom": 0,
+        "margin_top": 24,
+        "margin_bottom": 24,
         "border_thickness": 2,
         "border_opacity": 100,
         "addition_class": ""
