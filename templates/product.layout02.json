@@ -60,6 +60,30 @@
             "image_1": "shopify:\/\/shop_images\/image-trust_9cf48f22-6c8a-4a39-b604-64b168dc56be.webp"
           }
         },
+        "37854bb7-bd09-4235-89ac-abd15855e37e": {
+          "type": "custom_information",
+          "settings": {
+            "icon": "",
+            "title": "",
+            "text_description": ""
+          }
+        },
+        "a004208d-bc24-4219-bfb5-45771e469837": {
+          "type": "custom_information",
+          "settings": {
+            "icon": "",
+            "title": "",
+            "text_description": ""
+          }
+        },
+        "443c7fa9-9364-400f-8120-8543f287a548": {
+          "type": "custom_information",
+          "settings": {
+            "icon": "",
+            "title": "",
+            "text_description": ""
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -161,6 +185,9 @@
         "variant_picker",
         "quantity_selector",
         "88e5a97f-9bbf-4883-bfd0-61d9d8ee0332",
+        "37854bb7-bd09-4235-89ac-abd15855e37e",
+        "a004208d-bc24-4219-bfb5-45771e469837",
+        "443c7fa9-9364-400f-8120-8543f287a548",
         "buy_buttons",
         "description",
         "collapsible-row-2",
