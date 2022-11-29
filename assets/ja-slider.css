@@ -46,7 +46,7 @@
 .ja-slider .banner__heading + .banner__text,
 .ja-slider .banner__heading + .banner__buttons,
 .ja-slider .banner__text + .banner__buttons {
-	margin-top: var(--grid-desktop-horizontal-spacing);
+	margin-top: 2.4rem;
 }
 
 .ja-slider .slider-buttons {

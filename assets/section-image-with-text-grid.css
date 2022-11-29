@@ -36,6 +36,11 @@
     background-color: rgba(var(--color-base-accent-1));
 }
 
+.image-with-text-grid .grid__item.content-container {
+    border-top-width: calc(var(--text-boxes-border-width)/2);
+    border-bottom-width: calc(var(--text-boxes-border-width)/2);
+}
+
 .image-with-text-grid .grid__item img {
     max-width: 100%;
     object-fit: cover;
