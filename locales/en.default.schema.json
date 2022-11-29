@@ -2725,6 +2725,9 @@
           },
           "options__2": {
             "label": "Center"
+          },
+          "options__3": {
+            "label": "None"
           }
         },
         "background_style": {
