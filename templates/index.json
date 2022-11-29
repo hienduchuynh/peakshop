@@ -60,8 +60,6 @@
         "accessibility_info": "ja_slider about our brand",
         "padding_top": 0,
         "padding_bottom": 0,
-        "margin_top": 0,
-        "margin_bottom": 0,
         "border_thickness": 2,
         "border_opacity": 100,
         "addition_class": ""
@@ -121,9 +119,7 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 0,
-        "padding_bottom": 0,
-        "margin_top": 0,
-        "margin_bottom": 0
+        "padding_bottom": 0
       }
     },
     "dea5835c-24f7-475f-a0a4-51739b13776e": {
@@ -236,7 +232,7 @@
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 5,
-        "row_alignment": "top",
+        "row_alignment": "middle",
         "column_alignment": "left",
         "background_style": "primary",
         "button_label": "",
@@ -245,9 +241,7 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 0,
-        "padding_bottom": 0,
-        "margin_top": 0,
-        "margin_bottom": 0
+        "padding_bottom": 0
       }
     },
     "de99a705-2695-4857-953e-c4d63681937b": {
@@ -323,8 +317,6 @@
         "accessibility_info": "ja_slider about our brand",
         "padding_top": 0,
         "padding_bottom": 0,
-        "margin_top": 0,
-        "margin_bottom": 0,
         "border_thickness": 2,
         "border_opacity": 100,
         "addition_class": ""
@@ -454,8 +446,6 @@
         "accessibility_info": "ja_slider about our brand",
         "padding_top": 0,
         "padding_bottom": 0,
-        "margin_top": 0,
-        "margin_bottom": 0,
         "border_thickness": 2,
         "border_opacity": 100,
         "addition_class": ""
