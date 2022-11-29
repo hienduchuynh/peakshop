@@ -2716,6 +2716,9 @@
           },
           "options__3": {
             "label": "Bottom"
+          },
+          "options__4": {
+            "label": "None"
           }
         },
         "column_alignment": {
@@ -2725,6 +2728,9 @@
           },
           "options__2": {
             "label": "Center"
+          },
+          "options__3": {
+            "label": "None"
           }
         },
         "background_style": {
@@ -3954,31 +3960,10 @@
               "label": "Desktop content position",
               "info": "Position is automatically optimized for mobile.",
               "options__1": {
-                "label": "Top left"
+                "label": "Left"
               },
               "options__2": {
-                "label": "Top center"
-              },
-              "options__3": {
-                "label": "Top right"
-              },
-              "options__4": {
-                "label": "Middle left"
-              },
-              "options__5": {
-                "label": "Middle center"
-              },
-              "options__6": {
-                "label": "Middle right"
-              },
-              "options__7": {
-                "label": "Bottom left"
-              },
-              "options__8": {
-                "label": "Bottom center"
-              },
-              "options__9": {
-                "label": "Bottom right"
+                "label": "Right"
               }
             },
             "box_width": {

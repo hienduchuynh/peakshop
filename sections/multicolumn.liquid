@@ -3,22 +3,12 @@
 <noscript>{{ 'component-slider.css' | asset_url | stylesheet_tag }}</noscript>
 
 {%- style -%}
-  #shopify-section-{{ section.id }} {
-    margin-top: {{ section.settings.margin_top | times: 0.75 | round: 0 }}px;
-    margin-bottom: {{ section.settings.margin_bottom | times: 0.75 | round: 0 }}px;
-  }
-
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.5 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.5 | round: 0 }}px;
   }
 
   @media screen and (min-width: 750px) {
-    #shopify-section-{{ section.id }} {
-      margin-top: {{ section.settings.margin_top }}px;
-      margin-bottom: {{ section.settings.margin_bottom }}px;
-    }
-
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
@@ -318,6 +308,10 @@
         {
           "value": "bottom",
           "label": "t:sections.multicolumn.settings.row_alignment.options__3.label"
+        },
+        {
+          "value": "none",
+          "label": "t:sections.multicolumn.settings.row_alignment.options__4.label"
         }
       ],
       "default": "top",
@@ -334,6 +328,10 @@
         {
           "value": "center",
           "label": "t:sections.multicolumn.settings.column_alignment.options__2.label"
+        },
+        {
+          "value": "none",
+          "label": "t:sections.multicolumn.settings.column_alignment.options__3.label"
         }
       ],
       "default": "left",
@@ -443,30 +441,6 @@
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
       "default": 36
-    },
-    {
-      "type": "header",
-      "content": "t:sections.all.margin.section_margin_heading"
-    },
-    {
-      "type": "range",
-      "id": "margin_top",
-      "min": -100,
-      "max": 100,
-      "step": 2,
-      "unit": "px",
-      "label": "t:sections.all.margin.margin_top",
-      "default": 24
-    },
-    {
-      "type": "range",
-      "id": "margin_bottom",
-      "min": -100,
-      "max": 100,
-      "step": 2,
-      "unit": "px",
-      "label": "t:sections.all.margin.margin_bottom",
-      "default": 24
     }
   ],
   "blocks": [

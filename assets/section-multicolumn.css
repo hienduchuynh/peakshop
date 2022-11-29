@@ -244,6 +244,8 @@
 .multicolumn-card {
 	position: relative;
 	box-sizing: border-box;
+  border-top-width: calc(var(--text-boxes-border-width)/2);
+  border-bottom-width: calc(var(--text-boxes-border-width)/2);
 }
 
 .multicolumn-card > .multicolumn-card__image-wrapper--full-width:not(.multicolumn-card-spacing) {

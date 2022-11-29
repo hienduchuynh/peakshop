@@ -148,7 +148,7 @@
         "sub-title": "",
         "mod_class": "clients-list",
         "heading_size": "h4",
-        "layout": "full_bleed",
+        "layout": "grid--gapless",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 5,

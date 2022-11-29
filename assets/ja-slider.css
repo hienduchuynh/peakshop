@@ -46,7 +46,7 @@
 .ja-slider .banner__heading + .banner__text,
 .ja-slider .banner__heading + .banner__buttons,
 .ja-slider .banner__text + .banner__buttons {
-	margin-top: var(--grid-desktop-horizontal-spacing);
+	margin-top: 2.4rem;
 }
 
 .ja-slider .slider-buttons {
@@ -94,7 +94,7 @@
 	order: 2;
 }
 
-.ja-slider .content-box-align-right ..slideshow__media {
+.ja-slider .content-box-align-right .slideshow__media {
 	order: 1;
 }
 
@@ -102,6 +102,6 @@
 	order: 1;
 }
 
-.ja-slider .content-box-align-left ..slideshow__media {
+.ja-slider .content-box-align-left .slideshow__media {
 	order: 2;
 }
