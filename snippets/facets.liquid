@@ -395,7 +395,8 @@
   <menu-drawer class="mobile-facets__wrapper{% if filter_type == 'horizontal' or filter_type == 'vertical' %} desktop-large-up-hide{% endif %}" data-breakpoint="mobile">
     <details class="mobile-facets__disclosure disclosure-has-popup">
       <summary class="mobile-facets__open-wrapper focus-offset">
-        <span class="mobile-facets__open{% if filter_type == 'drawer' and enable_filtering == false %} medium-hide large-up-hide{% endif %}">
+        {%- comment -%} <span class="mobile-facets__open{% if filter_type == 'drawer' and enable_filtering == false %} medium-hide large-up-hide{% endif %}"> {%- endcomment -%}
+        <span class="mobile-facets__open{% if filter_type == 'drawer' and enable_filtering == false %} desktop-large-up-hide{% endif %}">
           {% render 'icon-filter' %}
           {%- comment -%} <span class="mobile-facets__open-label button-label medium-hide large-up-hide"> {%- endcomment -%}
           <span class="mobile-facets__open-label button-label desktop-large-up-hide">
@@ -574,7 +575,8 @@
               {%- endif -%}
 
               {%- if enable_sorting -%}
-                <div class="mobile-facets__details js-filter{% if filter_type == 'drawer' %} medium-hide large-up-hide{% endif %}" data-index="mobile-{{ forloop.index }}">
+                {%- comment -%} <div class="mobile-facets__details js-filter{% if filter_type == 'drawer' %} medium-hide large-up-hide{% endif %}" data-index="mobile-{{ forloop.index }}"> {%- endcomment -%}
+                <div class="mobile-facets__details js-filter{% if filter_type == 'drawer' %} desktop-large-up-hide{% endif %}" data-index="mobile-{{ forloop.index }}">
                   <div class="mobile-facets__summary">
                     <div class="mobile-facets__sort">
                       <label for="SortBy-mobile">{{ 'products.facets.sort_by_label' | t }}</label>
@@ -670,9 +672,11 @@
     </div>
   </div>
   {%- if enable_sorting and filter_type == 'drawer' -%}
-    <facet-filters-form class="facets small-hide">
+    {%- comment -%} <facet-filters-form class="facets small-hide"> {%- endcomment -%}
+    <facet-filters-form class="facets tablet-down-hide">
       <form id="FacetSortDrawerForm" class="facets__form">
-        <div class="facet-filters sorting caption small-hide">
+        {%- comment -%} <div class="facet-filters sorting caption small-hide"> {%- endcomment -%}
+        <div class="facet-filters sorting caption tablet-down-hide">
           <div class="facet-filters__field">
             <h2 class="facet-filters__label caption-large text-body">
               <label for="SortBy">{{ 'products.facets.sort_by_label' | t }}</label>
@@ -706,7 +710,8 @@
   {%- endif -%}
   
   {%- if filter_type == 'drawer' -%}
-    <facet-filters-form class="facets facets-pill small-hide">
+    {%- comment -%} <facet-filters-form class="facets facets-pill small-hide"> {%- endcomment -%}
+    <facet-filters-form class="facets facets-pill tablet-down-hide">
       <form id="FacetFiltersPillsForm" class="facets__form">
         <div class="active-facets active-facets-desktop">
           {%- for filter in results.filters -%}
