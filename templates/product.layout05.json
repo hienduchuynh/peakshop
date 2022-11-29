@@ -194,8 +194,8 @@
       "settings": {
         "layout_product": "default",
         "enable_sticky_info": true,
-        "media_size": "medium",
-        "gallery_layout": "thumbnail_slider",
+        "media_size": "large",
+        "gallery_layout": "grid-3-column",
         "gallery_position": "left",
         "thumbnail_ratio": "11",
         "mobile_thumbnails": "hide",
