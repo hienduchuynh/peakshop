@@ -129,8 +129,8 @@
         "1a04436f-0f6f-46dd-8688-7ff1684deb78"
       ],
       "settings": {
-        "layout_product": "gallery_full_width",
-        "enable_sticky_info": false,
+        "layout_product": "default",
+        "enable_sticky_info": true,
         "media_size": "large",
         "gallery_layout": "stacked_full",
         "gallery_position": "left",
