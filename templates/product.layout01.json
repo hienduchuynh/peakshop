@@ -66,7 +66,6 @@
             "heading": "Size chart",
             "icon": "clipboard",
             "content": "<p><em>\"This is demonstration content, designed to showcase how pages could look with your own content\"<\/em><\/p><p><strong>How to measure yourself:<br\/><\/strong>Size Guide: S=US 4-6, M=US 8-10, L=US 12-14, XL=16.<br\/>To find the perfect fit, simply put on your favourite underwear and measure yourself directly on your body. Then use the size chart and the information found in the product description to find your fit.<\/p>",
-            "image": "shopify:\/\/shop_images\/Group_1new-table-size_2.png",
             "image_ratio": "43",
             "page": ""
           }
@@ -131,15 +130,10 @@
             "image_ratio_tabs": "43"
           }
         },
-        "447ee1a3-caea-485c-894e-90ec192ce72f": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
-          "settings": {
-          }
-        },
         "2934cffd-00e4-4842-ad2a-5598d4f46d8e": {
           "type": "product_upsell",
           "settings": {
-            "product_upsell": "accessorize-beach-smock-dress-in-cream"
+            "product_upsell": "adidas-busenitz-shoes-1"
           }
         }
       },
@@ -162,7 +156,6 @@
         "423f9496-8e67-4344-b734-c43e77d8c0d5",
         "003482d6-c4dd-4619-8394-9f780c36c22b",
         "e381e5d5-f86a-48d1-b4a1-b9355fa00f12",
-        "447ee1a3-caea-485c-894e-90ec192ce72f",
         "2934cffd-00e4-4842-ad2a-5598d4f46d8e"
       ],
       "settings": {
@@ -171,12 +164,11 @@
         "media_size": "medium",
         "gallery_layout": "thumbnail",
         "gallery_position": "left",
-        "item_ratio": "34",
+        "thumbnail_ratio": "34",
         "mobile_thumbnails": "hide",
         "hide_variants": true,
         "enable_video_looping": false,
         "layout_description": "tabs",
-        "enable_add_cart_bottom": false,
         "padding_top": 48,
         "padding_bottom": 48
       }
@@ -186,7 +178,6 @@
       "settings": {
         "heading": "",
         "heading_size": "h1",
-        "cover_image": "shopify:\/\/shop_images\/close-up-of-a-painted-cement-wall-with-splashes-of-colour.jpg",
         "video_url": "https:\/\/www.youtube.com\/watch?v=P1lO5MAm9bQ",
         "description": "",
         "full_width": true,
