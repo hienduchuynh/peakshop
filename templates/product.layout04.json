@@ -203,7 +203,7 @@
         "layout_product": "default",
         "enable_sticky_info": false,
         "media_size": "medium",
-        "gallery_layout": "grid-3-column",
+        "gallery_layout": "grid-2-column",
         "gallery_position": "bottom",
         "thumbnail_ratio": "34",
         "mobile_thumbnails": "hide",
@@ -274,7 +274,9 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 32,
-        "padding_bottom": 64
+        "padding_bottom": 64,
+        "margin_top": 24,
+        "margin_bottom": 24
       }
     },
     "product-recommendations": {
