@@ -501,6 +501,39 @@
         "label": "Text Color"
       }
     },
+    "general": {
+      "name": "General",
+      "settings": {
+        "breadcrumb": {
+          "title": "Breadcrumb",
+          "label__1": "Show Breadcrumb"
+        },
+        "alignment_breadcrumb": {
+          "options__1": {
+            "label": "Left"
+          },
+          "options__2": {
+            "label": "Center"
+          },
+          "options__3": {
+            "label": "Right"
+          },
+          "label": "Alignment Breadcrumb"
+        },
+        "alignment_title": {
+          "options__1": {
+            "label": "Left"
+          },
+          "options__2": {
+            "label": "Center"
+          },
+          "options__3": {
+            "label": "Right"
+          },
+          "label": "Alignment Title"
+        }
+      }
+    },
     "main-404": {
       "name": "Main 404",
       "settings": {
