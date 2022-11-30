@@ -214,6 +214,7 @@
         "padding_bottom": 48
       }
     },
+<<<<<<< HEAD
     "b56b38a8-e2f8-4c99-903d-bdd158723b66": {
       "type": "multicolumn",
       "blocks": {
@@ -277,6 +278,11 @@
         "padding_bottom": 64,
         "margin_top": 24,
         "margin_bottom": 24
+=======
+    "main": {
+      "type": "main-product-04",
+      "settings": {
+>>>>>>> eb721119678e986423f62195ababc5ec2f1a12f8
       }
     },
     "product-recommendations": {
