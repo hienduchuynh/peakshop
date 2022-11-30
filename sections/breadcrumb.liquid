@@ -1,22 +1,5 @@
-{%- style -%}
-  .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
-    border-left: 2px solid rgba(0, 0, 0, 100);
-    border-right: 2px solid rgba(0, 0, 0, 100);
-  }
-
-  @media screen and (min-width: 750px) {
-    .section-{{ section.id }}-padding {
-      padding-top: {{ section.settings.padding_top }}px;
-      padding-bottom: {{ section.settings.padding_bottom }}px;
-    }
-  }
-{%- endstyle -%}
-
-<div class="section-{{ section.id }}-padding">
 {% render 'breadcrumb' %}
-</div>
+
 {% schema %}
 {
   "name": "t:sections.breadcrumb.name",
