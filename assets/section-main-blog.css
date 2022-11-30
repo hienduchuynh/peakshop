@@ -109,6 +109,18 @@
   border: 2px solid #000;
 }
 
+.main-blog .blog-articles__article .card__information {
+  padding-top: 1.4rem;
+}
+
+.main-blog .blog-articles__article .card__heading {
+  margin-bottom: 2.4rem;
+}
+
+.main-blog .blog-articles__article .card__heading a{
+  font-weight: 700;
+}
+
 /*=== Layout List 
 ========================*/
 
