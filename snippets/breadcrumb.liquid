@@ -1,5 +1,5 @@
 <style>
-  .breadcrumbs {
+  {% comment %} .breadcrumbs {
     padding-bottom: var(--grid-mobile-vertical-spacing);
     padding-top: var(--grid-mobile-vertical-spacing);
     text-transform: uppercase;
@@ -10,7 +10,7 @@
       padding-bottom: var(--grid-desktop-vertical-spacing);
       padding-top: calc(var(--grid-desktop-vertical-spacing) * 2);
     }
-  }
+  } {% endcomment %}
 
   .breadcrumbs__list {
     list-style-type: none;
@@ -52,7 +52,7 @@
 {%- unless template == 'index' or template == 'list-collections' or template == '404' -%}
   {%- assign t = template | split: '.' | first -%}
 
-  <div class="page-width">
+  <div class="page-width breadcrumb_padding">
     <nav class="breadcrumbs" role="navigation" aria-label="breadcrumbs">
       <ol class="breadcrumbs__list">
         <li class="breadcrumbs__item">
