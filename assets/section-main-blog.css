@@ -84,7 +84,7 @@
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
   .blog-articles {
     grid-template-columns: 1fr 1fr 1fr;
   }
