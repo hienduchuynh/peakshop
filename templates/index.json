@@ -8,7 +8,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/slide-01.jpg",
             "heading": "Real 2022 Skateboard Desks",
-            "heading_size": "hxl",
+            "heading_size": "h0",
             "subheading": "Fusce posuere nec ipsum a volutpat. In at dictum est, at pulvinar mauris. Sed hendrerit nisl a tincidunt placerat. Suspendisse potenti. Sed at maximus est. Mauris vel auctor ex. Morbi at fermentum urna, in cursus leo. Sed aliquam auctor ante, id pharetra augue aliquet in. Sed at rutrum odio.",
             "button_label": "VIEW ALL PRODUCTS",
             "link": "shopify:\/\/collections\/all",
@@ -256,7 +256,7 @@
         "collection": "best-sellers",
         "show_card_collection": false,
         "products_to_show": 12,
-        "columns_desktop": 5,
+        "columns_desktop": 4,
         "full_width": true,
         "show_view_all": true,
         "view_all_style": "outline",
@@ -287,7 +287,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/slide-02.jpg",
             "heading": "Fruity S31 Skateboard Desk Collection",
-            "heading_size": "hxl",
+            "heading_size": "h0",
             "subheading": "Fusce posuere nec ipsum a volutpat. In at dictum est, at pulvinar mauris. Sed hendrerit nisl a tincidunt placerat. Suspendisse potenti. Sed at maximus est. Mauris vel auctor ex. Morbi at fermentum urna, in cursus leo. Sed aliquam auctor ante, id pharetra augue aliquet in. Sed at rutrum odio.",
             "button_label": "VIEW ALL PRODUCTS",
             "link": "shopify:\/\/collections\/all",
@@ -364,7 +364,7 @@
           "type": "heading",
           "settings": {
             "heading": "Peak TaiChi Plus Men's Professional Running Shoes",
-            "heading_size": "hxl"
+            "heading_size": "h0"
           }
         },
         "template--17016615010579__b7d4689b-aa5d-4fbd-93cf-446d84d85100-16691955563a648ee6-1": {
@@ -416,7 +416,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/slide-03.jpg",
             "heading": "Vans x Peak Shoes Collection",
-            "heading_size": "hxl",
+            "heading_size": "h0",
             "subheading": "Fusce posuere nec ipsum a volutpat. In at dictum est, at pulvinar mauris. Sed hendrerit nisl a tincidunt placerat. Suspendisse potenti. Sed at maximus est. Mauris vel auctor ex. Morbi at fermentum urna, in cursus leo. Sed aliquam auctor ante, id pharetra augue aliquet in. Sed at rutrum odio.",
             "button_label": "VIEW ALL PRODUCTS",
             "link": "shopify:\/\/collections\/all",
