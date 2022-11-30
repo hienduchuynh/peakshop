@@ -1,0 +1,19 @@
+{{ 'component-accordion.css' | asset_url | stylesheet_tag }}
+{{ 'collapsible-info-product.css' | asset_url | stylesheet_tag }}
+<section id="MainProduct-{{ section.id }}" class="page-width section-{{ section.id }}-padding " data-section="{{ section.id }}">
+  Collapsible
+</section>
+{% schema %}
+  {
+    "name": "t:sections.collapsible_info_product.name",
+    "tag": "section",
+    "class": "section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "class_suffix",
+        "label": "Module Class Suffix"
+      }
+    ]
+  }
+{% endschema %}

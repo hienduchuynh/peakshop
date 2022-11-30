@@ -16,9 +16,9 @@
       {% endif %}
     </div>
     <ul id="target">
-    {% for link in linklists.fashion.links -%}
+    {% for link in linklists.main-menu.links -%}
       {% assign title_link = link.title | downcase %}
-      {% if title_link == "blog" %}
+      {% if title_link == "blogs" %}
         {% for categories in link.links %}
           <li class="category-item">
           {{ categories.url | link_to: categories.url }}

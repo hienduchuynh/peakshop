@@ -6,7 +6,7 @@
       }
     },
     "main": {
-      "type": "main-product",
+      "type": "main-product-default",
       "blocks": {
         "vendor": {
           "type": "text",

@@ -1,7 +1,7 @@
 {
   "sections": {
     "main": {
-      "type": "main-product",
+      "type": "main-product-04",
       "blocks": {
         "vendor": {
           "type": "text",
@@ -274,9 +274,7 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 32,
-        "padding_bottom": 64,
-        "margin_top": 24,
-        "margin_bottom": 24
+        "padding_bottom": 64
       }
     },
     "product-recommendations": {

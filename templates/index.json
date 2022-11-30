@@ -238,8 +238,10 @@
         "button_label": "",
         "button_link": "",
         "color_scheme": "background-1",
+        "columns_tablet": "2",
+        "swipe_on_tablet": true,
         "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -459,7 +461,7 @@
         "title_style": "03",
         "description_style": "body",
         "description": "",
-        "blog": "news",
+        "blog": "skateboard",
         "post_limit": 3,
         "columns_desktop": 3,
         "full_width": false,

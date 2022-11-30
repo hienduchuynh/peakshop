@@ -52,6 +52,7 @@ a.pagination__item:hover::after {
   content: '';
   display: block;
   width: 2rem;
+  height: .2rem;
   position: absolute;
   bottom: 8px;
   left: 50%;

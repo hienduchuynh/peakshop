@@ -105,3 +105,14 @@
 .ja-slider .content-box-align-left .slideshow__media {
 	order: 2;
 }
+
+@media screen and (max-width: 989px) {
+	.ja-slider.mobile-text-below .slideshow__slide {
+		flex-direction: column;
+	}
+
+	.ja-slider .slideshow__text-wrapper.banner__content,
+	.ja-slider .content-box-align-right .slideshow__media {
+		height: auto;
+	}
+}
