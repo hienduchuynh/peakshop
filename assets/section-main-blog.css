@@ -203,9 +203,6 @@
 /* Blog Full Width  */
 
 @media screen and (min-width: 750px) {
-  .blog-layout-full-width .blog-articles {
-    gap: 0;  
-  }
   
   .blog-layout-full-width .blog-articles__article:nth-child(2n) .card {
     flex-direction: row-reverse;
