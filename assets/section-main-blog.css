@@ -143,7 +143,7 @@
   }
 } */
 
-@media screen and (max-width: 750px) {
+@media screen and (min-width: 750px) {
   .blog-articles--collage .article .card .card__content {
     padding: calc(var(--grid-desktop-vertical-spacing) * 2);
     margin: 0;
