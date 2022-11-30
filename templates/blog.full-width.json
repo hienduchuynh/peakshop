@@ -40,6 +40,7 @@
         "2fc29e48-d715-4fbb-98ef-97405268bf85"
       ],
       "settings": {
+        "page_title": "Blog Full Width",
         "description": "",
         "alignment_title": "left",
         "layout": "collage",
@@ -175,6 +176,8 @@
         "button_label": "",
         "button_link": "",
         "color_scheme": "background-1",
+        "columns_tablet": "2",
+        "swipe_on_tablet": false,
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 0,
