@@ -86,7 +86,7 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-           "show_dynamic_checkout": true
+            "show_dynamic_checkout": true
           }
         },
         "description": {
@@ -274,9 +274,7 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 32,
-        "padding_bottom": 64,
-        "margin_top": 24,
-        "margin_bottom": 24
+        "padding_bottom": 64
       }
     },
     "product-recommendations": {
