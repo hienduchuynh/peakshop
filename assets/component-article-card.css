@@ -107,7 +107,7 @@
 
 /* Ratio Image 3:2 */
 .article-card__image--medium .ratio::before {
-  padding-bottom: 66.66%;
+  padding-bottom: calc(66.66% + 4.8rem - .4rem) ;
 }
 
 /* Ratio Image 3:4 */
