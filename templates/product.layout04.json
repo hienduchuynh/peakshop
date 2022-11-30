@@ -1,7 +1,7 @@
 {
   "sections": {
     "main": {
-      "type": "main-product",
+      "type": "main-product-04",
       "blocks": {
         "vendor": {
           "type": "text",
@@ -86,7 +86,7 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true
+           "show_dynamic_checkout": true
           }
         },
         "description": {
