@@ -116,3 +116,9 @@
 		height: auto;
 	}
 }
+
+@media screen and (max-width: 749px) {
+	.ja-slider slideshow-component.mobile-text-below .slider-buttons {
+		position: static;
+	}
+}

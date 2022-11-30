@@ -380,7 +380,7 @@ slider-component.slider-component-full-width {
 }
 
 @media screen and (min-width: 750px) {
-    .slider--mobile+.slider-buttons {
+    .slider--mobile:not(.slider--tablet) + .slider-buttons {
         display: none;
     }
     .product--thumbnail_slider .slider-buttons {
