@@ -3,6 +3,8 @@
     "d7807ad8-0756-46d1-92f3-8c32756239a8": {
       "type": "breadcrumb",
       "settings": {
+        "padding_top": 48,
+        "padding_bottom": 36
       }
     },
     "main": {
