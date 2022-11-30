@@ -132,7 +132,7 @@
   }
 }
 
-.blog-articles--collage .article .card .card__content {
+/* .blog-articles--collage .article .card .card__content {
   padding: calc(var(--grid-desktop-vertical-spacing) * 2);
   margin: 0;
 }
@@ -141,7 +141,7 @@
   .blog-articles--collage .article .card .card__content {
     padding: var(--grid-desktop-vertical-spacing) / 2 0;
   }
-}
+} */
 
 .blog-articles--collage .card {
   align-items: center;
