@@ -136,6 +136,7 @@
 .blog-articles--collage .article .card .card__content {
   padding-left: var(--grid-desktop-vertical-spacing);
   padding-bottom: var(--grid-desktop-vertical-spacing);
+  margin: 0;
 }
 
 @media screen and (max-width: 750px) {
@@ -145,7 +146,7 @@
 }
 
 .blog-articles--collage .card {
-  align-items: flex-start;
+  align-items: center;
 }
 
 .blog-articles--collage .card.align-center {
