@@ -3846,6 +3846,9 @@
         "name": "Slideshow"
       }
     },
+    "collapsible_info_product": {
+      "name": "Collapsible Product Details"
+    },
     "collapsible_content": {
       "name": "Collapsible content",
       "settings": {
