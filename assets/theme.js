@@ -67,7 +67,6 @@ let rotateIcon = document.querySelector('.blog-categories .btn-slide-down');
 let rotateIcon2 = document.querySelector('.lastest-posts .btn-slide-down');
 let rotateIcon3 = document.querySelector('.list-tag .btn-slide-down');
 
-
 var slideBtn = function(id, rotateIcon, target, classToAdd, duration = 500){
   let eventClick = document.getElementById(id);
   if(eventClick) {

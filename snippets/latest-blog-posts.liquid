@@ -27,10 +27,10 @@
                   {% if article.image.width >= 3000 %}{{ article.image | image_url: width: 3000 }} 3000w,{% endif %}
                   {{ article.image | image_url }} {{ article.image.width }}w"
                 sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 }}px, (min-width: 750px) calc(100vw - 10rem), 100vw"
-                src="{{ article.image | image_url: width: 64 }}"
+                src="{{ article.image | image_url: width: 96 }}"
                 loading="lazy"
-                width="64"
-                height="64"
+                width="96"
+                height="96"
                 alt="{{ article.image.alt | escape }}">
             </div>
             <div class="information-article">
