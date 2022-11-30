@@ -132,12 +132,14 @@
 
 .list-tag li {
   list-style-type: none;
-  margin: 0 .4rem .8rem 0;
+  margin: 0 .8rem .8rem 0;
 }
 
 .list-tag a{
-  background-color: #eee;
+  background-color: rgba(0,0,0,0.2);
+  border-radius: 9999px;
   color: var(--color-base-accent-1);
+  font-size: 1.4rem;
   padding: .4rem .8rem;
   text-decoration: none;
 }
