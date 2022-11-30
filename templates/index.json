@@ -238,6 +238,8 @@
         "button_label": "",
         "button_link": "",
         "color_scheme": "background-1",
+        "columns_tablet": "2",
+        "swipe_on_tablet": true,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 0,
