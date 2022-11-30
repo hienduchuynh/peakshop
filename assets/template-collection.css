@@ -3,7 +3,6 @@
 .main-collection-collection02,
 .main-collection-collection01,
 .main-collection {
-  border: 2px solid rgba(0, 0, 0, 100);
   border-top: 0;
 }
 .main-collection-collection02 > .section,
