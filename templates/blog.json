@@ -49,7 +49,7 @@
         "image_height": "medium",
         "show_date": true,
         "show_author": true,
-        "show_excerpt": false,
+        "show_excerpt": true,
         "alignment_content": "left",
         "alignment__vertical": "start",
         "show_sidebar": false,
