@@ -8,15 +8,14 @@
       }
     },
     "main": {
-      "type": "main-blog",
+      "type": "main-blog-simple",
       "blocks": {
         "59b05495-a07e-4a35-a8b2-7f4343c18c0e": {
           "type": "recent_post",
           "settings": {
             "show_block": true,
             "heading": "Recent Post",
-            "number": 3,
-            "show_date": "true"
+            "number": 3
           }
         },
         "5a37bfe5-8be5-4078-ba68-152a46898f8d": {
@@ -41,7 +40,6 @@
         "2fc29e48-d715-4fbb-98ef-97405268bf85"
       ],
       "settings": {
-        "page_title": "Blog Grid",
         "description": "",
         "alignment_title": "left",
         "layout": "grid",
