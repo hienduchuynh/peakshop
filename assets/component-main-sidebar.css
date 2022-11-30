@@ -10,13 +10,13 @@
   .sidebar-right {
     display: grid;
     grid-template-columns: 4fr 1fr;
-    gap: 2.4rem;
+    gap: 7.2rem;
   }
 
   .sidebar-left {
     display: grid;
     grid-template-columns: 1fr 4fr;
-    gap: 2.4rem;
+    gap: 7.2rem;
   }
 
   .main-blog .sidebar-right .item-placeholder + div {
