@@ -1,0 +1,5 @@
+{%- if section.settings.layout_product == 'main_product_default' -%}
+  {% section 'main-product-01' %}
+{% elsif section.settings.layout_product == 'main_product_01' %}
+  {% section 'main-product-02' %}
+{% endif %}
