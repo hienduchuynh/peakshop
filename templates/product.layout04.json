@@ -8,7 +8,9 @@
       }
     },
     "main": {
-      "type": "main-product-04"
+      "type": "main-product-04",
+      "settings": {
+      }
     },
     "product-recommendations": {
       "type": "product-recommendations",

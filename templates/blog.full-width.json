@@ -41,10 +41,10 @@
         "2fc29e48-d715-4fbb-98ef-97405268bf85"
       ],
       "settings": {
-        "page_title": "Blog Grid",
+        "page_title": "Blog Full Width",
         "description": "",
         "alignment_title": "left",
-        "layout": "grid",
+        "layout": "collage",
         "number_article": 9,
         "show_image": true,
         "image_height": "medium",

@@ -6,7 +6,9 @@
       }
     },
     "main": {
-      "type": "main-product-01"
+      "type": "main-product-01",
+      "settings": {
+      }
     },
     "16641835307bab9de3": {
       "type": "video",
