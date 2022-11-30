@@ -3067,6 +3067,27 @@
         },
         "swipe_on_mobile": {
           "label": "Enable swipe on mobile"
+        },
+        "header_tablet": {
+          "content": "Tablet Layout"
+        },
+        "columns_tablet": {
+          "label": "Number of columns on tablet",
+          "options__1": {
+            "label": "1 column"
+          },
+          "options__2": {
+            "label": "2 columns"
+          },
+          "options__3": {
+            "label": "3 columns"
+          },
+          "options__4": {
+            "label": "4 columns"
+          }
+        },
+        "swipe_on_tablet": {
+          "label": "Enable swipe on tablet"
         }
       },
       "blocks": {
