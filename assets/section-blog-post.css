@@ -77,12 +77,12 @@
 ============================ */
 
 .no-sidebar header {
-  margin: 0 auto 1.6rem;
+  margin: 0 auto 4.8rem;
   max-width: 96rem;
 }
 
 .has-sidebar header {
-  margin-bottom: 1.6rem;
+  margin-bottom: 4.8rem;
   max-width: 96rem;
 }
 
@@ -194,7 +194,7 @@ header > span {
   background-color: #eee;
   color: var(--color-base-accent-1);
   text-decoration: none;
-  padding: 1.6rem 3.2rem;
+  padding: 2.4rem 4.8rem;
 }
 
 @media screen and (max-width: 350px) {
