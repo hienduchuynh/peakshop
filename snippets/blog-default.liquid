@@ -37,7 +37,7 @@
   assign alignment_content = section.settings.alignment_content
 -%}
 
-<div data-section-id="{{ section.id }}" data-section-type="blog-layout-default" id="BlogSection-{{ section.id }}" data-section="{{ section.id }}" class="main-blog-block page-width blog-layout-default section-{{ section.id }}-padding">
+<div data-section-id="{{ section.id }}" data-section-type="blog-layout-default" id="BlogSection-{{ section.id }}" data-section="{{ section.id }}" class="main-blog-block page-width blog-layout-default section-{{ section.id }}-padding {% if show_sidebar %} has-sidebar {% endif %}">
 
   <div class="header-page">
     <div class="wrap-title">
@@ -57,7 +57,7 @@
 
   {%- paginate blog.articles by number_article_per_page -%}
   <div class="main-blog">
-    <div class="wrap-inner {% if show_sidebar %}has-sidebar {% if sidebar_position == "right" %}sidebar-right{% endif %} {% if sidebar_position == "left" %}sidebar-left{% endif %}{% endif %} {% if layout_article == "collapse" %}layout-collapse{% endif %}">
+    <div class="wrap-inner {% if show_sidebar %}{% if sidebar_position == "right" %}sidebar-right{% endif %} {% if sidebar_position == "left" %}sidebar-left{% endif %}{% endif %} {% if layout_article == "collapse" %}layout-collapse{% endif %}">
       {%- if blog.articles_count > 0 -%}
         <div class="list-blogs">
           <div class="blog-articles {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}{% if section.settings.layout == 'grid' %}blog-articles--grid{% endif %}">

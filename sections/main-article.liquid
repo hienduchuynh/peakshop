@@ -27,7 +27,7 @@
   endif
 -%}
 
-<article class="article-template page-width section-{{ section.id }}-padding" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="article-template page-width section-{{ section.id }}-padding {% if show_sidebar %} has-sidebar {% endif %}" itemscope itemtype="http://schema.org/BlogPosting">
 
     {%- for block in section.blocks -%}
       {%- case block.type -%}
@@ -47,7 +47,7 @@
               </span>
             {%- endif -%}
           </header>
-        <div class="wrap-content{% if show_sidebar %} has-sidebar sidebar-article {% if sidebar_position == "right" %}sidebar-right{% endif %} {% if sidebar_position == "left" %}sidebar-left{% endif %}{% endif %}">
+        <div class="wrap-content{% if show_sidebar %} sidebar-article {% if sidebar_position == "right" %}sidebar-right{% endif %} {% if sidebar_position == "left" %}sidebar-left{% endif %}{% endif %}">
         <div class="article-content">
         {%- when 'featured_image'-%}
           {%- if article.image -%}
