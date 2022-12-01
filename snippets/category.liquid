@@ -17,6 +17,7 @@
     </div>
     <ul id="target">
     {% for link in linklists.main-menu.links -%}
+      {{ link }}}
       {% assign title_link = link.title | downcase %}
       {% if title_link == "blog" %}
         {% for categories in link.links %}
