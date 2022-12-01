@@ -996,9 +996,6 @@
         </a>
       </div>
     </div>
-
-    {%- render 'product-information-tabs' -%}
-
   </div>
   {% comment %} End Product {% endcomment %}
   {% comment %} Modal {% endcomment %}
@@ -1662,52 +1659,6 @@
       ]
     },
     {
-      "type": "tabs",
-      "name": "t:sections.main-product.blocks.tabs.name",
-      "settings": [
-        {
-          "type": "text",
-          "id": "title_tabs",
-          "default": "Tabs",
-          "label": "t:sections.main-product.blocks.tabs.settings.title.label"
-        },
-        {
-          "type": "richtext",
-          "id": "content_tabs",
-          "label": "t:sections.main-product.blocks.tabs.settings.content.label"
-        },
-        {
-          "type": "image_picker",
-          "id": "image_tabs",
-          "label": "t:sections.main-product.blocks.tabs.settings.image.label"
-        },
-        {
-          "type": "select",
-          "id": "image_ratio_tabs",
-          "options": [
-            {
-              "value": "portrait",
-              "label": "t:sections.main-product.blocks.tabs.settings.image_ratio.options__1.label"
-            },
-            {
-              "value": "square",
-              "label": "t:sections.main-product.blocks.tabs.settings.image_ratio.options__2.label"
-            },
-            {
-              "value": "34",
-              "label": "t:sections.main-product.blocks.tabs.settings.image_ratio.options__3.label"
-            },
-            {
-              "value": "43",
-              "label": "t:sections.main-product.blocks.tabs.settings.image_ratio.options__4.label"
-            }
-          ],
-          "default": "43",
-          "label": "t:sections.main-product.blocks.tabs.settings.image_ratio.label"
-        }
-      ]
-    },
-    {
       "type": "product_upsell",
       "name": "Upsell Product",
       "limit": 1,
@@ -1887,26 +1838,6 @@
       "id": "enable_video_looping",
       "default": false,
       "label": "t:sections.main-product.settings.enable_video_looping.label"
-    },
-    {
-      "type": "header",
-      "content": "t:sections.main-product.settings.tabs.label"
-    },
-    {
-      "type": "select",
-      "id": "layout_description",
-      "options": [
-        {
-          "value": "accordion",
-          "label": "t:sections.main-product.settings.layout_description.label__1"
-        },
-        {
-          "value": "tabs",
-          "label": "t:sections.main-product.settings.layout_description.label__2"
-        }
-      ],
-      "default": "tabs",
-      "label": "t:sections.main-product.settings.layout_description.content"
     },
     {
       "type": "header",
