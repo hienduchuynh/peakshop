@@ -79,7 +79,7 @@
 }
 
 @media screen and (min-width: 550px) {
-  .blog-layout-default.blog-articles {
+  .blog-layout-default .blog-articles {
     grid-template-columns: 1fr 1fr;
   }
 }
