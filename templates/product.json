@@ -210,6 +210,12 @@
         "padding_bottom": 48
       }
     },
+    "538ed27d-666d-4169-9ba0-d844989d9d9b": {
+      "type": "collapsible-info-product",
+      "settings": {
+        "class_suffix": ""
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -246,19 +252,13 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "538ed27d-666d-4169-9ba0-d844989d9d9b": {
-      "type": "collapsible-info-product",
-      "settings": {
-        "class_suffix": ""
-      }
     }
   },
   "order": [
     "1f3f994a-83c7-4c3e-bbe8-57a84f69cea9",
     "main",
+    "538ed27d-666d-4169-9ba0-d844989d9d9b",
     "product-recommendations",
-    "6b8f86f8-8759-48b8-a34f-5bc028e7e729",
-    "538ed27d-666d-4169-9ba0-d844989d9d9b"
+    "6b8f86f8-8759-48b8-a34f-5bc028e7e729"
   ]
 }
