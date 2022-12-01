@@ -50,15 +50,15 @@
 
 @media screen and (min-width: 990px) {
   .article-template__hero-small {
-    height: 27.5rem;
+    padding-bottom: 56.25%;
   }
 
   .article-template__hero-medium {
-    height: 55rem;
+    padding-bottom: 56.25%;
   }
 
   .article-template__hero-large {
-    height: 82.5rem;
+    padding-bottom: 56.25%;
   }
 }
 
