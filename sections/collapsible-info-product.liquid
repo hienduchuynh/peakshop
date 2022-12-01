@@ -1,35 +1,92 @@
 <section class="page-width section-{{ section.id }}-padding">
   {%- if section.settings.collapsible_type == "tabs" -%}
     {{ 'component-tabs.css' | asset_url | stylesheet_tag }}
-    <div class="product___tabs" id="Details-{{ block.id }}-{{ section.id }}">
-      <ul class="nav nav-tabs">
+    <div class="product___tabs tab quick-add-hidden" id="TabDetails-{{ section.id }}" {{ block.shopify_attributes }}>
+      <div id="tabs">
+        <ul class="nav nav-tabs">
+          {%- for block in section.blocks -%}
+            {%- case block.type -%}
+              {%- when '@app' -%}
+                {% render block %}
+              {%- when 'collapsible_tab' -%}
+                {%- if block.settings.content != blank or block.settings.page.content != blank -%}
+                  <li id="tabHeader-{{ forloop.index }}">
+                    <summary>
+                      <div class="summary__title">
+                        {% render 'icon-accordion', icon: block.settings.icon %}
+                        <h2 class="h5 accordion__title">
+                          {{ block.settings.heading | default: block.settings.page.title }}
+                        </h2>
+                      </div>
+                      {% render 'icon-caret' %}
+                    </summary>
+                  </li>
+                {%- endif -%}
+            {%- endcase -%}
+          {%- endfor -%}
+        </ul>
+      </div>
+      <div id="tabscontent" class="tab-content">
         {%- for block in section.blocks -%}
           {%- case block.type -%}
             {%- when '@app' -%}
               {% render block %}
             {%- when 'collapsible_tab' -%}
               {%- if block.settings.content != blank or block.settings.page.content != blank -%}
-                <li>
-                  <summary>
-                    <div class="summary__title">
-                      {% render 'icon-accordion', icon: block.settings.icon %}
-                      <h2 class="h5 accordion__title">
-                        {{ block.settings.heading | default: block.settings.page.title }}
-                      </h2>
+                <div id="TabContent-{{ forloop.index }}" class="tab__content rte {% if forloop.first == true %}active{%- endif -%}">
+                  {{ block.settings.content }}
+                  {%- if block.settings.image != blank -%}
+                    <div class="media media--{{ block.settings.image_ratio }} media--transparent {% if block.settings.image == blank %} placeholder{% endif %}">
+                      {%-liquid
+                          assign image_height = block.settings.image.width | divided_by: block.settings.image.aspect_ratio
+                          assign image_class = ""
+                          assign sizes = "100%"
+                        -%}
+                      {{ block.settings.image | image_url: width: 1500 | image_tag:
+                       loading: 'lazy'
+                       , width: block.settings.image.width
+                       , height: image_height
+                       , class: image_class
+                       , sizes: sizes
+                       , widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
+                       , alt: block.settings.image.alt | escape
+                       }}
                     </div>
-                    {% render 'icon-caret' %}
-                  </summary>
-                </li>
+                  {%- endif -%}
+                  {{ block.settings.page.content }}
+                </div>
               {%- endif -%}
           {%- endcase -%}
         {%- endfor -%}
-      </ul>
-      <div class="tab-content">
-        <div id="tab-1" class="tab-pane active"></div>
-        <div id="tab-2" class="tab-pane active"></div>
-        <div id="tab-3" class="tab-pane active"></div>
       </div>
     </div>
+    <script>
+      window.addEventListener("load", function() {
+        var container = document.getElementById("TabDetails-{{ section.id }}");
+        var tabcon = document.getElementById("tabscontent");
+        var navitem = document.getElementById("tabHeader-1");
+        var ident = navitem.id.split("-")[1];
+        navitem.parentNode.setAttribute("data-current", ident);
+        navitem.setAttribute("class", "tabActiveHeader");
+        var pages = tabcon.getElementsByTagName("div");
+        for (var i = 1; i < pages.length; i++) {
+          pages.item(i).style.display = "none";
+        };
+        var tabs = container.getElementsByTagName("li");
+        for (var i = 0; i < tabs.length; i++) {
+          tabs[i].onclick = displayPage;
+        }
+        function displayPage() {
+          var current = this.parentNode.getAttribute("data-current");
+          document.getElementById("tabHeader-" + current).removeAttribute("class");
+          document.getElementById("TabContent-" + current).style.display = "none";
+          var ident = this.id.split("-")[1];
+          this.setAttribute("class", "active");
+          document.getElementById("TabContent-" + ident).style.display = "block";
+          this.parentNode.setAttribute("data-current", ident);
+        }
+      });
+    </script>
   {%- else if section.settings.collapsible_type == "accordion" -%}
     {{ 'component-accordion.css' | asset_url | stylesheet_tag }}
     {%- for block in section.blocks -%}
