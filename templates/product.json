@@ -200,7 +200,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Collapsible item",
-            "icon": "check_mark",
+            "icon": "apple",
             "content": "<p>Content 2<\/p>",
             "image_ratio": "43",
             "page": ""
