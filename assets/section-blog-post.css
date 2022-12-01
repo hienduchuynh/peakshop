@@ -29,6 +29,9 @@
   margin: 0 auto;
 }
 
+.article-template__hero-container .media {
+  border: 2px solid #000;
+}
 /* Option Height Image */
 .article-template__hero-small {
   height: 11rem;
