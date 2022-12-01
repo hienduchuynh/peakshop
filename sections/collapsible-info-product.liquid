@@ -29,18 +29,18 @@
       {%- for block in section.blocks -%}
         {%- case block.type -%}
           {%- when 'tabs' -%}
-            {%- if block.settings.content_tabs != blank -%}
+            {%- if block.tabs.settings.content != blank -%}
               <div class="tab" {{ block.shopify_attributes }} data-content-id="ProductAccordion-{{ block.id }}-{{ section.id }}">
                 <details id="Details-{{ block.id }}-{{ section.id }}">
                   <summary>
                     <div class="summary__title">
                       <h2 class="h5 accordion__title">
-                        {{ block.settings.title_tabs | default: block.settings.page.title }}
+                        {{ block.tabs.settings.title | default: block.settings.page.title }}
                       </h2>
                     </div>
                   </summary>
                   <div class="tab-content-child animated" id="ProductAccordion-{{ block.id }}-{{ section.id }}">
-                    {{ block.settings.content_tabs }}
+                    {{ block.tabs.settings.content }}
                     {%- if block.settings.image_tabs != blank -%}
                       <div class="media media--{{ block.settings.image_ratio_tabs }} media--transparent {% if block.settings.image_tabs == blank %} placeholder{% endif %}">
                         {%-liquid
@@ -48,7 +48,7 @@
                         assign image_class = ""
                         assign sizes = "100%"
                       -%}
-                        {{ block.settings.image_tabs | image_url: width: 1500 | image_tag:
+                        {{ block.tabs.settings.image | image_url: width: 1500 | image_tag:
                          loading: 'lazy'
                          , width: block.settings.image_tabs.width
                          , height: image_height
@@ -83,41 +83,41 @@
         "type": "@app"
       }, {
         "type": "tabs",
-        "name": "t:sections.main-product.blocks.tabs.name",
+        "name": "t:sections.collapsible_info_product.blocks.tabs.name",
         "settings": [
           {
             "type": "text",
-            "id": "title_tabs",
+            "id": "title",
             "default": "Tabs",
-            "label": "t:sections.main-product.blocks.tabs.settings.title.label"
+            "label": "t:sections.collapsible_info_product.blocks.tabs.settings.title.label"
           }, {
             "type": "richtext",
-            "id": "content_tabs",
-            "label": "t:sections.main-product.blocks.tabs.settings.content.label"
+            "id": "content",
+            "label": "t:sections.collapsible_info_product.blocks.tabs.settings.content.label"
           }, {
             "type": "image_picker",
-            "id": "image_tabs",
-            "label": "t:sections.main-product.blocks.tabs.settings.image.label"
+            "id": "image",
+            "label": "t:sections.collapsible_info_product.blocks.tabs.settings.image.label"
           }, {
             "type": "select",
-            "id": "image_ratio_tabs",
+            "id": "image_ratio",
             "options": [
               {
                 "value": "portrait",
-                "label": "t:sections.main-product.blocks.tabs.settings.image_ratio.options__1.label"
+                "label": "t:sections.collapsible_info_product.blocks.tabs.settings.image_ratio.options__1.label"
               }, {
                 "value": "square",
-                "label": "t:sections.main-product.blocks.tabs.settings.image_ratio.options__2.label"
+                "label": "t:sections.collapsible_info_product.blocks.tabs.settings.image_ratio.options__2.label"
               }, {
                 "value": "34",
-                "label": "t:sections.main-product.blocks.tabs.settings.image_ratio.options__3.label"
+                "label": "t:sections.collapsible_info_product.blocks.tabs.settings.image_ratio.options__3.label"
               }, {
                 "value": "43",
-                "label": "t:sections.main-product.blocks.tabs.settings.image_ratio.options__4.label"
+                "label": "t:sections.collapsible_info_product.blocks.tabs.settings.image_ratio.options__4.label"
               }
             ],
             "default": "43",
-            "label": "t:sections.main-product.blocks.tabs.settings.image_ratio.label"
+            "label": "t:sections.collapsible_info_product.blocks.tabs.settings.image_ratio.label"
           }
         ]
       }
@@ -125,21 +125,21 @@
     "settings": [
       {
         "type": "header",
-        "content": "t:sections.main-product.settings.tabs.label"
+        "content": "t:sections.collapsible_info_product.settings.tabs.label"
       }, {
         "type": "select",
         "id": "layout_description",
         "options": [
           {
             "value": "accordion",
-            "label": "t:sections.main-product.settings.layout_description.label__1"
+            "label": "t:sections.collapsible_info_product.settings.layout_description.label__1"
           }, {
             "value": "tabs",
-            "label": "t:sections.main-product.settings.layout_description.label__2"
+            "label": "t:sections.collapsible_info_product.settings.layout_description.label__2"
           }
         ],
         "default": "tabs",
-        "label": "t:sections.main-product.settings.layout_description.content"
+        "label": "t:sections.collapsible_info_product.settings.layout_description.content"
       }
     ],
     "presets": [
