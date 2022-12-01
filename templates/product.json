@@ -189,14 +189,23 @@
         "ee76dbeb-7577-4014-9367-b3b89a04e57f": {
           "type": "tabs",
           "settings": {
-            "title_tabs": "Tabs 1",
-            "content_tabs": "<p>Content Tab 1<\/p>",
-            "image_ratio_tabs": "43"
+            "title": "tab 1",
+            "content": "<p>Content tab 1<\/p>",
+            "image_ratio": "43"
+          }
+        },
+        "fe2ed7b1-eee3-4dcd-b972-488c5d1913ea": {
+          "type": "tabs",
+          "settings": {
+            "title": "tab 2",
+            "content": "<p>Content tab 1<\/p>",
+            "image_ratio": "43"
           }
         }
       },
       "block_order": [
-        "ee76dbeb-7577-4014-9367-b3b89a04e57f"
+        "ee76dbeb-7577-4014-9367-b3b89a04e57f",
+        "fe2ed7b1-eee3-4dcd-b972-488c5d1913ea"
       ],
       "settings": {
         "layout_description": "tabs"
