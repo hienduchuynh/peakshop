@@ -18,6 +18,7 @@
     <ul id="target">
     {% for link in linklists.main-menu.links -%}
       {% assign title_link = link.title | downcase %}
+      {{ title_link }}
       {% if title_link == "blog" %}
         {% for categories in link.links %}
           <li class="category-item">
