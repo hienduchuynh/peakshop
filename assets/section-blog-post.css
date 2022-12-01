@@ -73,6 +73,8 @@
 /* Title */
 .article-template__title {
   margin: 0;
+  font-size: 7.2rem;
+  line-height: 1;
 }
 
 /* Date Publish */
