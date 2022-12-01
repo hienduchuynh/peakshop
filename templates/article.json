@@ -3,6 +3,7 @@
     "1191e715-ddc3-4b43-95af-e9dae8514cfb": {
       "type": "breadcrumb",
       "settings": {
+        "alignment_breadcrumb": "center",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -72,7 +73,7 @@
         "show_tags": true,
         "show_share": true,
         "show_previous_next_buttons": true,
-        "show_sidebar": true,
+        "show_sidebar": false,
         "show_collapse": true,
         "enable_sticky": true,
         "sidebar_position": "right",
