@@ -68,7 +68,7 @@
         "829a0396-a3ca-46ec-b526-9f0271ee7ae1"
       ],
       "settings": {
-        "alignment_title": "center",
+        "alignment_title": "left",
         "show_tags": true,
         "show_share": true,
         "show_previous_next_buttons": true,
