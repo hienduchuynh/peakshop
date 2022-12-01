@@ -4275,7 +4275,8 @@
     },
     "custom": {
       "name": "Custom section",
-      "settings": {},
+      "settings": {
+      },
       "blocks": {
         "img1": {
           "name": "1st Image",

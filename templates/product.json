@@ -186,29 +186,33 @@
     "538ed27d-666d-4169-9ba0-d844989d9d9b": {
       "type": "collapsible-info-product",
       "blocks": {
-        "ee76dbeb-7577-4014-9367-b3b89a04e57f": {
-          "type": "tabs",
+        "60ec516c-2d9f-48d1-abba-a3b3f44a543c": {
+          "type": "collapsible_tab",
           "settings": {
-            "title": "tab 1",
-            "content": "<p>Content tab 1<\/p>",
-            "image_ratio": "43"
+            "heading": "Collapsible item",
+            "icon": "check_mark",
+            "content": "<p>Content 1<\/p>",
+            "image_ratio": "43",
+            "page": ""
           }
         },
-        "fe2ed7b1-eee3-4dcd-b972-488c5d1913ea": {
-          "type": "tabs",
+        "655a1df7-20b5-4468-876d-e93c7b52b887": {
+          "type": "collapsible_tab",
           "settings": {
-            "title": "tab 2",
-            "content": "<p>Content tab 1<\/p>",
-            "image_ratio": "43"
+            "heading": "Collapsible item",
+            "icon": "apple",
+            "content": "<p>Content 2<\/p>",
+            "image_ratio": "43",
+            "page": ""
           }
         }
       },
       "block_order": [
-        "ee76dbeb-7577-4014-9367-b3b89a04e57f",
-        "fe2ed7b1-eee3-4dcd-b972-488c5d1913ea"
+        "60ec516c-2d9f-48d1-abba-a3b3f44a543c",
+        "655a1df7-20b5-4468-876d-e93c7b52b887"
       ],
       "settings": {
-        "layout_description": "accordion"
+        "collapsible_type": "tabs"
       }
     },
     "product-recommendations": {
