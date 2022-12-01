@@ -3,6 +3,7 @@
     "1f3f994a-83c7-4c3e-bbe8-57a84f69cea9": {
       "type": "breadcrumb",
       "settings": {
+        "alignment_breadcrumb": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -141,30 +142,6 @@
             "share_label": "Share"
           }
         },
-        "4ed73133-889e-4b76-8238-606645cba794": {
-          "type": "tabs",
-          "settings": {
-            "title_tabs": "Shipping",
-            "content_tabs": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium enim ut fringilla. Quisque eu lacus enim. Proin eleifend, mi eu aliquam euismod, arcu tortor consectetur nisi, et elementum nibh felis vel ante. Fusce nec tristique enimdoloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.<\/p>",
-            "image_ratio_tabs": "portrait"
-          }
-        },
-        "e42fa36e-34fb-4e00-a8c8-39f23c4446a2": {
-          "type": "tabs",
-          "settings": {
-            "title_tabs": "Payment",
-            "content_tabs": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium enim ut fringilla. Quisque eu lacus enim. Proin eleifend, mi eu aliquam euismod, arcu tortor consectetur nisi, et elementum nibh felis vel ante. Fusce nec tristique enimdoloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam perspiciatis unde omnis iste natus error sit voluptatem accusantium enim ut fringilla. Quisque eu lacus enim. Proin eleifend, mi eu aliquam euismod, arcu tortor consectetur nisi, et elementum nibh felis vel ante. Fusce nec tristique enimdoloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.voluptatem quia voluptas sit aspernatur aut odit aut fugit.<\/p>",
-            "image_ratio_tabs": "43"
-          }
-        },
-        "fd92e9af-7e7a-4fb9-8ca2-69e1f16c1c95": {
-          "type": "tabs",
-          "settings": {
-            "title_tabs": "FAQ",
-            "content_tabs": "<p>This is FAQ<\/p>",
-            "image_ratio_tabs": "43"
-          }
-        },
         "98d68456-304a-42e1-bc2c-73c0d8897360": {
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
           "settings": {
@@ -190,9 +167,6 @@
         "collapsible-row-3",
         "buy_buttons",
         "share",
-        "4ed73133-889e-4b76-8238-606645cba794",
-        "e42fa36e-34fb-4e00-a8c8-39f23c4446a2",
-        "fd92e9af-7e7a-4fb9-8ca2-69e1f16c1c95",
         "98d68456-304a-42e1-bc2c-73c0d8897360"
       ],
       "settings": {
@@ -205,15 +179,27 @@
         "mobile_thumbnails": "hide",
         "hide_variants": true,
         "enable_video_looping": false,
-        "layout_description": "tabs",
         "padding_top": 48,
         "padding_bottom": 48
       }
     },
     "538ed27d-666d-4169-9ba0-d844989d9d9b": {
       "type": "collapsible-info-product",
+      "blocks": {
+        "ee76dbeb-7577-4014-9367-b3b89a04e57f": {
+          "type": "tabs",
+          "settings": {
+            "title_tabs": "Tabs 1",
+            "content_tabs": "<p>Content Tab 1<\/p>",
+            "image_ratio_tabs": "43"
+          }
+        }
+      },
+      "block_order": [
+        "ee76dbeb-7577-4014-9367-b3b89a04e57f"
+      ],
       "settings": {
-        "class_suffix": ""
+        "layout_description": "tabs"
       }
     },
     "product-recommendations": {
