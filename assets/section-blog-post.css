@@ -194,7 +194,7 @@ header > span {
   background-color: #eee;
   color: var(--color-base-accent-1);
   text-decoration: none;
-  padding: 1.6rem 3.2rem;
+  padding: 2.4rem 4.8rem;
 }
 
 @media screen and (max-width: 350px) {
