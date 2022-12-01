@@ -70,6 +70,11 @@
   max-width: 96rem;
 }
 
+.has-sidebar .article-template header {
+  margin: 1.6rem;
+  max-width: 96rem;
+}
+
 /* Title */
 .article-template__title {
   margin: 0;
