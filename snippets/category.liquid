@@ -19,7 +19,7 @@
     {% for link in linklists.main-menu.links -%}
       {{ link.title }}}
       {% assign title_link = link.title | downcase %}
-      {% if title_link == "blog" %}
+      {% if title_link == "blogs" %}
         <p>hello</p>
         {% for categories in link.links %}
           {{ categories.url }}
