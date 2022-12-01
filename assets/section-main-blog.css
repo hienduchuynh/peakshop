@@ -180,7 +180,7 @@
     margin: 0;
   }
 
-  .blog-articles--collage .article .card .card__content:nth-child(2n + 1) {
+  .blog-articles--collage .article:nth-child(2n + 1) .card .card__content {
     padding-left: 0;
   }
 }
