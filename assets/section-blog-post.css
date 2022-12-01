@@ -65,12 +65,12 @@
 /* ========== Blog Title
 ============================ */
 
-.no-sidebar .article-template header {
+.no-sidebar header {
   margin: 0 auto 1.6rem;
   max-width: 96rem;
 }
 
-.has-sidebar .article-template header {
+.has-sidebar header {
   margin-bottom: 1.6rem;
   max-width: 96rem;
 }
