@@ -212,7 +212,7 @@
         "655a1df7-20b5-4468-876d-e93c7b52b887"
       ],
       "settings": {
-        "collapsible_type": "accordion"
+        "collapsible_type": "tabs"
       }
     },
     "product-recommendations": {
