@@ -72,7 +72,7 @@
         "show_tags": true,
         "show_share": true,
         "show_previous_next_buttons": true,
-        "show_sidebar": false,
+        "show_sidebar": true,
         "show_collapse": true,
         "enable_sticky": true,
         "sidebar_position": "right",
