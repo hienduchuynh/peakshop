@@ -65,7 +65,7 @@
 /* ========== Blog Title
 ============================ */
 
-.article-template header {
+.no-sidebar .article-template header {
   margin: 0 auto 1.6rem;
   max-width: 96rem;
 }
