@@ -20,6 +20,7 @@
       {{ link.title }}}
       {% assign title_link = link.title | downcase %}
       {% if title_link == "blog" %}
+        <p>hello</p>
         {% for categories in link.links %}
           {{ categories.url }}
           <li class="category-item">
