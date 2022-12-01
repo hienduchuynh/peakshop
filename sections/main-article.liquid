@@ -27,7 +27,7 @@
   endif
 -%}
 
-<article class="article-template page-width section-{{ section.id }}-padding {% if show_sidebar %} has-sidebar {% endif %}" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="article-template page-width section-{{ section.id }}-padding {% if show_sidebar %} has-sidebar {% else %} no-sidebar {% endif %}" itemscope itemtype="http://schema.org/BlogPosting">
 
     {%- for block in section.blocks -%}
       {%- case block.type -%}
