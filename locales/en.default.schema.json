@@ -4017,6 +4017,23 @@
             }
           }
         }
+      },
+      "settings": {
+        "header": {
+          "content": "Collapsible"
+        },
+        "collapsible_type": {
+          "label": "Type",
+          "options__1": {
+            "label": "Accordion"
+          },
+          "options__2": {
+            "label": "Tabs"
+          },
+          "options__3": {
+            "label": "None"
+          }
+        }
       }
     },
     "collapsible_content": {
