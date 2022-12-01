@@ -2,6 +2,14 @@
   .article-template .article-content {
     max-width: 96rem;
   }
+
+  .no-sidebar .article-content {
+    margin: auto;
+  }
+
+  .has-sidebar .article-content {
+    margin-left: auto;
+  }
 }
 
 .article-template > *:first-child:not(.article-template__hero-container) {
