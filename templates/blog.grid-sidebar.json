@@ -30,7 +30,7 @@
           "settings": {
             "show_block": true,
             "heading": "Recent Tag",
-            "number": 3
+            "number": 10
           }
         }
       },
