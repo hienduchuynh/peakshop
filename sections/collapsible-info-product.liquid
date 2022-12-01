@@ -1,7 +1,35 @@
 <section class="page-width section-{{ section.id }}-padding">
   {%- if section.settings.collapsible_type == "tabs" -%}
     {{ 'component-tabs.css' | asset_url | stylesheet_tag }}
-    Tabs
+    <div class="product___tabs" id="Details-{{ block.id }}-{{ section.id }}">
+      <ul class="nav nav-tabs">
+        {%- for block in section.blocks -%}
+          {%- case block.type -%}
+            {%- when '@app' -%}
+              {% render block %}
+            {%- when 'collapsible_tab' -%}
+              {%- if block.settings.content != blank or block.settings.page.content != blank -%}
+                <li>
+                  <summary>
+                    <div class="summary__title">
+                      {% render 'icon-accordion', icon: block.settings.icon %}
+                      <h2 class="h5 accordion__title">
+                        {{ block.settings.heading | default: block.settings.page.title }}
+                      </h2>
+                    </div>
+                    {% render 'icon-caret' %}
+                  </summary>
+                </li>
+              {%- endif -%}
+          {%- endcase -%}
+        {%- endfor -%}
+      </ul>
+      <div class="tab-content">
+        <div id="tab-1" class="tab-pane active"></div>
+        <div id="tab-2" class="tab-pane active"></div>
+        <div id="tab-3" class="tab-pane active"></div>
+      </div>
+    </div>
   {%- else if section.settings.collapsible_type == "accordion" -%}
     {{ 'component-accordion.css' | asset_url | stylesheet_tag }}
     {%- for block in section.blocks -%}

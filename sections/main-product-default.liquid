@@ -1063,8 +1063,7 @@
         return (msie > 0 || trident > 0);
       }
 
-      // openAdditionalInfo();
-      tabs();
+      
       if (!isIE()) return;
       const hiddenInput = document.querySelector('#{{ product_form_id }} input[name="id"]');
       const noScriptInputWrapper = document.createElement('div');
@@ -1075,105 +1074,7 @@
       document.querySelector('#Variants-{{ section.id }}').addEventListener('change', function(event) {
         hiddenInput.value = event.currentTarget.value;
       });
-
-      function tabs() {
-        // Tabs
-        tabs = document.querySelectorAll('.tab');
-        contentChild = document.querySelectorAll('.tab-content-child');
-        tabsContent = document.querySelector('#tab-content');
-        let reviewWrapper = document.getElementById("review-wrapper");
-        let reviewBlock = document.getElementById("shopify-product-reviews")
-
-        // Append Element 
-        contentChild.forEach(function(item) {
-          tabsContent.appendChild(item);
-        })
-
-        //Append Review
-        tabsContent.appendChild(reviewBlock);
-
-        // First Init
-        tabs[0].classList.add('active');
-        contentChild[0].classList.add('active');
-
-        // Event Tabs 
-        tabs.forEach(function(tab) {
-          tab.addEventListener('click', function(event){
-            contentId = event.currentTarget.dataset.contentId;
-            content = document.getElementById(contentId);
-            
-            // remove content active 
-            contentChild.forEach(function(item){
-              item.classList.remove('active');
-            })
-
-            // remove active review
-            reviewBlock.style.display = "none"; 
-
-            // remove title active
-            tabs.forEach(function(item){
-              item.classList.remove('active');
-            })
-
-            // Add active
-            this.classList.add('active');
-            content.classList.add('active');
-          })
-        }) 
-
-        // Event Tabs Review
-        reviewWrapper.addEventListener('click', function(event) {
-          contentId = event.currentTarget.dataset.contentId;
-          content = document.getElementById(contentId);
-
-          // remove content active 
-          contentChild.forEach(function(item){
-            item.classList.remove('active')
-          })
-
-          reviewBlock.style.display = "block";
-
-        });
-
-        // End Tabs
-      }
-
-      function openAdditionalInfo() {
-        // const pageAccord = document.getElementsByClassName('product__accordion')[0];
-        // if (!pageAccord) return;
-        const allProductsAccor = document.querySelectorAll('div.product__accordion');
-  
-        if (allProductsAccor.length) {
-          allProductsAccor.forEach(function (el, idx, arr) {
-            if (idx === 0) {
-              el.querySelector('details').setAttribute('open', ' ');
-              el.classList.add('active');
-            }
-            // remove svg caret icon
-            // el.querySelector('summary>svg.icon').remove();
-      
-            el.addEventListener('click', function (event) {
-              // add and remove active class for product accordion
-              el.classList.add('active');
-              for (let i = 0; i < arr.length; i++) {
-                if (arr[i] !== el) {
-                  if (arr[i].classList.contains('active')) {
-                    arr[i].classList.remove('active');
-                  }
-                }
-              }
-              allProductsAccor.forEach(function (el1, idx, arr) {
-                event.preventDefault();
-                if (el1.querySelector('details').hasAttribute('open')) {
-                  el1.querySelector('details').removeAttribute('open');
-                }
-                el.querySelector('details').setAttribute('open', ' ');
-              });
-            });
-          });
-        }
-      }
-    });
+   });
 
   </script>
 
