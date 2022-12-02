@@ -545,6 +545,9 @@
         },
         "pick__image": {
           "label": "Load one image 404"
+        },
+        "text__color": {
+          "label": "Text Color"
         }
       }
     },
