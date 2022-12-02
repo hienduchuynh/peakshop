@@ -4056,6 +4056,9 @@
             "label": "None"
           }
         },
+        "box_width": {
+          "label": "Box width on Desktop"
+        },
         "show_product_description": {
           "label": "Show Product Description"
         }
