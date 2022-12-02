@@ -537,6 +537,9 @@
     "main-404": {
       "name": "Main 404",
       "settings": {
+        "background__404": {
+          "label": "Chooose background image"
+        },
         "pick__image": {
           "label": "Load one image 404"
         }
