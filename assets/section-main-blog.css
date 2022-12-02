@@ -20,7 +20,7 @@
 .page--title {
   margin: 0;
   display: inline-block;
-  background-color: var(--color-base-accent-1);
+  background-color: rgba(var(--color-base-accent-1));
   color: #fff;
   padding: 0.4rem 0.8rem;
   line-height: 1;
@@ -118,7 +118,7 @@
 }
 
 .blog-articles__article .article-card__image {
-  border: 2px solid var(--color-base-outline-button-labels);
+  border: 2px solid rgba(var(--color-base-outline-button-labels));
 }
 
 .main-blog .blog-articles__article .card__information {

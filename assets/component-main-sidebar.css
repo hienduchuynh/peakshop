@@ -136,7 +136,7 @@
 .list-tag a {
   background-color: rgba(0, 0, 0, 0.2);
   border-radius: 9999px;
-  color: var(--color-base-accent-1);
+  color: rgba(var(--color-base-accent-1));
   font-size: 1.4rem;
   padding: 0.4rem 0.8rem;
   text-decoration: none;
@@ -175,7 +175,7 @@
 }
 
 .latest-blog-posts-list .post-item .thumbnail-article > img {
-  border: 2px solid var(--color-base-outline-button-labels);
+  border: 2px solid rgba(var(--color-base-outline-button-labels));
 }
 
 .latest-blog-posts-list .information-article {
