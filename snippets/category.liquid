@@ -1,7 +1,7 @@
 {% comment %} Blog categories {% endcomment %}
 
 {%- liquid 
-  assign menu_blog = section.settings.menu_blog
+  assign menu_blog = block.settings.menu_blog
   assign categories = section.settings.category | split: ',' 
   assign title = block.settings.heading
   assign show = block.settings.show_block
