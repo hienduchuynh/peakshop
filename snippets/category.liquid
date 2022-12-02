@@ -21,9 +21,7 @@
       {{ menu_blog }}
       {% for link in menu_blog.links %}
         <li class="category-item">
-<!--           {{ link.title }}
-          {{ link.url | link_to: link.url }} -->
-        <a href="{{ link.url }}">{{ link.title }}</a>
+        <a href="{{ link.url }}">{{ link.urltheme }}</a>
         </li>
       {% endfor %}
     </ul>
