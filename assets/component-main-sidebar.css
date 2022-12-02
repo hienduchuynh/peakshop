@@ -238,10 +238,11 @@
 }
 
 .blog-categories li {
-  align-items: center;
-  display: flex;
-  text-transform: capitalize;
-  padding: 0.4rem 0;
+  display: inline;
+  background-color: #000;
+  padding: 4px 8px;
+  line-height: 26px;
+  text-transform: uppercase;
 }
 
 .blog-categories li .icon-svg path {
@@ -260,7 +261,7 @@
 
 .blog-categories li a {
   text-decoration: none;
-  color: var(--gradient-base-accent-1);
+  color: #fff;
 }
 
 .blog-categories li a:hover {
