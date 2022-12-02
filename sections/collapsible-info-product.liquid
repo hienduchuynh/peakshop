@@ -11,15 +11,12 @@
               {%- when 'collapsible_tab' -%}
                 {%- if block.settings.content != blank or block.settings.page.content != blank -%}
                   <li id="tabHeader-{{ forloop.index }}">
-                    <summary>
-                      <div class="summary__title">
-                        {% render 'icon-accordion', icon: block.settings.icon %}
-                        <h2 class="h5 tab__title">
-                          {{ block.settings.heading | default: block.settings.page.title }}
-                        </h2>
-                      </div>
-                      {% render 'icon-caret' %}
-                    </summary>
+                    <div class="summary__title">
+                      {% render 'icon-accordion', icon: block.settings.icon %}
+                      <h2 class="h5 tab__title">
+                        {{ block.settings.heading | default: block.settings.page.title }}
+                      </h2>
+                    </div>
                   </li>
                 {%- endif -%}
             {%- endcase -%}
@@ -33,7 +30,7 @@
               {% render block %}
             {%- when 'collapsible_tab' -%}
               {%- if block.settings.content != blank or block.settings.page.content != blank -%}
-                <div id="TabContent-{{ forloop.index }}" class="tab__content rte {% if forloop.first == true %}active{%- endif -%}">
+                <div id="TabContent-{{ forloop.index }}" class="tab__content rte" {% if forloop.first == true %}style="display:block;"{%- endif -%}>
                   {{ block.settings.content }}
                   {%- if block.settings.image != blank -%}
                     <div class="media media--{{ block.settings.image_ratio }} media--transparent {% if block.settings.image == blank %} placeholder{% endif %}">
@@ -62,7 +59,7 @@
     </div>
     <script>
       window.addEventListener("load", function() {
-        var container = document.getElementById("TabDetails-{{ section.id }}");
+        var container = document.getElementById("TabDetails-         {{ section.id }}");
         var tabcon = document.getElementById("tabscontent");
         var navitem = document.getElementById("tabHeader-1");
         var ident = navitem.id.split("-")[1];
@@ -358,6 +355,11 @@
         ],
         "default": "accordion",
         "label": "t:sections.collapsible_info_product.settings.collapsible_type.label"
+      }, {
+        "type": "checkbox",
+        "id": "show_product_description",
+        "default": true,
+        "label": "t:sections.collapsible_info_product.settings.show_product_description.label"
       }
     ],
     "presets": [
