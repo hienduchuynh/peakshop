@@ -1489,6 +1489,7 @@
         },
         "layout_type": {
           "label": "Layout type",
+          "info": "The logo and menu postion",
           "options__1": {
             "label": "Logo - Menu - Icons"
           },
