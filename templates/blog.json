@@ -3,6 +3,7 @@
     "d7807ad8-0756-46d1-92f3-8c32756239a8": {
       "type": "breadcrumb",
       "settings": {
+        "alignment_breadcrumb": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -23,7 +24,8 @@
           "type": "category",
           "settings": {
             "show_block": true,
-            "heading": "Blog Categories"
+            "heading": "Blog Categories",
+            "menu_blog": "blogs"
           }
         },
         "2fc29e48-d715-4fbb-98ef-97405268bf85": {
@@ -53,7 +55,7 @@
         "show_excerpt": true,
         "alignment_content": "left",
         "alignment__vertical": "start",
-        "show_sidebar": false,
+        "show_sidebar": true,
         "show_collapse": true,
         "enable_sticky": true,
         "sidebar_position": "left",
