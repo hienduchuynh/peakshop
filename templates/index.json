@@ -250,7 +250,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "BEST SELLERS",
-        "heading_size": "hxl",
+        "heading_size": "h0",
         "title_style": "03",
         "description_style": "body",
         "description": "",
@@ -328,7 +328,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "NEW ARRIVALS",
-        "heading_size": "hxl",
+        "heading_size": "h0",
         "title_style": "03",
         "description_style": "body",
         "description": "",
@@ -457,7 +457,7 @@
       "type": "featured-blog",
       "settings": {
         "heading": "Blog posts",
-        "heading_size": "hxl",
+        "heading_size": "h0",
         "title_style": "03",
         "description_style": "body",
         "description": "",
