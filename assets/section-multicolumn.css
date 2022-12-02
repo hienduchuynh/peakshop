@@ -504,14 +504,21 @@
 .multicolumn .slider-buttons .slider-button {
 	position: absolute;
 	top: 50%;
-	width: 7.2rem;
-	height: 7.2rem;
+	width: 3.6rem;
+	height: 3.6rem;
 	opacity: 0;
 	display: none;
 	border: 2px solid rgba(0, 0, 0, 100);
 	background-color: #fff;
 	transform: translateY(-50%);
 	transition: all var(--duration-long) ease;
+}
+
+@media screen and (min-width: 750px) {
+	.multicolumn .slider-buttons .slider-button {
+		width: 7.2rem;
+		height: 7.2rem;
+	}
 }
 
 .multicolumn:hover .slider-buttons .slider-button {

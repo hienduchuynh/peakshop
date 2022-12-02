@@ -9,13 +9,26 @@
 
 .header-04 {
     display: grid;
-    grid-template-areas: "heading navigation icons";
-    grid-template-columns: auto auto 1fr;
     align-items: center;
     align-items: center;
     column-gap: 2.4rem;
     padding-left: 4.8rem;
     padding-right: 4.8rem;
+}
+
+.header-04.header-layout-logo-menu-icons {
+    grid-template-areas: "heading navigation icons";
+    grid-template-columns: auto auto 1fr;
+}
+
+.header-04.header-layout-menu-logo-icons {
+    grid-template-areas: "navigation heading icons";
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.header-04.header-layout-menu-logo-icons .header__heading, 
+.header-04.header-layout-menu-logo-icons .header__heading-link {
+    justify-self: center;
 }
 
 @media screen and (max-width: 989px) {
