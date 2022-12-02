@@ -4,8 +4,8 @@
       "type": "main-404",
       "settings": {
         "background_404": "shopify:\/\/shop_images\/person-fishing-on-the-beach-is-silhouetted-at-sunset.jpg",
-        "padding_top": 100,
-        "padding_bottom": 100
+        "padding_top": 160,
+        "padding_bottom": 160
       }
     }
   },
