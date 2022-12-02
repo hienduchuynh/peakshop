@@ -11,9 +11,17 @@
     display: grid;
     align-items: center;
     align-items: center;
-    column-gap: 2.4rem;
-    padding-left: 4.8rem;
-    padding-right: 4.8rem;
+    column-gap: 1.2rem;
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+}
+
+@media screen and (min-width: 1200px) {
+    .header-04 {
+        column-gap: 2.4rem;
+        padding-left: 4.8rem;
+        padding-right: 4.8rem;
+    }
 }
 
 .header-04.header-layout-logo-menu-icons {

@@ -113,7 +113,7 @@
     margin: calc(var(--card-image-padding)/2);
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 1200px) {
     .card__media {
         margin: var(--card-image-padding);
         width: calc(100% - 2 * var(--card-image-padding));
@@ -215,7 +215,7 @@
     padding-bottom: calc(var(--card-image-padding) / 2);
 }
 
-@media screen and (min-width: 750px) { 
+@media screen and (min-width: 1200px) { 
     .card--card.card--media > .card__content {
         margin-top: calc(0rem - var(--card-image-padding));
         padding-left: var(--card-image-padding);
