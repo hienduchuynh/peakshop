@@ -1,77 +1,63 @@
 {
   "sections": {
-    "main": {
-      "type": "main-page",
+    "1663821762badf5565": {
+      "type": "breadcrumb",
       "disabled": true,
       "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28,
-        "suffix-class": ""
       }
     },
-    "6742bddb-b6d4-4374-808d-2654dfd1a84f": {
-      "type": "slideshow",
+    "cd4880b2-bfb4-4aae-959f-a06cba5e6b15": {
+      "type": "ja-map",
+      "settings": {
+        "title": "Google Map",
+        "heading_size": "h1",
+        "address": "New York",
+        "zoom": 12,
+        "color_scheme": "background-1",
+        "width": "100%",
+        "height": "600px",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 48,
+        "padding_bottom": 0,
+        "suffix-class": "contact-heading"
+      }
+    },
+    "form": {
+      "type": "contact-form-2",
       "blocks": {
-        "template--14957954498633__6742bddb-b6d4-4374-808d-2654dfd1a84f-166778496174e67457-0": {
-          "type": "slide",
+        "59dea0b6-a68d-4ee7-8b72-e6ebf879f73e": {
+          "type": "misc",
           "settings": {
-            "heading": "Image slide",
-            "heading_size": "h3",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "link_style": "solid",
-            "box_align": "middle-center",
-            "button_label2": "",
-            "link2": "",
-            "link_style2": "solid",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "template--14957954498633__6742bddb-b6d4-4374-808d-2654dfd1a84f-166778496174e67457-1": {
-          "type": "slide",
-          "settings": {
-            "heading": "Image slide",
-            "heading_size": "h3",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "link_style": "solid",
-            "box_align": "middle-center",
-            "button_label2": "",
-            "link2": "",
-            "link_style2": "solid",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
+            "description": "Questions or comments about this theme? Please view Atoms's documentation here for theme settings information, etc. If your questions still aren't answered, feel free to send our support team a message via the form below and we'll be happy to help you out. This is just a demo store.",
+            "address": "Dr. Florian Proell & Colleagues, Cicerostrabe 21, 10709 Berlin",
+            "phone-1": "(+49) 30 880911 0",
+            "phone-2": "(+49) 30 880911 0",
+            "web-address": "https:\/\/joomlart-atoms.myshopify.com\/"
           }
         }
       },
       "block_order": [
-        "template--14957954498633__6742bddb-b6d4-4374-808d-2654dfd1a84f-166778496174e67457-0",
-        "template--14957954498633__6742bddb-b6d4-4374-808d-2654dfd1a84f-166778496174e67457-1"
+        "59dea0b6-a68d-4ee7-8b72-e6ebf879f73e"
       ],
       "settings": {
-        "layout": "full_bleed",
-        "slide_height": "adapt_image",
-        "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "heading": "",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 48
       }
     }
   },
   "order": [
+    "1663821762badf5565",
+    "cd4880b2-bfb4-4aae-959f-a06cba5e6b15",
     "main",
-    "6742bddb-b6d4-4374-808d-2654dfd1a84f"
+    "form"
   ]
 }
