@@ -3,7 +3,9 @@
     "main": {
       "type": "main-404",
       "settings": {
-        "image_404": "shopify:\/\/shop_images\/5203299.jpg"
+        "background_404": "shopify:\/\/shop_images\/collection-2.jpg",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
