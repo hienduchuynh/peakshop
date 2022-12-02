@@ -62,6 +62,10 @@
     z-index: -1;
   }
 
+  .wrapper {
+    z-index: 10;
+  }
+
   .template-404 > * {
     color: {{ section.settings.text_color }};
   }
@@ -72,25 +76,27 @@
 -%}
 
 <div class="template-404 page-width center section-{{ section.id }}-padding">
-  {% if image != blank %}
-    <img
-    src="{{ image | image_url: width: 400 }}"
-    class="image-404"
-    loading="lazy"
-    width="auto"
-    height="auto"
-    >
-  {% else %}
-  <p class="code-error">
-    {{ 'templates.404.subtext' | t }}
-  </p>
-  {% endif %}
-  <h1 class="code-message">
-  {{ 'templates.404.title' | t }}
-  </h1>
-  <a href="{{ routes.all_products_collection_url }}" class="button redirect-home">
-    {{ 'general.continue_shopping' | t }}
-  </a>
+  <div class="wrapper">
+    {% if image != blank %}
+      <img
+      src="{{ image | image_url: width: 400 }}"
+      class="image-404"
+      loading="lazy"
+      width="auto"
+      height="auto"
+      >
+    {% else %}
+    <p class="code-error">
+      {{ 'templates.404.subtext' | t }}
+    </p>
+    {% endif %}
+    <h1 class="code-message">
+    {{ 'templates.404.title' | t }}
+    </h1>
+    <a href="{{ routes.all_products_collection_url }}" class="button redirect-home">
+      {{ 'general.continue_shopping' | t }}
+    </a>
+  </div>
 </div>
 {% schema %}
 {
