@@ -3,6 +3,7 @@
     "d7807ad8-0756-46d1-92f3-8c32756239a8": {
       "type": "breadcrumb",
       "settings": {
+        "alignment_breadcrumb": "left",
         "padding_top": 46,
         "padding_bottom": 24
       }
@@ -23,7 +24,8 @@
           "type": "category",
           "settings": {
             "show_block": true,
-            "heading": "Blog Categories"
+            "heading": "Blog Categories",
+            "menu_blog": "blogs"
           }
         },
         "2fc29e48-d715-4fbb-98ef-97405268bf85": {
