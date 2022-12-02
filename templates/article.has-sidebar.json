@@ -47,7 +47,8 @@
           "type": "category",
           "settings": {
             "show_block": true,
-            "heading": "Blog Categories"
+            "heading": "Blog Categories",
+            "menu_blog": "blogs"
           }
         },
         "829a0396-a3ca-46ec-b526-9f0271ee7ae1": {
