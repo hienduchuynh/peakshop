@@ -3,15 +3,6 @@
     margin-top: 1rem;
   }
 
-  .template-404::after{
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-  }
-
   .code-error {
     color: var(--color-base-background-1);
     font-size: 15rem;
@@ -58,6 +49,17 @@
     background-size: cover;
     background-position: top center;
     position: relative;
+  }
+
+  .template-404::after{
+    content: "";
+    background-color: #000;
+    opcity: {{ background_opacity }}
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
 {%- endstyle -%}
 
