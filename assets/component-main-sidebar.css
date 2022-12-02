@@ -268,10 +268,6 @@
   font-weight: 700;
 }
 
-.blog-categories li a:hover {
-  color: var(--color-base-accent-3);
-}
-
 /* Sidebar Article */
 .sidebar-article .sidebar .scroll-sidebar {
   margin-bottom: 14rem;
