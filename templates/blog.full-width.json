@@ -44,7 +44,7 @@
       "settings": {
         "page_title": "Blog Full Width",
         "description": "",
-        "alignment_title": "left",
+        "alignment_title": "right",
         "layout": "collage",
         "number_article": 9,
         "show_image": true,

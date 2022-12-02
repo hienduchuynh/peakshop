@@ -1487,6 +1487,16 @@
           "unit": "px",
           "label": "Custom logo width"
         },
+        "layout_type": {
+          "label": "Layout type",
+          "info": "The logo and menu postion",
+          "options__1": {
+            "label": "Logo - Menu - Icons"
+          },
+          "options__2": {
+            "label": "Menu - Logo - Icons"
+          }
+        },
         "logo_position": {
           "label": "Desktop logo position",
           "options__1": {
