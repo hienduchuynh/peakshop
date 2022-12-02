@@ -31,6 +31,7 @@
       {% if media_height and media_height != 'adapt' %} article-card__image--{{ media_height }} {% endif %}
       {% if article.image and show_image %} card--media{% else %} card--text{% endif %}
       {% if settings.card_style == 'card' %} color-{{ settings.card_color_scheme }} gradient{% endif %}
+      align-{{ alignment__vertical }}
       {% if settings.card_style == 'card' and media_height == nil and article.image == empty or show_image == false %} ratio{% endif %}"
       style="--ratio-percent: {{ 1 | divided_by: ratio | times: 100 }}%;"
     >

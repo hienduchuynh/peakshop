@@ -44,7 +44,7 @@
       "settings": {
         "page_title": "Blog Full Width",
         "description": "",
-        "alignment_title": "left",
+        "alignment_title": "right",
         "layout": "collage",
         "number_article": 9,
         "show_image": true,
@@ -53,7 +53,7 @@
         "show_author": true,
         "show_excerpt": true,
         "alignment_content": "left",
-        "alignment__vertical": "start",
+        "alignment__vertical": "center",
         "show_sidebar": false,
         "show_collapse": true,
         "enable_sticky": true,

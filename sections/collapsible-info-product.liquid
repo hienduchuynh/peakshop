@@ -2,7 +2,7 @@
   {%- if section.settings.collapsible_type == "tabs" -%}
     {{ 'component-tabs.css' | asset_url | stylesheet_tag }}
     <div class="product___tabs tab quick-add-hidden" id="TabDetails-{{ section.id }}" {{ block.shopify_attributes }}>
-      <div id="tabs">
+      <div id="tabsheader" class="tab-header">
         <ul class="nav nav-tabs">
           {%- for block in section.blocks -%}
             {%- case block.type -%}
@@ -14,7 +14,7 @@
                     <summary>
                       <div class="summary__title">
                         {% render 'icon-accordion', icon: block.settings.icon %}
-                        <h2 class="h5 accordion__title">
+                        <h2 class="h5 tab__title">
                           {{ block.settings.heading | default: block.settings.page.title }}
                         </h2>
                       </div>
