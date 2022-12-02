@@ -30,7 +30,7 @@
 }
 
 .article-template__hero-container .media {
-  border: 2px solid rgba(var(--color-base-outline-button-labels));
+  border: 2px solid #000;
 }
 /* Option Height Image */
 .article-template__hero-small {
@@ -202,7 +202,6 @@ header > span {
   background-color: transparent;
   color: var(--color-base-accent-1);
   text-decoration: none;
-  padding: 2.4rem 4.8rem;
 }
 
 @media screen and (max-width: 350px) {
