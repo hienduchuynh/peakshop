@@ -52,7 +52,7 @@
   assign image = section.settings.image_404
 -%}
 
-<div class="template-404 page-width page-margin center section-{{ section.id }}-padding">
+<div class="template-404 page-width center section-{{ section.id }}-padding">
   {% if image != blank %}
     <img
     src="{{ image | image_url: width: 400 }}"
