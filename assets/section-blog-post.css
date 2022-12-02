@@ -195,6 +195,8 @@ header > span {
 .previous_next_buttons {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2.4rem;
 }
 .previous_next_buttons .btn {
   background-color: transparent;
