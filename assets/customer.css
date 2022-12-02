@@ -12,6 +12,10 @@
 /* Title */
 .customer h1 {
   margin: 0 auto 1.6rem;
+  background-color: #000;
+  display: inline-flex;
+  color: white;
+  padding: 4px 8px;
 }
 
 /* Breadcrumb */
@@ -40,7 +44,7 @@
   margin-top: 2.4rem;
 }
 
-.customer button {
+.customer:not(.login, .register) button {
   margin: 1.6rem 0;
 }
 
@@ -68,6 +72,10 @@
 .customer strong {
   font-weight: normal;
   color: rgb(var(--color-foreground));
+}
+
+.customer button {
+  margin-top: 2.4rem;
 }
 
 .customer .form__message {
@@ -389,13 +397,32 @@
   margin-top: 0;
 }
 
+.login .action {
+  margin-top: 2.4rem;
+  display: flex;
+  gap: 2.4rem;
+}
+
+@media screen and (max-width: 749px) {
+  .login .action {
+    flex-direction: column;
+  }
+
+  .login .action > * {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
 .btn-signin {
-  width: 100%;
+  width: 50%;
+  max-width: 50%;
+  margin: 0 !important;
 }
 
 #forgot_password {
   text-decoration: none;
-  margin: auto;
+  margin: 2.4rem 0 0;
 }
 
 #forgot_password:hover {
@@ -403,12 +430,12 @@
 }
 
 #create_account {
-  margin-top: 1.6rem;
   text-decoration: none;
   transition: all .35s;
   opacity: 1;
   width:  unset;
   text-transform: uppercase;
+  flex: 1;
 }
 
 #create_account:hover {

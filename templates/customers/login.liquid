@@ -121,18 +121,19 @@
         </div>
       {%- endif -%}
 
-      <button class="btn-signin">
-        {{ 'customer.login_page.sign_in' | t }}
-      </button>
-
       <a href="#recover" id="forgot_password">
         {{ 'customer.login_page.forgot_password' | t }}
       </a>
 
-      <a href="{{ routes.account_register_url }}" id="create_account" class="button">
-        {{ 'customer.login_page.create_account' | t }}
-      </a>
-      
+      <div class="action">
+        <button class="btn-signin">
+          {{ 'customer.login_page.sign_in' | t }}
+        </button>
+
+        <a href="{{ routes.account_register_url }}" id="create_account" class="button">
+          {{ 'customer.login_page.create_account' | t }}
+        </a>
+      </div>
     {%- endform -%}
   </div>
   
