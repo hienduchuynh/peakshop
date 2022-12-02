@@ -44,7 +44,7 @@
     }
   }
   .template-404 {
-    background-image: url({{ section.settings.background_404 }});
+    background-image: url({{ section.settings.background_404 | asset_url }});
   }
 {%- endstyle -%}
 
