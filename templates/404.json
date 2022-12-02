@@ -4,7 +4,7 @@
       "type": "main-404",
       "settings": {
         "background_404": "shopify:\/\/shop_images\/tying-up-boot-laces.jpg",
-        "background_opacity": 0.2,
+        "background_opacity": 0.3,
         "text_color": "#ffffff",
         "padding_top": 160,
         "padding_bottom": 160
