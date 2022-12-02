@@ -28,7 +28,6 @@
     }
   }
 
-
 </style>
 
 {%- style -%}
@@ -46,8 +45,30 @@
   .template-404 {
     background-image: url({{ section.settings.background_404 | img_url: 'master' }});
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: cover;
     background-position: top center;
+    position: relative;
+  }
+
+  .template-404::after{
+    content: "";
+    background-color: #000;
+    opacity: {{ section.settings.background_opacity }};
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+
+  .wrapper {
+    position: relative;
+    z-index: 10;
+  }
+
+  .template-404 .wrapper > * {
+    color: {{ section.settings.text_color }};
   }
 {%- endstyle -%}
 
@@ -56,25 +77,27 @@
 -%}
 
 <div class="template-404 page-width center section-{{ section.id }}-padding">
-  {% if image != blank %}
-    <img
-    src="{{ image | image_url: width: 400 }}"
-    class="image-404"
-    loading="lazy"
-    width="auto"
-    height="auto"
-    >
-  {% else %}
-  <p class="code-error">
-    {{ 'templates.404.subtext' | t }}
-  </p>
-  {% endif %}
-  <h1 class="code-message">
-  {{ 'templates.404.title' | t }}
-  </h1>
-  <a href="{{ routes.all_products_collection_url }}" class="button redirect-home">
-    {{ 'general.continue_shopping' | t }}
-  </a>
+  <div class="wrapper">
+    {% if image != blank %}
+      <img
+      src="{{ image | image_url: width: 400 }}"
+      class="image-404"
+      loading="lazy"
+      width="auto"
+      height="auto"
+      >
+    {% else %}
+    <p class="code-error">
+      {{ 'templates.404.subtext' | t }}
+    </p>
+    {% endif %}
+    <h1 class="code-message">
+    {{ 'templates.404.title' | t }}
+    </h1>
+    <a href="{{ routes.all_products_collection_url }}" class="button redirect-home">
+      {{ 'general.continue_shopping' | t }}
+    </a>
+  </div>
 </div>
 {% schema %}
 {
@@ -88,9 +111,23 @@
       "label": "t:sections.main-404.settings.background__404.label"
     },
     {
+      "type": "range",
+      "id": "background_opacity",
+      "min": 0.1,
+      "max": 1,
+      "step": 0.1,
+      "label": "t:sections.main-404.settings.background__opacity.label",
+      "default": 0.5
+    },
+    {
       "type": "image_picker",
       "id": "image_404",
       "label": "t:sections.main-404.settings.pick__image.label"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "t:sections.main-404.settings.text__color.label"
     },
     {
       "type": "header",

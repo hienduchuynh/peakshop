@@ -89,8 +89,14 @@
 /* Title */
 .article-template__title {
   margin: 0;
-  font-size: 7.2rem;
+  font-size: 3.6rem;
   line-height: 1;
+}
+
+@media screen and (min-width: 1200px) {
+  .article-template__title {
+    font-size: 7.2rem;
+  }
 }
 
 /* Date Publish */
