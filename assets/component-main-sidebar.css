@@ -262,6 +262,7 @@
 .blog-categories li a {
   text-decoration: none;
   color: #fff;
+  font-weight: 700;
 }
 
 .blog-categories li a:hover {
