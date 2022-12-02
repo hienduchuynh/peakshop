@@ -1,6 +1,7 @@
 {% comment %} Blog categories {% endcomment %}
 
 {%- liquid 
+  assign menu_blog = section.settings.menu_blog
   assign categories = section.settings.category | split: ',' 
   assign title = block.settings.heading
   assign show = block.settings.show_block
@@ -16,7 +17,7 @@
       {% endif %}
     </div>
     <ul id="target">
-    {% for link in linklists.main-menu.links -%}
+<!--     {% for link in linklists.main-menu.links -%}
       {% assign title_link = link.title | downcase %}
       {% if title_link == "blog" %}
         {% for categories in link.links %}
@@ -25,7 +26,13 @@
           </li>
         {% endfor %}
       {% endif %}
-    {%- endfor %}
+    {%- endfor %} -->
+
+      {% for link in linklists.menu_blog.links %}
+        <li class="category-item">
+          {{ link.url | link_to: link.url }}
+        </li>
+      {% endfor %}
     </ul>
   {% endif %}
 </div>
