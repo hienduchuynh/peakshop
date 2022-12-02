@@ -21,8 +21,9 @@
       {{ menu_blog }}
       {% for link in linklists.menu_blog.links %}
         <li class="category-item">
-          {{ link.title }}
-          {{ link.url | link_to: link.url }}
+<!--           {{ link.title }}
+          {{ link.url | link_to: link.url }} -->
+        <a href="{{ link.url }}">{{ link.title }}</a>
         </li>
       {% endfor %}
     </ul>
