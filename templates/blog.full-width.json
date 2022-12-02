@@ -53,7 +53,7 @@
         "show_author": true,
         "show_excerpt": true,
         "alignment_content": "left",
-        "alignment__vertical": "center",
+        "alignment__vertical": "start",
         "show_sidebar": false,
         "show_collapse": true,
         "enable_sticky": true,
