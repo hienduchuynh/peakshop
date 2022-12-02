@@ -212,7 +212,11 @@
         "655a1df7-20b5-4468-876d-e93c7b52b887"
       ],
       "settings": {
-        "collapsible_type": "tabs"
+        "collapsible_type": "tabs",
+        "box_width": 65,
+        "show_product_description": true,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "product-recommendations": {
