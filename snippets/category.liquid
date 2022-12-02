@@ -17,9 +17,9 @@
       {% endif %}
     </div>
     <ul id="target">
+      <p>Hello</p>
       {% for link in linklists.menu_blog.links %}
         <li class="category-item">
-          <p>Hello</p>
           {{ link.title }}
           {{ link.url | link_to: link.url }}
         </li>
