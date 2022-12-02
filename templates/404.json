@@ -4,7 +4,7 @@
       "type": "main-404",
       "settings": {
         "background_404": "shopify:\/\/shop_images\/small-business-interior.jpg",
-        "background_opacity": 0.4,
+        "background_opacity": 0.3,
         "padding_top": 160,
         "padding_bottom": 160
       }
