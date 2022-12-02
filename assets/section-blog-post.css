@@ -34,28 +34,28 @@
 }
 /* Option Height Image */
 .article-template__hero-small {
-  height: 11rem;
+  padding-bottom: 56.25%;
 }
 
 .article-template__hero-medium {
-  height: 22rem;
+  padding-bottom: 56.25%;
 }
 
 .article-template__hero-large {
-  height: 33rem;
+  padding-bottom: 56.25%;
 }
 
 @media screen and (min-width: 750px) and (max-width: 989px) {
   .article-template__hero-small {
-    height: 22rem;
+    padding-bottom: 56.25%;
   }
 
   .article-template__hero-medium {
-    height: 44rem;
+    padding-bottom: 56.25%;
   }
 
   .article-template__hero-large {
-    height: 66rem;
+    padding-bottom: 56.25%;
   }
 }
 
