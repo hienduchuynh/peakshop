@@ -175,7 +175,7 @@
 }
 
 .latest-blog-posts-list .post-item .thumbnail-article > img {
-  border: 2px solid #000;
+  border: 2px solid var(--color-base-outline-button-labels);
 }
 
 .latest-blog-posts-list .information-article {
@@ -242,7 +242,7 @@
 
 .blog-categories li {
   display: inline;
-  background-color: #000;
+  background-color: var(--gradient-base-accent-1);
   padding: 4px 8px;
   line-height: 26px;
   text-transform: uppercase;

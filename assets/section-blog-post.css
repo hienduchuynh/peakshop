@@ -30,7 +30,7 @@
 }
 
 .article-template__hero-container .media {
-  border: 2px solid #000;
+  border: 2px solid var(--color-base-outline-button-labels);
 }
 /* Option Height Image */
 .article-template__hero-small {
