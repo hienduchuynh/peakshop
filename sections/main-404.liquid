@@ -28,10 +28,6 @@
     }
   }
 
-  .template-404 > * {
-    color: red;
-  }
-
 </style>
 
 {%- style -%}
@@ -63,6 +59,10 @@
     bottom: 0;
     left: 0;
     right: 0;
+  }
+
+  .template-404 > * {
+    color: {{ section.settings.text_color }};
   }
 {%- endstyle -%}
 
