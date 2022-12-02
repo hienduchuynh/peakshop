@@ -45,7 +45,7 @@
       "settings": {
         "page_title": "Blog Grid",
         "description": "",
-        "alignment_title": "center",
+        "alignment_title": "left",
         "layout": "grid",
         "number_article": 9,
         "show_image": true,
