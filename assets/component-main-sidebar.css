@@ -233,12 +233,11 @@
 /* Blog Category */
 
 .blog-categories ul {
-  padding: 0;
-  margin: 0;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 8px;
+  padding: 0;
 }
 
 .blog-categories li {
