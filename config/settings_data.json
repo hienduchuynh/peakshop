@@ -569,7 +569,7 @@
         "settings": {
           "heading": "Peakshop",
           "heading_size": "h0",
-          "color_scheme": "accent-2",
+          "color_scheme": "inverse",
           "enable_country_selector": true,
           "enable_language_selector": true,
           "payment_enable": true,
