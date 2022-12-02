@@ -185,8 +185,8 @@
   }
 }
 
-.blog-articles--collage .card {
-  align-items: center;
+.blog-articles--collage .card align-start {
+  align-items: flex-start;
 }
 
 .blog-articles--collage .card.align-center {
