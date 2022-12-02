@@ -37,7 +37,7 @@
 .footer-05 .footer__content-top .grid__item {
 	padding-left: calc(var(--grid-mobile-horizontal-spacing));
 	padding-right: calc(var(--grid-mobile-horizontal-spacing));
-	border-right: 2px solid rgba(255, 255, 255, 0.2);
+	border-right: 2px solid rgba(var(--color-foreground), 0.2);
 }
 
 @media screen and (min-width: 750px) {
@@ -88,11 +88,11 @@
 .footer-05 .title-wrapper-03 {
 	margin-bottom: 0;
 	padding-bottom: 2.4rem;
-	border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+	border-bottom: 2px solid rgba(var(--color-foreground), 0.2);
 }
 
 .footer-05 .footer__content-bottom {
-	border-top: 2px solid rgba(255, 255, 255, 0.2);
+	border-top: 2px solid rgba(var(--color-foreground), 0.2);
 }
 
 .footer-05 .footer__content-bottom-wrapper {
