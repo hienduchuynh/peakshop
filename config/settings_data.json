@@ -555,7 +555,7 @@
             "type": "link_list",
             "settings": {
               "heading": "",
-              "menu": "blogs"
+              "menu": "footer"
             }
           }
         },
