@@ -40,8 +40,8 @@
 <div data-section-id="{{ section.id }}" data-section-type="blog-layout-default" id="BlogSection-{{ section.id }}" data-section="{{ section.id }}" class="main-blog-block page-width blog-layout-default section-{{ section.id }}-padding {% if show_sidebar %} has-sidebar {% endif %}">
 
   <div class="header-page">
-    <div class="wrap-title">
-    <h1 class="page--title {% if alignment_title != blank %}{{ alignment_title }}{% endif %}">
+    <div class="wrap-title {% if alignment_title != blank %}{{ alignment_title }}{% endif %}">
+    <h1 class="page--title">
       {% if page_title != blank %}
         {{ page_title }}  
       {% else %}
