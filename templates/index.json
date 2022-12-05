@@ -6,6 +6,7 @@
         "template--17016615010579__715d01be-8642-4c52-804e-cdbe0c35ae1b-16702096646e1fd5d7-0": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/collection-3.jpg",
             "heading": "Image slide",
             "heading_size": "hxl",
             "subheading": "Tell your brand's story through images",
@@ -13,7 +14,7 @@
             "link": "",
             "link_style": "solid",
             "box_align": "middle-center",
-            "box_width": 50,
+            "box_width": 40,
             "button_label2": "",
             "link2": "",
             "link_style2": "solid",
