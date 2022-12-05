@@ -31,13 +31,13 @@
 }
 
 .color-accent-3 {
-	--color-foreground: var(--color-base-solid-button-labels);
+	--color-foreground: 000,000,000;
 	--color-background: var(--color-base-accent-3);
 	--gradient-background: var(--gradient-base-accent-3);
 }
 
 .color-accent-4 {
-	--color-foreground: var(--color-base-solid-button-labels);
+	--color-foreground: 000,000,000;
 	--color-background: var(--color-base-accent-4);
 	--gradient-background: var(--gradient-base-accent-4);
 }
