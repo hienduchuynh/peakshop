@@ -111,8 +111,6 @@
         "collapsible-row-0"
       ],
       "settings": {
-        "layout_product": "default",
-        "enable_sticky_info": true,
         "media_size": "large",
         "gallery_layout": "grid-3-column",
         "gallery_position": "bottom",
@@ -120,7 +118,6 @@
         "mobile_thumbnails": "hide",
         "hide_variants": true,
         "enable_video_looping": false,
-        "layout_description": "tabs",
         "padding_top": 48,
         "padding_bottom": 48
       }
