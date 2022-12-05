@@ -102,7 +102,7 @@
     </div>
     <script>
       window.addEventListener("load", function() {
-        var container = document.getElementById("TabDetails-{{ section.id }}");
+        var container = document.getElementById("TabDetails-     {{ section.id }}");
         var tabcon = document.getElementById("tabscontent");
         var navitem = document.getElementById("tabHeader-1");
         var ident = navitem.id.split("-")[1];
@@ -130,7 +130,7 @@
   {%- else if section.settings.collapsible_type == "accordion" -%}
     {{ 'component-accordion.css' | asset_url | stylesheet_tag }}
     {%- if section.settings.show_product_description -%}
-      <div class="product___accordion accordion quick-add-hidden" {{ block.shopify_attributes }}>
+      <div class="product___accordion description accordion quick-add-hidden" {{ block.shopify_attributes }}>
         <details id="Details-{{ block.id }}-{{ section.id }}">
           <summary>
             <div class="summary__title">
@@ -192,7 +192,69 @@
       {%- endcase -%}
     {%- endfor -%}
   {%- else -%}
-    List
+    {{ 'component-colabsible-list.css' | asset_url | stylesheet_tag }}
+    {%- if section.settings.show_product_description -%}
+      <div class="product___colabsible-list description colabsible-list quick-add-hidden" {{ block.shopify_attributes }}>
+        <details id="Details-{{ block.id }}-{{ section.id }}">
+          <summary>
+            <div class="summary__title">
+              {% render 'icon-accordion', icon: block.settings.icon %}
+              <h2 class="h5 accordion__title">
+                Description
+              </h2>
+            </div>
+            {% render 'icon-caret' %}
+          </summary>
+          <div class="colabsible-list__content rte" id="ProductColabsibleList-{{ block.id }}-{{ section.id }}">
+            {{ product.description }}
+          </div>
+        </details>
+      </div>
+    {%- endif -%}
+    {%- for block in section.blocks -%}
+      {%- case block.type -%}
+        {%- when '@app' -%}
+          {% render block %}
+        {%- when 'collapsible_tab' -%}
+          {%- if block.settings.content != blank or block.settings.page.content != blank -%}
+            <div class="product___colabsible-list colabsible-list quick-add-hidden" {{ block.shopify_attributes }}>
+              <details id="Details-{{ block.id }}-{{ section.id }}">
+                <summary>
+                  <div class="summary__title">
+                    {% render 'icon-accordion', icon: block.settings.icon %}
+                    <h2 class="h5 accordion__title">
+                      {{ block.settings.heading | default: block.settings.page.title }}
+                    </h2>
+                  </div>
+                  {% render 'icon-caret' %}
+                </summary>
+                <div class="colabsible-list__content rte" id="ProductColabsibleList-{{ block.id }}-{{ section.id }}">
+                  {{ block.settings.content }}
+                  {%- if block.settings.image != blank -%}
+                    <div class="media media--{{ block.settings.image_ratio }} media--transparent {% if block.settings.image == blank %} placeholder{% endif %}">
+                      {%-liquid
+                          assign image_height = block.settings.image.width | divided_by: block.settings.image.aspect_ratio
+                          assign image_class = ""
+                          assign sizes = "100%"
+                        -%}
+                      {{ block.settings.image | image_url: width: 1500 | image_tag:
+                       loading: 'lazy'
+                       , width: block.settings.image.width
+                       , height: image_height
+                       , class: image_class
+                       , sizes: sizes
+                       , widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
+                       , alt: block.settings.image.alt | escape
+                       }}
+                    </div>
+                  {%- endif -%}
+                  {{ block.settings.page.content }}
+                </div>
+              </details>
+            </div>
+          {%- endif -%}
+      {%- endcase -%}
+    {%- endfor -%}
   {%- endif -%}
 </section>
 {% schema %}
@@ -433,6 +495,23 @@
         "id": "show_product_description",
         "default": true,
         "label": "t:sections.collapsible_info_product.settings.show_product_description.label"
+      }, {
+        "type": "select",
+        "id": "collapsible_tab_header_position",
+        "options": [
+          {
+            "value": "top",
+            "label": "t:sections.collapsible_info_product.settings.collapsible_tab_header_position.options__1.label"
+          }, {
+            "value": "right",
+            "label": "t:sections.collapsible_info_product.settings.collapsible_tab_header_position.options__2.label"
+          }, {
+            "value": "left",
+            "label": "t:sections.collapsible_info_product.settings.collapsible_tab_header_position.options__3.label"
+          }
+        ],
+        "default": "top",
+        "label": "t:sections.collapsible_info_product.settings.collapsible_tab_header_position.label"
       }, {
         "type": "range",
         "id": "padding_top",
