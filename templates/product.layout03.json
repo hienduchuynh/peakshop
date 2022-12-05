@@ -59,6 +59,12 @@
           "settings": {
           }
         },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
         "collapsible-row-2": {
           "type": "collapsible_tab",
           "settings": {
@@ -82,7 +88,7 @@
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "HELP & ADVICE",
+            "heading": "HELP",
             "icon": "chat_bubble",
             "content": "<p>Our fashion consultants are on hand & ready to support you.Get in touch via our contact form here.<\/p>",
             "image_ratio": "43",
@@ -98,17 +104,6 @@
             "image_ratio": "43",
             "page": ""
           }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        },
-        "1a04436f-0f6f-46dd-8688-7ff1684deb78": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
-          "settings": {
-          }
         }
       },
       "block_order": [
@@ -121,12 +116,11 @@
         "quantity_selector",
         "buy_buttons",
         "description",
+        "share",
         "collapsible-row-2",
         "collapsible-row-1",
         "collapsible-row-0",
-        "collapsible-row-3",
-        "share",
-        "1a04436f-0f6f-46dd-8688-7ff1684deb78"
+        "collapsible-row-3"
       ],
       "settings": {
         "layout_product": "default",
@@ -162,28 +156,10 @@
         "padding_top": 24,
         "padding_bottom": 48
       }
-    },
-    "95f59519-67de-476a-9fed-119aecc7e045": {
-      "type": "ja-recent-products",
-      "settings": {
-        "title": "Recently Viewed Products",
-        "heading_size": "h4",
-        "title_style": "02",
-        "description": "<p>The feature keeps track of all the items viewed, from where the customer can review the product and conceder it for purchase.<br\/><\/p>",
-        "description_style": "body",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "color_scheme": "background-1",
-        "columns_mobile": "2",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "main",
-    "product-recommendations",
-    "95f59519-67de-476a-9fed-119aecc7e045"
+    "product-recommendations"
   ]
 }
