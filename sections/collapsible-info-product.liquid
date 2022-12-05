@@ -129,6 +129,24 @@
     </script>
   {%- else if section.settings.collapsible_type == "accordion" -%}
     {{ 'component-accordion.css' | asset_url | stylesheet_tag }}
+    {%- if section.settings.show_product_description -%}
+      <div class="product___accordion accordion quick-add-hidden" {{ block.shopify_attributes }}>
+        <details id="Details-{{ block.id }}-{{ section.id }}">
+          <summary>
+            <div class="summary__title">
+              {% render 'icon-accordion', icon: block.settings.icon %}
+              <h2 class="h5 accordion__title">
+                Description
+              </h2>
+            </div>
+            {% render 'icon-caret' %}
+          </summary>
+          <div class="accordion__content rte" id="ProductAccordion-{{ block.id }}-{{ section.id }}">
+            {{ product.description }}
+          </div>
+        </details>
+      </div>
+    {%- endif -%}
     {%- for block in section.blocks -%}
       {%- case block.type -%}
         {%- when '@app' -%}
