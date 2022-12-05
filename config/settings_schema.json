@@ -1,10 +1,10 @@
 [
   {
     "name": "theme_info",
-    "theme_name": "Atoms",
+    "theme_name": "Peakshop",
     "theme_version": "1.0.0",
     "theme_author": "Joomlart",
-    "theme_documentation_url": "https:\/\/joomlart.gitbook.io\/atoms-documentation\/",
+    "theme_documentation_url": "https:\/\/joomlart.gitbook.io\/peakshop-documentation\/",
     "theme_support_url": "https:\/\/joomlart.com\/"
   },
   {
@@ -30,6 +30,10 @@
           {
             "value": "04",
             "label": "t:settings_schema.multilayout.settings.header_layout.label__4"
+          },
+          {
+            "value": "05",
+            "label": "t:settings_schema.multilayout.settings.header_layout.label__5"
           }
         ],
         "default": "03"
