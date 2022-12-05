@@ -86,7 +86,7 @@
         "share"
       ],
       "settings": {
-        "layout_product": "default",
+        "layout_product": "gallery_full_width",
         "enable_sticky_info": true,
         "media_size": "small",
         "gallery_layout": "thumbnail",
