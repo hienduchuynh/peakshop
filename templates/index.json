@@ -127,7 +127,7 @@
         "padding_bottom": 0,
         "border_top_thickness": 2,
         "border_right_thickness": 0,
-        "border_bottom_thickness": 2,
+        "border_bottom_thickness": 1,
         "border_left_thickness": 0,
         "border_opacity": 100,
         "addition_class": ""
