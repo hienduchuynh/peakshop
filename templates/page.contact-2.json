@@ -3,7 +3,7 @@
     "1663821762badf5565": {
       "type": "breadcrumb",
       "settings": {
-        "alignment_breadcrumb": "left",
+        "alignment_breadcrumb": "center",
         "padding_top": 36,
         "padding_bottom": 36
       }
