@@ -149,8 +149,8 @@
       "settings": {
         "heading": "You may also like",
         "heading_size": "h3",
-        "heading_style": "02",
-        "description": "<p>These goods are meant to help in the usage of the main product, supplement each other, increase enjoy from the product, smooth over its shortcomings; they are its replacement parts, etc.<\/p>",
+        "heading_style": "01",
+        "description": "",
         "description_style": "body",
         "products_to_show": 4,
         "columns_desktop": 4,
