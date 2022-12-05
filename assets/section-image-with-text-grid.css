@@ -41,12 +41,24 @@
     border-bottom-width: 0;
 }
 
+.image-with-text-grid .grid__item.content-container::after {
+    box-shadow: none;
+}
+
 .image-with-text-grid .grid--gapless .grid__item.content-container:first-child {
     border-left-width: 0;
 }
 
+.image-with-text-grid .grid--gapless .grid__item.content-container:first-child:after {
+
+}
+
 .image-with-text-grid .grid--gapless .grid__item.content-container:last-child {
     border-right-width: 0;
+}
+
+.image-with-text-grid .grid--gapless .grid__item.content-container:last-child:after {
+    
 }
 
 .image-with-text-grid .grid__item img {
