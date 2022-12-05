@@ -141,7 +141,7 @@
       "settings": {
         "title": "",
         "sub-title": "",
-        "mod_class": "",
+        "mod_class": "about-us-section-2",
         "heading_size": "h0",
         "layout": "grid",
         "image_width": "third",
@@ -158,7 +158,12 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 48,
-        "padding_bottom": 48
+        "padding_bottom": 48,
+        "border_top_thickness": 0,
+        "border_right_thickness": 0,
+        "border_bottom_thickness": 0,
+        "border_left_thickness": 0,
+        "border_opacity": 0
       }
     },
     "bd0a742d-8183-4f9b-929a-7afe8b1cbb9b": {
@@ -263,7 +268,12 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 36,
+        "border_top_thickness": 0,
+        "border_right_thickness": 0,
+        "border_bottom_thickness": 0,
+        "border_left_thickness": 0,
+        "border_opacity": 0
       }
     }
   },
