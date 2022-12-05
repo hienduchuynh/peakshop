@@ -56,67 +56,109 @@
         "border_opacity": 0
       }
     },
-    "5f30ecf6-0053-4fc3-8de2-b113341ed967": {
-      "type": "slideshow",
+    "04c80791-1da3-4243-b726-b523ed26e116": {
+      "type": "multicolumn",
       "blocks": {
-        "template--17150322376979__5f30ecf6-0053-4fc3-8de2-b113341ed967-1670224407505179c1-0": {
-          "type": "slide",
+        "template--17150322376979__04c80791-1da3-4243-b726-b523ed26e116-167022396740d7abf2-0": {
+          "type": "column",
           "settings": {
-            "heading": "Image slide",
-            "heading_size": "hxl",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
+            "image": "shopify:\/\/shop_images\/glass-martini.png",
+            "image_position": "top",
+            "title": "20+ Years of experience",
+            "title_size": "h4",
+            "icon": "none",
+            "icon_position": "left",
+            "text": "<p>Lorem Ipsum is simply dummy text printing and typesetting<\/p>",
+            "link_label": "",
             "link": "",
-            "link_style": "solid",
-            "box_align": "middle-center",
-            "box_width": 50,
-            "button_label2": "",
-            "link2": "",
-            "link_style2": "solid",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
+            "link_style": "link",
+            "padding_left": 32,
+            "padding_right": 32,
+            "image_spacing": 25
           }
         },
-        "template--17150322376979__5f30ecf6-0053-4fc3-8de2-b113341ed967-1670224407505179c1-1": {
-          "type": "slide",
+        "template--17150322376979__04c80791-1da3-4243-b726-b523ed26e116-167022396740d7abf2-1": {
+          "type": "column",
           "settings": {
-            "heading": "Image slide",
-            "heading_size": "hxl",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
+            "image": "shopify:\/\/shop_images\/happy.png",
+            "image_position": "top",
+            "title": "40,000+ Happy customer",
+            "title_size": "h4",
+            "icon": "none",
+            "icon_position": "left",
+            "text": "<p>Lorem Ipsum is simply dummy text printing and typesetting<\/p>",
+            "link_label": "",
             "link": "",
-            "link_style": "solid",
-            "box_align": "middle-center",
-            "box_width": 50,
-            "button_label2": "",
-            "link2": "",
-            "link_style2": "solid",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
+            "link_style": "link",
+            "padding_left": 32,
+            "padding_right": 32,
+            "image_spacing": 25
+          }
+        },
+        "template--17150322376979__04c80791-1da3-4243-b726-b523ed26e116-167022396740d7abf2-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/award.png",
+            "image_position": "top",
+            "title": "Awesome performance",
+            "title_size": "h4",
+            "icon": "none",
+            "icon_position": "left",
+            "text": "<p>Lorem Ipsum is simply dummy text printing and typesetting<\/p>",
+            "link_label": "",
+            "link": "",
+            "link_style": "link",
+            "padding_left": 32,
+            "padding_right": 32,
+            "image_spacing": 25
+          }
+        },
+        "2c713ff4-09d4-4928-8479-c830e09b36d1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/light-bulb.png",
+            "image_position": "top",
+            "title": "Impressive design",
+            "title_size": "h4",
+            "icon": "none",
+            "icon_position": "left",
+            "text": "<p>Lorem Ipsum is simply dummy text printing and typesetting<\/p>",
+            "link_label": "",
+            "link": "",
+            "link_style": "link",
+            "padding_left": 32,
+            "padding_right": 32,
+            "image_spacing": 25
           }
         }
       },
       "block_order": [
-        "template--17150322376979__5f30ecf6-0053-4fc3-8de2-b113341ed967-1670224407505179c1-0",
-        "template--17150322376979__5f30ecf6-0053-4fc3-8de2-b113341ed967-1670224407505179c1-1"
+        "template--17150322376979__04c80791-1da3-4243-b726-b523ed26e116-167022396740d7abf2-0",
+        "template--17150322376979__04c80791-1da3-4243-b726-b523ed26e116-167022396740d7abf2-1",
+        "template--17150322376979__04c80791-1da3-4243-b726-b523ed26e116-167022396740d7abf2-2",
+        "2c713ff4-09d4-4928-8479-c830e09b36d1"
       ],
       "settings": {
-        "layout": "full_bleed",
-        "slide_height": "adapt_image",
-        "slider_visual": "dots",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand",
+        "title": "Multicolumn",
+        "sub-title": "",
+        "mod_class": "",
+        "heading_size": "h0",
+        "layout": "grid--gapless",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "row_alignment": "top",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_tablet": "2",
+        "swipe_on_tablet": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 36,
-        "padding_bottom": 36,
-        "addition_class": ""
+        "padding_bottom": 36
       }
     },
     "bd0a742d-8183-4f9b-929a-7afe8b1cbb9b": {
@@ -229,7 +271,7 @@
     "61f849a9-f600-4591-8f82-0e40cc947bc5",
     "main",
     "9ceab590-b6b7-48ba-8dc4-63977fad91d6",
-    "5f30ecf6-0053-4fc3-8de2-b113341ed967",
+    "04c80791-1da3-4243-b726-b523ed26e116",
     "bd0a742d-8183-4f9b-929a-7afe8b1cbb9b"
   ]
 }
