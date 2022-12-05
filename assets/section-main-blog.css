@@ -180,7 +180,12 @@
     margin: 0;
   }
 
-  .blog-articles--collage .article:nth-child(2n + 1) .card .card__content {
+  .blog-layout-full-width
+    .blog-articles--collage
+    .article:nth-child(2n + 1)
+    .card__content,
+  .blog-layout-default .blog-articles--collage .article .card__content,
+  .blog-layout-simple .blog-articles--collage .article .card__content {
     padding-left: 0;
   }
 }
