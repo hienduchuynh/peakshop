@@ -70,17 +70,6 @@
           "settings": {
             "share_label": "Share"
           }
-        },
-        "88e5a97f-9bbf-4883-bfd0-61d9d8ee0332": {
-          "type": "trust_badges",
-          "settings": {
-            "image_1": "shopify:\/\/shop_images\/image-trust_9cf48f22-6c8a-4a39-b604-64b168dc56be.webp"
-          }
-        },
-        "78d3045a-5a69-44fd-ac7d-f456ff505470": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
-          "settings": {
-          }
         }
       },
       "block_order": [
@@ -94,9 +83,7 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share",
-        "88e5a97f-9bbf-4883-bfd0-61d9d8ee0332",
-        "78d3045a-5a69-44fd-ac7d-f456ff505470"
+        "share"
       ],
       "settings": {
         "layout_product": "default",
@@ -132,28 +119,10 @@
         "padding_top": 96,
         "padding_bottom": 96
       }
-    },
-    "e1bb4269-a0fa-4f0b-85f8-1facfe8fe18a": {
-      "type": "ja-recent-products",
-      "settings": {
-        "title": "Recent Product",
-        "heading_size": "h3",
-        "title_style": "02",
-        "description": "<p>The feature keeps track of all the items viewed, from where the customer can review the product and conceder it for purchase.<br\/><\/p>",
-        "description_style": "body",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "color_scheme": "background-1",
-        "columns_mobile": "2",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "main",
-    "product-recommendations",
-    "e1bb4269-a0fa-4f0b-85f8-1facfe8fe18a"
+    "product-recommendations"
   ]
 }
