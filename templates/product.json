@@ -234,8 +234,8 @@
         "20b021bd-42ca-4334-b998-4fcbaebb5eb4"
       ],
       "settings": {
-        "collapsible_type": "tabs",
-        "box_width": 100,
+        "collapsible_type": "accordion",
+        "box_width": 60,
         "show_product_description": true,
         "padding_top": 36,
         "padding_bottom": 36
