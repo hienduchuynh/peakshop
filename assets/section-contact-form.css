@@ -151,6 +151,7 @@
 
 .contact-2 .contact-more span svg {
   width: 2.4rem;
+  height: 100%;
 }
 
 @media screen and (min-width: 1200px) {
