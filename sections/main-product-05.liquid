@@ -37,11 +37,6 @@
       <media-gallery
         id="MediaGallery-{{ section.id }}"
         role="region"
-        class=
-        "
-        {% if section.settings.gallery_position == "left" %} gallery-position-left{% endif %}
-        {% if section.settings.gallery_position == "right" %} gallery-position-right{% endif %}
-        "
         aria-label="{{ 'products.product.media.gallery_viewer' | t }}"
         data-desktop-layout="{{ section.settings.gallery_layout }}"
       >
@@ -1329,27 +1324,6 @@
       ],
       "default": "stacked",
       "label": "t:sections.main-product.settings.gallery_layout.label"
-    },
-    {
-      "type": "select",
-      "id": "gallery_position",
-      "options": [
-        {
-          "value": "bottom",
-          "label": "t:sections.main-product.settings.gallery_position.options__1.label"
-        },
-        {
-          "value": "left",
-          "label": "t:sections.main-product.settings.gallery_position.options__2.label"
-        },
-        {
-          "value": "right",
-          "label": "t:sections.main-product.settings.gallery_position.options__3.label"
-        }
-      ],
-      "default": "bottom",
-      "label": "t:sections.main-product.settings.gallery_position.label",
-      "info": "t:sections.main-product.settings.gallery_position.info"
     },
     {
       "type": "select",

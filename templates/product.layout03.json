@@ -122,7 +122,6 @@
       "settings": {
         "media_size": "large",
         "gallery_layout": "stacked_full",
-        "gallery_position": "left",
         "thumbnail_ratio": "34",
         "mobile_thumbnails": "hide",
         "hide_variants": true,
