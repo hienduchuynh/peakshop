@@ -204,7 +204,8 @@
           {{ settings.buttons_radius | plus: settings.buttons_border_thickness }}
         {% else %}
           0{% endif %}px;
-        --buttons-border-width: {% if settings.buttons_border_opacity > 0 %}{{ settings.buttons_border_thickness }}{% else %}0{% endif %}px;
+        --buttons-border-width: {% if settings.buttons_border_opacity > 0 %}
+          {{ settings.buttons_border_thickness }}{% else %}0{% endif %}px;
         --buttons-border-opacity: {{ settings.buttons_border_opacity | divided_by: 100.0 }};
         --buttons-shadow-opacity: {{ settings.buttons_shadow_opacity | divided_by: 100.0 }};
         --buttons-shadow-visible: {% if settings.buttons_shadow_opacity > 0 %}
@@ -359,6 +360,8 @@
         playSlideshow: `{{ 'sections.slideshow.play_slideshow' | t }}`
       }
     </script>
+
+    <script src="{{ 'blog-categories-custom.js' | asset_url }}" async></script>
 
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
