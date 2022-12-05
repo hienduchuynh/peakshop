@@ -60,8 +60,10 @@
                 <div class="contact-more">
                   <span>{% render 'icon-phone' %}</span>
                   <h4>Phone</h4>
-                  <p>{{ block.settings.phone-1 | escape }}</p>
-                  <p>{{ block.settings.phone-2 | escape }}</p>
+                  <p>
+                    {{ block.settings.phone-1 | escape }}</br>
+                    {{ block.settings.phone-2 | escape }}
+                  </p>
                 </div>
               {%- endif -%}
 
@@ -183,19 +185,19 @@
       "id": "heading_size",
       "options": [
         {
-          "value": "h2",
+          "value": "h4",
           "label": "t:sections.all.heading_size.options__1.label"
         },
         {
-          "value": "h1",
+          "value": "h3",
           "label": "t:sections.all.heading_size.options__2.label"
         },
         {
-          "value": "h0",
+          "value": "h2",
           "label": "t:sections.all.heading_size.options__3.label"
         }
       ],
-      "default": "h1",
+      "default": "h3",
       "label": "t:sections.all.heading_size.label"
     },
     {
