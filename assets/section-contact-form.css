@@ -107,7 +107,7 @@
 .contact-2 .contact-description {
   text-align: center;
   max-width: 80rem;
-  margin: calc(var(--grid-desktop-horizontal-spacing) * 2) auto;
+  margin: calc(var(--grid-desktop-horizontal-spacing)) auto;
 }
 
 .contact-2 .box-more {

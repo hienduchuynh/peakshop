@@ -2,12 +2,6 @@
   margin: 0;
 }
 
-@media screen and (min-width: 990px) {
-  .page-title {
-    padding-top: 2.4rem;
-  }
-}
-
 .page-placeholder-wrapper {
   display: flex;
   justify-content: center;
