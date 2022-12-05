@@ -4073,6 +4073,18 @@
         },
         "show_product_description": {
           "label": "Show Product Description"
+        },
+        "collapsible_tab_header_position": {
+          "label": "Tab Header Position",
+          "options__1": {
+            "label": "Top"
+          },
+          "options__2": {
+            "label": "Right"
+          },
+          "options__3": {
+            "label": "Left"
+          }
         }
       }
     },

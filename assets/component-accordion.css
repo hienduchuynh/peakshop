@@ -55,6 +55,9 @@
     overflow-x: auto;
     padding: 0 0.6rem;
 }
+.product___accordion.description .summary__title svg:empty{ 
+    display: none;
+}
 
 .accordion__content img {
     max-width: 100%;

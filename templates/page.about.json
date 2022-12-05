@@ -4,12 +4,16 @@
       "type": "breadcrumb",
       "disabled": true,
       "settings": {
+        "alignment_breadcrumb": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "main": {
       "type": "main-page",
       "disabled": true,
       "settings": {
+        "alignment_title": "left",
         "padding_top": 28,
         "padding_bottom": 28,
         "suffix-class": "about-us-title"
@@ -28,7 +32,7 @@
         "44929001-e0af-4679-92e9-15be36596752": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/minimalist-retail-clothing-display.jpg"
+            "image": "shopify:\/\/shop_images\/3481b27143ca1c5acf3d419e7ffe4a91.jpg"
           }
         },
         "4682a639-6655-4fc0-b29d-3105b6eaa917": {
