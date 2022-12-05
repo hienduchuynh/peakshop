@@ -15,7 +15,7 @@
 {%- endstyle -%}
 
 <div class="color-{{ section.settings.color_scheme }} gradient">
-  <div class="contact page-width  section-{{ section.id }}-padding">
+  <div class="contact contact-2 page-width  section-{{ section.id }}-padding">
 
     <div class="contact-container">
       {%- for block in section.blocks -%}
@@ -47,21 +47,40 @@
                 <p class="contact-description">{{ block.settings.description | escape }}</p>
               {%- endif -%}
 
+              <div class="box-more">
               {%- if block.settings.address -%}
-                <p class="contact-more"><span>{% render 'icon-address' %}</span>{{ block.settings.address | escape }}</p>
+                <div class="contact-more">
+                  <span>{% render 'icon-address' %}</span>
+                  <h4>Address</h4>
+                  <p>{{ block.settings.address | escape }}</p>
+                </div>
               {%- endif -%}
 
-              {%- if block.settings.phone-1 -%}
-                <p class="contact-more"><span>{% render 'icon-phone' %}</span>{{ block.settings.phone-1 | escape }}</p>
+              {%- if block.settings.phone-1 or block.settings.phone-2 -%}
+                <div class="contact-more">
+                  <span>{% render 'icon-phone' %}</span>
+                  <h4>Phone</h4>
+                  <p>{{ block.settings.phone-1 | escape }}</p>
+                  <p>{{ block.settings.phone-2 | escape }}</p>
+                </div>
               {%- endif -%}
 
-              {%- if block.settings.phone-2 -%}
-                <p class="contact-more"><span>{% render 'icon-mobile' %}</span>{{ block.settings.phone-2 | escape }}</p>
+              {%- if block.settings.email -%}
+                <div class="contact-more">
+                  <span>{% render 'icon-mail' %}</span>
+                  <h4>Email</h4>
+                  <a href="#" class="link-web">{{ block.settings.email | escape }}</a>
+                </div>
               {%- endif -%}
 
               {%- if block.settings.web-address -%}
-                <p class="contact-more"><span>{% render 'icon-global' %}</span><a href="{{ block.settings.web-address | escape }}" class="link-web">{{ block.settings.web-address | escape }}</a></p>
+                <div class="contact-more">
+                  <span>{% render 'icon-global' %}</span>
+                  <h4>Website</h4>
+                  <a href="{{ block.settings.web-address | escape }}" class="link-web">{{ block.settings.web-address | escape }}</a>
+                </div>
               {%- endif -%}
+              </div>
             </div>
 
         {%- endcase -%}
@@ -261,6 +280,11 @@
           "type": "text",
           "id": "phone-2",
           "label": "Mobile Number"
+        },
+        {
+          "type": "text",
+          "id": "email",
+          "label": "Email"
         },
         {
           "type": "url",

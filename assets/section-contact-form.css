@@ -95,6 +95,55 @@
   color: var(--color-base-text);
 }
 
+/* Contact 2 */
+
+.contact-2 .contact-container {
+  width: 100%;
+}
+
+.box-more {
+  display: grid;
+  gap: calc(var(--grid-desktop-horizontal-spacing));
+}
+
+@media screen and (min-width: 750px) {
+  .box-more {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .box-more {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+.contact-more {
+  align-items: center;
+  border: 2px solid rgba(var(--color-base-outline-button-labels));
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: calc(var(--grid-desktop-horizontal-spacing) * 2);;
+  margin: 0;
+}
+
+.contact-more > h4 {
+  margin: 0;
+}
+
+.contact-more span {
+  display: inline-block;
+  margin: 0 0 1.2rem;
+  background-color: #f4f4f4;
+  border-radius: .5rem;
+  color: aliceblue;
+  padding: calc(var(--grid-desktop-horizontal-spacing)/2);
+}
+
+.contact-more span svg{
+  width: 2.4rem;
+}
 
 
 
