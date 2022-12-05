@@ -119,3 +119,12 @@
 .footer-05 .footer__copyright {
 	text-align: inherit;
 }
+
+.footer-05 .footer__payment {
+	width: 100%;
+	margin-bottom: 2.4rem;
+}
+
+.footer-05 .footer__payment .list-payment {
+	justify-content: center;
+}

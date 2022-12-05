@@ -23,6 +23,18 @@
         "thickness": {
           "label": "Thickness"
         },
+        "top_thickness": {
+          "label": "Top Thickness"
+        },
+        "right_thickness": {
+          "label": "Right Thickness"
+        },
+        "bottom_thickness": {
+          "label": "Bottom Thickness"
+        },
+        "left_thickness": {
+          "label": "Left Thickness"
+        },
         "opacity": {
           "label": "Opacity"
         },
