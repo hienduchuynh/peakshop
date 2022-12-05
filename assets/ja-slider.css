@@ -20,6 +20,32 @@
 	padding-bottom: 8rem;
 }
 
+.ja-slider .slideshow__text-wrapper,
+.ja-slider .slideshow__media {
+	border-left-style: solid;
+	border-left-color: rgba(var(--color-foreground), var(--card-border-opacity));
+	border-left-width: 0;
+	border-right-style: solid;
+	border-right-color: rgba(var(--color-foreground), var(--card-border-opacity));
+	border-right-width: 0;
+}
+
+.ja-slider .grid--gapless .content-box-align-right .slideshow__text-wrapper {
+  border-left-width: calc(var(--card-border-width) / 2);
+}
+
+.ja-slider .grid--gapless .content-box-align-right .slideshow__media {
+  border-right-width: calc(var(--card-border-width) / 2);
+}
+
+.ja-slider .grid--gapless .content-box-align-left .slideshow__text-wrapper {
+  border-right-width: calc(var(--card-border-width) / 2);
+}
+
+.ja-slider .grid--gapless .content-box-align-left .slideshow__media {
+  border-left-width: calc(var(--card-border-width) / 2);
+}
+
 .ja-slider .slideshow__text .banner__buttons {
 	position: absolute;
 	bottom: 0;
@@ -79,11 +105,11 @@
 }
 
 .ja-slider .slider-buttons .slider-button--prev {
-	left: 0;
+	left: -2px;
 }
 
 .ja-slider .slider-buttons .slider-button--next {
-	right: 0;
+	right: -2px;
 }
 
 .ja-slider .slideshow__text-wrapper.banner__content {

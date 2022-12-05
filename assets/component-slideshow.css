@@ -308,11 +308,11 @@ slideshow-component:hover .slider-buttons .slider-button {
 }
 
 slideshow-component .slider-buttons .slider-button--prev {
-  left: 0;
+  left: -2px;
 }
 
 slideshow-component .slider-buttons .slider-button--next {
-  right: 0;
+  right: -2px;
 }
 
 slideshow-component .slider-counter {
