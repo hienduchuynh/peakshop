@@ -127,7 +127,7 @@
         "padding_bottom": 0,
         "border_top_thickness": 2,
         "border_right_thickness": 0,
-        "border_bottom_thickness": 2,
+        "border_bottom_thickness": 1,
         "border_left_thickness": 0,
         "border_opacity": 100,
         "addition_class": ""
@@ -187,7 +187,12 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 0,
+        "border_top_thickness": 1,
+        "border_right_thickness": 0,
+        "border_bottom_thickness": 1,
+        "border_left_thickness": 0,
+        "border_opacity": 100
       }
     },
     "dea5835c-24f7-475f-a0a4-51739b13776e": {
@@ -311,7 +316,12 @@
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 0,
+        "border_top_thickness": 1,
+        "border_right_thickness": 0,
+        "border_bottom_thickness": 1,
+        "border_left_thickness": 0,
+        "border_opacity": 100
       }
     },
     "de99a705-2695-4857-953e-c4d63681937b": {
