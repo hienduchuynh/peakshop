@@ -197,12 +197,59 @@
         "padding_top": 24,
         "padding_bottom": 48
       }
+    },
+    "a33f11c8-b504-4e5a-acf2-d4ed3a501f6f": {
+      "type": "ja-slider",
+      "blocks": {
+        "template--17016615436563__a33f11c8-b504-4e5a-acf2-d4ed3a501f6f-1670229074e430f71a-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/slide-02.jpg",
+            "heading": "Fruity S31 Skateboard Desk Collection",
+            "heading_size": "hxl",
+            "subheading": "Fusce posuere nec ipsum a volutpat. In at dictum est, at pulvinar mauris. Sed hendrerit nisl a tincidunt placerat. Suspendisse potenti. Sed at maximus est. Mauris vel auctor ex. Morbi at fermentum urna, in cursus leo. Sed aliquam auctor ante, id pharetra augue aliquet in. Sed at rutrum odio.",
+            "button_label": "VIEW ALL PRODUCTS",
+            "link": "",
+            "link_style": "solid",
+            "box_align": "right",
+            "box_width": 50,
+            "button_label2": "",
+            "link2": "",
+            "link_style2": "solid",
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--17016615436563__a33f11c8-b504-4e5a-acf2-d4ed3a501f6f-1670229074e430f71a-1"
+      ],
+      "settings": {
+        "layout": "grid--gapless",
+        "slide_height": "square",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "ja_slider about our brand",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "border_top_thickness": 0,
+        "border_right_thickness": 0,
+        "border_bottom_thickness": 0,
+        "border_left_thickness": 0,
+        "border_opacity": 100,
+        "addition_class": ""
+      }
     }
   },
   "order": [
     "1f3f994a-83c7-4c3e-bbe8-57a84f69cea9",
     "main",
     "538ed27d-666d-4169-9ba0-d844989d9d9b",
-    "product-recommendations"
+    "product-recommendations",
+    "a33f11c8-b504-4e5a-acf2-d4ed3a501f6f"
   ]
 }
