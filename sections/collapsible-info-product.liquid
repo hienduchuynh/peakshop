@@ -19,7 +19,7 @@
 <section class="page-width section-{{ section.id }} section-{{ section.id }}-padding">
   {%- if section.settings.collapsible_type == "tabs" -%}
     {{ 'component-tabs.css' | asset_url | stylesheet_tag }}
-    <div class="product___tabs tab quick-add-hidden" id="TabDetails-{{ section.id }}" {{ block.shopify_attributes }}>
+    <div class="product___tabs product_tabs_positions_{{ section.settings.collapsible_tab_header_position }} tab quick-add-hidden" id="TabDetails-{{ section.id }}" {{ block.shopify_attributes }}>
       <div id="tabsheader" class="tab-header">
         <ul class="nav nav-tabs">
           {%- if section.settings.show_product_description -%}
@@ -27,7 +27,7 @@
               <div class="summary__title">
                 {% render 'icon-accordion', icon: block.settings.icon %}
                 <h2 class="h5 tab__title">
-                  Description
+                  Overview
                 </h2>
               </div>
             </li>
@@ -102,7 +102,7 @@
     </div>
     <script>
       window.addEventListener("load", function() {
-        var container = document.getElementById("TabDetails-     {{ section.id }}");
+        var container = document.getElementById("TabDetails-{{ section.id }}");
         var tabcon = document.getElementById("tabscontent");
         var navitem = document.getElementById("tabHeader-1");
         var ident = navitem.id.split("-")[1];
@@ -136,7 +136,7 @@
             <div class="summary__title">
               {% render 'icon-accordion', icon: block.settings.icon %}
               <h2 class="h5 accordion__title">
-                Description
+                Overview
               </h2>
             </div>
             {% render 'icon-caret' %}
@@ -200,7 +200,7 @@
             <div class="summary__title">
               {% render 'icon-accordion', icon: block.settings.icon %}
               <h2 class="h5 accordion__title">
-                Description
+                Overview
               </h2>
             </div>
             {% render 'icon-caret' %}
