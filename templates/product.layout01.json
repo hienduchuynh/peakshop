@@ -3,6 +3,9 @@
     "87c8bbc2-876f-4d87-ab69-644813428477": {
       "type": "breadcrumb",
       "settings": {
+        "alignment_breadcrumb": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "main": {
@@ -226,30 +229,12 @@
         "padding_top": 96,
         "padding_bottom": 96
       }
-    },
-    "ef722191-d1fd-4379-9db0-50f872e14585": {
-      "type": "ja-recent-products",
-      "settings": {
-        "title": "Recent Product",
-        "heading_size": "h3",
-        "title_style": "02",
-        "description": "<p>The feature keeps track of all the items viewed, from where the customer can review the product and conceder it for purchase.<\/p>",
-        "description_style": "body",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "color_scheme": "background-2",
-        "columns_mobile": "2",
-        "padding_top": 96,
-        "padding_bottom": 96
-      }
     }
   },
   "order": [
     "87c8bbc2-876f-4d87-ab69-644813428477",
     "main",
     "16641835307bab9de3",
-    "product-recommendations",
-    "ef722191-d1fd-4379-9db0-50f872e14585"
+    "product-recommendations"
   ]
 }
