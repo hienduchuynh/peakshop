@@ -94,16 +94,6 @@
             "image_ratio": "43",
             "page": ""
           }
-        },
-        "collapsible-row-3": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Care Instructions",
-            "icon": "heart",
-            "content": "",
-            "image_ratio": "43",
-            "page": ""
-          }
         }
       },
       "block_order": [
@@ -119,8 +109,7 @@
         "share",
         "collapsible-row-2",
         "collapsible-row-1",
-        "collapsible-row-0",
-        "collapsible-row-3"
+        "collapsible-row-0"
       ],
       "settings": {
         "layout_product": "default",
