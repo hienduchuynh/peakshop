@@ -50,7 +50,7 @@
       ],
       "settings": {
         "heading": "Contact Form",
-        "heading_size": "h2",
+        "heading_size": "h4",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 48
