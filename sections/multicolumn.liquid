@@ -6,6 +6,12 @@
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.5 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.5 | round: 0 }}px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, {{ section.settings.border_opacity }});
+    border-top-width: {{ section.settings.border_top_thickness }}px;
+    border-bottom-width: {{ section.settings.border_bottom_thickness }}px;
+    border-left-width: {{ section.settings.border_left_thickness }}px;
+    border-right-width: {{ section.settings.border_right_thickness }}px;
   }
 
   @media screen and (min-width: 750px) {
@@ -479,6 +485,60 @@
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
       "default": 36
+    },
+    {
+      "type": "header",
+      "content": "t:settings_schema.global.settings.header__border.content"
+    },
+    {
+      "type": "range",
+      "id": "border_top_thickness",
+      "min": 0,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "label": "t:settings_schema.global.settings.top_thickness.label",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "border_right_thickness",
+      "min": 0,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "label": "t:settings_schema.global.settings.right_thickness.label",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "border_bottom_thickness",
+      "min": 0,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "label": "t:settings_schema.global.settings.bottom_thickness.label",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "border_left_thickness",
+      "min": 0,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "label": "t:settings_schema.global.settings.left_thickness.label",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "border_opacity",
+      "min": 0,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "label": "t:settings_schema.global.settings.opacity.label",
+      "default": 0
     }
   ],
   "blocks": [

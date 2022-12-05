@@ -244,8 +244,19 @@
 .multicolumn-card {
 	position: relative;
 	box-sizing: border-box;
-  border-top-width: calc(var(--text-boxes-border-width)/2);
-  border-bottom-width: calc(var(--text-boxes-border-width)/2);
+}
+
+.grid--gapless .grid__item .multicolumn-card {
+	border-top-width: 0;
+	border-bottom-width: 0;
+}
+
+.grid--gapless .grid__item:first-child .multicolumn-card {
+  border-left-width: 0;
+}
+
+.grid--gapless .grid__item:last-child .multicolumn-card {
+  border-right-width: 0;
 }
 
 .multicolumn-card > .multicolumn-card__image-wrapper--full-width:not(.multicolumn-card-spacing) {

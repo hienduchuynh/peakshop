@@ -37,8 +37,16 @@
 }
 
 .image-with-text-grid .grid__item.content-container {
-    border-top-width: calc(var(--text-boxes-border-width)/2);
-    border-bottom-width: calc(var(--text-boxes-border-width)/2);
+    border-top-width: 0;
+    border-bottom-width: 0;
+}
+
+.image-with-text-grid .grid--gapless .grid__item.content-container:first-child {
+    border-left-width: 0;
+}
+
+.image-with-text-grid .grid--gapless .grid__item.content-container:last-child {
+    border-right-width: 0;
 }
 
 .image-with-text-grid .grid__item img {
