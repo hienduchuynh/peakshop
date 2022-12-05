@@ -1,5 +1,13 @@
 {
   "sections": {
+    "e496ea93-4521-4e94-b136-cccefbb0fda1": {
+      "type": "breadcrumb",
+      "settings": {
+        "alignment_breadcrumb": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "main": {
       "type": "main-product-02",
       "blocks": {
@@ -122,6 +130,7 @@
     }
   },
   "order": [
+    "e496ea93-4521-4e94-b136-cccefbb0fda1",
     "main",
     "product-recommendations"
   ]
