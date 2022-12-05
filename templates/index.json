@@ -493,7 +493,10 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true,
-        "border_thickness": 2,
+        "border_top_thickness": 1,
+        "border_right_thickness": 0,
+        "border_bottom_thickness": 1,
+        "border_left_thickness": 0,
         "border_opacity": 100
       }
     },
