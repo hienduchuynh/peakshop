@@ -73,85 +73,10 @@
           "settings": {
           }
         },
-        "collapsible-row-2": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Size chart",
-            "icon": "clipboard",
-            "content": "<p><em>\"This is demonstration content, designed to showcase how pages could look with your own content\"<\/em><\/p><p><strong>How to measure yourself:<br\/><\/strong>Size Guide: S=US 4-6, M=US 8-10, L=US 12-14, XL=16.<br\/>To find the perfect fit, simply put on your favourite underwear and measure yourself directly on your body. Then use the size chart and the information found in the product description to find your fit.<\/p>",
-            "image_ratio": "43",
-            "page": ""
-          }
-        },
-        "collapsible-row-1": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Shipping & Returns",
-            "icon": "truck",
-            "content": "<p>- Ships Worldwide<br\/>- Free Shipping all orders over $50 (the contiguous US only)<br\/>- Free returns\/exchanges up to 30 days from purchase<\/p>",
-            "image_ratio": "43",
-            "page": ""
-          }
-        },
-        "collapsible-row-0": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "HELP & ADVICE",
-            "icon": "chat_bubble",
-            "content": "<p>Our fashion consultants are on hand & ready to support you.Get in touch via our contact form here.<\/p>",
-            "image_ratio": "43",
-            "page": ""
-          }
-        },
-        "collapsible-row-3": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Care Instructions",
-            "icon": "heart",
-            "content": "",
-            "image_ratio": "43",
-            "page": ""
-          }
-        },
         "share": {
           "type": "share",
           "settings": {
             "share_label": "Share"
-          }
-        },
-        "2934cffd-00e4-4842-ad2a-5598d4f46d8e": {
-          "type": "product_upsell",
-          "disabled": true,
-          "settings": {
-            "product_upsell": "adidas-busenitz-shoes-1"
-          }
-        },
-        "423f9496-8e67-4344-b734-c43e77d8c0d5": {
-          "type": "tabs",
-          "settings": {
-            "title_tabs": "Shipping",
-            "content_tabs": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium enim ut fringilla. Quisque eu lacus enim. Proin eleifend, mi eu aliquam euismod, arcu tortor consectetur nisi, et elementum nibh felis vel ante. Fusce nec tristique enimdoloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.<\/p>",
-            "image_ratio_tabs": "43"
-          }
-        },
-        "003482d6-c4dd-4619-8394-9f780c36c22b": {
-          "type": "tabs",
-          "settings": {
-            "title_tabs": "Payment",
-            "content_tabs": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium enim ut fringilla. Quisque eu lacus enim. Proin eleifend, mi eu aliquam euismod, arcu tortor consectetur nisi, et elementum nibh felis vel ante. Fusce nec tristique enimdoloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam perspiciatis unde omnis iste natus error sit voluptatem accusantium enim ut fringilla. Quisque eu lacus enim. Proin eleifend, mi eu aliquam euismod, arcu tortor consectetur nisi, et elementum nibh felis vel ante. Fusce nec tristique enimdoloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.voluptatem quia voluptas sit aspernatur aut odit aut fugit.<\/p>",
-            "image_ratio_tabs": "43"
-          }
-        },
-        "e381e5d5-f86a-48d1-b4a1-b9355fa00f12": {
-          "type": "tabs",
-          "settings": {
-            "title_tabs": "FAQ",
-            "content_tabs": "<p>This is FAQ<\/p>",
-            "image_ratio_tabs": "43"
           }
         },
         "11dcb5c3-cae9-4c23-be51-eb0328a3806c": {
@@ -171,15 +96,7 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "collapsible-row-2",
-        "collapsible-row-1",
-        "collapsible-row-0",
-        "collapsible-row-3",
         "share",
-        "2934cffd-00e4-4842-ad2a-5598d4f46d8e",
-        "423f9496-8e67-4344-b734-c43e77d8c0d5",
-        "003482d6-c4dd-4619-8394-9f780c36c22b",
-        "e381e5d5-f86a-48d1-b4a1-b9355fa00f12",
         "11dcb5c3-cae9-4c23-be51-eb0328a3806c"
       ],
       "settings": {
