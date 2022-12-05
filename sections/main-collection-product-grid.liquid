@@ -204,10 +204,6 @@
         {%- comment -%} <facet-filters-form class="facets facets-vertical-sort small-hide no-js-hidden"> {%- endcomment -%}
         <facet-filters-form class="facets facets-vertical-sort tablet-down-hide no-js-hidden">
           <form class="facets-vertical-form" id="FacetSortForm">
-            <div class="product-mode">
-              <div class="mode grid-mode" id="grid-mode">{% render 'icon-grid' %}</div>
-              <div class="mode list-mode" id="list-mode">{% render 'icon-list' %}</div>
-            </div>
             <div class="product-count-vertical light" role="status">
               <h2 class="product-count__text text-body">
                 <span id="ProductCountDesktop">
@@ -307,18 +303,6 @@
 
 <script type="text/javascript">
   window.addEventListener('DOMContentLoaded', (event) => {
-    const listModeClass = 'product-list-mode';
-    const gridModeClass = 'product-grid-mode';
-    const gridMode = document.getElementById('grid-mode');
-    const listMode = document.getElementById('list-mode');
-    const productGrid = document.getElementById('product-grid');
-    var currentCollection = getCurrentCollection();
-
-    if (!gridMode && !listMode){return;}
-
-    if (!gridMode.classList.contains('active') && !listMode.classList.contains('active')){
-      gridMode.classList.add('active');
-    }
 
     var filterEl = [];
 
@@ -340,55 +324,6 @@
           })
         })
       })
-    }
-
-    if (gridMode){
-      gridMode.addEventListener('click', function () {
-        eraseCookie(`${currentCollection}-mode`);
-        productGrid.classList.add(gridModeClass);
-        gridMode.classList.add('active');
-        var elems = document.querySelectorAll(".card__heading.h4");
-        [].forEach.call(elems, function(el) {
-          el.className = el.className.replace(/\bh4\b/, "h5");
-        });
-        if (productGrid.classList.contains(listModeClass)){
-          productGrid.classList.remove(listModeClass);
-        }
-        if (listMode.classList.contains('active')){
-          listMode.classList.remove('active');
-        }
-      })
-    }
-    if (listMode){
-      // var data = '{"id": "1", "class": "listModeClass"}';
-      // console.log(JSON.parse('{"id": "1", "class": "listModeClass"}'));
-      var data = `{"collection": "${currentCollection}", "class": "${listModeClass}"}`;
-      listMode.addEventListener('click', function () {
-        setCookie(`${currentCollection}-mode`, data, 2);
-        productGrid.classList.add(listModeClass);
-        listMode.classList.add('active');
-        if (productGrid.classList.contains(gridModeClass)){
-          productGrid.classList.remove(gridModeClass);
-        }
-        if (gridMode.classList.contains('active')){
-          gridMode.classList.remove('active');
-        }
-      })
-    }
-
-    var cookieContent = getCookie(`${currentCollection}-mode`);
-    
-    if(cookieContent){
-      cookieContent = JSON.parse(cookieContent);
-
-      if (cookieContent.collection === currentCollection){
-        // productGrid.classList.remove(gridModeClass);
-        productGrid.classList.add(listModeClass);
-        listMode.classList.add('active');
-        if (gridMode.classList.contains('active')){
-          gridMode.classList.remove('active');
-        }
-      }
     }
 
   });

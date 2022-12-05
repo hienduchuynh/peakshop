@@ -1,3 +1,8 @@
+.tab .fade  {
+    -webkit-transition: display 0.15s linear;
+    -o-transition: display 0.15s linear;
+    transition: display 0.15s linear;
+}
 .tab .summary__title + .icon-caret {
 	height: calc(var(--font-heading-scale) * 0.6rem);
 }
@@ -51,6 +56,9 @@
 	line-height: 1;
 	margin-bottom: -1px;
 }
+.tab .summary__title svg:empty{ 
+	display: none !important;
+} 
 
 .nav-tabs li.active .summary__title {
 	color: #c1ab7c;
@@ -65,6 +73,10 @@
 	width: calc(var(--font-heading-scale) * 2rem);
 }
 
+.nav-tabs li.active .icon-accordion {
+    fill: #c1ab7c;
+}
+
 .tab details[open] > summary .icon-caret {
 	transform: rotate(180deg);
 }
@@ -75,6 +87,10 @@
 	overflow-x: auto;
 	padding: 2rem 0;
 	display: none;
+}
+
+.tab__content.description div { 
+	display: block !important;
 }
 
 .tab__content img {

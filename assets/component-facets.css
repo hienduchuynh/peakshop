@@ -927,7 +927,7 @@ input.mobile-facets__checkbox {
 	font-size: 1.4rem;
 	line-height: calc(2 + 0.5 / var(--font-body-scale));
 	margin: 0;
-	padding-left: 2rem;
+	padding-left: 0;
 }
 
 .product-count__text.loading {

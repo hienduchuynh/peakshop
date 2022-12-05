@@ -9,9 +9,9 @@
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
-    .section-{{ section.id }} {
-      width: {{ block.settings.box_width }}%;
-      max-width: {{ block.settings.box_width }}%;
+    .section-{{ section.id }}{
+      width: {{ section.settings.box_width }}%;
+      max-width: {{ section.settings.box_width }}%;
       margin: auto;
     }
   }
@@ -22,13 +22,28 @@
     <div class="product___tabs tab quick-add-hidden" id="TabDetails-{{ section.id }}" {{ block.shopify_attributes }}>
       <div id="tabsheader" class="tab-header">
         <ul class="nav nav-tabs">
+          {%- if section.settings.show_product_description -%}
+            <li id="tabHeader-1" class="active">
+              <div class="summary__title">
+                {% render 'icon-accordion', icon: block.settings.icon %}
+                <h2 class="h5 tab__title">
+                  Description
+                </h2>
+              </div>
+            </li>
+          {%- endif -%}
           {%- for block in section.blocks -%}
             {%- case block.type -%}
               {%- when '@app' -%}
                 {% render block %}
               {%- when 'collapsible_tab' -%}
                 {%- if block.settings.content != blank or block.settings.page.content != blank -%}
-                  <li id="tabHeader-{{ forloop.index }}">
+                  {%- if section.settings.show_product_description -%}
+                    {%  assign idx = forloop.index | plus: 1  %}
+                  {% else %}
+                    {%  assign idx = forloop.index %}
+                  {%- endif -%}
+                  <li id="tabHeader-{{ idx }}">
                     <div class="summary__title">
                       {% render 'icon-accordion', icon: block.settings.icon %}
                       <h2 class="h5 tab__title">
@@ -42,13 +57,23 @@
         </ul>
       </div>
       <div id="tabscontent" class="tab-content">
+        {%- if section.settings.show_product_description -%}
+          <div id="TabContent-1" class="tab__content description fade rte" style="display:block;">
+            {{ product.description }}
+          </div>
+        {%- endif -%}
         {%- for block in section.blocks -%}
           {%- case block.type -%}
             {%- when '@app' -%}
               {% render block %}
             {%- when 'collapsible_tab' -%}
               {%- if block.settings.content != blank or block.settings.page.content != blank -%}
-                <div id="TabContent-{{ forloop.index }}" class="tab__content rte" {% if forloop.first == true %}style="display:block;"{%- endif -%}>
+                {%- if section.settings.show_product_description -%}
+                  {%  assign idx = forloop.index | plus: 1  %}
+                {% else %}
+                  {%  assign idx = forloop.index %}
+                {%- endif -%}
+                <div id="TabContent-{{ idx }}" class="tab__content fade rte" {% if forloop.first == true and section.settings.show_product_description == false %}style="display:block;"{%- endif -%}>
                   {{ block.settings.content }}
                   {%- if block.settings.image != blank -%}
                     <div class="media media--{{ block.settings.image_ratio }} media--transparent {% if block.settings.image == blank %} placeholder{% endif %}">
@@ -82,7 +107,7 @@
         var navitem = document.getElementById("tabHeader-1");
         var ident = navitem.id.split("-")[1];
         navitem.parentNode.setAttribute("data-current", ident);
-        navitem.setAttribute("class", "tabActiveHeader");
+        navitem.setAttribute("class", "active");
         var pages = tabcon.getElementsByTagName("div");
         for (var i = 1; i < pages.length; i++) {
           pages.item(i).style.display = "none";
@@ -376,22 +401,21 @@
         "label": "t:sections.collapsible_info_product.settings.collapsible_type.label"
       },
       {
-            "type": "range",
-            "id": "box_width",
-            "min": 40,
-            "max": 100,
-            "step": 1,
-            "unit": "%",
-            "label": "t:sections.collapsible_info_product.settings.box_width.label",
-            "default": 50
-          },
+        "type": "range",
+        "id": "box_width",
+        "min": 40,
+        "max": 100,
+        "step": 1,
+        "unit": "%",
+        "label": "t:sections.collapsible_info_product.settings.box_width.label",
+        "default": 50
+      },
       {
         "type": "checkbox",
         "id": "show_product_description",
         "default": true,
         "label": "t:sections.collapsible_info_product.settings.show_product_description.label"
-      },
-      {
+      }, {
         "type": "range",
         "id": "padding_top",
         "min": 0,
