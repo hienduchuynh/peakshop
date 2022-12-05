@@ -317,11 +317,11 @@
         "swipe_on_mobile": true,
         "padding_top": 0,
         "padding_bottom": 0,
-        "border_top_thickness": 0,
+        "border_top_thickness": 1,
         "border_right_thickness": 0,
-        "border_bottom_thickness": 0,
+        "border_bottom_thickness": 1,
         "border_left_thickness": 0,
-        "border_opacity": 0
+        "border_opacity": 100
       }
     },
     "de99a705-2695-4857-953e-c4d63681937b": {
