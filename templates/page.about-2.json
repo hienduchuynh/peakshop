@@ -24,7 +24,7 @@
         "template--17150322376979__7627136e-9e1d-443b-8ef1-e5246cc9e0e4-1670223966fc870953-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "PEAKSHOP FOR  INFO",
             "heading_size": "h1"
           }
         },
@@ -33,13 +33,6 @@
           "settings": {
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "text_style": "body"
-          }
-        },
-        "template--17150322376979__7627136e-9e1d-443b-8ef1-e5246cc9e0e4-1670223966fc870953-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
           }
         },
         "05833790-db0a-46e9-8603-8ef6a802b65d": {
@@ -54,7 +47,6 @@
       "block_order": [
         "template--17150322376979__7627136e-9e1d-443b-8ef1-e5246cc9e0e4-1670223966fc870953-0",
         "template--17150322376979__7627136e-9e1d-443b-8ef1-e5246cc9e0e4-1670223966fc870953-1",
-        "template--17150322376979__7627136e-9e1d-443b-8ef1-e5246cc9e0e4-1670223966fc870953-2",
         "05833790-db0a-46e9-8603-8ef6a802b65d"
       ],
       "settings": {
@@ -68,7 +60,7 @@
         "color_scheme": "background-1",
         "mobile_content_alignment": "left",
         "padding_top": 0,
-        "padding_bottom": 0,
+        "padding_bottom": 48,
         "border_thickness": 0,
         "border_opacity": 0
       }
@@ -126,7 +118,7 @@
       "settings": {
         "layout": "full_bleed",
         "slide_height": "adapt_image",
-        "slider_visual": "counter",
+        "slider_visual": "dots",
         "auto_rotate": false,
         "change_slides_speed": 5,
         "show_text_below": true,
