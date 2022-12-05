@@ -19,7 +19,7 @@
 {%- endstyle -%}
 
 <div class="page-width section-{{ section.id }}-padding {{ section.settings.suffix-class }}">
-  <h1 class="main-page-title page-title h2">
+  <h1 class="main-page-title page-title h2 {% if section.settings.alignment_title != blank %}{{ section.settings.alignment_title }}{% endif %}">
     {{ page.title | escape }}
   </h1>
   <div class="rte">
@@ -33,6 +33,26 @@
   "tag": "section",
   "class": "section",
   "settings": [
+    {
+      "type": "select",
+      "id": "alignment_title",
+      "options": [
+        {
+          "value": "left",
+          "label": "t:sections.general.settings.alignment_title.options__1.label"
+        },
+        {
+          "value": "center",
+          "label": "t:sections.general.settings.alignment_title.options__2.label"
+        },
+        {
+          "value": "right",
+          "label": "t:sections.general.settings.alignment_title.options__3.label"
+        }
+      ],
+      "default": "left",
+      "label": "t:sections.general.settings.alignment_title.label"
+    },
     {
       "type": "header",
       "content": "t:sections.all.padding.section_padding_heading"

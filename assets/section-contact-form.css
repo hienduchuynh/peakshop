@@ -54,7 +54,6 @@
 /* Title */
 @media screen and (min-width: 990px) {
   .contact-form .title {
-    font-size: 3rem;
     font-weight: 600;
     line-height: 1.4;
     margin-bottom: 1.5rem;
@@ -99,6 +98,10 @@
 
 .contact-2 .contact-container {
   width: 100%;
+}
+
+.contact-2 .contact-form .title {
+  text-align: center;
 }
 
 .contact-2 .contact-description {
@@ -154,13 +157,19 @@
 @media screen and (min-width: 1200px) {
   .contact-2 .contact-form {
     max-width: 80rem;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
   }
+}
+
+.contact-2 .contact-more a {
+  margin: 1.2rem 0;
 }
 
 .contact-2 .contact__button {
   text-align: center;
 }
+
 
 
 
