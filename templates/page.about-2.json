@@ -18,40 +18,31 @@
         "suffix-class": "about-us-title"
       }
     },
-    "7627136e-9e1d-443b-8ef1-e5246cc9e0e4": {
+    "9ceab590-b6b7-48ba-8dc4-63977fad91d6": {
       "type": "image-with-text",
       "blocks": {
-        "template--17150322376979__7627136e-9e1d-443b-8ef1-e5246cc9e0e4-1670223966fc870953-0": {
+        "template--17150322376979__9ceab590-b6b7-48ba-8dc4-63977fad91d6-1670223966fc870953-0": {
           "type": "heading",
           "settings": {
-            "heading": "PEAKSHOP FOR  INFO",
+            "heading": "Our company",
             "heading_size": "h1"
           }
         },
-        "template--17150322376979__7627136e-9e1d-443b-8ef1-e5246cc9e0e4-1670223966fc870953-1": {
+        "template--17150322376979__9ceab590-b6b7-48ba-8dc4-63977fad91d6-1670223966fc870953-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet conse ctetur adipisicing elit.<\/p><p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet conse ctetur adipisicing elit.<\/p>",
             "text_style": "body"
-          }
-        },
-        "05833790-db0a-46e9-8603-8ef6a802b65d": {
-          "type": "caption",
-          "settings": {
-            "caption": "Add a tagline",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
           }
         }
       },
       "block_order": [
-        "template--17150322376979__7627136e-9e1d-443b-8ef1-e5246cc9e0e4-1670223966fc870953-0",
-        "template--17150322376979__7627136e-9e1d-443b-8ef1-e5246cc9e0e4-1670223966fc870953-1",
-        "05833790-db0a-46e9-8603-8ef6a802b65d"
+        "template--17150322376979__9ceab590-b6b7-48ba-8dc4-63977fad91d6-1670223966fc870953-0",
+        "template--17150322376979__9ceab590-b6b7-48ba-8dc4-63977fad91d6-1670223966fc870953-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/skateboard_PNG11714.png",
-        "height": "adapt",
+        "image": "shopify:\/\/shop_images\/slide-03.jpg",
+        "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
@@ -60,7 +51,7 @@
         "color_scheme": "background-1",
         "mobile_content_alignment": "left",
         "padding_top": 0,
-        "padding_bottom": 48,
+        "padding_bottom": 0,
         "border_thickness": 0,
         "border_opacity": 0
       }
@@ -237,7 +228,7 @@
   "order": [
     "61f849a9-f600-4591-8f82-0e40cc947bc5",
     "main",
-    "7627136e-9e1d-443b-8ef1-e5246cc9e0e4",
+    "9ceab590-b6b7-48ba-8dc4-63977fad91d6",
     "5f30ecf6-0053-4fc3-8de2-b113341ed967",
     "bd0a742d-8183-4f9b-929a-7afe8b1cbb9b"
   ]
