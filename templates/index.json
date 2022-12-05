@@ -2,6 +2,7 @@
   "sections": {
     "715d01be-8642-4c52-804e-cdbe0c35ae1b": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "template--17016615010579__715d01be-8642-4c52-804e-cdbe0c35ae1b-16702096646e1fd5d7-0": {
           "type": "slide",
@@ -125,7 +126,7 @@
         "accessibility_info": "ja_slider about our brand",
         "padding_top": 0,
         "padding_bottom": 0,
-        "border_top_thickness": 2,
+        "border_top_thickness": 0,
         "border_right_thickness": 0,
         "border_bottom_thickness": 1,
         "border_left_thickness": 0,
