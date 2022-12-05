@@ -1,4 +1,4 @@
-<section id="MainProduct-{{ section.id }}" class="page-width {{ section.settings.layout_product }} section-{{ section.id }}-padding " data-section="{{ section.id }}">
+<section id="MainProduct-{{ section.id }}" class="page-width  section-{{ section.id }}-padding " data-section="{{ section.id }}">
   {{ 'section-main-product.css' | asset_url | stylesheet_tag }}
   {{ 'component-accordion.css' | asset_url | stylesheet_tag }}
   {{ 'component-price.css' | asset_url | stylesheet_tag }}
@@ -292,7 +292,7 @@
     </div>
     
     <div class="product__info-wrapper grid__item{% if settings.page_width > 1400 and section.settings.media_size == "small" %} product__info-wrapper--extra-padding{% endif %}">
-      <div id="ProductInfo-{{ section.id }}" class="product__info-container {% if section.settings.enable_sticky_info %} product__info-container--sticky{% endif %}">
+      <div id="ProductInfo-{{ section.id }}" class="product__info-container">
         {%- assign product_form_id = 'product-form-' | append: section.id -%}
         {%- for block in section.blocks -%}
           {%- case block.type -%}
@@ -1268,17 +1268,6 @@
     }
   ],
   "settings": [
-    {
-      "type": "header",
-      "content": "t:sections.main-product.settings.general.label"
-    },
-    {
-      "type": "checkbox",
-      "id": "enable_sticky_info",
-      "info": "t:sections.main-product.settings.enable_sticky_info.info",
-      "default": true,
-      "label": "t:sections.main-product.settings.enable_sticky_info.label"
-    },
     {
       "type": "header",
       "content": "t:sections.main-product.settings.main-image.label"
