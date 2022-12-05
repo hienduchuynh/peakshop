@@ -121,7 +121,6 @@
       "settings": {
         "media_size": "large",
         "gallery_layout": "grid-3-column",
-        "gallery_position": "bottom",
         "thumbnail_ratio": "11",
         "mobile_thumbnails": "hide",
         "hide_variants": true,
