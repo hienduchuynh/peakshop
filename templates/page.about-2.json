@@ -261,8 +261,8 @@
             "link_label": "",
             "link": "",
             "link_style": "link",
-            "padding_left": 32,
-            "padding_right": 32,
+            "padding_left": 0,
+            "padding_right": 0,
             "image_spacing": 25
           }
         },
@@ -279,8 +279,8 @@
             "link_label": "",
             "link": "",
             "link_style": "link",
-            "padding_left": 32,
-            "padding_right": 32,
+            "padding_left": 0,
+            "padding_right": 0,
             "image_spacing": 25
           }
         },
@@ -297,8 +297,8 @@
             "link_label": "",
             "link": "",
             "link_style": "link",
-            "padding_left": 32,
-            "padding_right": 32,
+            "padding_left": 0,
+            "padding_right": 0,
             "image_spacing": 25
           }
         },
@@ -315,8 +315,8 @@
             "link_label": "",
             "link": "",
             "link_style": "link",
-            "padding_left": 32,
-            "padding_right": 32,
+            "padding_left": 0,
+            "padding_right": 0,
             "image_spacing": 25
           }
         }
@@ -332,7 +332,7 @@
         "sub-title": "What Happens Here",
         "mod_class": "about-us-team",
         "heading_size": "h1",
-        "layout": "grid--gapless",
+        "layout": "grid",
         "image_width": "full",
         "image_ratio": "portrait",
         "columns_desktop": 4,
