@@ -40,7 +40,7 @@
 	border-right: 2px solid rgba(var(--color-foreground), 0.2);
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 990px) {
 	.footer-05 .footer-block--main .footer__content__left,
 	.footer-05 .footer-block--main .footer__content__right {
 		width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2);
@@ -60,6 +60,16 @@
 	.footer-05 .footer__content-top .grid__item {
 		padding-left: calc(var(--grid-desktop-horizontal-spacing));
 		padding-right: calc(var(--grid-desktop-horizontal-spacing));
+	}
+}
+
+@media screen and (min-width: 750px) and (max-width: 989px) {
+	.footer-05 .footer__content__right {
+		border-top: 2px solid rgba(var(--color-foreground), 0.2);
+	}
+
+	.footer-05 .footer__content-top .footer__content__left {
+		border-right: 0;
 	}
 }
 

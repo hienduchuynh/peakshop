@@ -72,7 +72,7 @@
         {% endfor %}
         
         <div class="footer-block--main grid grid--2-col-desktop">
-          <div class="grid grid__item grid--2-col-tablet-down grid--2-col-tablet footer__content__left"> 
+          <div class="grid grid__item grid--1-col-tablet-down grid--2-col-tablet footer__content__left"> 
             {% for block in section.blocks %}
               {% case block.type %}
                 {%- when 'logo_image' -%}
@@ -110,7 +110,7 @@
               {% endcase %}
             {% endfor %}
           </div>
-          <div class="grid grid__item grid--2-col-tablet-down footer__content__right">
+          <div class="grid grid__item grid--1-col-tablet-down grid--3-col-tablet footer__content__right">
           {%- for block in section.blocks -%}
             <div class="footer-block grid__item{% if block.type == 'link_list' %} footer-block--menu{% endif %}" {{ block.shopify_attributes }}>
               {%- case block.type -%}  
