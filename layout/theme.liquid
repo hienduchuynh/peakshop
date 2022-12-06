@@ -294,7 +294,7 @@
     </script>
   </head>
 
-  <body class="gradient page-{{ template | handleize }}">
+  <body class="gradient page-{{ template | handleize }} page-header-{{ settings.header_layout }}">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ "accessibility.skip_to_text" | t }}
     </a>
@@ -307,11 +307,15 @@
       <div class="ja-container ja-page-{{ template | handleize }}">
         {% render 'wrapper-header' %}
 
-        <main id="MainContent" class="content-for-layout focus-none main-{{ template | handleize }} {% if template == "product" or template == "product.layout01" or template == "product.layout02"  or template == "product.layout03" or template == "product.layout04" or template == "product.layout05" %} product-page{% endif %}" role="main" tabindex="-1">
-          {{ content_for_layout }}
-        </main>
+        <div class="mainContent-footer-wrapper">
+          <main id="MainContent" class="content-for-layout focus-none main-{{ template | handleize }} {% if template == "product" or template == "product.layout01" or template == "product.layout02"  or template == "product.layout03" or template == "product.layout04" or template == "product.layout05" %} product-page{% endif %}" role="main" tabindex="-1">
+            {{ content_for_layout }}
+          </main>
 
-        {% render 'wrapper-footer' %}
+          {% if settings.header_layout != '05' %}
+            {% render 'wrapper-footer' %}
+          {% endif %}
+        </div>
       </div>
     </div>
 
