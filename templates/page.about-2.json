@@ -245,116 +245,6 @@
         "border_opacity": 0
       }
     },
-    "bd0a742d-8183-4f9b-929a-7afe8b1cbb9b": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--17150322376979__bd0a742d-8183-4f9b-929a-7afe8b1cbb9b-167022396740d7abf2-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/avatar-1.jpg",
-            "image_position": "top",
-            "title": "Bianca Alexander",
-            "title_size": "h4",
-            "icon": "none",
-            "icon_position": "left",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "link_style": "link",
-            "padding_left": 0,
-            "padding_right": 0,
-            "image_spacing": 25
-          }
-        },
-        "template--17150322376979__bd0a742d-8183-4f9b-929a-7afe8b1cbb9b-167022396740d7abf2-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/avatar-2.jpg",
-            "image_position": "top",
-            "title": "Dale Spraggins",
-            "title_size": "h4",
-            "icon": "none",
-            "icon_position": "left",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "link_style": "link",
-            "padding_left": 0,
-            "padding_right": 0,
-            "image_spacing": 25
-          }
-        },
-        "template--17150322376979__bd0a742d-8183-4f9b-929a-7afe8b1cbb9b-167022396740d7abf2-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/avatar-3.jpg",
-            "image_position": "top",
-            "title": "Curtis Wilcher",
-            "title_size": "h4",
-            "icon": "none",
-            "icon_position": "left",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "link_style": "link",
-            "padding_left": 0,
-            "padding_right": 0,
-            "image_spacing": 25
-          }
-        },
-        "3fc5e54f-9787-4ea6-9f45-b6b75ee53a90": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/avatar-4.jpg",
-            "image_position": "top",
-            "title": "Faye Warner",
-            "title_size": "h4",
-            "icon": "none",
-            "icon_position": "left",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "link_style": "link",
-            "padding_left": 0,
-            "padding_right": 0,
-            "image_spacing": 25
-          }
-        }
-      },
-      "block_order": [
-        "template--17150322376979__bd0a742d-8183-4f9b-929a-7afe8b1cbb9b-167022396740d7abf2-0",
-        "template--17150322376979__bd0a742d-8183-4f9b-929a-7afe8b1cbb9b-167022396740d7abf2-1",
-        "template--17150322376979__bd0a742d-8183-4f9b-929a-7afe8b1cbb9b-167022396740d7abf2-2",
-        "3fc5e54f-9787-4ea6-9f45-b6b75ee53a90"
-      ],
-      "settings": {
-        "title": "OUR AWESOME TEAM",
-        "sub-title": "What Happens Here",
-        "mod_class": "about-us-team",
-        "heading_size": "h1",
-        "layout": "grid",
-        "image_width": "full",
-        "image_ratio": "portrait",
-        "columns_desktop": 4,
-        "row_alignment": "top",
-        "column_alignment": "center",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_tablet": "2",
-        "swipe_on_tablet": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 0,
-        "padding_bottom": 48,
-        "border_top_thickness": 0,
-        "border_right_thickness": 0,
-        "border_bottom_thickness": 0,
-        "border_left_thickness": 0,
-        "border_opacity": 0
-      }
-    },
     "508c9098-19c4-46b5-919e-556c33cf1227": {
       "type": "main-team",
       "blocks": {
@@ -473,7 +363,6 @@
     "6b6ef46b-2a73-4e5e-bb36-9f5fe54e6403",
     "90fa3700-becd-4a06-9f5f-d7ace3d0d5f0",
     "04c80791-1da3-4243-b726-b523ed26e116",
-    "bd0a742d-8183-4f9b-929a-7afe8b1cbb9b",
     "508c9098-19c4-46b5-919e-556c33cf1227"
   ]
 }
