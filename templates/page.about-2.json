@@ -18,42 +18,72 @@
         "suffix-class": "about-us-title"
       }
     },
-    "9ceab590-b6b7-48ba-8dc4-63977fad91d6": {
-      "type": "image-with-text",
+    "df146f82-afb9-46b0-9f8c-9128a12beb4e": {
+      "type": "rich-text",
       "blocks": {
-        "template--17150322376979__9ceab590-b6b7-48ba-8dc4-63977fad91d6-1670223966fc870953-0": {
+        "88ead722-4706-4542-89a0-9531a39072a3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/christophe-meyer-ffvA4qpRjHY-unsplash_2.jpg"
+          }
+        },
+        "template--17150322376979__df146f82-afb9-46b0-9f8c-9128a12beb4e-1670292186bc049213-0": {
           "type": "heading",
           "settings": {
-            "heading": "Our company",
+            "heading": "<p>Talk about your brand<\/p>",
             "heading_size": "h1"
           }
         },
-        "template--17150322376979__9ceab590-b6b7-48ba-8dc4-63977fad91d6-1670223966fc870953-1": {
+        "template--17150322376979__df146f82-afb9-46b0-9f8c-9128a12beb4e-1670292186bc049213-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet conse ctetur adipisicing elit.<\/p><p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet conse ctetur adipisicing elit.<\/p>",
-            "text_style": "body"
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "0f9c470f-1ed1-4c40-91ec-0e7efe9ade4b": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "42e90350-422c-4182-9ecd-93b498787a0e": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "4dce0cec-9e88-4505-8d37-c1b448a3ff30": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "6145f55c-8d4a-4a52-a77d-fa8da598abad": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
           }
         }
       },
       "block_order": [
-        "template--17150322376979__9ceab590-b6b7-48ba-8dc4-63977fad91d6-1670223966fc870953-0",
-        "template--17150322376979__9ceab590-b6b7-48ba-8dc4-63977fad91d6-1670223966fc870953-1"
+        "88ead722-4706-4542-89a0-9531a39072a3",
+        "template--17150322376979__df146f82-afb9-46b0-9f8c-9128a12beb4e-1670292186bc049213-0",
+        "template--17150322376979__df146f82-afb9-46b0-9f8c-9128a12beb4e-1670292186bc049213-1",
+        "0f9c470f-1ed1-4c40-91ec-0e7efe9ade4b",
+        "42e90350-422c-4182-9ecd-93b498787a0e",
+        "4dce0cec-9e88-4505-8d37-c1b448a3ff30",
+        "6145f55c-8d4a-4a52-a77d-fa8da598abad"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/slide-03.jpg",
-        "height": "small",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "accent-2",
-        "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "border_thickness": 0,
-        "border_opacity": 0
+        "class_suffix": "",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "04c80791-1da3-4243-b726-b523ed26e116": {
@@ -280,7 +310,7 @@
   "order": [
     "61f849a9-f600-4591-8f82-0e40cc947bc5",
     "main",
-    "9ceab590-b6b7-48ba-8dc4-63977fad91d6",
+    "df146f82-afb9-46b0-9f8c-9128a12beb4e",
     "04c80791-1da3-4243-b726-b523ed26e116",
     "bd0a742d-8183-4f9b-929a-7afe8b1cbb9b"
   ]
