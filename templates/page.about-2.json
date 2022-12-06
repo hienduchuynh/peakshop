@@ -332,7 +332,7 @@
         "sub-title": "What Happens Here",
         "heading_size": "h2",
         "layout": "grid",
-        "image_width": "third",
+        "image_width": "full",
         "image_ratio": "portrait",
         "columns_desktop": 4,
         "row_alignment": "middle",
