@@ -18,72 +18,142 @@
         "suffix-class": "about-us-title"
       }
     },
-    "df146f82-afb9-46b0-9f8c-9128a12beb4e": {
-      "type": "rich-text",
+    "11f4ff02-80a9-4fc1-8a07-9a4d70c1b955": {
+      "type": "image-with-text",
       "blocks": {
-        "88ead722-4706-4542-89a0-9531a39072a3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/christophe-meyer-ffvA4qpRjHY-unsplash_2.jpg"
-          }
-        },
-        "template--17150322376979__df146f82-afb9-46b0-9f8c-9128a12beb4e-1670292186bc049213-0": {
+        "template--17150322376979__11f4ff02-80a9-4fc1-8a07-9a4d70c1b955-1670292908792d1159-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Talk about your brand<\/p>",
-            "heading_size": "h1"
+            "heading": "Provide perfect and practical services",
+            "heading_size": "h2"
           }
         },
-        "template--17150322376979__df146f82-afb9-46b0-9f8c-9128a12beb4e-1670292186bc049213-1": {
+        "template--17150322376979__11f4ff02-80a9-4fc1-8a07-9a4d70c1b955-1670292908792d1159-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Lorem quis bibendum auctar, nisi elit consequat ipsum, nec sagittis sem nibh id elit.<\/p>",
+            "text_style": "body"
           }
         },
-        "0f9c470f-1ed1-4c40-91ec-0e7efe9ade4b": {
-          "type": "heading",
+        "template--17150322376979__11f4ff02-80a9-4fc1-8a07-9a4d70c1b955-1670292908792d1159-2": {
+          "type": "button",
           "settings": {
-            "heading": "<p>Talk about your brand<\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "42e90350-422c-4182-9ecd-93b498787a0e": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "4dce0cec-9e88-4505-8d37-c1b448a3ff30": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Talk about your brand<\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "6145f55c-8d4a-4a52-a77d-fa8da598abad": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "button_label": "Visit Our Store",
+            "button_link": "shopify:\/\/collections"
           }
         }
       },
       "block_order": [
-        "88ead722-4706-4542-89a0-9531a39072a3",
-        "template--17150322376979__df146f82-afb9-46b0-9f8c-9128a12beb4e-1670292186bc049213-0",
-        "template--17150322376979__df146f82-afb9-46b0-9f8c-9128a12beb4e-1670292186bc049213-1",
-        "0f9c470f-1ed1-4c40-91ec-0e7efe9ade4b",
-        "42e90350-422c-4182-9ecd-93b498787a0e",
-        "4dce0cec-9e88-4505-8d37-c1b448a3ff30",
-        "6145f55c-8d4a-4a52-a77d-fa8da598abad"
+        "template--17150322376979__11f4ff02-80a9-4fc1-8a07-9a4d70c1b955-1670292908792d1159-0",
+        "template--17150322376979__11f4ff02-80a9-4fc1-8a07-9a4d70c1b955-1670292908792d1159-1",
+        "template--17150322376979__11f4ff02-80a9-4fc1-8a07-9a4d70c1b955-1670292908792d1159-2"
       ],
       "settings": {
-        "class_suffix": "",
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "image": "shopify:\/\/shop_images\/slide-01.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
         "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "border_thickness": 0,
+        "border_opacity": 0
+      }
+    },
+    "6b6ef46b-2a73-4e5e-bb36-9f5fe54e6403": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--17150322376979__6b6ef46b-2a73-4e5e-bb36-9f5fe54e6403-1670292908792d1159-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Provide fashionable andqualifed products",
+            "heading_size": "h2"
+          }
+        },
+        "template--17150322376979__6b6ef46b-2a73-4e5e-bb36-9f5fe54e6403-1670292908792d1159-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Already millions of people are very satisfied by thi. s page builder and the number is growing more and more. Technolog developing, requirements are increasing. Riode has brought.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--17150322376979__6b6ef46b-2a73-4e5e-bb36-9f5fe54e6403-1670292908792d1159-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Visit Our Store",
+            "button_link": "shopify:\/\/collections"
+          }
+        }
+      },
+      "block_order": [
+        "template--17150322376979__6b6ef46b-2a73-4e5e-bb36-9f5fe54e6403-1670292908792d1159-0",
+        "template--17150322376979__6b6ef46b-2a73-4e5e-bb36-9f5fe54e6403-1670292908792d1159-1",
+        "template--17150322376979__6b6ef46b-2a73-4e5e-bb36-9f5fe54e6403-1670292908792d1159-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/collection-3.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36,
+        "border_thickness": 0,
+        "border_opacity": 0
+      }
+    },
+    "90fa3700-becd-4a06-9f5f-d7ace3d0d5f0": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--17150322376979__90fa3700-becd-4a06-9f5f-d7ace3d0d5f0-1670292908792d1159-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Expect RestlessAmazing Support",
+            "heading_size": "h2"
+          }
+        },
+        "template--17150322376979__90fa3700-becd-4a06-9f5f-d7ace3d0d5f0-1670292908792d1159-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Already millions of people are very satisfied by thi. s page builder and the number is growing more and more. Technolog developing, requirements are increasing. Riode has brought.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--17150322376979__90fa3700-becd-4a06-9f5f-d7ace3d0d5f0-1670292908792d1159-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Visit Our Store",
+            "button_link": "shopify:\/\/collections"
+          }
+        }
+      },
+      "block_order": [
+        "template--17150322376979__90fa3700-becd-4a06-9f5f-d7ace3d0d5f0-1670292908792d1159-0",
+        "template--17150322376979__90fa3700-becd-4a06-9f5f-d7ace3d0d5f0-1670292908792d1159-1",
+        "template--17150322376979__90fa3700-becd-4a06-9f5f-d7ace3d0d5f0-1670292908792d1159-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/slide-03.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 36,
+        "border_thickness": 0,
+        "border_opacity": 0
       }
     },
     "04c80791-1da3-4243-b726-b523ed26e116": {
@@ -310,7 +380,9 @@
   "order": [
     "61f849a9-f600-4591-8f82-0e40cc947bc5",
     "main",
-    "df146f82-afb9-46b0-9f8c-9128a12beb4e",
+    "11f4ff02-80a9-4fc1-8a07-9a4d70c1b955",
+    "6b6ef46b-2a73-4e5e-bb36-9f5fe54e6403",
+    "90fa3700-becd-4a06-9f5f-d7ace3d0d5f0",
     "04c80791-1da3-4243-b726-b523ed26e116",
     "bd0a742d-8183-4f9b-929a-7afe8b1cbb9b"
   ]
