@@ -1868,7 +1868,10 @@
       }
     },
     "main-team": {
-      "name": "Team"
+      "name": "Team",
+      "presets": {
+        "name": "Team"
+      }
     },
     "main-article": {
       "name": "Main Article",
