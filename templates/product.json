@@ -25,6 +25,7 @@
         },
         "93d8acff-599a-4a3a-be22-029395575b2a": {
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
+          "disabled": true,
           "settings": {
             "stars_fill_color": "#ffc107",
             "star_size": 15,
@@ -180,23 +181,6 @@
     },
     "1670299102da5a53ff": {
       "type": "apps",
-      "blocks": {
-        "2c33ad1e-3ab2-4569-b335-9b8e9db2ba60": {
-          "type": "shopify:\/\/apps\/aftership-product-reviews\/blocks\/product_page_main_widget\/beb80d6c-6526-44ce-8946-4a762954ca6d",
-          "settings": {
-          }
-        },
-        "68e53069-3f2b-44a6-95c9-ac10eab218d2": {
-          "type": "shopify:\/\/apps\/aftership-product-reviews\/blocks\/product_page_star_widget\/beb80d6c-6526-44ce-8946-4a762954ca6d",
-          "settings": {
-            "block_alignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "2c33ad1e-3ab2-4569-b335-9b8e9db2ba60",
-        "68e53069-3f2b-44a6-95c9-ac10eab218d2"
-      ],
       "settings": {
         "include_margins": true
       }
