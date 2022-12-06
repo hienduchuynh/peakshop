@@ -185,10 +185,17 @@
           "type": "shopify:\/\/apps\/aftership-product-reviews\/blocks\/product_page_main_widget\/beb80d6c-6526-44ce-8946-4a762954ca6d",
           "settings": {
           }
+        },
+        "68e53069-3f2b-44a6-95c9-ac10eab218d2": {
+          "type": "shopify:\/\/apps\/aftership-product-reviews\/blocks\/product_page_star_widget\/beb80d6c-6526-44ce-8946-4a762954ca6d",
+          "settings": {
+            "block_alignment": "center"
+          }
         }
       },
       "block_order": [
-        "2c33ad1e-3ab2-4569-b335-9b8e9db2ba60"
+        "2c33ad1e-3ab2-4569-b335-9b8e9db2ba60",
+        "68e53069-3f2b-44a6-95c9-ac10eab218d2"
       ],
       "settings": {
         "include_margins": true
