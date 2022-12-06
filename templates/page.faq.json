@@ -109,9 +109,9 @@
       "settings": {
         "class_suffix": "faqs-page",
         "caption": "",
-        "heading": "fdhgfhgfh",
+        "heading": "",
         "heading_size": "h1",
-        "heading_alignment": "center",
+        "heading_alignment": "left",
         "content_alignment": "left",
         "layout": "row",
         "color_scheme": "background-1",
