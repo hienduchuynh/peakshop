@@ -10,7 +10,6 @@
     },
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
         "alignment_title": "left",
         "padding_top": 28,
@@ -30,6 +29,7 @@
         },
         "template--17150322376979__11f4ff02-80a9-4fc1-8a07-9a4d70c1b955-1670292908792d1159-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>Lorem quis bibendum auctar, nisi elit consequat ipsum, nec sagittis sem nibh id elit.<\/p>",
             "text_style": "body"
