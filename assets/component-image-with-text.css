@@ -329,10 +329,33 @@
 }
 
 /* About Us 2 */
-.main-page-about-2 .image-with-text .image-with-text__media {
+.about-us-2-section-1 .image-with-text__media {
   border: 0;
 }
 
-.main-page-about-2 .image-with-text .image-with-text__media-item {
-  border: 2px solid rgba(var(--color-base-solid-button-labels));
+.about-us-2-section-1 .image-with-text__grid {
+  border: 2px solid rgb(var(--color-base-text));
+  border-bottom: 0;
+}
+
+.about-us-2-section-1 .image-with-text__content {
+  border: 0;
+}
+
+.about-us-2-section-1 .image-with-text__media-item {
+  border-right: 2px solid rgb(var(--color-base-text));
+}
+
+
+.about-us-2-section-1.child-2 .image-with-text__grid {
+  flex-direction: row-reverse;
+}
+
+.about-us-2-section-1.child-2 .image-with-text__media-item  {
+  border-left: 2px solid rgb(var(--color-base-text));
+  border-right: 0;
+} 
+
+.about-us-2-section-1.last-child .image-with-text__grid {
+  border: 2px solid rgb(var(--color-base-text));
 }
