@@ -25,6 +25,7 @@
 	text-transform: uppercase;
 	font-weight: 700;
 	color: inherit;
+	cursor: pointer;
 }
 .nav-tabs {
 	-ms-flex-pack: center;

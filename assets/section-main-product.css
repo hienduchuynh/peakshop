@@ -1835,7 +1835,7 @@ a.product__text {
 	display: none;
 }
 .product-page [data-block-handle='reviews'] .spr-form-title {
-	text-transform: uppercase;
+  text-transform: uppercase;
 	margin-bottom: 3.2rem;
 }
 .product-page [data-block-handle='reviews'] *:focus-visible {
@@ -1861,27 +1861,33 @@ a.product__text {
   display: inline-block;
 }
 .product-page [data-block-handle='reviews'] .spr-form-contact:before {
-	display: none;
+  display: none;
 }
 .product-page [data-block-handle='reviews'] .spr-form-contact-email,
 .product-page [data-block-handle='reviews'] .spr-form-contact-name {
-	width: 50%;
+  width: 50%;
 }
 .product-page [data-block-handle='reviews'] .spr-form-review-rating,
 .product-page [data-block-handle='reviews'] .spr-form-review-title,
 .product-page [data-block-handle='reviews'] .spr-form-review-body,
 .product-page [data-block-handle='reviews'] .spr-form-contact-email,
 .product-page [data-block-handle='reviews'] .spr-form-contact-name {
-	margin-bottom: 3.2rem;
+  margin-bottom: 3.2rem;
 }
 
 .product-page [data-block-handle='reviews'] .spr-form-contact-email:before,
 .product-page [data-block-handle='reviews'] .spr-form-contact-name:before {
-	display: none;
+  display: none;
 }
+.product-page [data-block-handle='reviews'] .spr-form-review-rating a {
+  color: #ffc700
+}
+.product-page [data-block-handle='reviews'] .spr-icon.spr-icon-star-empty {
+  opacity: 1;
+ }
 
 @media screen and (min-width: 750px) {
-	.product-page [data-block-handle='reviews'] {
+  .product-page [data-block-handle='reviews'] {
 		margin: 0 -4.8rem;
 		padding: 4rem 4.8rem;
 	}
