@@ -584,6 +584,7 @@
         "settings": {
           "color_scheme": "background-1",
           "layout_type": "logo-menu-icons",
+          "logo": "shopify:\/\/shop_images\/logo.png",
           "logo_text": "",
           "logo_font": "helvetica_n4",
           "logo_width": 215,
