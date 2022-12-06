@@ -339,7 +339,7 @@
         "row_alignment": "middle",
         "column_alignment": "center",
         "background_style": "primary",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "color_scheme": "background-1",
         "columns_tablet": "2",
