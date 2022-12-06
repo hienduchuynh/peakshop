@@ -1,0 +1,34 @@
+<div 
+    id="automizely_reviews_featured-review--production" 
+    data-rv-fr-public-styles="--fr_max_width:{{section.settings.fr_max_width}}%;" 
+    {%if request.design_mode %}data-mode='preview'{% endif %}
+>
+</div>
+
+{% schema %}
+{
+"name": "AM Featured Review Widget",
+"settings": [
+{
+"type": "range",
+"id": "fr_max_width",
+"min": 0,
+"max": 100,
+"step": 1,
+"unit": "%",
+"label": "Maximum width",
+"default": 100
+}
+],
+"presets": [{
+"name": "AM Featured Review Widget",
+"category": "Reviews"
+}]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

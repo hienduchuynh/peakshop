@@ -575,6 +575,11 @@
         "border_left_thickness": 0,
         "border_opacity": 100
       }
+    },
+    "am-featured-reviews-carousel": {
+      "type": "am-featured-reviews-carousel",
+      "settings": {
+      }
     }
   },
   "order": [
@@ -587,6 +592,7 @@
     "7afcf70d-4f53-4da2-9322-a5c118360a18",
     "b7d4689b-aa5d-4fbd-93cf-446d84d85100",
     "cb809454-489b-40a4-895f-7a4805ef7846",
-    "c6f98de6-047d-4264-a053-0e2a5b108dab"
+    "c6f98de6-047d-4264-a053-0e2a5b108dab",
+    "am-featured-reviews-carousel"
   ]
 }
