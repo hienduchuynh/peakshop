@@ -184,7 +184,12 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 0,
+        "border_top_thickness": 0,
+        "border_right_thickness": 0,
+        "border_bottom_thickness": 0,
+        "border_left_thickness": 0,
+        "border_opacity": 0
       }
     }
   },
