@@ -197,7 +197,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/light-bulb.png",
             "image_position": "top",
-            "title": "Impressive design 3.0",
+            "title": "Impressive design",
             "title_size": "h4",
             "icon": "none",
             "icon_position": "left",
@@ -334,7 +334,7 @@
         "heading_size": "h1",
         "layout": "grid--gapless",
         "image_width": "full",
-        "image_ratio": "adapt",
+        "image_ratio": "portrait",
         "columns_desktop": 4,
         "row_alignment": "top",
         "column_alignment": "center",
