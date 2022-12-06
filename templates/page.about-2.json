@@ -143,7 +143,7 @@
         "template--17150322376979__90fa3700-becd-4a06-9f5f-d7ace3d0d5f0-1670292908792d1159-2"
       ],
       "settings": {
-        "class_suffix": "about-us-2-section-1",
+        "class_suffix": "about-us-2-section-1 last-child",
         "image": "shopify:\/\/shop_images\/slide-03.jpg",
         "height": "small",
         "desktop_image_width": "medium",
