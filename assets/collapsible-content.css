@@ -128,7 +128,7 @@
 }
 
 .faqs-page .collapsible-row-layout .accordion summary {
-  padding: var(--grid-desktop-vertical-spacing);
+  padding: calc(var(--grid-desktop-vertical-spacing) / 1.5);
 }
 
 @media screen and (min-width: 950px) {
