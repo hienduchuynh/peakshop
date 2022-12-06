@@ -1867,6 +1867,9 @@
         "name": "Image with text"
       }
     },
+    "main-team": {
+      "name": "Team"
+    },
     "main-article": {
       "name": "Main Article",
       "blocks": {
