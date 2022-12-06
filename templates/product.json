@@ -149,7 +149,7 @@
           "settings": {
             "heading": "Brand",
             "icon": "none",
-            "content": "<p><em>\"This is demonstration content, designed to showcase how pages could look with your own content\"<\/em><\/p><p><strong>How to measure yourself:<br\/><\/strong>Size Guide: S=US 4-6, M=US 8-10, L=US 12-14, XL=16.<br\/>To find the perfect fit, simply put on your favourite underwear and measure yourself directly on your body. Then use the size chart and the information found in the product description to find your fit.{{ product.metafields.custom._additional_information | metafield_tag }}<\/p>",
+            "content": "<p>{{ product.metafields.custom._additional_information | metafield_tag }}<\/p>",
             "image_ratio": "43",
             "page": ""
           }
