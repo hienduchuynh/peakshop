@@ -330,7 +330,7 @@
       "settings": {
         "title": "OUR AWESOME TEAM",
         "sub-title": "What Happens Here",
-        "mod_class": "",
+        "mod_class": "about-us-team",
         "heading_size": "h0",
         "layout": "grid--gapless",
         "image_width": "full",
