@@ -49,6 +49,7 @@
         "template--17150322376979__11f4ff02-80a9-4fc1-8a07-9a4d70c1b955-1670292908792d1159-2"
       ],
       "settings": {
+        "class_suffix": "",
         "image": "shopify:\/\/shop_images\/slide-01.jpg",
         "height": "small",
         "desktop_image_width": "medium",
@@ -95,6 +96,7 @@
         "template--17150322376979__6b6ef46b-2a73-4e5e-bb36-9f5fe54e6403-1670292908792d1159-2"
       ],
       "settings": {
+        "class_suffix": "about-us-2-section-1",
         "image": "shopify:\/\/shop_images\/collection-3.jpg",
         "height": "small",
         "desktop_image_width": "medium",
@@ -141,6 +143,7 @@
         "template--17150322376979__90fa3700-becd-4a06-9f5f-d7ace3d0d5f0-1670292908792d1159-2"
       ],
       "settings": {
+        "class_suffix": "",
         "image": "shopify:\/\/shop_images\/slide-03.jpg",
         "height": "small",
         "desktop_image_width": "medium",
