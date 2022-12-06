@@ -582,7 +582,7 @@
       "header-05": {
         "type": "header-05",
         "settings": {
-          "color_scheme": "background-1",
+          "color_scheme": "accent-1",
           "layout_type": "logo-menu-icons",
           "logo": "shopify:\/\/shop_images\/logo-white.png",
           "logo_text": "",
