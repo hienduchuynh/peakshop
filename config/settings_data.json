@@ -1,6 +1,6 @@
 {
   "current": {
-    "header_layout": "04",
+    "header_layout": "05",
     "footer_layout": "05",
     "blog_layout": "01",
     "colors_solid_button_labels": "#ffffff",
@@ -582,8 +582,7 @@
       "header-05": {
         "type": "header-05",
         "settings": {
-          "color_scheme": "background-1",
-          "layout_type": "logo-menu-icons",
+          "color_scheme": "inverse",
           "logo": "shopify:\/\/shop_images\/logo-white.png",
           "logo_text": "",
           "logo_font": "space_mono_n7",
@@ -591,8 +590,8 @@
           "menu": "main-menu",
           "menu_type_desktop": "dropdown",
           "enable_sticky_header": true,
-          "padding_top": 20,
-          "padding_bottom": 20,
+          "padding_top": 0,
+          "padding_bottom": 0,
           "border_thickness": 0,
           "border_opacity": 0
         }
