@@ -9,18 +9,17 @@
   width: 20%;
 }
 
-
-.about-us-team .title-wrapper {
+.main-team .title-wrapper {
   margin-bottom: 0;
 }
 
-.about-us-team .title-wrapper .inner {
+.main-team .title-wrapper .inner {
   justify-content: center;
   border: 0;
   padding: 0;
 }
 
-.about-us-team .title-wrapper .inner .title{
+.main-team .title-wrapper .inner .title {
   background-color: #000;
   display: inline;
   color: #fff;
@@ -28,26 +27,25 @@
   font-weight: 700;
 }
 
-
-
-.about-us-team .sub-title {
+.main-team .sub-title {
   text-align: center;
   margin-bottom: var(--grid-desktop-vertical-spacing);
 }
 
-.about-us-team .multicolumn-card__image-wrapper {
-  padding: var(--grid-desktop-horizontal-spacing) var(--grid-desktop-horizontal-spacing) 0;
+.main-team .multicolumn-card__image-wrapper {
+  padding: var(--grid-desktop-horizontal-spacing)
+    var(--grid-desktop-horizontal-spacing) 0;
 }
 
-.about-us-team .multicolumn-card__image-wrapper > div{
+.main-team .multicolumn-card__image-wrapper > div {
   border: 2px solid rgb(var(--color-base-accent-1));
 }
 
-.about-us-team .multicolumn-card__info {
+.main-team .multicolumn-card__info {
   background-color: #fff;
 }
 
-.about-us-team .multicolumn-card__info > h3 {
+.main-team .multicolumn-card__info > h3 {
   background-color: #000;
   display: inline;
   color: #fff;
