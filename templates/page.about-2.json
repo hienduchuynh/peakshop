@@ -331,7 +331,7 @@
         "title": "OUR AWESOME TEAM",
         "sub-title": "What Happens Here",
         "mod_class": "about-us-team",
-        "heading_size": "h0",
+        "heading_size": "h2",
         "layout": "grid",
         "image_width": "full",
         "image_ratio": "portrait",
