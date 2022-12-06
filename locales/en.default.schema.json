@@ -1867,6 +1867,12 @@
         "name": "Image with text"
       }
     },
+    "main-team": {
+      "name": "Team",
+      "presets": {
+        "name": "Team"
+      }
+    },
     "main-article": {
       "name": "Main Article",
       "blocks": {

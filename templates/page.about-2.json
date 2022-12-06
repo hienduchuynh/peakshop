@@ -10,11 +10,10 @@
     },
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
         "alignment_title": "left",
-        "padding_top": 28,
-        "padding_bottom": 28,
+        "padding_top": 0,
+        "padding_bottom": 24,
         "suffix-class": "about-us-title"
       }
     },
@@ -30,6 +29,7 @@
         },
         "template--17150322376979__11f4ff02-80a9-4fc1-8a07-9a4d70c1b955-1670292908792d1159-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>Lorem quis bibendum auctar, nisi elit consequat ipsum, nec sagittis sem nibh id elit.<\/p>",
             "text_style": "body"
@@ -245,33 +245,33 @@
         "border_opacity": 0
       }
     },
-    "bd0a742d-8183-4f9b-929a-7afe8b1cbb9b": {
-      "type": "multicolumn",
+    "508c9098-19c4-46b5-919e-556c33cf1227": {
+      "type": "main-team",
       "blocks": {
-        "template--17150322376979__bd0a742d-8183-4f9b-929a-7afe8b1cbb9b-167022396740d7abf2-0": {
+        "template--17150322376979__508c9098-19c4-46b5-919e-556c33cf1227-16703099644bc62f29-0": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/avatar-1.jpg",
             "image_position": "top",
-            "title": "Column",
+            "title": "Bianca Alexander",
             "title_size": "h4",
             "icon": "none",
-            "icon_position": "left",
+            "icon_position": "center",
             "text": "",
             "link_label": "",
             "link": "",
             "link_style": "link",
-            "padding_left": 32,
-            "padding_right": 32,
-            "image_spacing": 25
+            "padding_left": 0,
+            "padding_right": 0,
+            "image_spacing": 24
           }
         },
-        "template--17150322376979__bd0a742d-8183-4f9b-929a-7afe8b1cbb9b-167022396740d7abf2-1": {
+        "template--17150322376979__508c9098-19c4-46b5-919e-556c33cf1227-16703099644bc62f29-1": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/avatar-2.jpg",
             "image_position": "top",
-            "title": "Column",
+            "title": "Dale Spraggins",
             "title_size": "h4",
             "icon": "none",
             "icon_position": "left",
@@ -279,17 +279,17 @@
             "link_label": "",
             "link": "",
             "link_style": "link",
-            "padding_left": 32,
-            "padding_right": 32,
-            "image_spacing": 25
+            "padding_left": 0,
+            "padding_right": 0,
+            "image_spacing": 24
           }
         },
-        "template--17150322376979__bd0a742d-8183-4f9b-929a-7afe8b1cbb9b-167022396740d7abf2-2": {
+        "template--17150322376979__508c9098-19c4-46b5-919e-556c33cf1227-16703099644bc62f29-2": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/avatar-3.jpg",
             "image_position": "top",
-            "title": "Column",
+            "title": "Curtis Wilcher",
             "title_size": "h4",
             "icon": "none",
             "icon_position": "left",
@@ -297,17 +297,17 @@
             "link_label": "",
             "link": "",
             "link_style": "link",
-            "padding_left": 32,
-            "padding_right": 32,
-            "image_spacing": 25
+            "padding_left": 0,
+            "padding_right": 0,
+            "image_spacing": 24
           }
         },
-        "3fc5e54f-9787-4ea6-9f45-b6b75ee53a90": {
+        "79ec50ca-30b9-4656-a03f-272976a856d1": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/avatar-4.jpg",
             "image_position": "top",
-            "title": "Column",
+            "title": "Faye Warner",
             "title_size": "h4",
             "icon": "none",
             "icon_position": "left",
@@ -315,28 +315,27 @@
             "link_label": "",
             "link": "",
             "link_style": "link",
-            "padding_left": 32,
-            "padding_right": 32,
-            "image_spacing": 25
+            "padding_left": 0,
+            "padding_right": 0,
+            "image_spacing": 24
           }
         }
       },
       "block_order": [
-        "template--17150322376979__bd0a742d-8183-4f9b-929a-7afe8b1cbb9b-167022396740d7abf2-0",
-        "template--17150322376979__bd0a742d-8183-4f9b-929a-7afe8b1cbb9b-167022396740d7abf2-1",
-        "template--17150322376979__bd0a742d-8183-4f9b-929a-7afe8b1cbb9b-167022396740d7abf2-2",
-        "3fc5e54f-9787-4ea6-9f45-b6b75ee53a90"
+        "template--17150322376979__508c9098-19c4-46b5-919e-556c33cf1227-16703099644bc62f29-0",
+        "template--17150322376979__508c9098-19c4-46b5-919e-556c33cf1227-16703099644bc62f29-1",
+        "template--17150322376979__508c9098-19c4-46b5-919e-556c33cf1227-16703099644bc62f29-2",
+        "79ec50ca-30b9-4656-a03f-272976a856d1"
       ],
       "settings": {
         "title": "OUR AWESOME TEAM",
         "sub-title": "What Happens Here",
-        "mod_class": "about-us-team",
-        "heading_size": "h1",
-        "layout": "grid--gapless",
+        "heading_size": "h2",
+        "layout": "grid",
         "image_width": "full",
         "image_ratio": "portrait",
         "columns_desktop": 4,
-        "row_alignment": "top",
+        "row_alignment": "middle",
         "column_alignment": "center",
         "background_style": "primary",
         "button_label": "",
@@ -363,6 +362,6 @@
     "6b6ef46b-2a73-4e5e-bb36-9f5fe54e6403",
     "90fa3700-becd-4a06-9f5f-d7ace3d0d5f0",
     "04c80791-1da3-4243-b726-b523ed26e116",
-    "bd0a742d-8183-4f9b-929a-7afe8b1cbb9b"
+    "508c9098-19c4-46b5-919e-556c33cf1227"
   ]
 }

@@ -557,35 +557,3 @@
 .multicolumn .grid--gapless.slider--mobile.grid--peek.grid--1-col-tablet-down .grid__item {
 	width: 100%;
 }
-
-
-/* About Us 2 */
-.about-us-section-2 .multicolumn-list {
-  align-items: stretch;
-  row-gap: var(--grid-desktop-vertical-spacing);
-  column-gap: var(--grid-desktop-vertical-spacing);
-}
-
-.about-us-team .title-wrapper {
-  margin-bottom: 0;
-}
-
-.about-us-team .title-wrapper .inner {
-  justify-content: center;
-  border: 0;
-  padding: 0;
-}
-
-.about-us-team .title-wrapper .inner .title{
-  background-color: #000;
-  display: inline;
-  color: #fff;
-  padding: 4px;
-  font-weight: 700;
-}
-
-
-
-.about-us-team .sub-title {
-  text-align: center;
-}
