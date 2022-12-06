@@ -1708,6 +1708,9 @@
     "image-with-text": {
       "name": "Image with text",
       "settings": {
+        "class_suffix": {
+          "label": "Module Class Suffix"
+        },
         "image": {
           "label": "Image"
         },

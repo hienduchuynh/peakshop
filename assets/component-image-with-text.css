@@ -327,3 +327,12 @@
     margin-left: 0;
   }
 }
+
+/* About Us 2 */
+.main-page-about-2 .image-with-text .image-with-text__media {
+  border: 0;
+}
+
+.main-page-about-2 .image-with-text .image-with-text__media-item {
+  border: 2px solid rgba(var(--color-base-solid-button-labels));
+}

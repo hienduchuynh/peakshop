@@ -557,3 +557,11 @@
 .multicolumn .grid--gapless.slider--mobile.grid--peek.grid--1-col-tablet-down .grid__item {
 	width: 100%;
 }
+
+
+/* About Us 2 */
+.about-us-section-2 .multicolumn-list {
+  align-items: stretch;
+  row-gap: var(--grid-desktop-vertical-spacing);
+  column-gap: var(--grid-desktop-vertical-spacing);
+}
