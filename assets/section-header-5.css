@@ -20,13 +20,18 @@ body.page-header-05 .mainContent-footer-wrapper {
 
 body.page-header-05 .header-wrapper {
     z-index: 3;
-    height: 100%;
+    height: 100vh;
     width: 320px;
     position: fixed;
+    display: flex;
 }
 
-.header-05 {
-    display: block;
+.header-05,
+.shopify-section-header-sticky .header-05 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: flex-start;
 }
 
 .header > .header__heading, 
@@ -57,7 +62,7 @@ body.page-header-05 .header-wrapper {
 
 .header-05 .header__icons {
     justify-self: end;
-    width: auto;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     border-bottom: 2px solid rgba(var(--color-foreground), 0.2);
@@ -68,14 +73,13 @@ body.page-header-05 .header-wrapper {
     margin-right: 0;
 }
 
-.header header-drawer {
-    width: auto;
+.header-05 header-drawer {
+    width: 100%;
     display: block;
 }
 
 .header:not(.header--top-center) * > .header__search,
 .header .header__icon--cart,
-.header header-drawer,
 .header__icon:not(.header__icon--summary) {
     height: 100%;
     align-items: center;
@@ -104,6 +108,11 @@ body.page-header-05 .header-wrapper {
     border: 0;
 }
 
+.header-05 .menu-drawer__navigation {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
 .header__menu-item {
 }
 
@@ -126,4 +135,16 @@ body.page-header-05 .header-wrapper {
 .header__menu-item > .header__active-menu-item:before,
 .header__menu-item:hover > span:before {
     width: 150%;
+}
+
+.header-05 .menu-drawer__menu-item--active, 
+.header-05 .menu-drawer__menu-item:focus, 
+.header-05 .menu-drawer__close-button:focus, 
+.header-05 .menu-drawer__menu-item:hover, 
+.header-05 .menu-drawer__close-button:hover {
+    background: none;
+}
+
+.js .header-05 .menu-drawer__submenu {
+    border-left: none;
 }
