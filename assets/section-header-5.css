@@ -8,6 +8,7 @@ body.page-header-05 .ja-container {
 
 body.page-header-05 #shopify-section-header-05 {
     grid-area: header;
+    transform: none;
 }
 
 .shopify-section-header-hidden {
@@ -24,6 +25,7 @@ body.page-header-05 .header-wrapper {
     width: 320px;
     position: fixed;
     display: flex;
+    flex-direction: column;
 }
 
 .header-05,
@@ -32,6 +34,7 @@ body.page-header-05 .header-wrapper {
     flex-wrap: wrap;
     flex-direction: row;
     align-content: flex-start;
+    height: calc(100vh - 135px);
 }
 
 .header > .header__heading, 
@@ -76,6 +79,7 @@ body.page-header-05 .header-wrapper {
 .header-05 header-drawer {
     width: 100%;
     display: block;
+    padding: 4.8rem 0;
 }
 
 .header:not(.header--top-center) * > .header__search,
@@ -83,8 +87,21 @@ body.page-header-05 .header-wrapper {
 .header__icon:not(.header__icon--summary) {
     height: 100%;
     align-items: center;
-    width: auto;
+    width: 33.33%;
     padding: 2.4rem;
+    display: flex;
+    justify-content: center;
+    box-sizing: unset;
+}
+
+.header-05 .header__icons .header__icon--cart {
+    border-left: 2px solid rgba(var(--color-foreground), 0.2);
+}
+
+.header-05 .header__icons .header__icon--account {
+    border-left: 2px solid rgba(var(--color-foreground), 0.2);
+    height: 4.4rem;
+    box-sizing: unset;
 }
 
 .cart-count-bubble {
@@ -104,13 +121,18 @@ body.page-header-05 .header-wrapper {
     left: auto;
     visibility: visible;
     width: 100%;
-    height: auto;
+    height: 100%;
     border: 0;
 }
 
 .header-05 .menu-drawer__navigation {
     padding-top: 0;
     padding-bottom: 0;
+}
+
+.js .header-05 .menu-drawer__navigation .submenu-open {
+  visibility: visible;
+  height: 100vh;
 }
 
 .header__menu-item {
@@ -147,4 +169,15 @@ body.page-header-05 .header-wrapper {
 
 .js .header-05 .menu-drawer__submenu {
     border-left: none;
+}
+
+.footer__copyright {
+    border-top: 2px solid rgba(var(--color-foreground), 0.2);
+    padding: 4.4rem;
+    text-align: center;
+}
+
+.footer__copyright a {
+    color: currentColor;
+    text-decoration: none;
 }
