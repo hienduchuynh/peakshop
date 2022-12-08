@@ -254,7 +254,7 @@
         "template--17179901002003__047e13eb-9c05-4800-be6b-69ad4ea6d4f1-16704710515932aee2-2"
       ],
       "settings": {
-        "class_suffix": "",
+        "class_suffix": "landing-email-signup",
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "accent-2",
