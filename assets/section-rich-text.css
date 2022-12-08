@@ -144,8 +144,12 @@
   margin-left: -2.4rem;
 }
 
-/* Landing */
+/* Landing Page */
 .landing-email-signup .rich-text__blocks {
   display: flex;
   align-items: center;
+}
+
+.landing-email-signup .rich-text__heading {
+  font-size: 3.6rem;
 }
