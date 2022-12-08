@@ -241,7 +241,7 @@
           "settings": {
             "button_label": "Sign Up Account",
             "button_link": "https:\/\/joomlart-peakshop.myshopify.com\/account\/login",
-            "button_style_secondary": false,
+            "button_style_secondary": true,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
