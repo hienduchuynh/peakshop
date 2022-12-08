@@ -23,7 +23,7 @@
         "template--17179901002003__a0cb26df-4304-4592-91f2-906a3c339412-1670471044b4379327-1": {
           "type": "text",
           "settings": {
-            "text": "Sale Up To 70%",
+            "text": "Sale Up To 50%",
             "text_style": "subtitle"
           }
         },
@@ -71,7 +71,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/linpaul-rodney-cg4qDmt5fiI-unsplash.jpg",
-            "heading": "Everything Now Sale Up To 70%",
+            "heading": "Everything Now Sale Up To 50%",
             "heading_size": "h0",
             "subheading": "Vans Skate Half Cab Bruce Lee Black\/Yellow",
             "button_label": "VIEW ALL PRODUCTS",
@@ -124,7 +124,7 @@
         "change_slides_speed": 3,
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand",
-        "padding_top": 0,
+        "padding_top": 24,
         "padding_bottom": 0,
         "addition_class": ""
       }
@@ -215,7 +215,7 @@
         "description": "",
         "full_width": true,
         "color_scheme": "background-1",
-        "padding_top": 0,
+        "padding_top": 24,
         "padding_bottom": 0
       }
     },
