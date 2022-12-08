@@ -60,16 +60,6 @@
           "settings": {
           }
         },
-        "collapsible-row-3": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Care Instructions",
-            "icon": "heart",
-            "content": "<p><\/p>",
-            "image_ratio": "43",
-            "page": ""
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -80,6 +70,16 @@
           "type": "share",
           "settings": {
             "share_label": "Share"
+          }
+        },
+        "collapsible-row-3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Care Instructions",
+            "icon": "heart",
+            "content": "<p>Care Instructions<\/p>",
+            "image_ratio": "43",
+            "page": ""
           }
         },
         "collapsible-row-2": {
@@ -122,9 +122,9 @@
         "variant_picker",
         "quantity_selector",
         "description",
-        "collapsible-row-3",
         "buy_buttons",
         "share",
+        "collapsible-row-3",
         "collapsible-row-2",
         "collapsible-row-1",
         "collapsible-row-0"
