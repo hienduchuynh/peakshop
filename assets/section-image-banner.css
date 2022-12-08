@@ -519,3 +519,7 @@
 .landing-page .banner__buttons {
   margin-top: calc(var(--grid-desktop-vertical-spacing));
 }
+
+.landing-page .subtitle span {
+  font-size: 2.4rem;
+}
