@@ -75,6 +75,28 @@
         "addition_class": ""
       }
     },
+    "90be5617-9996-4e35-abf8-5989c6f0155a": {
+      "type": "announcement-bar",
+      "blocks": {
+        "1ec9f06d-2c7a-4646-bb1c-b95e410c880e": {
+          "type": "announcement",
+          "settings": {
+            "text": "<p>FIRST PURCHASE OFFER: TAKE 30% OFF SHOPWIDE.CODE APPLIED AT CHECKOUT*<\/p>",
+            "content_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "1ec9f06d-2c7a-4646-bb1c-b95e410c880e"
+      ],
+      "settings": {
+        "bg_colors": "#ffc700",
+        "text_colors": "#FFFFFF",
+        "full_width": false,
+        "container": false,
+        "mod_class": ""
+      }
+    },
     "45089086-27b1-42c9-b4f6-2d3eb65f3675": {
       "type": "image-banner",
       "blocks": {
@@ -191,6 +213,7 @@
   "order": [
     "main",
     "6742bddb-b6d4-4374-808d-2654dfd1a84f",
+    "90be5617-9996-4e35-abf8-5989c6f0155a",
     "45089086-27b1-42c9-b4f6-2d3eb65f3675",
     "5a416248-f91e-4c46-85db-3af7cd9bb8e5",
     "047e13eb-9c05-4800-be6b-69ad4ea6d4f1"
