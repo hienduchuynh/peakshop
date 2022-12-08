@@ -25,7 +25,7 @@
           {%- if section.settings.show_product_description -%}
             <li id="tabHeader-1" class="active">
               <div class="summary__title">
-                {% render 'icon-accordion', icon: block.settings.icon %}
+                {% render 'icon-accordion', icon: section.settings.icon %}
                 <h2 class="h5 tab__title">
                   Overview
                 </h2>
@@ -102,7 +102,7 @@
     </div>
     <script>
       window.addEventListener("load", function() {
-        var container = document.getElementById("TabDetails- {{ section.id }}");
+        var container = document.getElementById("TabDetails-{{ section.id }}");
         var tabcon = document.getElementById("tabscontent");
         var navitem = document.getElementById("tabHeader-1");
         var ident = navitem.id.split("-")[1];
@@ -134,7 +134,7 @@
         <details id="Details-{{ block.id }}-{{ section.id }}">
           <summary>
             <div class="summary__title">
-              {% render 'icon-accordion', icon: block.settings.icon %}
+              {% render 'icon-accordion', icon: section.settings.icon %}
               <h2 class="h5 accordion__title">
                 Overview
               </h2>
