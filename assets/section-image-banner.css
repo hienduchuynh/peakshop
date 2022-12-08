@@ -512,6 +512,10 @@
 }
 
 /* Landing Page */
-.landing-page .banner__box content-container {
+.landing-page .banner__box.content-container {
   border: 0;
+}
+
+.landing-page .banner__buttons {
+  margin-top: calc(var(--grid-desktop-vertical-spacing) * 2);
 }
