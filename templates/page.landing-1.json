@@ -216,7 +216,7 @@
         "full_width": true,
         "color_scheme": "background-1",
         "padding_top": 24,
-        "padding_bottom": 0
+        "padding_bottom": 24
       }
     },
     "047e13eb-9c05-4800-be6b-69ad4ea6d4f1": {
@@ -259,8 +259,8 @@
         "content_alignment": "center",
         "color_scheme": "accent-2",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 48,
+        "padding_bottom": 48
       }
     }
   },
