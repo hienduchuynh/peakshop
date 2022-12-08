@@ -108,6 +108,8 @@
                   </div>
                 </div>
               {%- endif -%}
+              
+              {%- if block.settings.icon != 'none' or block.settings.text != blank or block.settings.link_label != blank -%}
               <div class="multicolumn-card__info" 
                 {%- if block.settings.image_spacing and block.settings.image_position == "top" -%}
                 style="padding-top: {{ block.settings.image_spacing }}px;"
@@ -134,6 +136,8 @@
                   <a class="{% if block.settings.link_style == 'link' %}link animate-arrow hightlight-link link--text{% elsif block.settings.link_style == 'solid' %}button{% else %}button button--secondary{% endif %}" {% if block.settings.link == blank %}role="link" aria-disabled="true"{% else %}href="{{ block.settings.link }}"{% endif %}>{{ block.settings.link_label | escape }}<span class="icon-wrap">&nbsp;{% render 'icon-arrow' %}</span></a>
                 {%- endif -%}
               </div>
+              {%- endif -%}
+
               {%- if block.settings.image != blank and block.settings.image_position == "bottom" -%}
                 {% if section.settings.image_ratio == 'adapt' or section.settings.image_ratio == 'circle' %}
                   {% assign spaced_image = true %}

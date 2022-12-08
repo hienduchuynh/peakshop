@@ -159,7 +159,7 @@ const _getposl = document.querySelector(".blog .marqueee");
 
 const _config = {
   speed: 1,
-  ease: -1
+  ease: 1
 }
 
 window.addEventListener("scroll", function() {
@@ -167,12 +167,12 @@ window.addEventListener("scroll", function() {
   let bodyRect = _getposy.getBoundingClientRect();
   let bodyRectl = _getposl.getBoundingClientRect();
   //--
-  gsap.to('.marqueee', {
+  gsap.to('.blog .marqueee', {
     duration:_config.speed,
     x: -(pageY-(bodyRectl.top - window.innerWidth))/2,
     ease: _config.ease
   });
-  gsap.to(".marquee", {
+  gsap.to(".blog .marquee", {
     duration:_config.speed,
     x: -(pageY-(bodyRectl.top - window.innerWidth))/3,
     ease: _config.ease
