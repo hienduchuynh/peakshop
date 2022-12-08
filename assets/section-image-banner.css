@@ -516,6 +516,10 @@
   border: 0;
 }
 
+.landing-page .banner__box .banner__heading {
+  margin: 0;
+}
+
 .landing-page .banner__buttons {
   margin-top: calc(var(--grid-desktop-vertical-spacing));
 }
