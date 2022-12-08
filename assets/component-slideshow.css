@@ -336,8 +336,8 @@ slideshow-component .slider-counter {
 }
 
 /* Landing Page */
-@media screen and (max-width: 749px) {
+/* @media screen and (max-width: 749px) {
   .landing-page {
     padding: 0 !important;
   }
-}
+} */
