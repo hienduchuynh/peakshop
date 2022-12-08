@@ -441,10 +441,22 @@
   }
 }
 
-.banner__heading {
-  font-weight: var(--font-body-weight-bold);
-  margin-bottom: 32px;
+.banner--desktop-transparent .banner__box .banner__heading {
+  --color-background: 0,0,0;
+  --color-foreground: 255,255,255;
+  background: rgba(var(--color-background));
+  -webkit-box-shadow: -2.4rem 0 0 rgba(var(--color-background)),2.4rem 0 0 rgba(var(--color-background));
+  box-shadow: -2.4rem 0 0 rgba(var(--color-background)), 2.4rem 0 0 rgba(var(--color-background));
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  color: rgba(var(--color-foreground));
+  display: inline;
   margin-top: 0;
+  margin-bottom: 2.4rem;
+  margin-left: 2.4rem;
+  padding: 2px 0;
+  text-transform: uppercase;
+  line-height: 1.6;
 }
 
 .banner__text.body {
