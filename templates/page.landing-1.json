@@ -30,9 +30,9 @@
         "template--17179901002003__a0cb26df-4304-4592-91f2-906a3c339412-1670471044b4379327-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Button label",
+            "button_label_1": "Shop Now",
             "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": false,
+            "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
@@ -48,7 +48,7 @@
         "mod_class": "",
         "image_2": "shopify:\/\/shop_images\/img.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "small",
+        "image_height": "large",
         "adapt_height_first_image": false,
         "desktop_content_position": "middle-left",
         "show_text_box": false,
