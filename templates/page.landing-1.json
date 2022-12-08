@@ -142,12 +142,57 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "047e13eb-9c05-4800-be6b-69ad4ea6d4f1": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17179901002003__047e13eb-9c05-4800-be6b-69ad4ea6d4f1-16704710515932aee2-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Sign Up to Receive 15% Off Your First Order<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--17179901002003__047e13eb-9c05-4800-be6b-69ad4ea6d4f1-16704710515932aee2-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--17179901002003__047e13eb-9c05-4800-be6b-69ad4ea6d4f1-16704710515932aee2-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Sign Up Account",
+            "button_link": "https:\/\/joomlart-peakshop.myshopify.com\/account\/login",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17179901002003__047e13eb-9c05-4800-be6b-69ad4ea6d4f1-16704710515932aee2-0",
+        "template--17179901002003__047e13eb-9c05-4800-be6b-69ad4ea6d4f1-16704710515932aee2-1",
+        "template--17179901002003__047e13eb-9c05-4800-be6b-69ad4ea6d4f1-16704710515932aee2-2"
+      ],
+      "settings": {
+        "class_suffix": "",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "6742bddb-b6d4-4374-808d-2654dfd1a84f",
     "45089086-27b1-42c9-b4f6-2d3eb65f3675",
-    "5a416248-f91e-4c46-85db-3af7cd9bb8e5"
+    "5a416248-f91e-4c46-85db-3af7cd9bb8e5",
+    "047e13eb-9c05-4800-be6b-69ad4ea6d4f1"
   ]
 }
