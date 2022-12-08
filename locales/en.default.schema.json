@@ -4095,6 +4095,9 @@
             "label": "Left"
           }
         }
+      },
+      "presets": {
+        "name": "Collapsible info products"
       }
     },
     "collapsible_content": {

@@ -1883,8 +1883,12 @@ a.product__text {
   color: #ffc700
 }
 .product-page [data-block-handle='reviews'] .spr-icon.spr-icon-star-empty {
-  opacity: 1;
- }
+	opacity: 1;
+}
+.product-page .global-media-settings {
+	border: 0;
+	box-shadow: none;
+}
 
 @media screen and (min-width: 750px) {
   .product-page [data-block-handle='reviews'] {
