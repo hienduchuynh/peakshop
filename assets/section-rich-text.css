@@ -145,9 +145,11 @@
 }
 
 /* Landing Page */
-.landing-email-signup .rich-text__blocks {
-  display: flex;
-  align-items: center;
+@media screen and (min-width: 750px) {
+  .landing-email-signup .rich-text__blocks {
+    display: flex;
+    align-items: center;
+  }
 }
 
 .landing-email-signup .rich-text__heading {
