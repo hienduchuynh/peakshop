@@ -1270,18 +1270,20 @@ summary::-webkit-details-marker {
 }
 
 .title-wrapper-03 .title .marquee-group {
-	overflow: hidden
-	pointer-events: none
-	text-transform: uppercase
-	-webkit-user-select: none
+	overflow: hidden;
+	pointer-events: none;
+	text-transform: uppercase;
+	-webkit-user-select: none;
 }
 
 .title-wrapper-03 .title .marquee {
-	white-space: nowrap
+	white-space: nowrap;
+	transform: translate(0px);
 }
 
 .title-wrapper-03 .title .marqueee {
-	white-space: nowrap
+	white-space: nowrap;
+	transform: translate(-100px);
 }
 
 .color-accent-1 .title-wrapper-03 .title,

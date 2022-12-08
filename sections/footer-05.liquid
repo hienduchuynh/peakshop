@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="{{ 'component-rte.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'disclosure.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'section-footer-5.css' | asset_url }}" media="print" onload="this.media='all'">
-
+<script src="{{ 'gsap.min.js' | asset_url }}" defer="defer"></script>
 <noscript>{{ 'component-newsletter.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'component-list-menu.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'component-list-payment.css' | asset_url | stylesheet_tag }}</noscript>
@@ -43,16 +43,42 @@
     <div class="footer__title title-wrapper title-wrapper--no-top-margin title-wrapper-03 ">
       <div class="inner">
         <h2 class="footer__title title {{ section.settings.heading_size }}">
-          <marquee behavior="alternate" direction="left">
-            <span>{{ section.settings.heading | escape }}</span>
-            <span>{{ section.settings.heading | escape }}</span> 
-            <span>{{ section.settings.heading | escape }}</span>
-          </marquee>
-          <marquee behavior="alternate" direction="right">
-            <span>{{ section.settings.heading | escape }}</span>
-            <span>{{ section.settings.heading | escape }}</span> 
-            <span>{{ section.settings.heading | escape }}</span>
-          </marquee>
+          <div class="marquee-group">
+            <div class="marquee">
+              <span>{{ section.settings.heading | escape }}</span>
+              <span>{{ section.settings.heading | escape }}</span> 
+              <span>{{ section.settings.heading | escape }}</span>
+              <span>{{ section.settings.heading | escape }}</span>
+              <span>{{ section.settings.heading | escape }}</span>
+              <span>{{ section.settings.heading | escape }}</span>
+              <span>{{ section.settings.heading | escape }}</span> 
+              <span>{{ section.settings.heading | escape }}</span>
+              <span>{{ section.settings.heading | escape }}</span>
+              <span>{{ section.settings.heading | escape }}</span>
+            </div>
+            <div class="marqueee">
+              <span>{{ section.settings.heading | escape }}</span>
+              <span>{{ section.settings.heading | escape }}</span> 
+              <span>{{ section.settings.heading | escape }}</span>
+              <span>{{ section.settings.heading | escape }}</span>
+              <span>{{ section.settings.heading | escape }}</span>
+              <span>{{ section.settings.heading | escape }}</span>
+              <span>{{ section.settings.heading | escape }}</span> 
+              <span>{{ section.settings.heading | escape }}</span>
+              <span>{{ section.settings.heading | escape }}</span>
+              <span>{{ section.settings.heading | escape }}</span>
+              <span>{{ section.settings.heading | escape }}</span>
+              <span>{{ section.settings.heading | escape }}</span> 
+              <span>{{ section.settings.heading | escape }}</span>
+              <span>{{ section.settings.heading | escape }}</span>
+              <span>{{ section.settings.heading | escape }}</span>
+              <span>{{ section.settings.heading | escape }}</span>
+              <span>{{ section.settings.heading | escape }}</span> 
+              <span>{{ section.settings.heading | escape }}</span>
+              <span>{{ section.settings.heading | escape }}</span>
+              <span>{{ section.settings.heading | escape }}</span>
+            </div>
+          </div>
         </h2>
       </div>
     </div>
@@ -399,6 +425,30 @@
 </footer>
 
 {% javascript %}
+  const _getposy = document.querySelector(".footer-05 .marquee");
+  const _getposl = document.querySelector(".footer-05 .marqueee");
+
+  const _config = {
+    speed: 1,
+    ease: 1
+  }
+
+  window.addEventListener("scroll", function() {
+    let pageY = window.pageYOffset;
+    let bodyRect = _getposy.getBoundingClientRect();
+    let bodyRectl = _getposl.getBoundingClientRect();
+    //--
+    gsap.to('.footer-05 .marqueee', {
+      duration:_config.speed,
+      x: -(pageY-(bodyRectl.top - window.innerWidth)),
+      ease: _config.ease
+    });
+    gsap.to(".footer-05 .marquee", {
+      duration:_config.speed,
+      x: -(pageY-(bodyRectl.top - window.innerWidth)),
+      ease: _config.ease
+    });
+  })
   class LocalizationForm extends HTMLElement {
     constructor() {
       super();
