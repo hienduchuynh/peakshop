@@ -53,6 +53,15 @@
   list-style: none;
   padding: 0 2.4rem;
   justify-content: space-between;
+  column-gap: var(--grid-mobile-horizontal-spacing);
+  row-gap: calc(var(--grid-mobile-vertical-spacing) * 2);
+}
+
+@media screen and (min-width: 750px) {
+  .mega-menu__list {
+    column-gap: var(--grid-desktop-horizontal-spacing);
+    row-gap: calc(var(--grid-desktop-vertical-spacing) * 2);
+  }
 }
 
 .mega-menu__list > li {

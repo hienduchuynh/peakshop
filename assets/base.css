@@ -1269,10 +1269,19 @@ summary::-webkit-details-marker {
 	color: rgba(var(--color-base-text));
 }
 
-.title-wrapper-03 .title marquee {
+.title-wrapper-03 .title .marquee-group {
+	overflow: hidden
+	pointer-events: none
+	text-transform: uppercase
+	-webkit-user-select: none
 }
 
-.title-wrapper-03 .title marquee + marquee {
+.title-wrapper-03 .title .marquee {
+	white-space: nowrap
+}
+
+.title-wrapper-03 .title .marqueee {
+	white-space: nowrap
 }
 
 .color-accent-1 .title-wrapper-03 .title,

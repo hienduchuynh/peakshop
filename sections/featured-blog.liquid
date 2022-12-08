@@ -3,6 +3,10 @@
 <link rel="stylesheet" href="{{ 'component-article-card.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'section-featured-blog.css' | asset_url }}" media="print" onload="this.media='all'">
 
+{% if section.settings.title_style == "03" %}
+<script src="{{ 'gsap.min.js' | asset_url }}" defer="defer"></script>
+{%- endif -%}
+
 <noscript>{{ 'component-slider.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'component-card.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'component-article-card.css' | asset_url | stylesheet_tag }}</noscript>
@@ -49,16 +53,32 @@
         <div class="inner">
           <h2 id="SectionHeading-{{ section.id }}" class="blog__title title {{ section.settings.heading_size }}">
             {% if section.settings.title_style == "03" %}
-              <marquee behavior="alternate" direction="left">
-                <span>{{ section.settings.heading | escape }}</span>
-                <span>{{ section.settings.heading | escape }}</span> 
-                <span>{{ section.settings.heading | escape }}</span>
-              </marquee>
-              <marquee behavior="alternate" direction="right">
-                <span>{{ section.settings.heading | escape }}</span>
-                <span>{{ section.settings.heading | escape }}</span> 
-                <span>{{ section.settings.heading | escape }}</span>
-              </marquee>
+              <div class="marquee-group">
+                <div class="marquee">
+                  <span>{{ section.settings.heading | escape }}</span>
+                  <span>{{ section.settings.heading | escape }}</span> 
+                  <span>{{ section.settings.heading | escape }}</span>
+                  <span>{{ section.settings.heading | escape }}</span>
+                  <span>{{ section.settings.heading | escape }}</span>
+                  <span>{{ section.settings.heading | escape }}</span>
+                  <span>{{ section.settings.heading | escape }}</span>
+                  <span>{{ section.settings.heading | escape }}</span>
+                  <span>{{ section.settings.heading | escape }}</span>
+                  <span>{{ section.settings.heading | escape }}</span>
+                </div>
+                <div class="marqueee">
+                  <span>{{ section.settings.heading | escape }}</span>
+                  <span>{{ section.settings.heading | escape }}</span> 
+                  <span>{{ section.settings.heading | escape }}</span>
+                  <span>{{ section.settings.heading | escape }}</span>
+                  <span>{{ section.settings.heading | escape }}</span>
+                  <span>{{ section.settings.heading | escape }}</span>
+                  <span>{{ section.settings.heading | escape }}</span>
+                  <span>{{ section.settings.heading | escape }}</span>
+                  <span>{{ section.settings.heading | escape }}</span>
+                  <span>{{ section.settings.heading | escape }}</span>
+                </div>
+              </div>
               {% else %}
                 {{ section.settings.heading | escape }}
               {% endif %}
@@ -132,6 +152,34 @@
     {%- endif -%}
   </div>
 </div>
+
+{% javascript %}
+const _getposy = document.querySelector(".blog .marquee");
+const _getposl = document.querySelector(".blog .marqueee");
+
+const _config = {
+  speed: 1,
+  ease: -1
+}
+
+window.addEventListener("scroll", function() {
+  let pageY = window.pageYOffset;
+  let bodyRect = _getposy.getBoundingClientRect();
+  let bodyRectl = _getposl.getBoundingClientRect();
+  //--
+  gsap.to('.marqueee', {
+    duration:_config.speed,
+    x: -(pageY-(bodyRectl.top - window.innerWidth))/2,
+    ease: _config.ease
+  });
+  gsap.to(".marquee", {
+    duration:_config.speed,
+    x: -(pageY-(bodyRectl.top - window.innerWidth))/3,
+    ease: _config.ease
+  });
+})
+
+{% endjavascript %}
 
 {% schema %}
 {

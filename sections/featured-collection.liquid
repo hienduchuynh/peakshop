@@ -8,6 +8,9 @@
   <script src="{{ 'quick-add.js' | asset_url }}" defer="defer"></script>
   <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
 {%- endif -%}
+{% if section.settings.title_style == "03" %}
+<script src="{{ 'gsap.min.js' | asset_url }}" defer="defer"></script>
+{%- endif -%}
 <noscript>{{ 'component-slider.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'template-collection.css' | asset_url | stylesheet_tag }}</noscript>
 
@@ -67,16 +70,32 @@
           {%- if section.settings.title != blank -%}
             <h2 class="title {{ section.settings.heading_size }}">
               {% if section.settings.title_style == "03" %}
-              <marquee behavior="alternate" direction="left">
-                <span>{{ section.settings.title | escape }}</span>
-                <span>{{ section.settings.title | escape }}</span> 
-                <span>{{ section.settings.title | escape }}</span>
-              </marquee>
-              <marquee behavior="alternate" direction="right">
-                <span>{{ section.settings.title | escape }}</span>
-                <span>{{ section.settings.title | escape }}</span> 
-                <span>{{ section.settings.title | escape }}</span>
-              </marquee>
+              <div class="marquee-group">
+                <div class="marquee">
+                  <span>{{ section.settings.title | escape }}</span>
+                  <span>{{ section.settings.title | escape }}</span> 
+                  <span>{{ section.settings.title | escape }}</span>
+                  <span>{{ section.settings.title | escape }}</span>
+                  <span>{{ section.settings.title | escape }}</span>
+                  <span>{{ section.settings.title | escape }}</span>
+                  <span>{{ section.settings.title | escape }}</span>
+                  <span>{{ section.settings.title | escape }}</span>
+                  <span>{{ section.settings.title | escape }}</span>
+                  <span>{{ section.settings.title | escape }}</span>
+                </div>
+                <div class="marqueee">
+                  <span>{{ section.settings.title | escape }}</span>
+                  <span>{{ section.settings.title | escape }}</span> 
+                  <span>{{ section.settings.title | escape }}</span>
+                  <span>{{ section.settings.title | escape }}</span>
+                  <span>{{ section.settings.title | escape }}</span>
+                  <span>{{ section.settings.title | escape }}</span>
+                  <span>{{ section.settings.title | escape }}</span>
+                  <span>{{ section.settings.title | escape }}</span>
+                  <span>{{ section.settings.title | escape }}</span>
+                  <span>{{ section.settings.title | escape }}</span>
+                </div>
+              </div>
               {% else %}
                 {{ section.settings.title | escape }}
               {% endif %}
@@ -196,6 +215,34 @@
     {%- endif -%}
   </div>
 </div>
+
+{% javascript %}
+const _getposy = document.querySelector(".collection .marquee");
+const _getposl = document.querySelector(".collection .marqueee");
+
+const _config = {
+  speed: 1,
+  ease: Quint.easeOut
+}
+
+window.addEventListener("scroll", function() {
+  let pageY = window.pageYOffset;
+  let bodyRect = _getposy.getBoundingClientRect();
+  let bodyRectl = _getposl.getBoundingClientRect();
+  //--
+  gsap.to('.marqueee', {
+    duration:_config.speed,
+    x: -(pageY-(bodyRectl.top - window.innerWidth))/2,
+    ease: _config.ease
+  });
+  gsap.to(".marquee", {
+    duration:_config.speed,
+    x: -(pageY-(bodyRectl.top - window.innerWidth))/3,
+    ease: _config.ease
+  });
+})
+
+{% endjavascript %}
 
 {% schema %}
   {
