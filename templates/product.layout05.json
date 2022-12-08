@@ -159,7 +159,7 @@
       ],
       "settings": {
         "collapsible_type": "tabs",
-        "box_width": 50,
+        "box_width": 80,
         "show_product_description": true,
         "collapsible_tab_header_position": "top",
         "padding_top": 36,
