@@ -113,7 +113,7 @@
         "mod_class": "",
         "image": "shopify:\/\/shop_images\/slide-01.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "small",
         "adapt_height_first_image": false,
         "desktop_content_position": "middle-left",
         "show_text_box": false,
