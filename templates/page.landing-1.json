@@ -82,7 +82,7 @@
           "type": "heading",
           "settings": {
             "heading": "Peak TaiChi Plus Men's Professional Running Shoes",
-            "heading_size": "h0"
+            "heading_size": "h1"
           }
         },
         "template--17179901002003__45089086-27b1-42c9-b4f6-2d3eb65f3675-1670466778e1c9c147-1": {
@@ -111,9 +111,9 @@
       ],
       "settings": {
         "mod_class": "",
-        "image": "shopify:\/\/shop_images\/3481b27143ca1c5acf3d419e7ffe4a91.jpg",
+        "image_2": "shopify:\/\/shop_images\/wepik-photo-mode-2022118-102646.png",
         "image_overlay_opacity": 0,
-        "image_height": "large",
+        "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_content_position": "middle-left",
         "show_text_box": false,
