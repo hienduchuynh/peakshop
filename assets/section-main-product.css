@@ -843,6 +843,12 @@ a.product__text {
 	display: none;
 }
 
+.thumbnail-list .thumbnail-list__item,
+.product__media-list .product__media-item,
+.product__media-stacked_full .product__media-item {
+	border: 2px solid #000;
+}
+
 @media screen and (max-width: 749px) {
 	.product__media-list {
 		margin-left: -2.5rem;
@@ -1809,6 +1815,8 @@ a.product__text {
 
 /* Review Block */
 .product-page [data-block-handle='reviews'] {
+	padding-top : 1.5rem;
+	padding-bottom : 1.5rem;
 }
 
 .product-page [data-block-handle='reviews'] #shopify-product-reviews {
@@ -1827,8 +1835,12 @@ a.product__text {
 .product-page [data-block-handle='reviews'] .spr-summary {
 	justify-content: center;
 	display: flex;
-	gap: 20px;
-	flex-direction: row;
+	gap: 0;
+	flex-direction: column;
+	text-align: center;
+}
+.product-page [data-block-handle='reviews'] .spr-summary .spr-summary-actions-newreview { 
+	float: none;
 }
 .product-page [data-block-handle='reviews'] .spr-review-footer,
 .product-page [data-block-handle='reviews'] .spr-summary .spr-starrating {
@@ -1852,7 +1864,8 @@ a.product__text {
 .product-page [data-block-handle='reviews'] .spr-form-contact {
   display: flex;
 	justify-content: space-between;
-	gap: 2.4rem;
+	gap: 0;
+	flex-direction: column;
 }
 .product-page [data-block-handle='reviews'] .spr-form-label {
   font-size: 14px;
@@ -1865,7 +1878,7 @@ a.product__text {
 }
 .product-page [data-block-handle='reviews'] .spr-form-contact-email,
 .product-page [data-block-handle='reviews'] .spr-form-contact-name {
-  width: 50%;
+  width: 100%;
 }
 .product-page [data-block-handle='reviews'] .spr-form-review-rating,
 .product-page [data-block-handle='reviews'] .spr-form-review-title,
@@ -1895,7 +1908,16 @@ a.product__text {
 		margin: 0 -4.8rem;
 		padding: 4rem 4.8rem;
 	}
+	.product-page [data-block-handle='reviews'] .spr-summary {
+		gap: 20px;
+		flex-direction: row;
+	}
 	.product-page [data-block-handle='reviews'] .spr-form-contact {
 		gap: 4.8rem;
+		flex-direction: row;
 	}
+	.product-page [data-block-handle='reviews'] .spr-form-contact-email,
+.product-page [data-block-handle='reviews'] .spr-form-contact-name {
+  width: 50%;
+}
 }
