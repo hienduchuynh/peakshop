@@ -166,7 +166,7 @@
         "heading": "You may also like",
         "heading_size": "h3",
         "heading_style": "01",
-        "description": "",
+        "description": "<p><\/p>",
         "description_style": "body",
         "products_to_show": 4,
         "columns_desktop": 4,
@@ -186,21 +186,21 @@
         "template--17016615436563__a33f11c8-b504-4e5a-acf2-d4ed3a501f6f-1670229074e430f71a-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/slide-02.jpg",
-            "heading": "Fruity S31 Skateboard Desk Collection",
+            "image": "shopify:\/\/shop_images\/slide-01.jpg",
+            "heading": "REAL 2022 SKATEBOARD DESKS",
             "heading_size": "h0",
             "subheading": "Fusce posuere nec ipsum a volutpat. In at dictum est, at pulvinar mauris. Sed hendrerit nisl a tincidunt placerat. Suspendisse potenti. Sed at maximus est. Mauris vel auctor ex. Morbi at fermentum urna, in cursus leo. Sed aliquam auctor ante, id pharetra augue aliquet in. Sed at rutrum odio.",
             "button_label": "VIEW ALL PRODUCTS",
             "link": "",
             "link_style": "solid",
-            "box_align": "left",
+            "box_align": "right",
             "box_width": 90,
             "button_label2": "",
             "link2": "",
             "link_style2": "solid",
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "accent-2",
+            "color_scheme": "accent-4",
             "text_alignment_mobile": "center"
           }
         }
