@@ -187,9 +187,9 @@
       ],
       "settings": {
         "mod_class": "",
-        "image_2": "shopify:\/\/shop_images\/wepik-photo-mode-2022118-102646.png",
+        "image": "shopify:\/\/shop_images\/wepik-photo-mode-2022118-102646.png",
         "image_overlay_opacity": 0,
-        "image_height": "large",
+        "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_content_position": "middle-left",
         "show_text_box": false,
