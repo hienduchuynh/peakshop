@@ -460,8 +460,8 @@
   color: rgba(var(--color-foreground));
   display: inline;
   margin: 0;
-  /*   margin-bottom: 2.4rem;
-  margin-left: 2.4rem; */
+  margin-bottom: 2.4rem;
+  margin-left: 2.4rem;
   padding: 2px 0;
   text-transform: uppercase;
   line-height: 1.6;
