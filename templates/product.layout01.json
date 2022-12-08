@@ -158,27 +158,13 @@
         "include_margins": true
       }
     },
-    "16641835307bab9de3": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "cover_image": "shopify:\/\/shop_images\/pexels-anastasiya-gepp-2036650.jpg",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=P1lO5MAm9bQ",
-        "description": "",
-        "full_width": true,
-        "color_scheme": "background-1",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
         "heading": "You may also like",
         "heading_size": "h3",
         "heading_style": "01",
-        "description": "",
+        "description": "<p><\/p>",
         "description_style": "body",
         "products_to_show": 4,
         "columns_desktop": 4,
@@ -244,7 +230,6 @@
     "main",
     "538ed27d-666d-4169-9ba0-d844989d9d9b",
     "1670315962bd1f2b32",
-    "16641835307bab9de3",
     "product-recommendations",
     "a33f11c8-b504-4e5a-acf2-d4ed3a501f6f"
   ]

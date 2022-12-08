@@ -129,6 +129,20 @@
         "padding_bottom": 48
       }
     },
+    "697c1a1a-17f7-435b-b2a6-b4715033048e": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "cover_image": "shopify:\/\/shop_images\/Image1.png",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=P1lO5MAm9bQ",
+        "description": "",
+        "full_width": true,
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "16703160910adaf92f": {
       "type": "apps",
       "blocks": {
@@ -151,7 +165,7 @@
         "heading": "You may also like",
         "heading_size": "h3",
         "heading_style": "01",
-        "description": "",
+        "description": "<p><\/p>",
         "description_style": "body",
         "products_to_show": 4,
         "columns_desktop": 4,
@@ -164,59 +178,13 @@
         "padding_top": 24,
         "padding_bottom": 48
       }
-    },
-    "a33f11c8-b504-4e5a-acf2-d4ed3a501f6f": {
-      "type": "ja-slider",
-      "blocks": {
-        "template--17016615436563__a33f11c8-b504-4e5a-acf2-d4ed3a501f6f-1670229074e430f71a-1": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/slide-02.jpg",
-            "heading": "Fruity S31 Skateboard Desk Collection",
-            "heading_size": "h0",
-            "subheading": "Fusce posuere nec ipsum a volutpat. In at dictum est, at pulvinar mauris. Sed hendrerit nisl a tincidunt placerat. Suspendisse potenti. Sed at maximus est. Mauris vel auctor ex. Morbi at fermentum urna, in cursus leo. Sed aliquam auctor ante, id pharetra augue aliquet in. Sed at rutrum odio.",
-            "button_label": "VIEW ALL PRODUCTS",
-            "link": "",
-            "link_style": "solid",
-            "box_align": "left",
-            "box_width": 90,
-            "button_label2": "",
-            "link2": "",
-            "link_style2": "solid",
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "accent-2",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "template--17016615436563__a33f11c8-b504-4e5a-acf2-d4ed3a501f6f-1670229074e430f71a-1"
-      ],
-      "settings": {
-        "layout": "grid--gapless",
-        "slide_height": "square",
-        "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "show_text_below": true,
-        "accessibility_info": "ja_slider about our brand",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "border_top_thickness": 0,
-        "border_right_thickness": 0,
-        "border_bottom_thickness": 0,
-        "border_left_thickness": 0,
-        "border_opacity": 100,
-        "addition_class": ""
-      }
     }
   },
   "order": [
     "b8937e46-747e-40ee-94d4-bfd42a3aa11a",
     "main",
+    "697c1a1a-17f7-435b-b2a6-b4715033048e",
     "16703160910adaf92f",
-    "product-recommendations",
-    "a33f11c8-b504-4e5a-acf2-d4ed3a501f6f"
+    "product-recommendations"
   ]
 }

@@ -214,50 +214,58 @@
         "padding_bottom": 48
       }
     },
-    "a33f11c8-b504-4e5a-acf2-d4ed3a501f6f": {
-      "type": "ja-slider",
+    "61f5ea28-b77a-443d-aceb-a97580875f20": {
+      "type": "image-banner",
       "blocks": {
-        "template--17016615436563__a33f11c8-b504-4e5a-acf2-d4ed3a501f6f-1670229074e430f71a-1": {
-          "type": "slide",
+        "template--17016615436563__61f5ea28-b77a-443d-aceb-a97580875f20-1670485131a855bd3a-0": {
+          "type": "heading",
           "settings": {
-            "image": "shopify:\/\/shop_images\/slide-02.jpg",
-            "heading": "Fruity S31 Skateboard Desk Collection",
-            "heading_size": "h0",
-            "subheading": "Fusce posuere nec ipsum a volutpat. In at dictum est, at pulvinar mauris. Sed hendrerit nisl a tincidunt placerat. Suspendisse potenti. Sed at maximus est. Mauris vel auctor ex. Morbi at fermentum urna, in cursus leo. Sed aliquam auctor ante, id pharetra augue aliquet in. Sed at rutrum odio.",
-            "button_label": "VIEW ALL PRODUCTS",
-            "link": "",
-            "link_style": "solid",
-            "box_align": "left",
-            "box_width": 90,
-            "button_label2": "",
-            "link2": "",
-            "link_style2": "solid",
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "accent-2",
-            "text_alignment_mobile": "center"
+            "heading": "Peak TaiChi Plus Men's Professional Running Shoes",
+            "heading_size": "h0"
+          }
+        },
+        "template--17016615436563__61f5ea28-b77a-443d-aceb-a97580875f20-1670485131a855bd3a-1": {
+          "type": "text",
+          "settings": {
+            "text": "Vans Skate Half Cab Bruce Lee Black\/Yellow",
+            "text_style": "subtitle"
+          }
+        },
+        "template--17016615436563__61f5ea28-b77a-443d-aceb-a97580875f20-1670485131a855bd3a-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "VIEW ALL PRODUCTS",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "template--17016615436563__a33f11c8-b504-4e5a-acf2-d4ed3a501f6f-1670229074e430f71a-1"
+        "template--17016615436563__61f5ea28-b77a-443d-aceb-a97580875f20-1670485131a855bd3a-0",
+        "template--17016615436563__61f5ea28-b77a-443d-aceb-a97580875f20-1670485131a855bd3a-1",
+        "template--17016615436563__61f5ea28-b77a-443d-aceb-a97580875f20-1670485131a855bd3a-2"
       ],
       "settings": {
-        "layout": "grid--gapless",
-        "slide_height": "square",
-        "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
+        "mod_class": "",
+        "image": "shopify:\/\/shop_images\/3481b27143ca1c5acf3d419e7ffe4a91.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
         "show_text_below": true,
-        "accessibility_info": "ja_slider about our brand",
-        "padding_top": 0,
-        "padding_bottom": 0,
         "border_top_thickness": 0,
         "border_right_thickness": 0,
         "border_bottom_thickness": 0,
         "border_left_thickness": 0,
-        "border_opacity": 100,
-        "addition_class": ""
+        "border_opacity": 100
       }
     }
   },
@@ -267,6 +275,6 @@
     "538ed27d-666d-4169-9ba0-d844989d9d9b",
     "1670299102da5a53ff",
     "product-recommendations",
-    "a33f11c8-b504-4e5a-acf2-d4ed3a501f6f"
+    "61f5ea28-b77a-443d-aceb-a97580875f20"
   ]
 }
