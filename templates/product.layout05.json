@@ -129,6 +129,44 @@
         "padding_bottom": 48
       }
     },
+    "a3627e30-1415-4779-aff7-c27887c3b101": {
+      "type": "collapsible-info-product",
+      "blocks": {
+        "79dcad13-559a-4436-b2f5-8fc9979a463c": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Brand",
+            "icon": "clipboard",
+            "content": "<p>Content Here<\/p>",
+            "image_ratio": "43",
+            "page": ""
+          }
+        },
+        "8886ca12-8765-4192-83ec-3250a3489334": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Help",
+            "icon": "heart",
+            "content": "<p>Help content<\/p>",
+            "image_ratio": "43",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "79dcad13-559a-4436-b2f5-8fc9979a463c",
+        "8886ca12-8765-4192-83ec-3250a3489334"
+      ],
+      "settings": {
+        "collapsible_type": "tabs",
+        "box_width": 80,
+        "show_product_description": true,
+        "icon": "shoe",
+        "collapsible_tab_header_position": "top",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "697c1a1a-17f7-435b-b2a6-b4715033048e": {
       "type": "video",
       "settings": {
@@ -183,6 +221,7 @@
   "order": [
     "b8937e46-747e-40ee-94d4-bfd42a3aa11a",
     "main",
+    "a3627e30-1415-4779-aff7-c27887c3b101",
     "697c1a1a-17f7-435b-b2a6-b4715033048e",
     "16703160910adaf92f",
     "product-recommendations"
