@@ -81,23 +81,23 @@
         "template--17179901002003__45089086-27b1-42c9-b4f6-2d3eb65f3675-1670466778e1c9c147-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
-            "heading_size": "hxl"
+            "heading": "Peak TaiChi Plus Men's Professional Running Shoes",
+            "heading_size": "h0"
           }
         },
         "template--17179901002003__45089086-27b1-42c9-b4f6-2d3eb65f3675-1670466778e1c9c147-1": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
+            "text": "Vans Skate Half Cab Bruce Lee Black\/Yellow",
+            "text_style": "subtitle"
           }
         },
         "template--17179901002003__45089086-27b1-42c9-b4f6-2d3eb65f3675-1670466778e1c9c147-2": {
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop Now",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
