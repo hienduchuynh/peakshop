@@ -1271,9 +1271,6 @@ summary::-webkit-details-marker {
 
 .title-wrapper-03 .title .marquee-group {
 	overflow: hidden;
-	pointer-events: none;
-	text-transform: uppercase;
-	-webkit-user-select: none;
 }
 
 .title-wrapper-03 .title .marquee {

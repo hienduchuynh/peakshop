@@ -67,16 +67,6 @@
               <span>{{ section.settings.heading | escape }}</span>
               <span>{{ section.settings.heading | escape }}</span>
               <span>{{ section.settings.heading | escape }}</span>
-              <span>{{ section.settings.heading | escape }}</span>
-              <span>{{ section.settings.heading | escape }}</span> 
-              <span>{{ section.settings.heading | escape }}</span>
-              <span>{{ section.settings.heading | escape }}</span>
-              <span>{{ section.settings.heading | escape }}</span>
-              <span>{{ section.settings.heading | escape }}</span>
-              <span>{{ section.settings.heading | escape }}</span> 
-              <span>{{ section.settings.heading | escape }}</span>
-              <span>{{ section.settings.heading | escape }}</span>
-              <span>{{ section.settings.heading | escape }}</span>
             </div>
           </div>
         </h2>
@@ -440,12 +430,12 @@
     //--
     gsap.to('.footer-05 .marqueee', {
       duration:_config.speed,
-      x: -(pageY-(bodyRectl.top - window.innerWidth)),
+      x: -(pageY-(bodyRectl.top - window.innerWidth))/4.5,
       ease: _config.ease
     });
     gsap.to(".footer-05 .marquee", {
       duration:_config.speed,
-      x: -(pageY-(bodyRectl.top - window.innerWidth)),
+      x: -(pageY-(bodyRectl.top - window.innerWidth))/4,
       ease: _config.ease
     });
   })
