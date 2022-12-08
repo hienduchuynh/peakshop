@@ -4,6 +4,7 @@
       "type": "main-page",
       "disabled": true,
       "settings": {
+        "alignment_title": "left",
         "padding_top": 28,
         "padding_bottom": 28,
         "suffix-class": ""
@@ -11,10 +12,12 @@
     },
     "6742bddb-b6d4-4374-808d-2654dfd1a84f": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "template--14957954498633__6742bddb-b6d4-4374-808d-2654dfd1a84f-166778496174e67457-0": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Image_2_2df32790-2742-4df7-9c3a-5b2be50d143c.png",
             "heading": "Image slide",
             "heading_size": "h3",
             "subheading": "Tell your brand's story through images",
@@ -22,6 +25,7 @@
             "link": "",
             "link_style": "solid",
             "box_align": "middle-center",
+            "box_width": 50,
             "button_label2": "",
             "link2": "",
             "link_style2": "solid",
@@ -42,6 +46,7 @@
             "link": "",
             "link_style": "solid",
             "box_align": "middle-center",
+            "box_width": 50,
             "button_label2": "",
             "link2": "",
             "link_style2": "solid",
@@ -65,13 +70,69 @@
         "change_slides_speed": 5,
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "addition_class": ""
+      }
+    },
+    "45089086-27b1-42c9-b4f6-2d3eb65f3675": {
+      "type": "image-banner",
+      "blocks": {
+        "template--17179901002003__45089086-27b1-42c9-b4f6-2d3eb65f3675-1670466778e1c9c147-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "hxl"
+          }
+        },
+        "template--17179901002003__45089086-27b1-42c9-b4f6-2d3eb65f3675-1670466778e1c9c147-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--17179901002003__45089086-27b1-42c9-b4f6-2d3eb65f3675-1670466778e1c9c147-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Now",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17179901002003__45089086-27b1-42c9-b4f6-2d3eb65f3675-1670466778e1c9c147-0",
+        "template--17179901002003__45089086-27b1-42c9-b4f6-2d3eb65f3675-1670466778e1c9c147-1",
+        "template--17179901002003__45089086-27b1-42c9-b4f6-2d3eb65f3675-1670466778e1c9c147-2"
+      ],
+      "settings": {
+        "mod_class": "",
+        "image": "shopify:\/\/shop_images\/slide-01.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "border_top_thickness": 0,
+        "border_right_thickness": 0,
+        "border_bottom_thickness": 0,
+        "border_left_thickness": 0,
+        "border_opacity": 0
       }
     }
   },
   "order": [
     "main",
-    "6742bddb-b6d4-4374-808d-2654dfd1a84f"
+    "6742bddb-b6d4-4374-808d-2654dfd1a84f",
+    "45089086-27b1-42c9-b4f6-2d3eb65f3675"
   ]
 }
