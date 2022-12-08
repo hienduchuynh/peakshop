@@ -91,7 +91,7 @@
       ],
       "settings": {
         "bg_colors": "#ffc700",
-        "text_colors": "#FFFFFF",
+        "text_colors": "#000000",
         "full_width": false,
         "container": false,
         "mod_class": ""
