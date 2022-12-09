@@ -168,25 +168,26 @@
               {%- endif -%}
             </div>
             {% if template == "page.shopping-guide" %}
-              <div class="custom-model-main">
-                <div class="custom-model-inner">        
-                <div class="close-btn">×</div>
-                    <div class="custom-model-wrap">
-                        <div class="pop-up-content-wrap">
-                          {%- if block.settings.text != blank -%}
-                            {{ block.settings.text }}
-                          {% else %}
-                            "No Content"
-                          {%- endif -%}
-                        </div>
-                    </div>  
-                </div>  
-              <div class="bg-overlay"></div>
-              </div>
-            </div>
-            <script>
+                  <div class="custom-model-main">
+                      <div class="custom-model-inner">        
+                      <div class="close-btn">×</div>
+                          <div class="custom-model-wrap">
+                              <div class="pop-up-content-wrap">
+                                {%- if block.settings.text != blank -%}
+                                  {{ block.settings.text }}
+                                {% else %}
+                                  "No Content"
+                                {%- endif -%}
+                              </div>
+                          </div>  
+                      </div>  
+                      <div class="bg-overlay"></div>
+                  </div>
+                </div>
+              <script>
               // POP UP
               document.addEventListener("DOMContentLoaded", () => {
+                console.log("Hello World!");
                 window.addEventListener("load", (event) => {
                   let id_ChildElement = "#Slide-{{ section.id }}-{{ forloop.index }}";
                   document.querySelector(`${id_ChildElement} .link`).addEventListener("click", function() {
