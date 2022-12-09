@@ -625,6 +625,7 @@
   display: inline-block;
   width: 60px;
   height: 60px;
+  padding: 0;
 }
 
 .shopping-guide .custom-model-main {
