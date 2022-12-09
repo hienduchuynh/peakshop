@@ -132,12 +132,24 @@
     "a3627e30-1415-4779-aff7-c27887c3b101": {
       "type": "collapsible-info-product",
       "blocks": {
+        "00e3fd43-52d6-4342-a5a0-0535a74209a2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Overview",
+            "icon": "check_mark",
+            "content": "",
+            "description": true,
+            "image_ratio": "43",
+            "page": ""
+          }
+        },
         "79dcad13-559a-4436-b2f5-8fc9979a463c": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Brand",
             "icon": "clipboard",
             "content": "<p>Content Here<\/p>",
+            "description": false,
             "image_ratio": "43",
             "page": ""
           }
@@ -148,20 +160,20 @@
             "heading": "Help",
             "icon": "heart",
             "content": "<p>Help content<\/p>",
+            "description": false,
             "image_ratio": "43",
             "page": ""
           }
         }
       },
       "block_order": [
+        "00e3fd43-52d6-4342-a5a0-0535a74209a2",
         "79dcad13-559a-4436-b2f5-8fc9979a463c",
         "8886ca12-8765-4192-83ec-3250a3489334"
       ],
       "settings": {
         "collapsible_type": "tabs",
         "box_width": 80,
-        "show_product_description": true,
-        "icon": "shoe",
         "collapsible_tab_header_position": "top",
         "padding_top": 36,
         "padding_bottom": 36
