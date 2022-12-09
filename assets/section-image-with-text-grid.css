@@ -61,6 +61,16 @@
     
 }
 
+@media screen and (max-width: 989px) {
+    .image-with-text-grid .grid__item.content-container {
+        border-bottom: var(--text-boxes-border-width) solid rgba(var(--color-foreground), var(--text-boxes-border-opacity));
+    }
+
+    .image-with-text-grid .grid--gapless .grid__item.content-container {
+        border-right-width: 0;
+    }
+}
+
 .image-with-text-grid .grid__item img {
     max-width: 100%;
     object-fit: cover;
