@@ -149,8 +149,8 @@
           "settings": {
             "heading": "Overview",
             "icon": "none",
-            "content": "<p>ssss<\/p>",
-            "description": false,
+            "content": "",
+            "description": true,
             "image_ratio": "43",
             "page": ""
           }
