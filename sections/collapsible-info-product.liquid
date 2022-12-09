@@ -22,28 +22,13 @@
     <div class="product___tabs product_tabs_positions_{{ section.settings.collapsible_tab_header_position }} tab quick-add-hidden" id="TabDetails-{{ section.id }}" {{ block.shopify_attributes }}>
       <div id="tabsheader" class="tab-header">
         <ul class="nav nav-tabs">
-          {%- if section.settings.show_product_description -%}
-            <li id="tabHeader-1" class="active">
-              <div class="summary__title">
-                {% render 'icon-accordion', icon: section.settings.icon %}
-                <h2 class="h5 tab__title">
-                  Overview
-                </h2>
-              </div>
-            </li>
-          {%- endif -%}
           {%- for block in section.blocks -%}
             {%- case block.type -%}
               {%- when '@app' -%}
                 {% render block %}
               {%- when 'collapsible_tab' -%}
-                {%- if block.settings.content != blank or block.settings.page.content != blank -%}
-                  {%- if section.settings.show_product_description -%}
-                    {%  assign idx = forloop.index | plus: 1  %}
-                  {% else %}
-                    {%  assign idx = forloop.index %}
-                  {%- endif -%}
-                  <li id="tabHeader-{{ idx }}">
+                {%- if block.settings.content != blank or block.settings.page.content != blank or block.settings.description == true -%}
+                  <li id="tabHeader-{{ forloop.index }}">
                     <div class="summary__title">
                       {% render 'icon-accordion', icon: block.settings.icon %}
                       <h2 class="h5 tab__title">
@@ -57,24 +42,18 @@
         </ul>
       </div>
       <div id="tabscontent" class="tab-content">
-        {%- if section.settings.show_product_description -%}
-          <div id="TabContent-1" class="tab__content description fade rte" style="display:block;">
-            {{ product.description }}
-          </div>
-        {%- endif -%}
         {%- for block in section.blocks -%}
           {%- case block.type -%}
             {%- when '@app' -%}
               {% render block %}
             {%- when 'collapsible_tab' -%}
-              {%- if block.settings.content != blank or block.settings.page.content != blank -%}
-                {%- if section.settings.show_product_description -%}
-                  {%  assign idx = forloop.index | plus: 1  %}
-                {% else %}
-                  {%  assign idx = forloop.index %}
-                {%- endif -%}
-                <div id="TabContent-{{ idx }}" class="tab__content fade rte" {% if forloop.first == true and section.settings.show_product_description == false %}style="display:block;"{%- endif -%}>
-                  {{ block.settings.content }}
+              {%- if block.settings.content != blank or block.settings.page.content != blank or block.settings.description == true -%}
+                <div id="TabContent-{{ forloop.index }}" class="tab__content fade rte" {% if forloop.first == true %}style="display:block;"{%- endif -%}>
+                  {% if block.settings.description == true %}
+                    {{ product.description }}
+                  {% else %}
+                    {{ block.settings.content }}
+                  {%- endif -%}
                   {%- if block.settings.image != blank -%}
                     <div class="media media--{{ block.settings.image_ratio }} media--transparent {% if block.settings.image == blank %} placeholder{% endif %}">
                       {%-liquid
@@ -102,7 +81,7 @@
     </div>
     <script>
       window.addEventListener("load", function() {
-        var container = document.getElementById("TabDetails-                  {{ section.id }}");
+        var container = document.getElementById("TabDetails-{{ section.id }}");
         var tabcon = document.getElementById("tabscontent");
         var navitem = document.getElementById("tabHeader-1");
         var ident = navitem.id.split("-")[1];
@@ -129,30 +108,12 @@
     </script>
   {%- else if section.settings.collapsible_type == "accordion" -%}
     {{ 'component-accordion.css' | asset_url | stylesheet_tag }}
-    {%- if section.settings.show_product_description -%}
-      <div class="product___accordion description accordion quick-add-hidden" {{ block.shopify_attributes }}>
-        <details id="Details-{{ block.id }}-{{ section.id }}">
-          <summary>
-            <div class="summary__title">
-              {% render 'icon-accordion', icon: section.settings.icon %}
-              <h2 class="h5 accordion__title">
-                Overview
-              </h2>
-            </div>
-            {% render 'icon-caret' %}
-          </summary>
-          <div class="accordion__content rte" id="ProductAccordion-{{ block.id }}-{{ section.id }}">
-            {{ product.description }}
-          </div>
-        </details>
-      </div>
-    {%- endif -%}
     {%- for block in section.blocks -%}
       {%- case block.type -%}
         {%- when '@app' -%}
           {% render block %}
         {%- when 'collapsible_tab' -%}
-          {%- if block.settings.content != blank or block.settings.page.content != blank -%}
+          {%- if block.settings.content != blank or block.settings.page.content != blank  or block.settings.description == true -%}
             <div class="product___accordion accordion quick-add-hidden" {{ block.shopify_attributes }}>
               <details id="Details-{{ block.id }}-{{ section.id }}">
                 <summary>
@@ -165,7 +126,11 @@
                   {% render 'icon-caret' %}
                 </summary>
                 <div class="accordion__content rte" id="ProductAccordion-{{ block.id }}-{{ section.id }}">
-                  {{ block.settings.content }}
+                  {% if block.settings.description == true %}
+                    {{ product.description }}
+                  {% else %}
+                    {{ block.settings.content }}
+                  {%- endif -%}
                   {%- if block.settings.image != blank -%}
                     <div class="media media--{{ block.settings.image_ratio }} media--transparent {% if block.settings.image == blank %} placeholder{% endif %}">
                       {%-liquid
@@ -193,30 +158,12 @@
     {%- endfor -%}
   {%- else -%}
     {{ 'component-colabsible-list.css' | asset_url | stylesheet_tag }}
-    {%- if section.settings.show_product_description -%}
-      <div class="product___colabsible-list description colabsible-list quick-add-hidden" {{ block.shopify_attributes }}>
-        <details id="Details-{{ block.id }}-{{ section.id }}">
-          <summary>
-            <div class="summary__title">
-              {% render 'icon-accordion', icon: block.settings.icon %}
-              <h2 class="h5 accordion__title">
-                Overview
-              </h2>
-            </div>
-            {% render 'icon-caret' %}
-          </summary>
-          <div class="colabsible-list__content rte" id="ProductColabsibleList-{{ block.id }}-{{ section.id }}">
-            {{ product.description }}
-          </div>
-        </details>
-      </div>
-    {%- endif -%}
     {%- for block in section.blocks -%}
       {%- case block.type -%}
         {%- when '@app' -%}
           {% render block %}
         {%- when 'collapsible_tab' -%}
-          {%- if block.settings.content != blank or block.settings.page.content != blank -%}
+          {%- if block.settings.content != blank or block.settings.page.content != blank  or block.settings.description -%}
             <div class="product___colabsible-list colabsible-list quick-add-hidden" {{ block.shopify_attributes }}>
               <details id="Details-{{ block.id }}-{{ section.id }}">
                 <summary>
@@ -230,7 +177,7 @@
                 </summary>
                 <div class="colabsible-list__content rte" id="ProductColabsibleList-{{ block.id }}-{{ section.id }}">
                   {% if block.settings.description == true %}
-                    {{ block.settings.description }}
+                    {{ product.description }}
                   {% else %}
                     {{ block.settings.content }}
                   {%- endif -%}
@@ -498,155 +445,6 @@
         "unit": "%",
         "label": "t:sections.collapsible_info_product.settings.box_width.label",
         "default": 50
-      },
-      {
-        "type": "checkbox",
-        "id": "show_product_description",
-        "default": true,
-        "label": "t:sections.collapsible_info_product.settings.show_product_description.label"
-      }, {
-        "type": "select",
-        "id": "icon",
-        "options": [
-          {
-            "value": "none",
-            "label": "t:sections.collapsible_info_product.blocks.collapsible_tab.settings.icon.options__1.label"
-          },
-          {
-            "value": "apple",
-            "label": "t:sections.collapsible_info_product.blocks.collapsible_tab.settings.icon.options__2.label"
-          },
-          {
-            "value": "banana",
-            "label": "t:sections.collapsible_info_product.blocks.collapsible_tab.settings.icon.options__3.label"
-          },
-          {
-            "value": "bottle",
-            "label": "t:sections.collapsible_info_product.blocks.collapsible_tab.settings.icon.options__4.label"
-          }, {
-            "value": "box",
-            "label": "t:sections.collapsible_info_product.blocks.collapsible_tab.settings.icon.options__5.label"
-          }, {
-            "value": "carrot",
-            "label": "t:sections.collapsible_info_product.blocks.collapsible_tab.settings.icon.options__6.label"
-          }, {
-            "value": "chat_bubble",
-            "label": "t:sections.collapsible_info_product.blocks.collapsible_tab.settings.icon.options__7.label"
-          }, {
-            "value": "check_mark",
-            "label": "t:sections.collapsible_info_product.blocks.collapsible_tab.settings.icon.options__8.label"
-          }, {
-            "value": "clipboard",
-            "label": "t:sections.collapsible_info_product.blocks.collapsible_tab.settings.icon.options__9.label"
-          }, {
-            "value": "dairy",
-            "label": "t:sections.collapsible_info_product.blocks.collapsible_tab.settings.icon.options__10.label"
-          }, {
-            "value": "dairy_free",
-            "label": "t:sections.collapsible_info_product.blocks.collapsible_tab.settings.icon.options__11.label"
-          }, {
-            "value": "dryer",
-            "label": "t:sections.collapsible_info_product.blocks.collapsible_tab.settings.icon.options__12.label"
-          }, {
-            "value": "eye",
-            "label": "t:sections.collapsible_info_product.blocks.collapsible_tab.settings.icon.options__13.label"
-          }, {
-            "value": "fire",
-            "label": "t:sections.collapsible_info_product.blocks.collapsible_tab.settings.icon.options__14.label"
-          }, {
-            "value": "gluten_free",
-            "label": "t:sections.collapsible_info_product.blocks.collapsible_tab.settings.icon.options__15.label"
-          }, {
-            "value": "heart",
-            "label": "t:sections.collapsible_info_product.blocks.collapsible_tab.settings.icon.options__16.label"
-          }, {
-            "value": "iron",
-            "label": "t:sections.collapsible_info_product.blocks.collapsible_tab.settings.icon.options__17.label"
-          }, {
-            "value": "leaf",
-            "label": "t:sections.collapsible_info_product.blocks.collapsible_tab.settings.icon.options__18.label"
-          }, {
-            "value": "leather",
-            "label": "t:sections.collapsible_info_product.blocks.collapsible_tab.settings.icon.options__19.label"
-          }, {
-            "value": "lightning_bolt",
-            "label": "t:sections.collapsible_info_product.blocks.collapsible_tab.settings.icon.options__20.label"
-          }, {
-            "value": "lipstick",
-            "label": "t:sections.collapsible_info_product.blocks.collapsible_tab.settings.icon.options__21.label"
-          }, {
-            "value": "lock",
-            "label": "t:sections.collapsible_info_product.blocks.collapsible_tab.settings.icon.options__22.label"
-          }, {
-            "value": "map_pin",
-            "label": "t:sections.collapsible_info_product.blocks.collapsible_tab.settings.icon.options__23.label"
-          }, {
-            "value": "nut_free",
-            "label": "t:sections.collapsible_info_product.blocks.collapsible_tab.settings.icon.options__24.label"
-          }, {
-            "value": "pants",
-            "label": "t:sections.collapsible_info_product.blocks.collapsible_tab.settings.icon.options__25.label"
-          }, {
-            "value": "paw_print",
-            "label": "t:sections.collapsible_info_product.blocks.collapsible_tab.settings.icon.options__26.label"
-          }, {
-            "value": "pepper",
-            "label": "t:sections.collapsible_info_product.blocks.collapsible_tab.settings.icon.options__27.label"
-          }, {
-            "value": "perfume",
-            "label": "t:sections.collapsible_info_product.blocks.collapsible_tab.settings.icon.options__28.label"
-          }, {
-            "value": "plane",
-            "label": "t:sections.collapsible_info_product.blocks.collapsible_tab.settings.icon.options__29.label"
-          }, {
-            "value": "plant",
-            "label": "t:sections.collapsible_info_product.blocks.collapsible_tab.settings.icon.options__30.label"
-          }, {
-            "value": "price_tag",
-            "label": "t:sections.collapsible_info_product.blocks.collapsible_tab.settings.icon.options__31.label"
-          }, {
-            "value": "question_mark",
-            "label": "t:sections.collapsible_info_product.blocks.collapsible_tab.settings.icon.options__32.label"
-          }, {
-            "value": "recycle",
-            "label": "t:sections.collapsible_info_product.blocks.collapsible_tab.settings.icon.options__33.label"
-          }, {
-            "value": "return",
-            "label": "t:sections.collapsible_info_product.blocks.collapsible_tab.settings.icon.options__34.label"
-          }, {
-            "value": "ruler",
-            "label": "t:sections.collapsible_info_product.blocks.collapsible_tab.settings.icon.options__35.label"
-          }, {
-            "value": "serving_dish",
-            "label": "t:sections.collapsible_info_product.blocks.collapsible_tab.settings.icon.options__36.label"
-          }, {
-            "value": "shirt",
-            "label": "t:sections.collapsible_info_product.blocks.collapsible_tab.settings.icon.options__37.label"
-          }, {
-            "value": "shoe",
-            "label": "t:sections.collapsible_info_product.blocks.collapsible_tab.settings.icon.options__38.label"
-          }, {
-            "value": "silhouette",
-            "label": "t:sections.collapsible_info_product.blocks.collapsible_tab.settings.icon.options__39.label"
-          }, {
-            "value": "snowflake",
-            "label": "t:sections.collapsible_info_product.blocks.collapsible_tab.settings.icon.options__40.label"
-          }, {
-            "value": "star",
-            "label": "t:sections.collapsible_info_product.blocks.collapsible_tab.settings.icon.options__41.label"
-          }, {
-            "value": "stopwatch",
-            "label": "t:sections.collapsible_info_product.blocks.collapsible_tab.settings.icon.options__42.label"
-          }, {
-            "value": "truck",
-            "label": "t:sections.collapsible_info_product.blocks.collapsible_tab.settings.icon.options__43.label"
-          }, {
-            "value": "washing",
-            "label": "t:sections.collapsible_info_product.blocks.collapsible_tab.settings.icon.options__44.label"
-          }
-        ],
-        "default": "check_mark",
-        "label": "t:sections.collapsible_info_product.blocks.collapsible_tab.settings.icon.label"
       }, {
         "type": "select",
         "id": "collapsible_tab_header_position",
