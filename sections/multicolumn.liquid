@@ -190,9 +190,6 @@
                   let id_ChildElement = "#Slide-{{ section.id }}-{{ forloop.index }}";
                   document.querySelector(`${id_ChildElement} .link`).addEventListener("click", function() {
                     document.querySelector(`${id_ChildElement} .custom-model-main`).classList.add('model-open');
-                    var x=window.scrollX;
-                    var y=window.scrollY;
-                    window.onscroll=function(){window.scrollTo(x, y);};
                   }); 
                   document.querySelector(`${id_ChildElement} .close-btn`, `${id_ChildElement} .bg-overlay`).addEventListener("click", function() {
                     document.querySelector(`${id_ChildElement} .custom-model-main`).classList.remove('model-open');
