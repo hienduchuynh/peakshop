@@ -144,10 +144,20 @@
     "538ed27d-666d-4169-9ba0-d844989d9d9b": {
       "type": "collapsible-info-product",
       "blocks": {
+        "d12a6838-f7f5-4693-a9b4-e19b80592a10": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Description",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.custom.product_detail | metafield_tag }}<\/p>",
+            "image_ratio": "43",
+            "page": ""
+          }
+        },
         "60ec516c-2d9f-48d1-abba-a3b3f44a543c": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Brand",
+            "heading": "Additional Information",
             "icon": "none",
             "content": "<p>{{ product.metafields.custom._additional_information | metafield_tag }}<\/p>",
             "image_ratio": "43",
@@ -163,22 +173,12 @@
             "image_ratio": "43",
             "page": ""
           }
-        },
-        "d12a6838-f7f5-4693-a9b4-e19b80592a10": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Description",
-            "icon": "none",
-            "content": "<p>{{ product.metafields.custom.product_detail | metafield_tag }}<\/p>",
-            "image_ratio": "43",
-            "page": ""
-          }
         }
       },
       "block_order": [
+        "d12a6838-f7f5-4693-a9b4-e19b80592a10",
         "60ec516c-2d9f-48d1-abba-a3b3f44a543c",
-        "4d16be99-0cc5-4a35-8c00-63510ede95b5",
-        "d12a6838-f7f5-4693-a9b4-e19b80592a10"
+        "4d16be99-0cc5-4a35-8c00-63510ede95b5"
       ],
       "settings": {
         "collapsible_type": "tabs",
