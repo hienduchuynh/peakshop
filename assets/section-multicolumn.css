@@ -587,6 +587,21 @@
 
 /* Pop Up  */
 
+.shopping-guide .multicolumn-list {
+  align-items: stretch;
+}
+
+.shopping-guide .contains-content-container .media {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  padding: 0 !important;
+}
+
+.shopping-guide .contains-content-container .media img {
+  height: auto;
+}
+
 .shopping-guide .custom-model-main {
   text-align: center;
   overflow: hidden;
