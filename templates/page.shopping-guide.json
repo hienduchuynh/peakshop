@@ -15,6 +15,7 @@
         "template--17189957763347__18fe5ac3-ccf9-4715-a0bd-22ac08996599-16705552709d0167a1-0": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/fa21_shop_icon_building.webp",
             "image_position": "top",
             "title": "Same Day in Store Pickup",
             "title_size": "h4",
@@ -32,6 +33,7 @@
         "template--17189957763347__18fe5ac3-ccf9-4715-a0bd-22ac08996599-16705552709d0167a1-1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/fa21_shop_icon_car.webp",
             "image_position": "top",
             "title": "Same Day Curbside Pickup",
             "title_size": "h4",
@@ -49,6 +51,7 @@
         "template--17189957763347__18fe5ac3-ccf9-4715-a0bd-22ac08996599-16705552709d0167a1-2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/fa21_shop_icon_dolly.webp",
             "image_position": "top",
             "title": "Ship to Store (Pickup)",
             "title_size": "h4",
@@ -66,6 +69,7 @@
         "3cecdb73-cc6f-4f14-8e67-3cbaf8a31039": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/fa21_shop_icon_truck.webp",
             "image_position": "top",
             "title": "Home Delivery",
             "title_size": "h4",
@@ -83,6 +87,7 @@
         "af652c5e-effe-44e6-855e-1af9be175721": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/fa21_shop_icon_truckd.webp",
             "image_position": "top",
             "title": "Expedited Home Delivery",
             "title_size": "h4",
@@ -100,6 +105,7 @@
         "5afb7cdb-cb5f-4e7b-8c37-7084f2f18c4c": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/fa21_shop_icon_shopb.webp",
             "image_position": "top",
             "title": "Shop in Store",
             "title_size": "h4",
@@ -129,11 +135,11 @@
         "mod_class": "shopping-guide",
         "heading_size": "h0",
         "layout": "grid",
-        "image_width": "full",
+        "image_width": "third",
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "row_alignment": "top",
-        "column_alignment": "left",
+        "column_alignment": "center",
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
