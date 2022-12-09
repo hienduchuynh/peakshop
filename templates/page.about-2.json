@@ -51,7 +51,7 @@
         "slider_visual": "counter",
         "auto_rotate": false,
         "change_slides_speed": 5,
-        "show_text_below": true,
+        "show_text_below": false,
         "accessibility_info": "ja_slider about our brand",
         "padding_top": 0,
         "padding_bottom": 0,
