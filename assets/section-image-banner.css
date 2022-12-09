@@ -363,10 +363,6 @@
   z-index: 1;
 }
 
-.banner--desktop-transparent .banner__box {
-  padding: 0;
-}
-
 @media screen and (min-width: 750px) {
   .banner--desktop-transparent .banner__box {
     background: transparent;
@@ -514,6 +510,7 @@
 /* Landing Page */
 .landing-page .banner__box.content-container {
   border: 0;
+  padding: 0;
 }
 
 .landing-page .banner__box .banner__heading {

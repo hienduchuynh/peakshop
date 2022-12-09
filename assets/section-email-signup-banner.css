@@ -49,7 +49,13 @@
   }
 }
 
-
+@media screen and (min-width: 750px) and (max-width: 989px) {
+  .email-signup-banner .email-signup-banner__box > *,
+  .email-signup-banner .email-signup-banner__box .field__input,
+  .email-signup-banner .email-signup-banner__box label {
+    color: rgb(var(--color-base-background-1)) !important;
+  }
+}
 
 @media only screen and (min-width: 750px) {
   .email-signup-banner:not(.banner--desktop-transparent)
@@ -60,6 +66,7 @@
 
 .email-signup-banner__box {
   max-width: 70rem;
+  border: 2px solid rgb(var(--color-base-outline-button-labels));
 }
 
 .email-signup-banner__box .email-signup-banner__heading {
