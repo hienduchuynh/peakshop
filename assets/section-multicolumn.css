@@ -625,7 +625,11 @@
   display: inline-block;
   width: 60px;
   height: 60px;
-  padding: 0;
+  padding: 0 !important;
+}
+
+.shopping-guide .contains-content-container .media img {
+  height: auto;
 }
 
 .shopping-guide .custom-model-main {
