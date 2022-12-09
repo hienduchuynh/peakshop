@@ -90,7 +90,7 @@
             "icon_position": "left",
             "text": "<p>If you want home delivery, but you want it faster than our standard 5-7 business day shipping, we offer two expedited shipping options.<\/p>",
             "link_label": "View Details",
-            "link": "",
+            "link": "#",
             "link_style": "link",
             "padding_left": 32,
             "padding_right": 32,
