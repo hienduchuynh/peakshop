@@ -17,6 +17,144 @@
         "suffix-class": "about-us-title"
       }
     },
+    "b0961093-e7aa-4fc4-97ce-69426f4fca14": {
+      "type": "ja-slider",
+      "blocks": {
+        "template--17150322376979__b0961093-e7aa-4fc4-97ce-69426f4fca14-1670576032829c6c90-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/christophe-meyer-ffvA4qpRjHY-unsplash_2.jpg",
+            "heading": "Provide perfect and practical services",
+            "heading_size": "h2",
+            "subheading": "Lorem quis bibendum auctar, nisi elit consequat ipsum, nec sagittis sem nibh id elit.",
+            "button_label": "",
+            "link": "",
+            "link_style": "solid",
+            "box_align": "right",
+            "box_width": 100,
+            "button_label2": "",
+            "link2": "",
+            "link_style2": "solid",
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--17150322376979__b0961093-e7aa-4fc4-97ce-69426f4fca14-1670576032829c6c90-0"
+      ],
+      "settings": {
+        "layout": "grid--gapless",
+        "slide_height": "small",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "ja_slider about our brand",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "border_top_thickness": 0,
+        "border_right_thickness": 0,
+        "border_bottom_thickness": 0,
+        "border_left_thickness": 0,
+        "border_opacity": 0,
+        "addition_class": ""
+      }
+    },
+    "0991cb4c-9273-472d-9388-1a9a116ad516": {
+      "type": "ja-slider",
+      "blocks": {
+        "template--17150322376979__0991cb4c-9273-472d-9388-1a9a116ad516-1670576032829c6c90-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/bg-video.jpg",
+            "heading": "Provide fashionable andqualifed products",
+            "heading_size": "h2",
+            "subheading": "Already millions of people are very satisfied by thi. s page builder and the number is growing more and more. Technolog developing, requirements are increasing. Riode has brought.",
+            "button_label": "",
+            "link": "",
+            "link_style": "solid",
+            "box_align": "left",
+            "box_width": 100,
+            "button_label2": "",
+            "link2": "",
+            "link_style2": "solid",
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--17150322376979__0991cb4c-9273-472d-9388-1a9a116ad516-1670576032829c6c90-0"
+      ],
+      "settings": {
+        "layout": "grid--gapless",
+        "slide_height": "small",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "ja_slider about our brand",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "border_top_thickness": 0,
+        "border_right_thickness": 0,
+        "border_bottom_thickness": 0,
+        "border_left_thickness": 0,
+        "border_opacity": 0,
+        "addition_class": ""
+      }
+    },
+    "5fef454b-1f05-4575-9b6f-c5a7d137e593": {
+      "type": "ja-slider",
+      "blocks": {
+        "template--17150322376979__5fef454b-1f05-4575-9b6f-c5a7d137e593-1670576032829c6c90-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/collection-1.jpg",
+            "heading": "Expect Restless Amazing Support",
+            "heading_size": "h2",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "",
+            "link": "",
+            "link_style": "solid",
+            "box_align": "right",
+            "box_width": 100,
+            "button_label2": "",
+            "link2": "",
+            "link_style2": "solid",
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--17150322376979__5fef454b-1f05-4575-9b6f-c5a7d137e593-1670576032829c6c90-0"
+      ],
+      "settings": {
+        "layout": "grid--gapless",
+        "slide_height": "small",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "ja_slider about our brand",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "border_top_thickness": 0,
+        "border_right_thickness": 0,
+        "border_bottom_thickness": 0,
+        "border_left_thickness": 0,
+        "border_opacity": 0,
+        "addition_class": ""
+      }
+    },
     "11f4ff02-80a9-4fc1-8a07-9a4d70c1b955": {
       "type": "image-with-text",
       "blocks": {
@@ -357,6 +495,9 @@
   "order": [
     "61f849a9-f600-4591-8f82-0e40cc947bc5",
     "main",
+    "b0961093-e7aa-4fc4-97ce-69426f4fca14",
+    "0991cb4c-9273-472d-9388-1a9a116ad516",
+    "5fef454b-1f05-4575-9b6f-c5a7d137e593",
     "11f4ff02-80a9-4fc1-8a07-9a4d70c1b955",
     "6b6ef46b-2a73-4e5e-bb36-9f5fe54e6403",
     "90fa3700-becd-4a06-9f5f-d7ace3d0d5f0",
