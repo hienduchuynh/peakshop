@@ -2318,6 +2318,9 @@
           "options__3": {
             "label": "Drawer"
           },
+          "options__4": {
+            "label": "Off-Canvas"
+          },
           "info": "Drawer is the default mobile layout."
         },
         "enable_sorting": {
