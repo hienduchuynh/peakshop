@@ -25,7 +25,7 @@
 -%}
 
 <div class="facets-container{% if filter_type == 'drawer' %} facets-container-drawer{% endif %}">
-  {%- if filter_type == 'vertical' or filter_type == 'horizontal' -%}
+  {%- if filter_type == 'vertical' or filter_type == 'horizontal' or filter_type == 'offcanvas' -%}
     {%- comment -%} <facet-filters-form class="facets small-hide"> {%- endcomment -%}
     <facet-filters-form class="facets tablet-down-hide">
       <form id="FacetFiltersForm" class="{% if filter_type == 'horizontal' %}facets__form facets__form-horizontal{% else %}facets__form-vertical{% endif %}">
@@ -41,7 +41,7 @@
               <h2 class="facets__heading caption-large text-body" id="verticalTitle" tabindex="-1">{{ 'products.facets.filter_by_label' | t }}</h2>
             {%- endif -%}
             {% comment %} Pills are right below the title for filter type vertical {% endcomment %}
-            {%- if filter_type == 'vertical' -%}
+            {%- if filter_type == 'vertical' or filter_type == 'offcanvas' -%}
               <div class="active-facets active-facets-desktop">
                 <div class="active-facets-vertical-filter">
                   {%- unless results.filters == empty -%}
@@ -91,12 +91,12 @@
                 <details id="Details-{{ forloop.index }}-{{ section.id }}" class="{% if filter_type == 'horizontal' %}disclosure-has-popup facets__disclosure{% else %} facets__disclosure-vertical{% endif %} js-filter" data-index="{{ forloop.index }}"{% if filter_type == 'vertical' and forloop.index == 1 %} open{% endif %}>
                   <summary class="facets__summary caption-large focus-offset" aria-label="{{ filter.label }} ({{ 'products.facets.filters_selected.one' | t: count: filter.active_values.size }})">
                     <div>
-                      <span>{{ filter.label | escape }}{%- if filter_type == 'vertical' -%}<span class="facets__selected no-js-hidden{% if filter.active_values.size == 0 %} hidden{% endif %}"> ({{ filter.active_values.size }})</span>{% endif %}</span>
+                      <span>{{ filter.label | escape }}{%- if filter_type == 'vertical' or filter_type == 'offcanvas' -%}<span class="facets__selected no-js-hidden{% if filter.active_values.size == 0 %} hidden{% endif %}"> ({{ filter.active_values.size }})</span>{% endif %}</span>
                       {% render 'icon-caret' %}
                     </div>
                   </summary>
                   <div id="Facet-{{ forloop.index }}-{{ section.id }}" class="parent-display {% if filter_type == 'horizontal' %}facets__display{% else %}facets__display-vertical{% endif %}">
-                    {%- if filter_type != 'vertical' -%}
+                    {%- if filter_type != 'vertical' or filter_type != 'offcanvas' -%}
                       <div class="facets__header">
                         <span class="facets__selected no-js-hidden">{{ 'products.facets.filters_selected' | t: count: filter.active_values.size }}</span>
                         <facet-remove>
@@ -106,11 +106,11 @@
                         </facet-remove>
                       </div>
                     {%- endif -%}
-                    <fieldset class="facets-wrap parent-wrap {% if filter_type == 'vertical' %} facets-wrap-vertical{% endif %}">
+                    <fieldset class="facets-wrap parent-wrap {% if filter_type == 'vertical' or filter_type == 'offcanvas' %} facets-wrap-vertical{% endif %}">
                       <legend class="visually-hidden">{{ filter.label | escape }}</legend>
-                      <ul class="{% if filter_type != 'vertical' %} facets__list{% endif %} list-unstyled no-js-hidden" role="list">
+                      <ul class="{% if filter_type != 'vertical' or filter_type != 'offcanvas' %} facets__list{% endif %} list-unstyled no-js-hidden" role="list">
                         {%- for value in filter.values -%}
-                          <li class="list-menu__item facets__item{% if forloop.index > 10 and filter_type == 'vertical' %} show-more-item hidden{% endif %}">
+                          <li class="list-menu__item facets__item{% if forloop.index > 10 and filter_type == 'vertical' or filter_type == 'offcanvas' %} show-more-item hidden{% endif %}">
                             <label for="Filter-{{ filter.label | escape }}-{{ forloop.index }}" class="facet-checkbox{% if value.count == 0 and value.active == false %} facet-checkbox--disabled{% endif %}">
                               <input type="checkbox"
                                 name="{{ value.param_name }}"
@@ -145,7 +145,7 @@
                         {%- endfor -%}
                       </ul>
                       {% comment %} No show more for no JS {% endcomment %}
-                      <ul class="{% if filter_type != 'vertical' %} facets__list{% endif %} list-unstyled no-js" role="list">
+                      <ul class="{% if filter_type != 'vertical' or filter_type != 'offcanvas' %} facets__list{% endif %} list-unstyled no-js" role="list">
                         {%- for value in filter.values -%}
                           <li class="list-menu__item facets__item">
                             <label for="Filter-{{ filter.label | escape }}-{{ forloop.index }}" class="facet-checkbox{% if value.count == 0 and value.active == false %} facet-checkbox--disabled{% endif %}">
@@ -182,7 +182,7 @@
                         {%- endfor -%}
                       </ul>
                     </fieldset>
-                    {%- if filter.values.size > 10 and filter_type == 'vertical' -%}
+                    {%- if filter.values.size > 10 and filter_type == 'vertical' or filter_type == 'offcanvas' -%}
                       <show-more-button>
                         <button class="button-show-more link underlined-link no-js-hidden" id="Show-More-{{ forloop.index }}-{{ section.id }}" type="button">
                           <span class="label-show-more label-text"><span aria-hidden="true">+ </span>{{ 'products.facets.show_more' | t }}</span>
@@ -211,7 +211,7 @@
                     <div class="{% if filter_type == 'horizontal' %}facets__header{% else %}facets__header-vertical{% endif %}">
                       {%- assign max_price_amount = filter.range_max | money | strip_html | escape -%}
                       <span class="facets__selected">{{ "products.facets.max_price" | t: price: max_price_amount }}</span>
-                      {%- if filter_type != 'vertical' -%}
+                      {%- if filter_type != 'vertical' or filter_type != 'offcanvas' -%}
                         <facet-remove>
                           <a href="{{ filter.url_to_remove }}" class="facets__reset link underlined-link">
                             {{ 'products.facets.reset' | t }}
@@ -235,7 +235,7 @@
                         >
                         <label class="field__label" for="Filter-{{ filter.label | escape }}-GTE">{{ 'products.facets.from' | t }}</label>
                       </div>
-                      {%- if filter_type != 'vertical' -%}
+                      {%- if filter_type != 'vertical' or filter_type != 'offcanvas' -%}
                         <span class="field-currency">{{ cart.currency.symbol }}</span>
                       {%- endif -%}
                       <div class="field">
@@ -353,7 +353,7 @@
       </form>
     </facet-filters-form>
     {% comment %} Sorting for vertical filter are grouped with filter when no JS{% endcomment %}
-    {%- if enable_sorting and filter_type == 'vertical' -%}
+    {%- if enable_sorting and filter_type == 'vertical' or filter_type == 'offcanvas' -%}
       {%- comment -%} <facet-filters-form class="small-hide"> {%- endcomment -%}
       <facet-filters-form class="tablet-down-hide">
         <form class="no-js">
@@ -392,7 +392,7 @@
   {%- endif -%}
   {% comment %}  Drawer and mobile filter {% endcomment %}
   {%- comment -%} <menu-drawer class="mobile-facets__wrapper{% if filter_type == 'horizontal' or filter_type == 'vertical' %} medium-hide large-up-hide{% endif %}" data-breakpoint="mobile"> {%- endcomment -%}
-  <menu-drawer class="mobile-facets__wrapper{% if filter_type == 'horizontal' or filter_type == 'vertical' %} desktop-large-up-hide{% endif %}" data-breakpoint="mobile">
+  <menu-drawer class="mobile-facets__wrapper{% if filter_type == 'horizontal' or filter_type == 'vertical' or filter_type == 'offcanvas' %} desktop-large-up-hide{% endif %}" data-breakpoint="mobile">
     <details class="mobile-facets__disclosure disclosure-has-popup">
       <summary class="mobile-facets__open-wrapper focus-offset">
         {%- comment -%} <span class="mobile-facets__open{% if filter_type == 'drawer' and enable_filtering == false %} medium-hide large-up-hide{% endif %}"> {%- endcomment -%}
@@ -653,7 +653,7 @@
   </div>
   {% comment %} Sort, product count and filter pills at the end when filter is type of Drawer for the correct tabbing order {% endcomment %}
   {%- comment -%} <div class="product-count light{% if filter_type == 'vertical' or filter_type == 'horizontal' %} medium-hide large-up-hide{% endif %}" role="status"> {%- endcomment -%}
-  <div class="product-count light{% if filter_type == 'vertical' or filter_type == 'horizontal' %} desktop-large-up-hide{% endif %}" role="status">
+  <div class="product-count light{% if filter_type == 'vertical' or filter_type == 'horizontal' or filter_type == 'offcanvas' %} desktop-large-up-hide{% endif %}" role="status">
     <h2 class="product-count__text text-body">
       <span id="ProductCount">
         {%- if results.results_count -%}
