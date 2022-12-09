@@ -182,7 +182,7 @@
           "settings": {
             "heading": "Desc test",
             "icon": "check_mark",
-            "content": "",
+            "content": "<p>test<\/p>",
             "description": true,
             "image_ratio": "43",
             "page": ""
