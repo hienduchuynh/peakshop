@@ -3901,7 +3901,7 @@
             },
             "description": {
               "info": "Nếu bạn chọn thì description sẽ đc show thay vì item content",
-              "label": "Show Product Description"
+              "label": "Show desc content"
             },
             "content": {
               "label": "Item content"
