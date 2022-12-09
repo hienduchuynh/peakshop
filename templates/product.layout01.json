@@ -108,12 +108,24 @@
     "538ed27d-666d-4169-9ba0-d844989d9d9b": {
       "type": "collapsible-info-product",
       "blocks": {
+        "1cb72ab4-c9a4-4c41-90f9-79d04284baf4": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Overview",
+            "icon": "none",
+            "content": "",
+            "description": true,
+            "image_ratio": "43",
+            "page": ""
+          }
+        },
         "60ec516c-2d9f-48d1-abba-a3b3f44a543c": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Brand",
             "icon": "none",
             "content": "<p><em>\"This is demonstration content, designed to showcase how pages could look with your own content\"<\/em><\/p><p><strong>How to measure yourself:<br\/><\/strong>Size Guide: S=US 4-6, M=US 8-10, L=US 12-14, XL=16.<br\/>To find the perfect fit, simply put on your favourite underwear and measure yourself directly on your body. Then use the size chart and the information found in the product description to find your fit.<\/p>",
+            "description": false,
             "image_ratio": "43",
             "page": ""
           }
@@ -124,20 +136,20 @@
             "heading": "Help",
             "icon": "none",
             "content": "<p>Our fashion consultants are on hand & ready to support you.Get in touch via our contact form here.<\/p>",
+            "description": false,
             "image_ratio": "43",
             "page": ""
           }
         }
       },
       "block_order": [
+        "1cb72ab4-c9a4-4c41-90f9-79d04284baf4",
         "60ec516c-2d9f-48d1-abba-a3b3f44a543c",
         "4d16be99-0cc5-4a35-8c00-63510ede95b5"
       ],
       "settings": {
         "collapsible_type": "tabs",
         "box_width": 100,
-        "show_product_description": true,
-        "icon": "none",
         "collapsible_tab_header_position": "left",
         "padding_top": 36,
         "padding_bottom": 36
