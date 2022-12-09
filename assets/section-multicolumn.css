@@ -621,7 +621,7 @@
   align-items: stretch;
 }
 
-.shopping-guide slider-component .media {
+.shopping-guide .contains-content-container .media {
   display: inline-block;
   width: 60px;
   height: 60px;
