@@ -102,7 +102,7 @@
     </div>
     <script>
       window.addEventListener("load", function() {
-        var container = document.getElementById("TabDetails-{{ section.id }}");
+        var container = document.getElementById("TabDetails-                  {{ section.id }}");
         var tabcon = document.getElementById("tabscontent");
         var navitem = document.getElementById("tabHeader-1");
         var ident = navitem.id.split("-")[1];
@@ -229,7 +229,11 @@
                   {% render 'icon-caret' %}
                 </summary>
                 <div class="colabsible-list__content rte" id="ProductColabsibleList-{{ block.id }}-{{ section.id }}">
-                  {{ block.settings.content }}
+                  {% if block.settings.description == true %}
+                    {{ block.settings.description }}
+                  {% else %}
+                    {{ block.settings.content }}
+                  {%- endif -%}
                   {%- if block.settings.image != blank -%}
                     <div class="media media--{{ block.settings.image_ratio }} media--transparent {% if block.settings.image == blank %} placeholder{% endif %}">
                       {%-liquid
@@ -426,6 +430,11 @@
             "label": "t:sections.collapsible_info_product.blocks.collapsible_tab.settings.content.label"
           },
           {
+            "type": "checkbox",
+            "id": "description",
+            "default": false,
+            "label": "t:sections.collapsible_info_product.settings.description.label"
+          }, {
             "type": "image_picker",
             "id": "image",
             "label": "t:sections.collapsible_info_product.blocks.collapsible_tab.settings.image.label"
