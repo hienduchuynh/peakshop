@@ -66,6 +66,7 @@
 
 .email-signup-banner__box {
   max-width: 70rem;
+  border: 2px solid rgb(var(--color-base-outline-button-labels));
 }
 
 .email-signup-banner__box .email-signup-banner__heading {
