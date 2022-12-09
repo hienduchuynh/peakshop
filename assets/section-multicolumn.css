@@ -621,6 +621,10 @@
   align-items: stretch;
 }
 
+.shopping-guide .media img {
+  width: 3.2rem;
+}
+
 .shopping-guide .custom-model-main {
   text-align: center;
   overflow: hidden;
