@@ -27,7 +27,7 @@
 
 {%- endstyle -%}
 <div class="section-{{ section.id }}-padding main-collection-products">
-  <div class="{% if section.settings.filter_type == 'vertical' or section.settings.filter_type == 'offcanvas' %} facets-vertical page-width{% endif %}">
+  <div class="{% if section.settings.filter_type == 'vertical' or section.settings.filter_type == 'offcanvas' %} facets-vertical page-width{% endif %} {% if section.settings.filter_type == 'offcanvas' %}facets-off-canvas{% endif %}" id="{% if section.settings.filter_type == 'offcanvas' %}facets-off-canvas{% endif %}">
     {{ 'component-facets.css' | asset_url | stylesheet_tag }}
     <script src="{{ 'facets.js' | asset_url }}" defer="defer"></script>
     <aside aria-labelledby="verticalTitle" class="facets-wrapper{% unless section.settings.enable_filtering %} facets-wrapper--no-filters{% endunless %}{% if section.settings.filter_type == 'horizontal' or section.settings.filter_type == 'drawer' %} page-width{% endif %}" id="main-collection-filters" data-id="{{ section.id }}">
@@ -46,6 +46,17 @@
         {%- comment -%} <facet-filters-form class="facets facets-vertical-sort small-hide no-js-hidden"> {%- endcomment -%}
         <facet-filters-form class="facets facets-vertical-sort tablet-down-hide no-js-hidden">
           <form class="facets-vertical-form" id="FacetSortForm">
+            {% if section.settings.filter_type == 'offcanvas' %}
+              <summary class="mobile-facets__open-wrapper focus-offset" id="filter-off-canvas">
+                <span class="mobile-facets__open">
+                  {% render 'icon-filter' %}
+                  <span class="mobile-facets__open-label">
+                      {{ 'products.facets.filter_button' | t }}
+                  </span>
+                </span>
+                <span tabindex="0" class="mobile-facets__close mobile-facets__close--no-js">{%- render 'icon-close' -%}</span>
+              </summary>
+            {% endif %}
             <div class="product-count-vertical light" role="status">
               <h2 class="product-count__text text-body">
                 <span id="ProductCountDesktop">
@@ -145,7 +156,13 @@
 
 <script type="text/javascript">
   window.addEventListener('DOMContentLoaded', (event) => {
-
+    {% if section.settings.filter_type == 'offcanvas' %}
+      var el = document.getElementById('filter-off-canvas');
+      var elfacets = document.getElementById('facets-off-canvas');
+      el.onclick = function() {
+        elfacets.classList.toggle('open-facets');
+      }
+    {% endif %}
     var filterEl = [];
 
     const sortBy = document.querySelectorAll('select#SortBy')[1];
