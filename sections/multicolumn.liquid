@@ -130,7 +130,7 @@
                 {%- endif -%}
 
                 {%- if block.settings.text != blank -%}
-                  <div class="rte">{{ block.settings.text }}</div>
+                  <div class="rte">{{ block.settings.text | truncatewords: 100 }}</div>
                 {%- endif -%}
                 {%- if block.settings.link_label != blank -%}
                   <a class="{% if block.settings.link_style == 'link' %}link animate-arrow hightlight-link link--text{% elsif block.settings.link_style == 'solid' %}button{% else %}button button--secondary{% endif %}" {% if block.settings.link == blank %}role="link" aria-disabled="true"{% else %}href="{{ block.settings.link }}"{% endif %}>{{ block.settings.link_label | escape }}<span class="icon-wrap">&nbsp;{% render 'icon-arrow' %}</span></a>
