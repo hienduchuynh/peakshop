@@ -621,7 +621,7 @@
   align-items: stretch;
 }
 
-.shopping-guide .media {
+div.shopping-guide .media {
   display: inline-block;
   width: 60px;
   height: 60px;
