@@ -150,6 +150,7 @@
             "heading": "Description",
             "icon": "none",
             "content": "<p>{{ product.metafields.custom.product_detail | metafield_tag }}<\/p>",
+            "description": false,
             "image_ratio": "43",
             "page": ""
           }
@@ -160,6 +161,7 @@
             "heading": "Additional Information",
             "icon": "none",
             "content": "<p>{{ product.metafields.custom._additional_information | metafield_tag }}<\/p>",
+            "description": false,
             "image_ratio": "43",
             "page": ""
           }
@@ -170,6 +172,18 @@
             "heading": "More",
             "icon": "none",
             "content": "<p>Our fashion consultants are on hand & ready to support you.Get in touch via our contact form here.<\/p>",
+            "description": false,
+            "image_ratio": "43",
+            "page": ""
+          }
+        },
+        "9d69b8fa-2168-4960-8c44-1db10c4cf754": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Desc test",
+            "icon": "check_mark",
+            "content": "",
+            "description": true,
             "image_ratio": "43",
             "page": ""
           }
@@ -178,7 +192,8 @@
       "block_order": [
         "d12a6838-f7f5-4693-a9b4-e19b80592a10",
         "60ec516c-2d9f-48d1-abba-a3b3f44a543c",
-        "4d16be99-0cc5-4a35-8c00-63510ede95b5"
+        "4d16be99-0cc5-4a35-8c00-63510ede95b5",
+        "9d69b8fa-2168-4960-8c44-1db10c4cf754"
       ],
       "settings": {
         "collapsible_type": "tabs",
