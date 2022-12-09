@@ -81,7 +81,7 @@
     </div>
     <script>
       window.addEventListener("load", function() {
-        var container = document.getElementById("TabDetails-{{ section.id }}");
+        var container = document.getElementById("TabDetails-     {{ section.id }}");
         var tabcon = document.getElementById("tabscontent");
         var navitem = document.getElementById("tabHeader-1");
         var ident = navitem.id.split("-")[1];
@@ -380,7 +380,7 @@
             "type": "checkbox",
             "id": "description",
             "default": false,
-            "label": "t:sections.collapsible_info_product.settings.description.label"
+            "label": "t:sections.collapsible_info_product.blocks.collapsible_tab.settings.description.label"
           }, {
             "type": "image_picker",
             "id": "image",
@@ -445,7 +445,8 @@
         "unit": "%",
         "label": "t:sections.collapsible_info_product.settings.box_width.label",
         "default": 50
-      }, {
+      },
+      {
         "type": "select",
         "id": "collapsible_tab_header_position",
         "options": [
