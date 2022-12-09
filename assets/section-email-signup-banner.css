@@ -49,7 +49,7 @@
   }
 }
 
-@media screen and (max-width: 989px) {
+@media screen and (min-width: 750px) and (max-width: 989px) {
   .email-signup-banner .email-signup-banner__box > *,
   .email-signup-banner .email-signup-banner__box .field__input,
   .email-signup-banner .email-signup-banner__box label {
