@@ -618,7 +618,7 @@
 /* Pop Up  */
 
 .shopping-guide .multicolumn-list {
-  align-items: center;
+  align-items: stretch;
 }
 
 .shopping-guide .custom-model-main {
