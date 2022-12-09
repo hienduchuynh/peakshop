@@ -149,7 +149,7 @@
           "settings": {
             "heading": "Overview",
             "icon": "none",
-            "content": "",
+            "content": "<p>ssss<\/p>",
             "description": false,
             "image_ratio": "43",
             "page": ""
