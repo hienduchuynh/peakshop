@@ -93,10 +93,9 @@
 .tab__content div {
 	display: block !important;
 }
-.tab__content div > p:first-child{ 
+.tab__content div > p:first-child {
 	margin-top: 0;
 }
-
 .tab__content img {
 	max-width: 100%;
 }
