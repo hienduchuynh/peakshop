@@ -126,7 +126,7 @@
       "settings": {
         "title": "",
         "sub-title": "",
-        "mod_class": "",
+        "mod_class": "shopping-guide",
         "heading_size": "h0",
         "layout": "grid",
         "image_width": "full",
