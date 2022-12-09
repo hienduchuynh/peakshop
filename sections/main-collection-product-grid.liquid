@@ -26,7 +26,6 @@
   }
 
 {%- endstyle -%}
-{{ section.settings.filter_type }}
 <div class="section-{{ section.id }}-padding main-collection-products">
   <div class="{% if section.settings.filter_type == 'vertical' or section.settings.filter_type == 'offcanvas' %} facets-vertical page-width{% endif %}">
     {{ 'component-facets.css' | asset_url | stylesheet_tag }}

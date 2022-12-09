@@ -430,9 +430,7 @@
 }
 
 @media screen and (max-width: 749px) {
-  .main-collection-collection01 .clients-list,
-  .main-collection-collection02 .clients-list,
-  .main-collection .clients-list {
+  .collection-page .clients-list {
     margin-bottom: 1.5rem;
   }
 }
@@ -442,20 +440,10 @@
     width: calc(33.33% - var(--grid-desktop-horizontal-spacing) * 2 / 3);
     max-width: calc(33.33% - var(--grid-desktop-horizontal-spacing) * 2 / 3);
   }
-  .main-collection-collection01 .clients-list,
-  .main-collection-collection02 .clients-list,
-  .main-collection .clients-list {
+  .collection-page .clients-list {
     --grid-desktop-vertical-spacing: 0px;
   }
-  .main-collection-collection01
-    .clients-list
-    .multicolumn-list__item
-    .content-container,
-  .main-collection-collection02
-    .clients-list
-    .multicolumn-list__item
-    .content-container,
-  .main-collection .clients-list .multicolumn-list__item .content-container {
+  .collection-page .clients-list .multicolumn-list__item .content-container {
     border: 0;
     border-top: var(--text-boxes-border-width) solid
       rgba(var(--color-foreground), var(--text-boxes-border-opacity));
@@ -463,35 +451,17 @@
 }
 
 @media screen and (min-width: 990px) {
-  .main-collection-collection01 .clients-list .multicolumn-list,
-  .main-collection-collection02 .clients-list .multicolumn-list,
-  .main-collection .clients-list .multicolumn-list {
+  .collection-page .multicolumn-list {
     justify-content: space-between;
   }
-  .main-collection-collection01
-    .clients-list
-    .multicolumn-list__item
-    .content-container,
-  .main-collection-collection02
-    .clients-list
-    .multicolumn-list__item
-    .content-container,
-  .main-collection .clients-list .multicolumn-list__item .content-container {
+  .collection-page .clients-list .multicolumn-list__item .content-container {
     border: 0;
     border-right: var(--text-boxes-border-width) solid
       rgba(var(--color-foreground), var(--text-boxes-border-opacity));
     border-top: var(--text-boxes-border-width) solid
       rgba(var(--color-foreground), var(--text-boxes-border-opacity));
   }
-  .main-collection-collection01
-    .clients-list
-    .multicolumn-list__item:last-of-type
-    .content-container,
-  .main-collection-collection02
-    .clients-list
-    .multicolumn-list__item:last-of-type
-    .content-container,
-  .main-collection
+  .collection-page
     .clients-list
     .multicolumn-list__item:last-of-type
     .content-container {
