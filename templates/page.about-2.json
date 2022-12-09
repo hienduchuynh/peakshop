@@ -155,126 +155,6 @@
         "addition_class": ""
       }
     },
-    "11f4ff02-80a9-4fc1-8a07-9a4d70c1b955": {
-      "type": "image-with-text",
-      "disabled": true,
-      "blocks": {
-        "template--17150322376979__11f4ff02-80a9-4fc1-8a07-9a4d70c1b955-1670292908792d1159-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Provide perfect and practical services",
-            "heading_size": "h2"
-          }
-        },
-        "template--17150322376979__11f4ff02-80a9-4fc1-8a07-9a4d70c1b955-1670292908792d1159-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Lorem quis bibendum auctar, nisi elit consequat ipsum, nec sagittis sem nibh id elit.<\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "template--17150322376979__11f4ff02-80a9-4fc1-8a07-9a4d70c1b955-1670292908792d1159-0",
-        "template--17150322376979__11f4ff02-80a9-4fc1-8a07-9a4d70c1b955-1670292908792d1159-1"
-      ],
-      "settings": {
-        "class_suffix": "about-us-2-section-1",
-        "image": "shopify:\/\/shop_images\/slide-01.jpg",
-        "height": "small",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "border_thickness": 0,
-        "border_opacity": 0
-      }
-    },
-    "6b6ef46b-2a73-4e5e-bb36-9f5fe54e6403": {
-      "type": "image-with-text",
-      "disabled": true,
-      "blocks": {
-        "template--17150322376979__6b6ef46b-2a73-4e5e-bb36-9f5fe54e6403-1670292908792d1159-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Provide fashionable andqualifed products",
-            "heading_size": "h2"
-          }
-        },
-        "template--17150322376979__6b6ef46b-2a73-4e5e-bb36-9f5fe54e6403-1670292908792d1159-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Already millions of people are very satisfied by thi. s page builder and the number is growing more and more. Technolog developing, requirements are increasing. Riode has brought.<\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "template--17150322376979__6b6ef46b-2a73-4e5e-bb36-9f5fe54e6403-1670292908792d1159-0",
-        "template--17150322376979__6b6ef46b-2a73-4e5e-bb36-9f5fe54e6403-1670292908792d1159-1"
-      ],
-      "settings": {
-        "class_suffix": "about-us-2-section-1 child-2",
-        "image": "shopify:\/\/shop_images\/collection-3.jpg",
-        "height": "small",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "border_thickness": 0,
-        "border_opacity": 0
-      }
-    },
-    "90fa3700-becd-4a06-9f5f-d7ace3d0d5f0": {
-      "type": "image-with-text",
-      "disabled": true,
-      "blocks": {
-        "template--17150322376979__90fa3700-becd-4a06-9f5f-d7ace3d0d5f0-1670292908792d1159-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Expect RestlessAmazing Support",
-            "heading_size": "h2"
-          }
-        },
-        "template--17150322376979__90fa3700-becd-4a06-9f5f-d7ace3d0d5f0-1670292908792d1159-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Already millions of people are very satisfied by thi. s page builder and the number is growing more and more. Technolog developing, requirements are increasing. Riode has brought.<\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "template--17150322376979__90fa3700-becd-4a06-9f5f-d7ace3d0d5f0-1670292908792d1159-0",
-        "template--17150322376979__90fa3700-becd-4a06-9f5f-d7ace3d0d5f0-1670292908792d1159-1"
-      ],
-      "settings": {
-        "class_suffix": "about-us-2-section-1 last-child",
-        "image": "shopify:\/\/shop_images\/slide-03.jpg",
-        "height": "small",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "border_thickness": 0,
-        "border_opacity": 0
-      }
-    },
     "04c80791-1da3-4243-b726-b523ed26e116": {
       "type": "multicolumn",
       "blocks": {
@@ -501,9 +381,6 @@
     "b0961093-e7aa-4fc4-97ce-69426f4fca14",
     "0991cb4c-9273-472d-9388-1a9a116ad516",
     "5fef454b-1f05-4575-9b6f-c5a7d137e593",
-    "11f4ff02-80a9-4fc1-8a07-9a4d70c1b955",
-    "6b6ef46b-2a73-4e5e-bb36-9f5fe54e6403",
-    "90fa3700-becd-4a06-9f5f-d7ace3d0d5f0",
     "04c80791-1da3-4243-b726-b523ed26e116",
     "508c9098-19c4-46b5-919e-556c33cf1227"
   ]
