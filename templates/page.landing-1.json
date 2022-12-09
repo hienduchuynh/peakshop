@@ -124,7 +124,7 @@
         "change_slides_speed": 3,
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand",
-        "padding_top": 24,
+        "padding_top": 0,
         "padding_bottom": 0,
         "addition_class": "landing-page"
       }
@@ -253,8 +253,8 @@
         "description": "",
         "full_width": true,
         "color_scheme": "background-1",
-        "padding_top": 24,
-        "padding_bottom": 24
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "047e13eb-9c05-4800-be6b-69ad4ea6d4f1": {
