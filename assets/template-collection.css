@@ -363,15 +363,15 @@
     overflow: hidden;
   }
 	.facets-off-canvas .facets-wrapper {
-		-webkit-animation: animation-facets-hide 400ms forwards;
-		animation: animation-facets-hide 400ms forwards;
+		-webkit-animation: animation-facets-hide 300ms forwards;
+		animation: animation-facets-hide 300ms forwards;
 		margin-left: -372px;
 		opacity: 0;
 		visibility: hidden;
 	}
 	.facets-off-canvas.open-facets .facets-wrapper {
-		-webkit-animation: animation-facets-show 400ms forwards;
-		animation: animation-facets-show 400ms forwards;
+		-webkit-animation: animation-facets-show 300ms forwards;
+		animation: animation-facets-show 300ms forwards;
 		margin-left: 0px;
 		opacity: 1;
 		visibility: visible;
