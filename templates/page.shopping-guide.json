@@ -22,7 +22,7 @@
             "icon_position": "left",
             "text": "<p>Order online by 3pm for same day* in store pickup, prior to store closing hours. Orders placed after 3pm will be available for pickup the next day*.<\/p>",
             "link_label": "View Details",
-            "link": "",
+            "link": "#",
             "link_style": "link",
             "padding_left": 32,
             "padding_right": 32,
