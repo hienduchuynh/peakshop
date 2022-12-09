@@ -358,38 +358,46 @@
 	}
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 1200px) {
+  .facets-off-canvas {
+    overflow: hidden;
+  }
 	.facets-off-canvas .facets-wrapper {
+		-webkit-animation: animation-facets-hide 400ms forwards;
+		animation: animation-facets-hide 400ms forwards;
 		margin-left: -372px;
-    opacity: 0;
-    -webkit-animation:  animation-facets-hide 400ms forwards;
-    animation:  animation-facets-hide 400ms forwards;
+		opacity: 0;
+		visibility: hidden;
 	}
 	.facets-off-canvas.open-facets .facets-wrapper {
-		visibility: visible;
+		-webkit-animation: animation-facets-show 400ms forwards;
+		animation: animation-facets-show 400ms forwards;
+		margin-left: 0px;
 		opacity: 1;
-    -webkit-animation:  animation-facets-show 400ms forwards;
-    animation:  animation-facets-show 400ms forwards;
+		visibility: visible;
 	}
 	@-webkit-keyframes animation-facets-hide {
 		0% {
 			margin-left: 0px;
+      opacity: 1;
+      visibility: visible;
 		}
 		100% {
 			margin-left: -372px;
 			visibility: hidden;
-			opacity: 0;
+      opacity: 0;
 		}
 	}
 	@-webkit-keyframes animation-facets-show {
 		0% {
 			margin-left: -372px;
 			opacity: 0;
+      visibility: hidden;
 		}
 		100% {
-      visibility: visible;
 			margin-left: 0px;
 			opacity: 1;
+			visibility: visible;
 		}
 	}
 }
