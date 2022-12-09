@@ -50,7 +50,8 @@
 }
 
 @media screen and (max-width: 989px) {
-  .email-signup-banner .email-signup-banner__box > * {
+  .email-signup-banner .email-signup-banner__box > *,
+  .email-signup-banner .email-signup-banner__box .field__input {
     color: rgb(var(--color-base-background-1)) !important;
   }
 }
