@@ -46,7 +46,7 @@
         "template--17150322376979__b0961093-e7aa-4fc4-97ce-69426f4fca14-1670576032829c6c90-0"
       ],
       "settings": {
-        "layout": "grid--gapless",
+        "layout": "full_bleed",
         "slide_height": "small",
         "slider_visual": "counter",
         "auto_rotate": false,
@@ -92,7 +92,7 @@
         "template--17150322376979__0991cb4c-9273-472d-9388-1a9a116ad516-1670576032829c6c90-0"
       ],
       "settings": {
-        "layout": "grid--gapless",
+        "layout": "full_bleed",
         "slide_height": "small",
         "slider_visual": "counter",
         "auto_rotate": false,
@@ -138,7 +138,7 @@
         "template--17150322376979__5fef454b-1f05-4575-9b6f-c5a7d137e593-1670576032829c6c90-0"
       ],
       "settings": {
-        "layout": "grid--gapless",
+        "layout": "full_bleed",
         "slide_height": "small",
         "slider_visual": "counter",
         "auto_rotate": false,
@@ -157,6 +157,7 @@
     },
     "11f4ff02-80a9-4fc1-8a07-9a4d70c1b955": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "template--17150322376979__11f4ff02-80a9-4fc1-8a07-9a4d70c1b955-1670292908792d1159-0": {
           "type": "heading",
@@ -196,6 +197,7 @@
     },
     "6b6ef46b-2a73-4e5e-bb36-9f5fe54e6403": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "template--17150322376979__6b6ef46b-2a73-4e5e-bb36-9f5fe54e6403-1670292908792d1159-0": {
           "type": "heading",
@@ -235,6 +237,7 @@
     },
     "90fa3700-becd-4a06-9f5f-d7ace3d0d5f0": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "template--17150322376979__90fa3700-becd-4a06-9f5f-d7ace3d0d5f0-1670292908792d1159-0": {
           "type": "heading",
