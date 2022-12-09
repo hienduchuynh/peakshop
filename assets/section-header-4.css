@@ -132,3 +132,38 @@
 .header__menu-item:hover > span:before {
     width: 150%;
 }
+
+.header-04 .menu-drawer__utility-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 989px) { 
+    .header-04 .header__icons .header__search {
+        display: none;
+    }
+    
+    .header-04 .menu-drawer__navigation-container {
+        display: block;
+    }
+
+    .header-04 header-drawer .search-wrap {
+        justify-self: auto;
+        padding: 2.4rem 3.2rem 0;
+    }
+
+    .header-04 .menu-drawer__utility-links {
+        padding-left: 3.2rem;
+        padding-right: 3.2rem;
+    }
+
+    .header-04 .menu-drawer__navigation {
+        padding-top: 2.4rem;
+        padding-bottom: 2.4rem;
+    }
+
+    .header-04 .menu-drawer .list-social,
+    .header-04 .menu-drawer__account {
+        margin: 0;
+    }
+}
