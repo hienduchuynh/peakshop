@@ -36,7 +36,7 @@
             "link2": "",
             "link_style2": "solid",
             "text_alignment": "center",
-            "image_overlay_opacity": 0,
+            "image_overlay_opacity": 100,
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
