@@ -3900,8 +3900,8 @@
               "label": "Heading"
             },
             "description": {
-              "info": "Nếu bạn chọn thì description sẽ đc show thay vì item content",
-              "label": "Show desc content"
+              "info": "Nếu bạn chọn thì Product description sẽ đc show thay vì item content",
+              "label": "Show Product Description"
             },
             "content": {
               "label": "Item content"
