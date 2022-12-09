@@ -3899,6 +3899,10 @@
               "info": "Include a heading that explains the content.",
               "label": "Heading"
             },
+            "description": {
+              "info": "Nếu bạn chọn thì description sẽ đc show thay vì item content",
+              "label": "Show desc content"
+            },
             "content": {
               "label": "Item content"
             },
