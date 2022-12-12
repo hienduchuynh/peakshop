@@ -47,7 +47,7 @@
       ],
       "settings": {
         "layout": "grid",
-        "slide_height": "small",
+        "slide_height": "square",
         "slider_visual": "counter",
         "auto_rotate": false,
         "change_slides_speed": 5,
