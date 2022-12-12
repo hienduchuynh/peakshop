@@ -36,7 +36,7 @@
             "link2": "",
             "link_style2": "solid",
             "text_alignment": "center",
-            "image_overlay_opacity": 0,
+            "image_overlay_opacity": 100,
             "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
@@ -46,7 +46,7 @@
         "template--17150322376979__b0961093-e7aa-4fc4-97ce-69426f4fca14-1670576032829c6c90-0"
       ],
       "settings": {
-        "layout": "full_bleed",
+        "layout": "grid",
         "slide_height": "small",
         "slider_visual": "counter",
         "auto_rotate": false,
@@ -92,7 +92,7 @@
         "template--17150322376979__0991cb4c-9273-472d-9388-1a9a116ad516-1670576032829c6c90-0"
       ],
       "settings": {
-        "layout": "full_bleed",
+        "layout": "grid",
         "slide_height": "small",
         "slider_visual": "counter",
         "auto_rotate": false,
@@ -138,7 +138,7 @@
         "template--17150322376979__5fef454b-1f05-4575-9b6f-c5a7d137e593-1670576032829c6c90-0"
       ],
       "settings": {
-        "layout": "full_bleed",
+        "layout": "grid",
         "slide_height": "small",
         "slider_visual": "counter",
         "auto_rotate": false,
@@ -152,7 +152,7 @@
         "border_bottom_thickness": 0,
         "border_left_thickness": 0,
         "border_opacity": 0,
-        "addition_class": "about-2"
+        "addition_class": "about-2 last-element"
       }
     },
     "04c80791-1da3-4243-b726-b523ed26e116": {
