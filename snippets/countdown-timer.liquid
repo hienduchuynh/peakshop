@@ -44,15 +44,19 @@
 
  <style> 
 
-   .timer { 
-
-     background: #f6fafd; 
-
-     padding: 10px; 
-
-     margin: 10px 0; 
-
-   } 
+  .timer {
+    left: 50%;
+    top: 50%;
+    position: relative;
+    width: 80%;
+    height: auto;
+    z-index: 100;
+    background-color: rgba(0,0,0,0.4);
+    max-width: 80%;
+    display: inline-block;
+    margin: 0 auto;
+    transform: translate(-50%, -50%);
+  }
 
    .timer--expired { 
 
