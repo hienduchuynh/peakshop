@@ -43,6 +43,7 @@
         "2fc29e48-d715-4fbb-98ef-97405268bf85"
       ],
       "settings": {
+        "mod_class": "shopping-guide",
         "page_title": "Shopping Guide",
         "description": "",
         "alignment_title": "left",
