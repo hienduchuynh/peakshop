@@ -64,7 +64,7 @@
         <div class="list-blogs">
           <div class="blog-articles {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}{% if section.settings.layout == 'grid' %}blog-articles--grid{% endif %}">
             {%- for article in blog.articles -%}
-              <div class="blog-articles__article article">
+              <div class="blog-articles__article article article-{{ forloop.index }}">
                 {%- render 'article-card',
                   article: article,
                   media_height: section.settings.image_height,
@@ -76,33 +76,32 @@
                   alignment_content: alignment_content
                   alignment__vertical: alignment__vertical
                 -%}
-              </div>
-              
-              {% if section.settings.enable_modal %}
-                <div>
-                  <modal-opener 
-                    class="" 
-                    data-modal="#PopupModal-{{ article.id }}" 
-                    {% comment %} {{ block.shopify_attributes }} {% endcomment %}
-                  >
-                    <button 
-                      id="ProductPopup-{{ article.id }}" 
-                      class="product-popup-modal__button link" 
-                      type="button" 
-                      aria-haspopup="dialog"
+                {% if section.settings.enable_modal %}
+                  <div class="popup-detail">
+                    <modal-opener 
+                      class="" 
+                      data-modal="#PopupModal-{{ article.id }}" 
                     >
-                    </button>
-                  </modal-opener>
-                  <quick-view-modal id="QuickView-{{ article.id }}" class="quick-view-modal">
-                    <div role="dialog" aria-modal="true" class="quick-view-modal__content global-settings-popup" tabindex="-1">
-                      <button id="ModalClose-{{ article.id }}" type="button" class="quick-view-modal__toggle" aria-label="{{ 'accessibility.close' | t }}">{% render 'icon-close' %}</button>
-                      <div id="QuickViewInfo-{{ article.id }}" class="quick-view-modal__content-info">
-                        {{ article.content }}
+                      <button 
+                        id="ProductPopup-{{ article.id }}" 
+                        class="product-popup-modal__button link" 
+                        type="button" 
+                        aria-haspopup="dialog"
+                      >
+                      </button>
+                    </modal-opener>
+                    <quick-view-modal id="QuickView-{{ article.id }}" class="quick-view-modal">
+                      <div role="dialog" aria-modal="true" class="quick-view-modal__content global-settings-popup" tabindex="-1">
+                        <button id="ModalClose-{{ article.id }}" type="button" class="quick-view-modal__toggle" aria-label="{{ 'accessibility.close' | t }}">{% render 'icon-close' %}</button>
+                        <div id="QuickViewInfo-{{ article.id }}" class="quick-view-modal__content-info">
+                          {{ article.content }}
+                        </div>
                       </div>
-                    </div>
-                  </quick-view-modal>
-                </div>
-              {% endif %}
+                    </quick-view-modal>
+                  </div> 
+                  </script>
+                {% endif %}
+              </div>
             {%- endfor -%}
           </div>
         </div>
