@@ -217,7 +217,7 @@
   gap: 0;
 }
 
-.about-2.last-element .ja-slider .slideshow .slideshow__slide::last-of-type {
+.about-2.last-element .ja-slider .slideshow .slideshow__slide {
   border-bottom: var(--card-border-width) solid rgba(var(--color-foreground));
 }
 
