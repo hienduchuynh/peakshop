@@ -43,6 +43,10 @@
 .announcement-bar__message p {
   margin:  0;
 }
+
+.landing-page {
+  border-bottom: 2px solid rgba(var(--color-base-outline-button-labels)) ;
+}
 {% endstyle %}
 <div class="announcement-bar gradient {% if section.settings.container %}announcement--container container{% endif %}" role="region" aria-label="{{ 'sections.header.announcement' | t }}">
   <div class="{% if section.settings.full_width %}announcement--full-width{%- else -%}page-width{% endif %}">

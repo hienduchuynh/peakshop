@@ -515,6 +515,10 @@
 }
 
 /* Landing Page */
+.landing-page {
+  border-bottom: 2px solid rgba(var(--color-base-outline-button-labels)) !important;
+}
+
 .landing-page .banner__box.content-container {
   border: 0;
   padding: 0;
