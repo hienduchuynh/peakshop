@@ -77,6 +77,32 @@
                   alignment__vertical: alignment__vertical
                 -%}
               </div>
+              
+              {% if section.settings.enable_modal %}
+                <div>
+                  <modal-opener 
+                    class="" 
+                    data-modal="#PopupModal-{{ article.id }}" 
+                    {% comment %} {{ block.shopify_attributes }} {% endcomment %}
+                  >
+                    <button 
+                      id="ProductPopup-{{ article.id }}" 
+                      class="product-popup-modal__button link" 
+                      type="button" 
+                      aria-haspopup="dialog"
+                    >
+                    </button>
+                  </modal-opener>
+                  <quick-view-modal id="QuickView-{{ article.id }}" class="quick-view-modal">
+                    <div role="dialog" aria-modal="true" class="quick-view-modal__content global-settings-popup" tabindex="-1">
+                      <button id="ModalClose-{{ article.id }}" type="button" class="quick-view-modal__toggle" aria-label="{{ 'accessibility.close' | t }}">{% render 'icon-close' %}</button>
+                      <div id="QuickViewInfo-{{ article.id }}" class="quick-view-modal__content-info">
+                        {{ article.content }}
+                      </div>
+                    </div>
+                  </quick-view-modal>
+                </div>
+              {% endif %}
             {%- endfor -%}
           </div>
         </div>
@@ -206,6 +232,12 @@
       ],
       "default": "left",
       "label": "t:sections.main-blog.settings.alignment.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_modal",
+      "default": false,
+      "label": "Enable Modal"
     },
     {
       "type": "header",
