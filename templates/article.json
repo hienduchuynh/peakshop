@@ -71,9 +71,9 @@
       ],
       "settings": {
         "alignment_title": "center",
-        "show_tags": false,
-        "show_share": false,
-        "show_previous_next_buttons": false,
+        "show_tags": true,
+        "show_share": true,
+        "show_previous_next_buttons": true,
         "show_sidebar": false,
         "show_collapse": true,
         "enable_sticky": true,
