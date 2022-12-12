@@ -53,6 +53,10 @@
           width="{{ section.settings.image.width }}"
           height="{{ section.settings.image.width | divided_by: section.settings.image.aspect_ratio }}"
         >
+        {% include 'countdown-timer', 
+        title: "Special Offer End In", 
+        end_date: "Dec 14, 2022"
+        %} 
       {%- else -%}
         {%- render 'email-signup-banner-background' -%}
         {%- render 'email-signup-banner-background-mobile' -%}
@@ -110,11 +114,6 @@
             </div>
         {%- endcase -%}
       {%- endfor -%}
-
-      {% include 'countdown-timer', 
-        title: "Special Offer End In", 
-        end_date: "Dec 14, 2022"
-      %} 
     </div>
   </div>
 </div>
