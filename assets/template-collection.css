@@ -401,3 +401,9 @@
 		}
 	}
 }
+
+/* Landing Page */
+
+.landing-page {
+  border-bottom: 2px solid rgba(var(--color-base-outline-button-labels)) ;
+}
