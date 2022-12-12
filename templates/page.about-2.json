@@ -92,7 +92,7 @@
         "template--17150322376979__0991cb4c-9273-472d-9388-1a9a116ad516-1670576032829c6c90-0"
       ],
       "settings": {
-        "layout": "full_bleed",
+        "layout": "grid",
         "slide_height": "small",
         "slider_visual": "counter",
         "auto_rotate": false,
@@ -138,7 +138,7 @@
         "template--17150322376979__5fef454b-1f05-4575-9b6f-c5a7d137e593-1670576032829c6c90-0"
       ],
       "settings": {
-        "layout": "full_bleed",
+        "layout": "grid",
         "slide_height": "small",
         "slider_visual": "counter",
         "auto_rotate": false,
