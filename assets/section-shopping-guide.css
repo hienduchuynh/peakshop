@@ -1,0 +1,20 @@
+.main-shopping-guide .article-card__image {
+  border: 0;
+}
+
+.main-shopping-guide .article-card__image-wrapper {
+  width: 6.4rem;
+  height: 6.4rem;
+}
+
+.main-shopping-guide .card__inner{
+  justify-content: center;
+}
+
+.main-shopping-guide .card__inner::before {
+  padding-bottom: 0;
+}
+
+.main-shopping-guide .card  > .card__content {
+  margin: 0;
+}
