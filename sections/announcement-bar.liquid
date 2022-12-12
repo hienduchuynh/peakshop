@@ -48,7 +48,7 @@
   border-bottom: 2px solid rgba(var(--color-base-outline-button-labels)) ;
 }
 {% endstyle %}
-<div class="announcement-bar gradient {% if section.settings.container %}announcement--container container{% endif %}" role="region" aria-label="{{ 'sections.header.announcement' | t }}">
+<div class="announcement-bar gradient {% if section.settings.container %}announcement--container container{% endif %} {{ section.settings.mod_class }}" role="region" aria-label="{{ 'sections.header.announcement' | t }}">
   <div class="{% if section.settings.full_width %}announcement--full-width{%- else -%}page-width{% endif %}">
     <div class="announcement-bar-inner">
     {%- for block in section.blocks -%}
