@@ -38,7 +38,7 @@
   assign alignment__vertical = section.settings.alignment__vertical
 -%}
 
-<div data-section-id="{{ section.id }}" data-section-type="blog-layout-default" id="BlogSection-{{ section.id }}" data-section="{{ section.id }}" class="main-blog-block page-width blog-layout-default section-{{ section.id }}-padding {% if show_sidebar %} has-sidebar {% endif %}">
+<div data-section-id="{{ section.id }}" data-section-type="blog-layout-default" id="BlogSection-{{ section.id }}" data-section="{{ section.id }}" class="main-blog-block page-width blog-layout-default section-{{ section.id }}-padding {% if show_sidebar %} has-sidebar {% endif %} {{ section.settings.mod_class }}">
 
   <div class="header-page">
     <div class="wrap-title {% if alignment_title != blank %}{{ alignment_title }}{% endif %}">
