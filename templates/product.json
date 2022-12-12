@@ -111,6 +111,14 @@
             "image_ratio": "43",
             "page": ""
           }
+        },
+        "fb5182f1-a881-4519-a797-441c355c188b": {
+          "type": "custom_information",
+          "settings": {
+            "icon": "",
+            "title": "fdsf",
+            "text_description": ""
+          }
         }
       },
       "block_order": [
@@ -127,7 +135,8 @@
         "collapsible-row-3",
         "collapsible-row-2",
         "collapsible-row-1",
-        "collapsible-row-0"
+        "collapsible-row-0",
+        "fb5182f1-a881-4519-a797-441c355c188b"
       ],
       "settings": {
         "media_size": "medium",
