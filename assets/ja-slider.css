@@ -200,3 +200,14 @@
 		position: static;
 	}
 }
+
+/* About Us 2  */
+
+.about-2 .ja-slider .slideshow .slideshow_slide {
+  border:  var(--card-border-width) solid rgba(var(--color-foreground); 
+  border-bottom: 0;
+}
+
+.about-2 .ja-slider .slideshow .slideshow_slide {
+  border-top:  var(--card-border-width) solid rgba(var(--color-foreground);
+}
