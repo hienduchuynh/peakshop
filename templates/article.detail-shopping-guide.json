@@ -14,14 +14,8 @@
         "bb646369-fa26-4a54-9523-51fa8da87946": {
           "type": "title",
           "settings": {
-            "blog_show_date": true,
+            "blog_show_date": false,
             "blog_show_author": false
-          }
-        },
-        "featured_image": {
-          "type": "featured_image",
-          "settings": {
-            "image_height": "medium"
           }
         },
         "content": {
@@ -32,7 +26,6 @@
       },
       "block_order": [
         "bb646369-fa26-4a54-9523-51fa8da87946",
-        "featured_image",
         "content"
       ],
       "settings": {
