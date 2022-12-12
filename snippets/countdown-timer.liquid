@@ -1,6 +1,6 @@
 {% if end_date != blank %} 
 
- <div class="timer"> 
+ <div class="timer" id="countdown-timer"> 
 
    {% if title != blank %}<h4 class="timer__title">{{ title }}</h4>{% endif %} 
 
@@ -44,7 +44,7 @@
 
  <style> 
 
-  .email-signup-banner .timer {
+  #countdown-timer {
     left: 50%;
     top: 50%;
     position: relative;
