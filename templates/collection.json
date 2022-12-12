@@ -3,6 +3,9 @@
     "cde2e82e-9ee6-4ecc-91f6-a4cf4a607b02": {
       "type": "breadcrumb",
       "settings": {
+        "alignment_breadcrumb": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "banner": {
@@ -29,16 +32,11 @@
         "enable_quick_add": true,
         "show_product_description": true,
         "enable_filtering": true,
-        "filter_type": "drawer",
+        "filter_type": "offcanvas",
         "enable_sorting": true,
         "columns_mobile": "2",
         "padding_top": 24,
         "padding_bottom": 48,
-        "enable_sidebar_top_seller": false,
-        "carousels_total_products": 3,
-        "auto_rotate": false,
-        "slider_visual": "dots",
-        "change_slides_speed": 5,
         "enable_recently_products": false
       }
     },
@@ -158,10 +156,17 @@
         "button_label": "",
         "button_link": "",
         "color_scheme": "background-1",
+        "columns_tablet": "2",
+        "swipe_on_tablet": false,
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 0,
+        "border_top_thickness": 0,
+        "border_right_thickness": 0,
+        "border_bottom_thickness": 0,
+        "border_left_thickness": 0,
+        "border_opacity": 0
       }
     }
   },
