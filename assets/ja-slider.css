@@ -259,7 +259,8 @@
 }
 
 /* Grid Gapless */
-.about-2 .ja-slider .slideshow.grid--gapless {
+.about-2 .ja-slider .slideshow.grid--gapless, 
+.about-2 .ja-slider .slideshow.grid--full-width {
   border-left: 0;
   border-right: 0;
 }
