@@ -217,6 +217,10 @@
   gap: 0;
 }
 
+.about-2 .ja-slider .slideshow .slideshow__slide:last-child {
+  border-bottom: var(--card-border-width) solid rgba(var(--color-foreground));
+}
+
 .about-2 .ja-slider .content-box-align-right {
   border-right: var(--card-border-width) solid rgba(var(--color-foreground));
 }
