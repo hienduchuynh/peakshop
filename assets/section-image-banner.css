@@ -495,6 +495,10 @@
   }
 }
 
+.banner__box > * + .banner__buttons {
+  margin-top: 4.8rem;
+}
+
 @media screen and (min-width: 750px) {
   .banner--content-align-center .banner__buttons--multiple > * {
     flex-grow: 1;
@@ -504,10 +508,10 @@
   .banner--content-align-right .banner__buttons--multiple {
     justify-content: flex-end;
   }
-}
 
-.banner__box > * + .banner__buttons {
-  margin-top: 9.8rem;
+  .banner__box > * + .banner__buttons {
+    margin-top: 9.8rem;
+  }
 }
 
 /* Landing Page */
