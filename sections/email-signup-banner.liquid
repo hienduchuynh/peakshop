@@ -39,13 +39,13 @@
         {%- case block.type -%}
           {%- when 'countdown_timer' -%}
             <p>{{ block.settings.countdown-title }}</p>
-            <p>{{ block.settings.countdown-timer }}</p>
+            <p>{{ block.settings.countdown-title }}</p>
             {% include 'countdown-timer', 
               title: {{ block.settings.countdown-title }}, 
               end_date: {{ block.settings.countdown-timer }}
             %}
-        {% endcase %}
-      {% endfor %}
+        {%- endcase -%}
+      {%- endfor -%}
       
       {%- if section.settings.image != blank -%}
         <img
