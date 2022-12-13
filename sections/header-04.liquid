@@ -310,9 +310,24 @@
                         {% render 'icon-caret' %}
                       </summary>
                       <div id="MegaMenu-Content-{{ forloop.index }}" class="mega-menu__content gradient motion-reduce global-settings-popup {% if link.levels == 1 %} mega-menu__condensed{% endif %}" tabindex="-1">
-                        <ul class="mega-menu__list page-width{% if link.levels == 1 %} mega-menu__list--condensed{% endif %}" role="list">
+                        {% if link.levels > 1 %}
+                          {% assign i = 0 %}
                           {%- for childlink in link.links -%}
-                            <li>
+                            {% assign i = i | plus: 1 %}
+                          {%- endfor -%}
+                        {% endif %}
+                        <ul class="mega-menu__list page-width{% if link.levels == 1 %} mega-menu__list--condensed{% endif %} {% if link.levels > 1 %} grid grid--{{ i }}-col-desktop{% endif %}" role="list">
+                          {%- for childlink in link.links -%}
+                            <li class="{% if link.levels > 1 %}grid__item{% endif %}">
+                              {%- if childlink.url contains '/collections/' -%}
+                                {%- if collections[childlink.object.handle].image != blank -%}
+                                  <a
+                                    href="{{ childlink.url }}"
+                                    class="megamenu__colection-image"
+                                    aria-label="{{ collections[childlink.object.handle].title }}"
+                                    style="background-image: url({{ collections[childlink.object.handle].image | image_url: width: 500 }})"></a>
+                                {%- endif -%}
+                              {%- endif -%}
                               <a href="{{ childlink.url }}" class="mega-menu__link mega-menu__link--level-2 link{% if childlink.current %} mega-menu__link--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
                                 {{ childlink.title | escape }}
                               </a>

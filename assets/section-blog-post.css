@@ -211,8 +211,6 @@ header > span {
 }
 
 .previous_next_buttons .btn:hover {
-  background-color: rgba(var(--color-base-accent-1));
-  color: rgba(var(--color-base-background-1));
 }
 
 /* ========== Back To Blog
