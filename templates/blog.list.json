@@ -43,6 +43,7 @@
         "2fc29e48-d715-4fbb-98ef-97405268bf85"
       ],
       "settings": {
+        "mod_class": "",
         "page_title": "Blog List",
         "description": "",
         "alignment_title": "left",
@@ -184,7 +185,12 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 0,
+        "border_top_thickness": 2,
+        "border_right_thickness": 0,
+        "border_bottom_thickness": 0,
+        "border_left_thickness": 0,
+        "border_opacity": 100
       }
     }
   },
