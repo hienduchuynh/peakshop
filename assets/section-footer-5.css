@@ -138,3 +138,7 @@
 .footer-05 .footer__payment .list-payment {
 	justify-content: center;
 }
+
+.footer-05 .recently-viewed-inner {
+	display: none !important;
+}
