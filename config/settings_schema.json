@@ -1433,22 +1433,5 @@
         "default": true
       }
     ]
-  },
-  {
-    "name": "404",
-    "settings": [
-      {
-        "type": "text",
-        "id": "countdown-title",
-        "label": "Countdown Title",
-        "default": "Special Offer End In"
-      },
-      {
-        "type": "text",
-        "id": "countdown-timer",
-        "label": "Countdown Timer",
-        "default": "Dec 14, 2023"
-      }
-    ]
   }
 ]

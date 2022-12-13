@@ -110,14 +110,14 @@
     "show_vendor": true,
     "show_cart_note": false,
     "background_color": "#ffffff",
-    "countdown-title": "Special Offer End In The",
-    "countdown-timer": "Dec 22, 2022",
     "checkout_logo_image": "shopify:\/\/shop_images\/atoms-logo_ab356fac-ace1-43d8-8c8a-369c6f83533b.png",
     "checkout_body_background_color": "#ffffff",
     "checkout_sidebar_background_color": "#fafafa",
     "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
     "checkout_accent_color": "#212121",
     "checkout_button_color": "#212121",
+    "countdown-title": "Special Offer End In The",
+    "countdown-timer": "Dec 22, 2022",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
