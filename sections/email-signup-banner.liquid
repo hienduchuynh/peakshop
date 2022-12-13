@@ -41,7 +41,7 @@
             <p>{{ block.settings.countdown-title }}</p>
             <p>{{ block.settings.countdown-title }}</p>
             <div>
-              {% render 'countdown-timer', 
+              {% include 'countdown-timer', 
               title: {{ block.settings.countdown-title }}, 
               end_date: {{ block.settings.countdown-timer }}
               %}
