@@ -111,13 +111,6 @@
             "image_ratio": "43",
             "page": ""
           }
-        },
-        "76b46898-65be-4e36-ad79-731126cb80ae": {
-          "type": "popup",
-          "settings": {
-            "text": "Pop-up link text",
-            "page": ""
-          }
         }
       },
       "block_order": [
@@ -134,8 +127,7 @@
         "collapsible-row-3",
         "collapsible-row-2",
         "collapsible-row-1",
-        "collapsible-row-0",
-        "76b46898-65be-4e36-ad79-731126cb80ae"
+        "collapsible-row-0"
       ],
       "settings": {
         "media_size": "medium",
