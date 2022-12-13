@@ -87,17 +87,21 @@
                     <script>
                     // POP UP
                     document.addEventListener("DOMContentLoaded", () => {
-                      window.addEventListener("load", (event) => {
-                        let id_ChildElement = ".article-{{ forloop.index }}";
-
-                        document.querySelector(`${id_ChildElement}`).addEventListener("click", function() {
-                          document.querySelector(`${id_ChildElement} .custom-model-main`).classList.add('model-open');
-                        }); 
-
-                        document.querySelector(`${id_ChildElement} .close-btn`).addEventListener("click", function() {
-                          document.querySelector(`${id_ChildElement} .custom-model-main`).classList.remove('model-open');
-                        });
+                      let id_ChildElement = ".article-{{ forloop.index }}";
+                      var currentArticle = document.querySelector(`${id_ChildElement}`);
+                      var currModel = currentArticle.querySelector('.custom-model-main');
+              
+                      currentArticle.querySelector('.view-detail').addEventListener("click", function() {
+                        console.log(currModel);
+                        currModel.classList.add('model-open');
                       });
+              
+                      currentArticle.querySelector('.close-btn').addEventListener("click", function() {
+                        if (currModel.classList.contains('model-open')){
+                          currModel.classList.remove('model-open');
+                        }
+                      });
+              
                     });
                   </script>
                 {% endif %}
