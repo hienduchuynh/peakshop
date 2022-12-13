@@ -33,7 +33,7 @@
         "show_tags": false,
         "show_share": false,
         "show_previous_next_buttons": false,
-        "show_sidebar": false,
+        "show_sidebar": true,
         "show_collapse": false,
         "enable_sticky": false,
         "sidebar_position": "right",
