@@ -82,13 +82,14 @@
                       <button id="ArticlePopup-{{ article.id }}" 
                         class="article-popup-modal__button link variant" 
                         type="button" 
+                        nam="view"
                         aria-haspopup="dialog" 
                         aria-labelledby="{{ article.id }}-submit"
-                        data-product-url="{{ article.url }}">View detail</button>
+                        data-article-url="{{ article.url }}">View detail</button>
                     </modal-opener>
 
                     <article-modal id="ArticleModal-{{ article.id }}">
-                      <div role="dialog" aria-label="" aria-modal="true" class="article-modal__content global-settings-popup" tabindex="-1">
+                      <div role="dialog" aria-label="" aria-modal="true" class="article-modal article-modal__content global-settings-popup" tabindex="-1">
                         <button id="ModalClose-{{ article.id }}" type="button" class="article-modal__toggle" aria-label="{{ 'accessibility.close' | t }}">{% render 'icon-close' %}</button>
                         <div id="ArticleModalInfo-{{ article.id }}" class="article-modal__content-info">
                           {{ article.content }}
