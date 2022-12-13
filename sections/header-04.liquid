@@ -318,7 +318,7 @@
                         {% endif %}
                         <ul class="mega-menu__list page-width{% if link.levels == 1 %} mega-menu__list--condensed{% endif %} {% if link.levels > 1 %} grid grid--{{ i }}-col-desktop{% endif %}" role="list">
                           {%- for childlink in link.links -%}
-                            <li {% if link.levels > 1 %}grid__item{% endif %}>
+                            <li class="{% if link.levels > 1 %}grid__item{% endif %}">
                               {%- if childlink.url contains '/collections/' -%}
                                 {%- if collections[childlink.object.handle].image != blank -%}
                                   <a

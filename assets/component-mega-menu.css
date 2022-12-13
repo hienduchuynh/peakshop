@@ -161,9 +161,10 @@
 }
 
 .megamenu__colection-image:empty {
-  padding-bottom: 66.66%;
+  padding-bottom: 100%;
   margin-bottom: 1.2rem;
   display: block;
   background-repeat: no-repeat;
   background-size: cover;
+  border: var(--card-border-width) solid rgba(var(--color-foreground), var(--card-border-opacity));
 }
