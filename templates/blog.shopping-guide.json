@@ -19,7 +19,7 @@
         "show_image": true,
         "show_excerpt": true,
         "alignment_content": "center",
-        "enable_modal": true,
+        "enable_modal": false,
         "padding_top": 0,
         "padding_bottom": 0
       }
