@@ -40,10 +40,12 @@
           {%- when 'countdown_timer' -%}
             <p>{{ block.settings.countdown-title }}</p>
             <p>{{ block.settings.countdown-title }}</p>
-            {% render 'countdown-timer', 
+            <div>
+              {% render 'countdown-timer', 
               title: {{ block.settings.countdown-title }}, 
               end_date: {{ block.settings.countdown-timer }}
-            %}
+              %}
+            </div>
         {%- endcase -%}
       {%- endfor -%}
       
