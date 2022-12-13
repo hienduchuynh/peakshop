@@ -18,14 +18,23 @@
 }
 /* Title Page */
 .page--title {
-  margin: 0;
-  display: inline-block;
-  background-color: rgba(var(--color-base-accent-1));
-  color: #fff;
-  padding: 0.4rem 0.8rem;
-  line-height: 1;
-  font-size: 3.6rem;
-  font-weight: 700;
+  --color-background: 0, 0, 0;
+  --color-foreground: 255, 255, 255;
+  display: inline;
+  line-height: 1.8;
+  background: rgba(var(--color-background));
+  -webkit-box-shadow: -2.4rem 0 0 rgba(var(--color-background)),
+    2.4rem 0 0 rgba(var(--color-background));
+  box-shadow: -2.4rem 0 0 rgba(var(--color-background)),
+    2.4rem 0 0 rgba(var(--color-background));
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  color: rgba(var(--color-foreground));
+  display: inline;
+  margin-top: 0;
+  margin-bottom: 2.4rem;
+  margin-left: 2.4rem;
+  padding: 2px 0;
   text-transform: uppercase;
 }
 
