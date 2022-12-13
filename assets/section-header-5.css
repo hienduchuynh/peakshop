@@ -148,7 +148,7 @@ body.page-header-05 .header-wrapper {
     width: 0;
     height: 2px;
     top: 50%;
-    left: -25%;
+    left: -1.2rem;
     margin-top: -1px;
     background: rgb(var(--color-base-text));
     transition: all var(--duration-long) ease;
@@ -156,7 +156,7 @@ body.page-header-05 .header-wrapper {
 
 .header__menu-item > .header__active-menu-item:before,
 .header__menu-item:hover > span:before {
-    width: 150%;
+    width: calc(100% + 2.4rem);
 }
 
 .header-05 .menu-drawer__menu-item--active, 
