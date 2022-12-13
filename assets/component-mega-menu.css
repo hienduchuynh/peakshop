@@ -166,5 +166,23 @@
   display: block;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
   border: var(--card-border-width) solid rgba(var(--color-foreground), var(--card-border-opacity));
+}
+
+.megamenu__colection-image:empty:after {
+  content: '';
+  position: absolute;
+  width: calc(var(--card-border-width) * 2 + 100%);
+  height: calc(var(--card-border-width) * 2 + 100%);
+  top: calc(var(--card-border-width) * -1);
+  left: calc(var(--card-border-width) * -1);
+  z-index: -1;
+  border-radius: var(--card-corner-radius);
+  box-shadow: none;
+  transition: all var(--duration-long);
+}
+
+.megamenu__colection-image:empty:hover:after {
+  box-shadow: var(--card-shadow-horizontal-offset) var(--card-shadow-vertical-offset) var(--card-shadow-blur-radius) rgba(var(--color-shadow), var(--card-shadow-opacity));
 }
