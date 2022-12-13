@@ -49,11 +49,23 @@
   }
 }
 
-@media screen and (min-width: 750px) and (max-width: 989px) {
+@media screen and (max-width: 989px) {
   .email-signup-banner .email-signup-banner__box > *,
   .email-signup-banner .email-signup-banner__box .field__input,
   .email-signup-banner .email-signup-banner__box label {
     color: rgb(var(--color-base-background-1)) !important;
+  }
+
+}
+
+@media screen and (min-width: 750px) and (max-width: 989px) {
+  .email-signup-banner .newsletter-form__field-wrapper input{
+    border: 2px solid rgb(var(--color-base-solid-button-labels));
+  }
+
+  .email-signup-banner .newsletter-form__field-wrapper button {
+    background-color: rgba(var(--color-base-background-1));
+    color: rgb(var(--color-base-outline-button-labels));
   }
 }
 
@@ -167,4 +179,28 @@
   .banner--content-align-right .newsletter-form__message {
     justify-content: right;
   }
+}
+
+@media screen and (max-width: 990px) {
+  .email-signup-banner {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #password-page-has-image .email-signup-banner .banner__media {
+    position: static;
+    height: auto;
+  }
+
+  #password-page-has-image .email-signup-banner .banner__media::after{
+    display: none;
+  }
+
+  #password-page-has-image .email-signup-banner .banner__content {
+    position: static;
+  }
+}
+
+.password-modal .modal__content {
+  bottom: unset;
 }

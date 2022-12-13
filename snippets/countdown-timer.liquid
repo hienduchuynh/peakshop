@@ -69,19 +69,24 @@
      @extend .paragraph; 
      text-align: center; 
      padding: 2.4rem;
+     background-color: rgba(0,0,0,0.4); 
    } 
 
    .timer-display { 
-     display: flex; 
-    flex-wrap: wrap; 
-    justify-content: center;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
     margin-top: 1.2rem; 
     gap: 1.2rem;
-   } 
+   }
+   
+   @media screen and (max-width: 1499px) {
+    .timer-display { 
+      grid-template-columns: 1fr 1fr; 
+     }
+   }
 
    .timer-block { 
      position: relative; 
-     width: 20%; 
      padding: 2.4rem; 
      font-size: 2.4rem;
      background-color: rgba(0,0,0,0.4); 
