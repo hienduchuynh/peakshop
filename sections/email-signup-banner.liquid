@@ -38,6 +38,8 @@
       {%- for block in section.blocks -%}
         {%- case block.type -%}
           {%- when 'countdown-timer' -%}
+            <p{{ block.settings.countdown-title }}></p>
+            <p{{ block.settings.countdown-timer }}></p>
             {% include 'countdown-timer', 
               title: {{ block.settings.countdown-title }}, 
               end_date: {{ block.settings.countdown-timer }}
