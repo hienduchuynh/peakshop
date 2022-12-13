@@ -110,6 +110,8 @@
     "show_vendor": true,
     "show_cart_note": false,
     "background_color": "#ffffff",
+    "countdown-title": "Special Offer End In The",
+    "countdown-timer": "Dec 22, 2022",
     "checkout_logo_image": "shopify:\/\/shop_images\/atoms-logo_ab356fac-ace1-43d8-8c8a-369c6f83533b.png",
     "checkout_body_background_color": "#ffffff",
     "checkout_sidebar_background_color": "#fafafa",
