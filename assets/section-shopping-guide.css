@@ -19,7 +19,41 @@
   margin: 0;
 }
 
+
+.main-shopping-guide .card-wrapper {
+  position: relative;
+}
+
+.main-shopping-guide .title-shopping-guide {
+  --color-background: 0, 0, 0;
+    --color-foreground: 255, 255, 255;
+    background: rgba(var(--color-background));
+    -webkit-box-shadow: -0.4rem 0 0 rgba(var(--color-background)), 0.4rem 0 0 rgba(var(--color-background));
+    box-shadow: -0.4rem 0 0 rgba(var(--color-background)), 0.4rem 0 0 rgba(var(--color-background));
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    color: rgba(var(--color-foreground));
+    display: inline;
+    margin-top: 0;
+    margin-bottom: 0.4rem;
+    margin-left: 0.4rem;
+    padding: 2px 0;
+    text-transform: uppercase;
+    line-height: 1.85;
+    font-weight: normal;
+}
+
 /* Pop Up  */
+.article-overlay {
+  background-color: transparent;
+  display: inline-block !important;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
 
 .main-shopping-guide .multicolumn-list {
   align-items: stretch;

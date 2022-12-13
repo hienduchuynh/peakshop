@@ -26,6 +26,7 @@
 
   <div class="card-wrapper bg-links-hover">
     {% comment %} <article aria-labelledby="Article-{{ article.id }}"> {% endcomment %}
+    <div class="article-overlay"></div>
     <div class="card article-card
       card--{{ settings.card_style }}
       {% if media_height and media_height != 'adapt' %} article-card__image--{{ media_height }} {% endif %}
@@ -113,9 +114,13 @@
             {%- endif -%}
           </div>
           <h3 class="card__heading{% if show_excerpt %} h5{% endif %}">
-            <a href="{{ article.url }}" class="full-unstyled-link">
-              {{ article.title | escape }}
-            </a>
+            {% if template == "blog.shopping-guide" and enable_modal %}
+              <div class="title-shopping-guide">{{ article.title | escape }}</div>
+            {% else %}
+              <a href="{{ article.url }}" class="full-unstyled-link">
+                {{ article.title | escape }}
+              </a>
+            {% endif %}
           </h3>
           {%- if show_excerpt -%}
             {%- if article.excerpt.size > 0 or article.content.size > 0 -%}

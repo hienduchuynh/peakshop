@@ -68,9 +68,9 @@
                   show_excerpt: show_excerpt,
                   alignment_content: alignment_content
                   alignment__vertical: alignment__vertical
+                  enable_modal: section.settings.enable_modal
                 -%}
-                {% if section.settings.enable_modal %}
-                    <div class="view-detail">View Detail</div>  
+                {% if section.settings.enable_modal %} 
                     <div class="custom-model-main">
                       <div class="custom-model-inner">        
                         <div class="close-btn">{% render 'icon-close' %}</div>
@@ -91,7 +91,7 @@
                       var currentArticle = document.querySelector(`${id_ChildElement}`);
                       var currModel = currentArticle.querySelector('.custom-model-main');
               
-                      currentArticle.querySelector('.view-detail').addEventListener("click", function() {
+                      currentArticle.querySelector('.article-{{ forloop.index }} .article-overlay').addEventListener("click", function() {
                         console.log(currModel);
                         currModel.classList.add('model-open');
                       });
