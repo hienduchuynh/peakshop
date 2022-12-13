@@ -21,13 +21,6 @@
 {%- liquid
   assign page_title = section.settings.page_title
   assign alignment_title = section.settings.alignment_title
-  assign show_sidebar = section.settings.show_sidebar
-  if show_sidebar
-      assign show_collapse = section.settings.show_collapse
-      assign sidebar_position = section.settings.sidebar_position
-      assign sidebar_collapse_default = section.settings.sidebar_collapse_default
-      assign enable_sticky = section.settings.enable_sticky
-  endif
 
   assign layout_article = section.settings.layout
   assign number_article_per_page = section.settings.number_article
@@ -59,7 +52,7 @@
 
   {%- paginate blog.articles by number_article_per_page -%}
   <div class="main-blog">
-    <div class="wrap-inner {% if show_sidebar %}{% if sidebar_position == "right" %}sidebar-right{% endif %} {% if sidebar_position == "left" %}sidebar-left{% endif %}{% endif %} {% if layout_article == "collapse" %}layout-collapse{% endif %}">
+    <div class="wrap-inner {% if layout_article == "collapse" %}layout-collapse{% endif %}">
       {%- if blog.articles_count > 0 -%}
         <div class="list-blogs">
           <div class="blog-articles {% if section.settings.layout == 'collage' %}blog-articles--collage{% endif %}{% if section.settings.layout == 'grid' %}blog-articles--grid{% endif %}">
@@ -77,26 +70,36 @@
                   alignment__vertical: alignment__vertical
                 -%}
                 {% if section.settings.enable_modal %}
-                  <div class="popup-detail">
-                    <modal-opener class="" data-modal="#ArticleModal-{{ article.id }}">
-                      <button id="ArticlePopup-{{ article.id }}" 
-                        class="article-popup-modal__button link variant" 
-                        type="button" 
-                        nam="view"
-                        aria-haspopup="dialog" 
-                        aria-labelledby="{{ article.id }}-submit"
-                        data-article-url="{{ article.url }}">View detail</button>
-                    </modal-opener>
+                    <div class="view-detail">View Detail</div>  
+                    <div class="custom-model-main">
+                      <div class="custom-model-inner">        
+                        <div class="close-btn">{% render 'icon-close' %}</div>
+                        <div class="custom-model-wrap">
+                          {%- if article.content != blank -%}
+                            {{ article.content }}
+                          {% else %}
+                            "No Content"
+                          {%- endif -%}
+                        </div>  
+                      </div>  
+                      <div class="bg-overlay"></div>
+                    </div>
+                    <script>
+                    // POP UP
+                    document.addEventListener("DOMContentLoaded", () => {
+                      window.addEventListener("load", (event) => {
+                        let id_ChildElement = ".article-{{ forloop.index }}";
 
-                    <article-modal id="ArticleModal-{{ article.id }}">
-                      <div role="dialog" aria-label="" aria-modal="true" class="article-modal article-modal__content global-settings-popup" tabindex="-1">
-                        <button id="ModalClose-{{ article.id }}" type="button" class="article-modal__toggle" aria-label="{{ 'accessibility.close' | t }}">{% render 'icon-close' %}</button>
-                        <div id="ArticleModalInfo-{{ article.id }}" class="article-modal__content-info">
-                          {{ article.content }}
-                        </div>
-                      </div>
-                    </article-modal>
-                  </div>
+                        document.querySelector(`${id_ChildElement}`).addEventListener("click", function() {
+                          document.querySelector(`${id_ChildElement} .custom-model-main`).classList.add('model-open');
+                        }); 
+
+                        document.querySelector(`${id_ChildElement} .close-btn`).addEventListener("click", function() {
+                          document.querySelector(`${id_ChildElement} .custom-model-main`).classList.remove('model-open');
+                        });
+                      });
+                    });
+                  </script>
                 {% endif %}
               </div>
             {%- endfor -%}

@@ -117,18 +117,19 @@
   right: 0;
   bottom: 0;
   z-index: 0;
-  -webkit-transition: background 0.15s linear;
-  -o-transition: background 0.15s linear;
   transition: background 0.15s linear;
 }
 .main-shopping-guide .close-btn {
   position: absolute;
-  right: 0;
-  top: -30px;
+  right: -31px;
+  top: 0px;
   cursor: pointer;
   z-index: 99;
-  font-size: 30px;
   color: #fff;
+  width: 32px;
+  height: 32px;
+  background-color: #000;
+  padding: 2px;
 }
 
 @media screen and (min-width: 800px) {
