@@ -78,10 +78,23 @@
                 -%}
                 {% if section.settings.enable_modal %}
                   <div class="popup-detail">
-                    <modal-opener class="product-popup-modal__opener no-js-hidden quick-add-hidden" data-modal="#PopupModal-{{ article.id }}" {{ block.shopify_attributes }}>
-                      <button id="ProductPopup-{{ article.id }}" class="product-popup-modal__button link" type="button" aria-haspopup="dialog">View detail</button>
+                    <modal-opener class="" data-modal="#ArticleModal-{{ article.id }}">
+                      <button id="ArticlePopup-{{ article.id }}" 
+                        class="article-popup-modal__button link variant" 
+                        type="button" 
+                        aria-haspopup="dialog" 
+                        aria-labelledby="{{ article.id }}-submit"
+                        data-product-url="{{ article.url }}">View detail</button>
                     </modal-opener>
-                    <a href="{{ article.url }}" class="product-popup-modal__button link no-js">View Detail</a>
+
+                    <article-modal id="ArticleModal-{{ article.id }}">
+                      <div role="dialog" aria-label="" aria-modal="true" class="article-modal__content global-settings-popup" tabindex="-1">
+                        <button id="ModalClose-{{ article.id }}" type="button" class="article-modal__toggle" aria-label="{{ 'accessibility.close' | t }}">{% render 'icon-close' %}</button>
+                        <div id="ArticleModalInfo-{{ article.id }}" class="article-modal__content-info">
+                          {{ article.content }}
+                        </div>
+                      </div>
+                    </article-modal>
                   </div>
                 {% endif %}
               </div>

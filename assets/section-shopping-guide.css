@@ -150,3 +150,7 @@
 .main-shopping-guide .custom-model-main div:empty {
   display: block;
 }
+
+article-modal {
+  display: none;
+}
