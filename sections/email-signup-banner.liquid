@@ -36,8 +36,8 @@
 <div id="Banner-{{ section.id }}" class="email-signup-banner banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.image_height == 'adapt-image' and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}">
     <div class="banner__media{% if section.settings.image != blank %} media{% endif %}">
       {% include 'countdown-timer', 
-        title: {{ settings.countdown-title }}, 
-        end_date: {{ settings.countdown-timer }}
+        title: {{ section.settings.countdown-title }}, 
+        end_date: {{ section.settings.countdown-timer }}
       %} 
       {%- if section.settings.image != blank -%}
         <img
@@ -296,6 +296,24 @@
       "type": "email_form",
       "name": "t:sections.email-signup-banner.blocks.email_form.name",
       "limit": 1
+    },
+    {
+    "type": "countdown_timer",
+    "name": "Countdown Timer",
+    "settings": [
+      {
+        "type": "text",
+        "id": "countdown-title",
+        "label": "Countdown Title",
+        "default": "Special Offer End In"
+      },
+      {
+        "type": "text",
+        "id": "countdown-timer",
+        "label": "Countdown Timer",
+        "default": "Dec 14, 2023"
+      }
+    ]
     }
   ],
   "presets": [
