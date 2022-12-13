@@ -44,6 +44,7 @@
             %}
         {% endcase %}
       {% endfor %}
+      
       {%- if section.settings.image != blank -%}
         <img
           srcset="{%- if section.settings.image.width >= 375 -%}{{ section.settings.image | image_url: width: 375 }} 375w,{%- endif -%}
