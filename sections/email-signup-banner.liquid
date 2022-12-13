@@ -37,7 +37,7 @@
     <div class="banner__media{% if section.settings.image != blank %} media{% endif %}">
       {%- for block in section.blocks -%}
         {%- case block.type -%}
-          {%- when 'countdown-timer' -%}
+          {%- when 'countdown_timer' -%}
             <p{{ block.settings.countdown-title }}></p>
             <p{{ block.settings.countdown-timer }}></p>
             {% include 'countdown-timer', 
