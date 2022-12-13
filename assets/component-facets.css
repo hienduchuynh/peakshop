@@ -41,6 +41,9 @@
 	.facet-filters {
 		padding-left: 0;
 	}
+	.facet-filters.sorting{ 
+		grid-area: sort;
+	}
 }
 
 .facet-filters__label {
@@ -1071,8 +1074,9 @@ input.mobile-facets__checkbox {
 		overflow: hidden;
 	}
 	.facets-vertical-form {
-		display: flex;
-		justify-content: space-between;
+		display: grid;
+		grid-template-areas: "filter count sort";
+    grid-template-columns: 1fr auto 1fr;
 		margin-bottom: 16px;
 	}
 	.facets-vertical-form * {
@@ -1100,6 +1104,7 @@ input.mobile-facets__checkbox {
 	.product-count-vertical {
 		margin-left: 0;
 		display: none;
+		grid-area: count;
 	}
 	.facets-vertical .active-facets__button-wrapper {
 		margin-bottom: 2rem;

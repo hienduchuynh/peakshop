@@ -159,6 +159,10 @@
     {% if section.settings.filter_type == 'offcanvas' %}
       var el = document.getElementById('filter-off-canvas');
       var elfacets = document.getElementById('facets-off-canvas');
+      var fl = document.getElementsByClassName('active-facets__button-inner');
+      if (fl.length > 0) {
+        elfacets.classList.add('open-facets');
+      }
       el.onclick = function() {
         elfacets.classList.toggle('open-facets');
       }
