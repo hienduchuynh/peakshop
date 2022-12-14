@@ -202,6 +202,13 @@ slider-component.slider-component-full-width {
     }
 }
 
+@media screen and (max-width: 749px) {
+    .slider-component-full-width .slider--desktop .slider__slide:first-child {
+      margin-left: 0;
+      scroll-margin-left: 0;
+    }
+}
+
 @media (prefers-reduced-motion) {
     .slider {
         scroll-behavior: auto;

@@ -107,6 +107,12 @@
 	border-bottom: 2px solid rgba(var(--color-foreground), 0.2);
 }
 
+@media screen and (max-width: 749px) {
+	.footer-05 .title-wrapper-03 {
+		display: none;
+	}
+}
+
 .footer-05 .footer__content-bottom {
 	border-top: 2px solid rgba(var(--color-foreground), 0.2);
 }
