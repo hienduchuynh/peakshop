@@ -2,6 +2,17 @@
 	border: 2px solid rgba(0, 0, 0, 100);
     border-top: 0;
 }
+.collection-hero__title {
+	margin: 0;
+	text-transform: uppercase;
+	padding-top: 64px;
+	padding-bottom: 64px;
+}
+.collection-hero__title span {
+	background: #000;
+	color: #fff;
+	padding: 0 10px;
+}
 
 .main-list-collections > .section {
 	margin-top: 0;

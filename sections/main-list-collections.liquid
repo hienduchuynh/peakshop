@@ -6,33 +6,33 @@
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
-
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
-
   .section-{{ section.id }}-padding .title {
     margin-top: 0;
   }
 {%- endstyle -%}
 
 <div class="page-width section-{{ section.id }}-padding">
-  <h2 class="title title--primary h2">{{ section.settings.title | escape }}</h2>
-  {%- liquid
-    case section.settings.sort
-      when 'products_high' or 'products_low'
-        assign collections = collections | sort: 'all_products_count'
-      when 'date' or 'date_reversed'
-        assign collections = collections | sort: 'published_at'
-    endcase
-
-    if section.settings.sort == 'products_high' or section.settings.sort == 'date_reversed' or section.settings.sort == 'alphabetical_reversed'
-      assign collections = collections | reverse
-    endif
-  -%}
+  <h2 class="collection-hero__title h1">
+    <span>{{ section.settings.title | escape }}</span>
+  </h2>
+  {%- liquid 
+ case section.settings.sort 
+ when 'products_high' or 'products_low' 
+ assign collections = collections | sort: 'all_products_count' 
+ when 'date' or 'date_reversed' 
+ assign collections = collections | sort: 'published_at' 
+ endcase 
+ 
+ if section.settings.sort == 'products_high' or section.settings.sort == 'date_reversed' or section.settings.sort == 'alphabetical_reversed' 
+ assign collections = collections | reverse 
+ endif 
+ -%}
   <ul class="collection-list grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down grid--1-col-mobile-down" role="list">
     {%- for collection in collections -%}
       <li class="collection-list__item grid__item">
