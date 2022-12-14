@@ -9,7 +9,7 @@
       }
     },
     "main": {
-      "type": "main-product-06",
+      "type": "main-product-05",
       "blocks": {
         "vendor": {
           "type": "text",
@@ -233,7 +233,7 @@
       "type": "ja-recent-products",
       "settings": {
         "title": "Recent Product",
-        "heading_size": "h4",
+        "heading_size": "h3",
         "title_style": "01",
         "description": "",
         "description_style": "body",
