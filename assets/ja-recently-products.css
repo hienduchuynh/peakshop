@@ -91,3 +91,8 @@
     width: 90%;
   }
 }
+
+.recently-viewed-wrap .card .card__information {
+  padding-left: 0;
+  padding-right: 0;
+}
