@@ -136,9 +136,17 @@
   font-weight: normal;
 }
 
+.faqs-page summary{
+  transition: all .1s ease-out;
+}
+
+.faqs-page summary:hover {
+  background-color: var(--gradient-base-accent-1);
+}
+
 .faqs-page summary:hover .accordion__title {
+  color: #fff;
   text-decoration: none;
-  color: var(--gradient-base-accent-3);
 }
 
 .faqs-page .collapsible-content__wrapper {
@@ -156,7 +164,11 @@
 }
 
 .faqs-page .collapsible-row-layout .accordion summary[aria-expanded="true"] {
-  border-bottom: 2px solid rgba(var(--color-base-outline-button-labels));
+  background-color: var(--gradient-base-accent-1);
+}
+
+.faqs-page .collapsible-row-layout .accordion summary[aria-expanded="true"] h3{
+  color: #fff;
 }
 
 @media screen and (min-width: 950px) {

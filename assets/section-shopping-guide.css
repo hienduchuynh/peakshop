@@ -1,5 +1,6 @@
 .main-shopping-guide .article-card__image {
   border: 0;
+  background-color: transparent;
 }
 
 .main-shopping-guide .article-card__image-wrapper {
