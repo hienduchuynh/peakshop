@@ -892,3 +892,16 @@ li[data-address] > h2, .edit-address > h2 {
   width: 15rem;
   font-weight: 700;
 }
+
+/* Filed  */
+.customer .field::after,
+.customer .field:hover.field:after {
+  box-shadow: none;
+  border: 0;
+}
+
+
+.customer input:focus {
+  box-shadow: none !important;
+}
+
