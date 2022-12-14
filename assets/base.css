@@ -2209,6 +2209,7 @@ details[open] > .share-button__fallback {
 	padding: 1.2rem 1.6rem;
 	margin: var(--inputs-border-width);
 	transition: box-shadow var(--duration-short) ease;
+  border: var(--text-boxes-border-width) solid rgba(var(--color-foreground), var(--text-boxes-border-opacity));;
 }
 
 .field__label,
