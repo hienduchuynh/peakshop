@@ -5,17 +5,32 @@
 
 @media screen and (min-width: 750px) {
   .customer {
-    padding: 4.8rem 1.5rem;
+    padding: 4.8rem 4.8rem;
   }
 }
 
 /* Title */
-.customer h1 {
-  margin: 0 auto 1.6rem;
-  background-color: rgba(var(--color-base-text));
-  display: inline-flex;
-  color: white;
-  padding: 4px 8px;
+.customer h1,
+.customer h2 {
+  --color-background: 0, 0, 0;
+  --color-foreground: 255, 255, 255;
+  background: rgba(var(--color-background));
+  -webkit-box-shadow: -2.4rem 0 0 rgba(var(--color-background)),2.4rem 0 0 rgba(var(--color-background));
+  box-shadow: -2.4rem 0 0 rgba(var(--color-background)),2.4rem 0 0 rgba(var(--color-background));
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  color: rgba(var(--color-foreground));
+  display: inline;
+  margin-top: 0;
+  margin-bottom: 2.4rem;
+  margin-left: 2.4rem;
+  padding: 0;
+  text-transform: uppercase;
+  line-height: 1.6;
+}
+
+.customer h2 {
+  font-size: 2.4rem;
 }
 
 /* Breadcrumb */
@@ -520,7 +535,6 @@
 @media screen and (min-width: 990px) {
   :is(.account, .order) > div:nth-of-type(2) {
     display: flex;
-    margin-top: 5rem;
   }
 }
 
@@ -551,12 +565,24 @@
 }
 
 :is(.account, .order) h2 {
-  margin: 4rem auto 1rem;
 }
 
 @media screen and (min-width: 990px) {
   :is(.account, .order) h2 {
     margin-top: 0;
+  }
+}
+
+.account  div:first-child {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: calc(var(--grid-desktop-vertical-spacing));
+}
+
+@media screen and (max-width: 990px) {
+  .account div:first-child {
+    margin-bottom: calc(var(--grid-desktop-vertical-spacing)/2);
   }
 }
 
@@ -774,6 +800,11 @@
 
 /* ===== Addresses
 ======================== */
+
+.addresses > a {
+  display: block;
+  margin-top: calc(var(--grid-desktop-vertical-spacing)/2);
+}
 
 .addresses li > button {
   margin-left: 0.5rem;
