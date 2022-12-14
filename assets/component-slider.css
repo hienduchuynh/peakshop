@@ -191,6 +191,17 @@ slider-component.slider-component-full-width {
     }
 }
 
+@media screen and (max-width: 1199px) {
+    .slider-component-full-width .slider--desktop .slider__slide:first-child {
+      margin-left: var(--desktop-margin-left-first-item);
+      scroll-margin-left: var(--desktop-margin-left-first-item);
+    }
+
+    .slider-component-full-width .slider--desktop .slider__slide:last-child {
+      margin-right: var(--grid-desktop-horizontal-spacing);
+    }
+}
+
 @media (prefers-reduced-motion) {
     .slider {
         scroll-behavior: auto;
