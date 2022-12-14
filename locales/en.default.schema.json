@@ -207,6 +207,9 @@
     "drawers": {
       "name": "Drawers"
     },
+    "shop_now": {
+      "name": "Shop Now"
+    },
     "styles": {
       "name": "Icons",
       "settings": {
