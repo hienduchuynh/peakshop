@@ -1,10 +1,10 @@
 /* Header 04 */
 .header-wrapper {
-    z-index: 3;
+    z-index: 5;
 }
 
 .shopify-section-header-sticky {
-    z-index: 3;
+    z-index: 5;
 }
 
 .header-04 {
