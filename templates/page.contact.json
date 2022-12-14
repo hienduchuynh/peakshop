@@ -4,6 +4,9 @@
       "type": "breadcrumb",
       "disabled": true,
       "settings": {
+        "alignment_breadcrumb": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "cd4880b2-bfb4-4aae-959f-a06cba5e6b15": {
@@ -23,6 +26,7 @@
     "main": {
       "type": "main-page",
       "settings": {
+        "alignment_title": "left",
         "padding_top": 48,
         "padding_bottom": 0,
         "suffix-class": "contact-heading"
@@ -38,7 +42,7 @@
             "address": "Dr. Florian Proell & Colleagues, Cicerostrabe 21, 10709 Berlin",
             "phone-1": "(+49) 30 880911 0",
             "phone-2": "(+49) 30 880911 0",
-            "web-address": "https:\/\/joomlart-atoms.myshopify.com\/"
+            "web-address": "https:\/\/joomlart-peakshop.myshopify.com\/"
           }
         }
       },
