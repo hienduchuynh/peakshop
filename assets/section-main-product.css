@@ -1915,7 +1915,7 @@ a.product__text {
 }
 .product-page [data-block-handle='reviews'] .spr-form-input:not(div),
 .product-page [data-block-handle='reviews'] .spr-form-input-text {
-	border: 2px solid rgba(0,0,0,100);
+	border: var(--text-boxes-border-width) solid rgba(var(--color-foreground), var(--text-boxes-border-opacity));
 	min-height: 48px;
 	padding: 20px;
 }
