@@ -43,7 +43,9 @@
 }
 
 .card--card:hover:after,
-.card--standard:hover .card__inner:after {
+.card--standard:hover .card__inner:after,
+.article-overlay:hover + .card--card:after,
+.article-overlay:hover + .card--standard .card__inner:after {
     box-shadow: var(--card-shadow-horizontal-offset) var(--card-shadow-vertical-offset) var(--card-shadow-blur-radius) rgba(var(--color-shadow), var(--card-shadow-opacity));
 }
 
