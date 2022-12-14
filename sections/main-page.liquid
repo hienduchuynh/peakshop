@@ -19,7 +19,7 @@
 {%- endstyle -%}
 
 <div class="page-width section-{{ section.id }}-padding {{ section.settings.suffix-class }}">
-  <h1 class="main-page-title page-title h2 {% if section.settings.alignment_title != blank %}{{ section.settings.alignment_title }}{% endif %}">
+  <h1 class="main-page-title page-title h2 {{ section.settings.alignment_title }}">
     {{ page.title | escape }}
     
   </h1>
