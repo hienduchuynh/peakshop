@@ -25,7 +25,7 @@
     "main": {
       "type": "main-page",
       "settings": {
-        "alignment_title": "left",
+        "alignment_title": "center",
         "padding_top": 48,
         "padding_bottom": 0,
         "suffix-class": "contact-heading"
