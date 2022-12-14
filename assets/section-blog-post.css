@@ -270,15 +270,48 @@ header > span {
 
 .article-template__comments-comment p {
   margin: 0;
+  padding: var(--grid-desktop-vertical-spacing);
+  background-color: rgba(0,0,0,0.06);
+  font-size: 1.3rem;
 }
 
 /* Post Comment */
+.article-template__comments-comment > div {
+  margin-bottom: calc(var(--grid-desktop-vertical-spacing) / 2);
+}
+
 .article-template__comments-fields {
   margin-bottom: 4rem;
 }
 
+.article-template__comments-fields .field::after {
+  box-shadow: none;
+  border: 0;
+}
+
+.article-template__comments-fields .field:hover.field:after {
+  box-shadow: none;
+  border: 0;
+}
+
+.article-template__comments-fields .field__input:focus {
+  box-shadow: none;
+}
+
+.article-template__comments-fields input,
+.article-template__comments-fields textarea {
+  border: 2px solid #ececec;
+  height: 5.6rem;
+  padding: 1.3rem 1.6rem;
+}
+
+.article-template__comments-fields input:focus,
+.article-template__comments-fields .field__input:not(:placeholder-shown) {
+  padding: 1.3rem 1.6rem;
+}
+
 .article-template__comment-fields > * {
-  margin-bottom: 3rem;
+  margin-bottom: var(--grid-desktop-vertical-spacing);
 }
 
 @media screen and (min-width: 750px) {
@@ -306,4 +339,21 @@ header > span {
 .cmt-title {
   border-top: 0.1rem solid rgba(var(--color-foreground), 0.08);
   padding-top: calc(2 * var(--grid-desktop-vertical-spacing));
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.article-template__comments-comment > div span {
+  font-size: 1.3rem;
+  font-style: italic;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.article-template__comment-wrapper .field__label {
+  top: 0;
+  left: 0;
+  position: relative;
+  display: inline;
 }

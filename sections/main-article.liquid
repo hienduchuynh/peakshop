@@ -210,70 +210,77 @@
 
             <div{% if blog.moderated? == false %} class="article-template__comments-fields"{% endif %}>
               <div class="article-template__comment-fields">
-                <div class="field field--with-error">
-                  <input
-                    type="text"
-                    name="comment[author]"
-                    id="CommentForm-author"
-                    class="field__input"
-                    autocomplete="name"
-                    value="{{ form.author }}"
-                    aria-required="true"
-                    required
-                    {% if form.errors contains 'author' %}
-                      aria-invalid="true"
-                      aria-describedby="CommentForm-author-error"
-                    {% endif %}
-                    placeholder="{{ 'blogs.article.name' | t }}"
-                  >
+                <div>
                   <label class="field__label" for="CommentForm-author">{{ 'blogs.article.name' | t }} <span aria-hidden="true">*</span></label>
-                  {%- if form.errors contains 'author' -%}
-                    <small id="CommentForm-author-error">
-                      <span class="form__message">{% render 'icon-error' %}{{ 'blogs.article.name' | t }} {{ form.errors.messages['author'] }}.</span>
-                    </small>
-                  {%- endif -%}
+                  <div class="field field--with-error">
+                    <input
+                      type="text"
+                      name="comment[author]"
+                      id="CommentForm-author"
+                      class="field__input"
+                      autocomplete="name"
+                      value="{{ form.author }}"
+                      aria-required="true"
+                      required
+                      {% if form.errors contains 'author' %}
+                        aria-invalid="true"
+                        aria-describedby="CommentForm-author-error"
+                      {% endif %}
+                      placeholder="{{ 'blogs.article.name' | t }}"
+                    >
+                    {%- if form.errors contains 'author' -%}
+                      <small id="CommentForm-author-error">
+                        <span class="form__message">{% render 'icon-error' %}{{ 'blogs.article.name' | t }} {{ form.errors.messages['author'] }}.</span>
+                      </small>
+                    {%- endif -%}
+                  </div>
                 </div>
-                <div class="field field--with-error">
-                  <input
-                    type="email"
-                    name="comment[email]"
-                    id="CommentForm-email"
-                    autocomplete="email"
-                    class="field__input"
-                    value="{{ form.email }}"
-                    autocorrect="off"
-                    autocapitalize="off"
-                    aria-required="true"
-                    required
-                    {% if form.errors contains 'email' %}
-                      aria-invalid="true"
-                      aria-describedby="CommentForm-email-error"
-                    {% endif %}
-                    placeholder="{{ 'blogs.article.email' | t }}"
-                  >
+
+                <div>
                   <label class="field__label" for="CommentForm-email">{{ 'blogs.article.email' | t }} <span aria-hidden="true">*</span></label>
-                  {%- if form.errors contains 'email' -%}
-                    <small id="CommentForm-email-error">
-                      <span class="form__message">{% render 'icon-error' %}{{ 'blogs.article.email' | t }} {{ form.errors.messages['email'] }}.</span>
-                    </small>
-                  {%- endif -%}
+                  <div class="field field--with-error">
+                    <input
+                      type="email"
+                      name="comment[email]"
+                      id="CommentForm-email"
+                      autocomplete="email"
+                      class="field__input"
+                      value="{{ form.email }}"
+                      autocorrect="off"
+                      autocapitalize="off"
+                      aria-required="true"
+                      required
+                      {% if form.errors contains 'email' %}
+                        aria-invalid="true"
+                        aria-describedby="CommentForm-email-error"
+                      {% endif %}
+                      placeholder="{{ 'blogs.article.email' | t }}"
+                    >
+                    {%- if form.errors contains 'email' -%}
+                      <small id="CommentForm-email-error">
+                        <span class="form__message">{% render 'icon-error' %}{{ 'blogs.article.email' | t }} {{ form.errors.messages['email'] }}.</span>
+                      </small>
+                    {%- endif -%}
+                  </div>
                 </div>
               </div>
-              <div class="field field--with-error">
-                <textarea
-                  rows="5"
-                  name="comment[body]"
-                  id="CommentForm-body"
-                  class="text-area field__input"
-                  aria-required="true"
-                  required
-                  {% if form.errors contains 'body' %}
-                    aria-invalid="true"
-                    aria-describedby="CommentForm-body-error"
-                  {% endif %}
-                  placeholder="{{ 'blogs.article.message' | t }}"
-                >{{ form.body }}</textarea>
-                  <label class="form__label field__label" for="CommentForm-body">{{ 'blogs.article.message' | t }} <span aria-hidden="true">*</span></label>
+              <div>
+                <label class="form__label field__label" for="CommentForm-body">{{ 'blogs.article.message' | t }} <span aria-hidden="true">*</span></label>
+                <div class="field field--with-error">
+                  <textarea
+                    rows="5"
+                    name="comment[body]"
+                    id="CommentForm-body"
+                    class="text-area field__input"
+                    aria-required="true"
+                    required
+                    {% if form.errors contains 'body' %}
+                      aria-invalid="true"
+                      aria-describedby="CommentForm-body-error"
+                    {% endif %}
+                    placeholder="{{ 'blogs.article.message' | t }}"
+                  >{{ form.body }}</textarea>
+                </div>
               </div>
               {%- if form.errors contains 'body' -%}
                 <small id="CommentForm-body-error">
