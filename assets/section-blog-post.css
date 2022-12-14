@@ -292,12 +292,6 @@ header > span {
   box-shadow: none;
 }
 
-.article-template__comments-fields input {
-  min-height: 48px;
-  padding: 20px;
-}
-
-
 .article-template__comments-fields input:focus,
 .article-template__comments-fields .field__input:not(:placeholder-shown) {
   padding: 1.3rem 1.6rem;
