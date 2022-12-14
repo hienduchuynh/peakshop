@@ -92,13 +92,14 @@
                       var currModel = currentArticle.querySelector('.custom-model-main');
               
                       currentArticle.querySelector('.article-{{ forloop.index }} .article-overlay').addEventListener("click", function() {
-                        console.log(currModel);
                         currModel.classList.add('model-open');
+                        document.querySelector('body').style.overflow = "hidden";
                       });
               
                       currentArticle.querySelector('.close-btn').addEventListener("click", function() {
                         if (currModel.classList.contains('model-open')){
                           currModel.classList.remove('model-open');
+                          document.querySelector('body').style.overflow = "auto";
                         }
                       });
               
