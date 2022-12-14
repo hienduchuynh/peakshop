@@ -11,6 +11,10 @@
 	max-width: calc(100% - var(--grid-mobile-horizontal-spacing) / 2);
 }
 
+.footer-05 .footer-block--main .footer__content__right .grid__item:last-child {
+	padding-right: 0;
+}
+
 .footer-05 .footer-block--main .footer__content__left > * {
 	text-align: left;
 }
@@ -140,4 +144,5 @@
 }
 
 .footer-05 .recently-viewed-inner {
+	display: none !important;
 }

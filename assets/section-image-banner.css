@@ -371,6 +371,7 @@
   border: none;
   border-radius: 0;
   box-shadow: none;
+  padding: 0;
 }
 
 @media screen and (min-width: 750px) {
