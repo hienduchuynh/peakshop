@@ -576,6 +576,12 @@
         "border_opacity": 100
       }
     },
+    "am-featured-reviews-carousel": {
+      "type": "am-featured-reviews-carousel",
+      "settings": {
+        "fr_max_width": 100
+      }
+    },
     "4e2f7a17-0f55-45fe-82ac-9c49661319e9": {
       "type": "ja-recent-products",
       "settings": {
@@ -592,12 +598,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "am-featured-reviews-carousel": {
-      "type": "am-featured-reviews-carousel",
-      "settings": {
-        "fr_max_width": 100
-      }
     }
   },
   "order": [
@@ -611,7 +611,7 @@
     "b7d4689b-aa5d-4fbd-93cf-446d84d85100",
     "cb809454-489b-40a4-895f-7a4805ef7846",
     "c6f98de6-047d-4264-a053-0e2a5b108dab",
-    "4e2f7a17-0f55-45fe-82ac-9c49661319e9",
-    "am-featured-reviews-carousel"
+    "am-featured-reviews-carousel",
+    "4e2f7a17-0f55-45fe-82ac-9c49661319e9"
   ]
 }
