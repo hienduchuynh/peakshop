@@ -176,7 +176,7 @@
       {%- endif -%}
       {%- if show_mobile_slider or show_desktop_slider -%}
         <div class="slider-buttons no-js-hidden slider-{%- if section.settings.slider_visual == 'dots' -%}dots{%- elsif section.settings.slider_visual == 'counter' -%}counter{%- else -%}navigation{%- endif -%}">
-          <button type="button" class="slider-button slider-button--prev" name="previous" aria-label="{{ 'general.slider.previous_slide' | t }}" aria-controls="Slider-{{ section.id }}">{% render 'icon-caret' %}</button>
+          <button type="button" class="slider-button slider-button--prev" name="previous" aria-label="{{ 'general.slider.previous_slide' | t }}" aria-controls="Slider-{{ section.id }}">{% render 'icon-chevron-left' %}</button>
           {%- if section.settings.slider_visual != 'nav' -%}
           <div class="slider-counter caption slider-counter--{{ section.settings.slider_visual }}{% if section.settings.slider_visual == 'counter' or section.settings.slider_visual == 'numbers' %} caption{% endif %}">
             {%- if section.settings.slider_visual == 'counter' -%}
@@ -201,7 +201,7 @@
             {%- endif -%}
           </div>
           {%- endif -%}
-          <button type="button" class="slider-button slider-button--next" name="next" aria-label="{{ 'general.slider.next_slide' | t }}" aria-controls="Slider-{{ section.id }}">{% render 'icon-caret' %}</button>
+          <button type="button" class="slider-button slider-button--next" name="next" aria-label="{{ 'general.slider.next_slide' | t }}" aria-controls="Slider-{{ section.id }}">{% render 'icon-chevron-left' %}</button>
         </div>
       {%- endif -%}
     </slider-component>

@@ -429,7 +429,8 @@ slider-component.slider-component-full-width {
 }
 
 .slider-button .icon {
-    height: 0.6rem;
+    height: auto;
+    width: 2.4rem;
 }
 
 .slider-button[disabled] .icon {
@@ -438,19 +439,18 @@ slider-component.slider-component-full-width {
 }
 
 .slider-button--next .icon {
-    transform: rotate(-90deg);
+    transform: rotate(-180deg);
 }
 
 .slider-button--prev .icon {
-    transform: rotate(90deg);
 }
 
 .slider-button--next:not([disabled]):hover .icon {
-    transform: rotate(-90deg) scale(1.1);
+    transform: rotate(-180deg) scale(1.1);
 }
 
 .slider-button--prev:not([disabled]):hover .icon {
-    transform: rotate(90deg) scale(1.1);
+    transform: rotate(0deg) scale(1.1);
 }
 
 .thumbnail.global-media-settings .image-thumbnail {
