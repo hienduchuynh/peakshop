@@ -526,8 +526,8 @@
             "type": "logo_image",
             "settings": {
               "show_logo": true,
-              "image": "shopify:\/\/shop_images\/footer-logo.png",
-              "image_width": 100,
+              "image": "shopify:\/\/shop_images\/logo-white.png",
+              "image_width": 120,
               "alignment": ""
             }
           },
