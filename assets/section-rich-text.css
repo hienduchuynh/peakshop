@@ -109,6 +109,10 @@
   border: 0;
 }
 
+.about-us .rich-text__heading {
+  text-transform: uppercase;
+}
+
 /* FAQ */
 .faqs-page .rich-text {
   border: 0;
