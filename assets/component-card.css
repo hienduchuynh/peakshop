@@ -195,7 +195,7 @@
 
 .card__vendor {
     margin-bottom: 0.8rem;
-    color: var(--color-base-accent-3);
+    color: rgba(var(--color-base-accent-3));
     text-transform: uppercase;
     font-size: 1.2rem;
 }

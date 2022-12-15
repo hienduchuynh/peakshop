@@ -1,5 +1,6 @@
 .footer-05 .footer-block--main {
 	gap: 0px;
+	color: rgba(var(--color-foreground), 0.75);
 }
 .footer-05 .footer__content-top .grid {
 	row-gap: 0px;
