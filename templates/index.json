@@ -308,7 +308,7 @@
         "mod_class": "clients-list",
         "heading_size": "h4",
         "layout": "grid--gapless",
-        "image_width": "third",
+        "image_width": "half",
         "image_ratio": "adapt",
         "columns_desktop": 5,
         "row_alignment": "none",
