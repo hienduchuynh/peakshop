@@ -537,7 +537,7 @@
               "show_heading": false,
               "heading": "Heading",
               "show_subtext": true,
-              "subtext": "<p>312 North 24th Street<br\/>Brooklyn, New York 10010<br\/>United States<\/p><p>+33 212 218 8500<br\/>sale@peakshop.com<\/p>"
+              "subtext": "<p>312 North 24th Street<br\/>Brooklyn, New York 10010<br\/>United States<\/p><p>+33 212 218 8500<br\/><a href=\"mailto:sale@peakshop.com\" title=\"mailto:sale@peakshop.com\">sale@peakshop.com<\/a><\/p>"
             }
           },
           "e09a2a58-5b5e-4eb4-90aa-29276177996a": {
