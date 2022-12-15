@@ -33,7 +33,7 @@
     --color-button: 255, 255, 255;
     --color-button-text: 0, 0, 0;
     position: relative;
-    background-color: rgba(var(--color-base-accent-1));
+    background-color: transparent;
 }
 
 .image-with-text-grid .grid__item.content-container {
