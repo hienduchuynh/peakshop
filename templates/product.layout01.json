@@ -54,7 +54,7 @@
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
-            "picker_type": "button"
+            "picker_type": "dropdown"
           }
         },
         "quantity_selector": {
@@ -149,7 +149,7 @@
       ],
       "settings": {
         "collapsible_type": "tabs",
-        "box_width": 100,
+        "box_width": 80,
         "collapsible_tab_header_position": "left",
         "padding_top": 36,
         "padding_bottom": 36

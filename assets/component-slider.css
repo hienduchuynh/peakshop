@@ -388,6 +388,13 @@ slider-component.slider-component-full-width {
     right: 0;
 }
 
+.product--thumbnail_slider .slider-mobile-gutter .slider-button.slider-button--prev {
+    margin-left: 24px;
+}
+.product--thumbnail_slider .slider-mobile-gutter .slider-button.slider-button--next {
+    margin-right: 24px;
+}
+
 @media screen and (min-width: 990px) {
     .slider:not(.slider--everywhere):not(.slider--desktop)+.slider-buttons {
         display: none;
@@ -417,11 +424,12 @@ slider-component.slider-component-full-width {
     background: transparent;
     border: none;
     cursor: pointer;
-    width: 44px;
-    height: 44px;
+    width: 48px;
+    height: 48px;
     display: flex;
     align-items: center;
     justify-content: center;
+    border: var(--text-boxes-border-width) solid rgba(var(--color-foreground), var(--text-boxes-border-opacity));
 }
 
 .slider-button:not([disabled]):hover {
