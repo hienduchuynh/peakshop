@@ -122,7 +122,6 @@
 
 .contact-2 .box-more {
   display: grid;
-  gap: calc(var(--grid-desktop-horizontal-spacing));
 }
 
 @media screen and (min-width: 750px) {
@@ -139,12 +138,22 @@
 
 .contact-2 .contact-more {
   align-items: center;
-  border: 2px solid rgba(var(--color-base-outline-button-labels));
+  border-right: calc(var(--text-boxes-border-width)/2) solid rgba(var(--color-foreground), 0.2);
   display: flex;
   flex-direction: column;
   text-align: center;
   padding: var(--grid-desktop-horizontal-spacing);
   margin: 0;
+}
+
+.contact-2 .contact-more:last-child {
+  border-right: 0;
+}
+
+@media screen and (max-width: 1199px) {
+  .contact-2 .contact-more{
+    border-right: 0;
+  }
 }
 
 .contact-2 .contact-more > h4 {

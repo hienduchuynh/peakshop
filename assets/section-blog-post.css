@@ -91,6 +91,7 @@
   margin: 0;
   font-size: 3.6rem;
   line-height: 1;
+  text-transform: uppercase;
 }
 
 @media screen and (min-width: 1200px) {

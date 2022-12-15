@@ -33,7 +33,7 @@
 
 .sidebar .sidebar-wrapper > div:not(:last-child) {
   padding-bottom: 2.4rem;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+  border-bottom: var(--text-boxes-border-width) solid rgba(var(--color-foreground), var(--text-boxes-border-opacity))
 }
 
 @media screen and (max-width: 749px) {
