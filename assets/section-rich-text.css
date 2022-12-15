@@ -113,6 +113,10 @@
   text-transform: uppercase;
 }
 
+.about-us .rich-text__blocks > img {
+  border: var(--text-boxes-border-width) solid rgba(var(--color-foreground), var(--text-boxes-border-opacity))
+} 
+
 /* FAQ */
 .faqs-page .rich-text {
   border: 0;

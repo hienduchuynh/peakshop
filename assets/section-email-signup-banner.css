@@ -124,20 +124,6 @@
     background-color: transparent;
   }
 
-  .banner--desktop-transparent
-   .field::after,
-  .banner--desktop-transparent
-    .field:hover.field:after {
-  box-shadow: none;
-  border: 0;
-}
-
-
-.banner--desktop-transparent
-  .field__input:focus {
-  box-shadow: none;
-}
-
   /* .banner--desktop-transparent
     .email-signup-banner__box--no-image
     .field__input {
