@@ -125,6 +125,20 @@
   }
 
   .banner--desktop-transparent
+   .field::after,
+  .banner--desktop-transparent
+    .field:hover.field:after {
+  box-shadow: none;
+  border: 0;
+}
+
+
+.banner--desktop-transparent
+  .field__input:focus {
+  box-shadow: none;
+}
+
+  /* .banner--desktop-transparent
     .email-signup-banner__box--no-image
     .field__input {
     box-shadow: 0 0 0 0.1rem rgba(var(--color-base-text), 0.55);
@@ -143,7 +157,8 @@
     box-shadow: 0 0 0 0.3rem rgb(var(--color-background)),
       0 0 0.5rem 0.4rem rgba(var(--color-base-text), 0.3);
   }
-}
+  */
+} 
 
 @media only screen and (min-width: 750px) {
   .email-signup-banner-background-mobile {

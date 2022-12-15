@@ -169,6 +169,7 @@
 .facets {
 	display: block;
 	grid-column-start: span 2;
+	text-transform: uppercase;
 }
 
 .facets__form {
@@ -1086,6 +1087,7 @@ input.mobile-facets__checkbox {
 	.facets-vertical-form * {
 		font-weight: 700;
 		color: #000;
+		text-transform: uppercase;
 	}
 	.product-mode {
 		display: flex;
