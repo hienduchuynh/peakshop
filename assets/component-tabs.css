@@ -62,8 +62,8 @@
 }
 
 .nav-tabs li.active .summary__title {
-	color: #c1ab7c;
-	border-bottom-color: #c1ab7c;
+	color: var(--gradient-base-accent-2);
+	border-bottom-color: var(--gradient-base-accent-2);
 }
 
 .tab .icon-accordion {
@@ -75,7 +75,7 @@
 }
 
 .nav-tabs li.active .icon-accordion {
-	fill: #c1ab7c;
+	fill: var(--gradient-base-accent-2);
 }
 
 .tab details[open] > summary .icon-caret {
