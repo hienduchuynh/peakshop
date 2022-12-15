@@ -161,7 +161,7 @@
         "template--17150322376979__04c80791-1da3-4243-b726-b523ed26e116-167022396740d7abf2-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/glass-martini.png",
+            "image": "shopify:\/\/shop_images\/trophy.png",
             "image_position": "top",
             "title": "20+ Years of experience",
             "title_size": "h4",
@@ -181,7 +181,7 @@
         "template--17150322376979__04c80791-1da3-4243-b726-b523ed26e116-167022396740d7abf2-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/happy.png",
+            "image": "shopify:\/\/shop_images\/positive-review.png",
             "image_position": "top",
             "title": "40,000+ Happy customer",
             "title_size": "h4",
@@ -201,7 +201,7 @@
         "template--17150322376979__04c80791-1da3-4243-b726-b523ed26e116-167022396740d7abf2-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/award.png",
+            "image": "shopify:\/\/shop_images\/medal_bc508dec-ca90-4604-bd40-e6593553cf4b.png",
             "image_position": "top",
             "title": "Awesome performance",
             "title_size": "h4",
@@ -221,7 +221,7 @@
         "2c713ff4-09d4-4928-8479-c830e09b36d1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/light-bulb.png",
+            "image": "shopify:\/\/shop_images\/light-bulb_c2f0c92c-26c9-496b-bc3e-b0a68e71926b.png",
             "image_position": "top",
             "title": "Impressive design",
             "title_size": "h4",
