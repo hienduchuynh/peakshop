@@ -82,7 +82,9 @@
             "link_style": "link",
             "padding_left": 32,
             "padding_right": 32,
-            "image_spacing": 25
+            "padding_top": 48,
+            "padding_bottom": 48,
+            "image_spacing": 0
           }
         },
         "template--17016615272723__4fc8cb09-af79-40c9-8eee-0f1b82ca3bcc-1669779462a79b922d-1": {
@@ -100,7 +102,9 @@
             "link_style": "link",
             "padding_left": 32,
             "padding_right": 32,
-            "image_spacing": 25
+            "padding_top": 48,
+            "padding_bottom": 48,
+            "image_spacing": 0
           }
         },
         "template--17016615272723__4fc8cb09-af79-40c9-8eee-0f1b82ca3bcc-1669779462a79b922d-2": {
@@ -118,7 +122,9 @@
             "link_style": "link",
             "padding_left": 32,
             "padding_right": 32,
-            "image_spacing": 25
+            "padding_top": 48,
+            "padding_bottom": 48,
+            "image_spacing": 0
           }
         },
         "5e20abb3-af11-42fe-bf68-da7f4ef26565": {
@@ -136,7 +142,9 @@
             "link_style": "link",
             "padding_left": 32,
             "padding_right": 32,
-            "image_spacing": 25
+            "padding_top": 48,
+            "padding_bottom": 48,
+            "image_spacing": 0
           }
         },
         "88433a95-d577-4153-97c9-52c4483eb00e": {
@@ -154,7 +162,9 @@
             "link_style": "link",
             "padding_left": 32,
             "padding_right": 32,
-            "image_spacing": 25
+            "padding_top": 48,
+            "padding_bottom": 48,
+            "image_spacing": 0
           }
         }
       },
@@ -171,7 +181,7 @@
         "mod_class": "clients-list",
         "heading_size": "h4",
         "layout": "grid--gapless",
-        "image_width": "full",
+        "image_width": "half",
         "image_ratio": "adapt",
         "columns_desktop": 5,
         "row_alignment": "none",
