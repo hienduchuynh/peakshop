@@ -219,6 +219,8 @@
             "link_style": "link",
             "padding_left": 32,
             "padding_right": 32,
+            "padding_top": 48,
+            "padding_bottom": 48,
             "image_spacing": 0
           }
         },
@@ -237,7 +239,9 @@
             "link_style": "link",
             "padding_left": 32,
             "padding_right": 32,
-            "image_spacing": 25
+            "padding_top": 48,
+            "padding_bottom": 48,
+            "image_spacing": 0
           }
         },
         "template--17016615010579__dea5835c-24f7-475f-a0a4-51739b13776e-1669173156c637745e-2": {
@@ -255,6 +259,8 @@
             "link_style": "link",
             "padding_left": 32,
             "padding_right": 32,
+            "padding_top": 48,
+            "padding_bottom": 48,
             "image_spacing": 0
           }
         },
@@ -273,7 +279,9 @@
             "link_style": "link",
             "padding_left": 32,
             "padding_right": 32,
-            "image_spacing": 25
+            "padding_top": 48,
+            "padding_bottom": 48,
+            "image_spacing": 0
           }
         },
         "10351b81-184b-4cb3-b0ad-480c7e1c59e3": {
@@ -291,7 +299,9 @@
             "link_style": "link",
             "padding_left": 32,
             "padding_right": 32,
-            "image_spacing": 25
+            "padding_top": 48,
+            "padding_bottom": 48,
+            "image_spacing": 0
           }
         }
       },
