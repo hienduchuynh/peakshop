@@ -2010,6 +2010,24 @@
           },
           "info": "For best results, use an image with a 3:2 aspect ratio. [Learn more](https:\/\/help.shopify.com\/manual\/shopify-admin\/productivity-tools\/image-editor#understanding-image-aspect-ratio)"
         },
+        "heading_size": {
+          "label": "Heading Size",
+          "options__1": {
+            "label": "XX-large"
+          },
+          "options__2": {
+            "label": "Extra large"
+          },
+          "options__3": {
+            "label": "Large"
+          },
+          "options__4": {
+            "label": "Medium"
+          },
+          "options__5": {
+            "label": "Small"
+          }
+        },
         "alignment": {
           "label": "Alignment",
           "options__1": {

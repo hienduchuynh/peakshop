@@ -113,7 +113,7 @@
               <span>{{ article.author }}</span>
             {%- endif -%}
           </div>
-          <h3 class="card__heading{% if show_excerpt %} h5{% endif %}">
+          <h3 class="card__heading {{ heading_size }}">
             {% if template == "blog.shopping-guide" and enable_modal %}
               <div class="title-shopping-guide">{{ article.title | escape }}</div>
             {% else %}
