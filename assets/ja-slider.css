@@ -86,8 +86,8 @@
   top: 50%;
   width: 3.6rem;
   height: 3.6rem;
-  opacity: 0;
-  display: none;
+  display: inline-block;
+  opacity: 1;
   border: 2px solid rgba(0, 0, 0, 100);
   background-color: #fff;
   transform: translateY(-50%);
@@ -99,11 +99,6 @@
     width: 7.2rem;
     height: 7.2rem;
   }
-}
-
-.ja-slider:hover .slider-buttons .slider-button {
-  display: inline-block;
-  opacity: 1;
 }
 
 .ja-slider .slider-buttons .slider-button--prev {
