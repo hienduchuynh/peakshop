@@ -89,17 +89,6 @@
   }
 }
 
-.contact-form .field::after,
-.contact-form .field:hover.field:after {
-  box-shadow: none;
-  border: 0;
-}
-
-
-.contact-form .field__input:focus {
-  box-shadow: none;
-}
-
 .link-web {
   color: var(--color-base-text);
 }

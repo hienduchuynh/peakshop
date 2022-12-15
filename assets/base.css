@@ -2110,7 +2110,7 @@ details[open] > .share-button__fallback {
 	left: var(--inputs-border-width);
 	border: 0.1rem solid transparent;
 	border-radius: var(--inputs-radius);
-	box-shadow: 0 0 0 var(--inputs-border-width) rgba(var(--color-foreground), var(--inputs-border-opacity));
+	box-shadow: none;
 	transition: box-shadow var(--duration-short) ease;
 	z-index: 1;
 }
@@ -2129,7 +2129,7 @@ details[open] > .share-button__fallback {
 .customer .field:hover.field:after,
 .customer select:hover.select:after,
 .localization-form__select:hover.localization-form__select:after {
-	box-shadow: 0 0 0 calc(0.01rem + var(--inputs-border-width)) rgba(var(--color-foreground), var(--inputs-border-opacity));
+	box-shadow: none;
 	outline: 0;
 	border-radius: var(--inputs-radius);
 }
@@ -2149,7 +2149,7 @@ details[open] > .share-button__fallback {
 .customer .field input:focus,
 .customer select:focus,
 .localization-form__select:focus.localization-form__select:after {
-	box-shadow: 0 0 0 calc(0.01rem + var(--inputs-border-width)) rgba(var(--color-foreground));
+	box-shadow: none;
 	outline: 0;
 	border-radius: var(--inputs-radius);
 }
