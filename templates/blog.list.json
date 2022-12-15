@@ -54,7 +54,7 @@
         "show_date": true,
         "show_author": false,
         "show_excerpt": true,
-        "alignment_content": "center",
+        "alignment_content": "left",
         "alignment__vertical": "center",
         "show_sidebar": false,
         "show_collapse": true,
