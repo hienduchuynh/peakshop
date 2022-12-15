@@ -63,6 +63,11 @@
         "accessibility_info": "Slideshow about our brand",
         "padding_top": 0,
         "padding_bottom": 0,
+        "border_top_thickness": 0,
+        "border_right_thickness": 0,
+        "border_bottom_thickness": 0,
+        "border_left_thickness": 0,
+        "border_opacity": 0,
         "addition_class": ""
       }
     },
@@ -303,7 +308,7 @@
         "mod_class": "clients-list",
         "heading_size": "h4",
         "layout": "grid--gapless",
-        "image_width": "full",
+        "image_width": "third",
         "image_ratio": "adapt",
         "columns_desktop": 5,
         "row_alignment": "none",
