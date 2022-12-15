@@ -509,7 +509,7 @@
           "logo": "shopify:\/\/shop_images\/logo.png",
           "logo_text": "Peakshop",
           "logo_font": "space_mono_n7",
-          "logo_width": 80,
+          "logo_width": 120,
           "menu": "main-menu",
           "menu_type_desktop": "mega",
           "enable_sticky_header": true,
