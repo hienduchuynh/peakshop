@@ -136,7 +136,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Overview",
-            "icon": "check_mark",
+            "icon": "none",
             "content": "",
             "description": true,
             "image_ratio": "43",
@@ -147,7 +147,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Brand",
-            "icon": "clipboard",
+            "icon": "none",
             "content": "<p>Content Here<\/p>",
             "description": false,
             "image_ratio": "43",
@@ -158,7 +158,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Help",
-            "icon": "heart",
+            "icon": "none",
             "content": "<p>Help content<\/p>",
             "description": false,
             "image_ratio": "43",
