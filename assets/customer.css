@@ -51,7 +51,7 @@
 
 @media screen and (min-width: 750px) {
   .customer:not(.account):not(.order):not(.addresses) {
-    max-width: 50rem;
+    max-width: 70rem;
   }
 }
 
@@ -101,12 +101,9 @@
   margin: 2rem 0;
 }
 
-.customer .field {
-  margin: 2rem 0 0 0;
-}
-
-.customer .field:first-of-type {
-  margin-top: 0;
+.customer .field input:focus,
+.customer .field input:not(:placeholder-shown) {
+  padding: 1.7rem 1.6rem;
 }
 
 /* Customer Table */
@@ -395,6 +392,17 @@
 
 .login .field + a {
   margin-top: 1rem;
+}
+
+.field-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+}
+
+.field-wrap label {
+  margin-bottom: 1rem;
 }
 
 .login p {
