@@ -527,7 +527,7 @@
             "settings": {
               "show_logo": true,
               "image": "shopify:\/\/shop_images\/logo-white.png",
-              "image_width": 120,
+              "image_width": 115,
               "alignment": ""
             }
           },
