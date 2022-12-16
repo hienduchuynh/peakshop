@@ -259,7 +259,7 @@
 .blog-categories li .icon-svg path {
   width: 1.2rem;
   height: auto;
-  fill: #333;
+  fill: var(--color-base-accent-1);
 }
 
 .blog-categories li {
@@ -272,7 +272,7 @@
 
 .blog-categories li a {
   text-decoration: none;
-  color: #fff;
+  color: rgba(var(--color-base-background-1));
   font-weight: 700;
 }
 

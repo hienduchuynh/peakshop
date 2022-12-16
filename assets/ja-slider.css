@@ -208,7 +208,7 @@
 
 /* Grid Layout */
 .about-2 .ja-slider .slideshow {
-  border: var(--card-border-width) solid rgba(var(--color-foreground));
+  border: var(--text-boxes-border-width) solid rgba(var(--color-foreground), var(--text-boxes-border-opacity));
   border-bottom: 0;
 }
 
@@ -217,7 +217,7 @@
 }
 
 .about-2.last-element .ja-slider .slideshow .slideshow__slide {
-  border-bottom: var(--card-border-width) solid rgba(var(--color-foreground));
+  border-bottom:  var(--text-boxes-border-width) solid rgba(var(--color-foreground), var(--text-boxes-border-opacity));
 }
 
 @media screen and (max-width: 989px) {
@@ -245,11 +245,11 @@
   }
 
   .about-2 .ja-slider .slideshow .content-box-align-right .grid__item:first-child {
-    border-right: var(--card-border-width) solid rgba(var(--color-foreground));
+    border-right:  var(--text-boxes-border-width) solid rgba(var(--color-foreground), var(--text-boxes-border-opacity));
   }
 
   .about-2 .ja-slider .slideshow .content-box-align-left .grid__item:last-child {
-    border-right: var(--card-border-width) solid rgba(var(--color-foreground));
+    border-right: var(--text-boxes-border-width) solid rgba(var(--color-foreground), var(--text-boxes-border-opacity));
   } 
 }
 

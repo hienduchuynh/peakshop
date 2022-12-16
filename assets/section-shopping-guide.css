@@ -64,8 +64,8 @@
 
 .main-shopping-guide .contains-content-container .media {
   display: inline-block;
-  width: 60px;
-  height: 60px;
+  width: 6rem;
+  height: 6rem;
   padding: 0 !important;
 }
 
@@ -97,39 +97,39 @@
 .main-shopping-guide .custom-model-inner {
   display: inline-block;
   vertical-align: middle;
-  width: 300px;
+  width: 30rem;
   /* margin: 30px auto; */
 }
 
 @media screen and (min-width: 480px) {
   .main-shopping-guide .custom-model-inner {
-    width: 400px;
+    width: 40rem;
   }
 }
 
 @media screen and (min-width: 750px) {
   .main-shopping-guide .custom-model-inner {
-    width: 600px;
+    width: 60rem;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .main-shopping-guide .custom-model-inner {
-    width: 900px;
+    width: 90rem;
   }
 }
 .main-shopping-guide .custom-model-wrap {
   display: block;
   width: 100%;
   position: relative;
-  background-color: #fff;
-  border: 2px solid rgba(0, 0, 0);
+  background-color: rgba(var(--color-base-background-1),1);
+  border: var(--text-boxes-border-width) solid rgba(var(--color-foreground), var(--text-boxes-border-opacity));
   /* border-radius: 6px; */
-  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 3px 9px rgba(var(--color-base-background-1), 0.5);
   background-clip: padding-box;
   outline: 0;
   text-align: left;
-  padding: 20px;
+  padding: var(--grid-desktop-vertical-spacing);
   box-sizing: border-box;
   max-height: calc(100vh - 250px);
   overflow-y: auto;
@@ -163,11 +163,11 @@
   top: 0px;
   cursor: pointer;
   z-index: 99;
-  color: #fff;
-  width: 32px;
-  height: 32px;
-  background-color: #000;
-  padding: 2px;
+  color: rgba(var(--color-base-background-1),1);
+  width: 3.2rem;
+  height: 3.2rem;
+  background-color: var(--gradient-base-accent-1);
+  padding: .2rem;
 }
 
 @media screen and (min-width: 800px) {
