@@ -333,7 +333,7 @@
         "swipe_on_mobile": true,
         "padding_top": 0,
         "padding_bottom": 0,
-        "border_top_thickness": 0,
+        "border_top_thickness": 1,
         "border_right_thickness": 0,
         "border_bottom_thickness": 1,
         "border_left_thickness": 0,
