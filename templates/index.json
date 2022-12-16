@@ -431,7 +431,7 @@
         "heading_size": "h0",
         "title_style": "03",
         "description_style": "body",
-        "description": "<p><\/p>",
+        "description": "",
         "show_description": false,
         "collection": "latest-products",
         "show_card_collection": false,
@@ -459,7 +459,7 @@
         "border_bottom_thickness": 1,
         "border_left_thickness": 0,
         "border_opacity": 100,
-        "mod_class": ""
+        "mod_class": "new-arrivals-collection"
       }
     },
     "b7d4689b-aa5d-4fbd-93cf-446d84d85100": {
