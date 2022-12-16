@@ -1891,7 +1891,7 @@ a.product__text {
 	font-size: calc(var(--font-heading-scale) * 2.4rem);
 }
 .product-page [data-block-handle='reviews'] .spr-form { 
-	border-top: var(--text-boxes-border-width) solid rgba(var(--color-foreground), var(--text-boxes-border-opacity))
+	border-top: 0
 }
 .product-page [data-block-handle='reviews'] .spr-summary {
 	justify-content: center;
@@ -1909,7 +1909,7 @@ a.product__text {
 }
 .product-page [data-block-handle='reviews'] .spr-form-title {
 	text-transform: uppercase;
-	margin-bottom: 3.2rem;
+	margin-bottom: calc(var(--grid-desktop-vertical-spacing) / 2);
 }
 .product-page [data-block-handle='reviews'] *:focus-visible {
 	outline: none;
@@ -1923,10 +1923,10 @@ a.product__text {
 	padding: 20px;
 }
 .product-page [data-block-handle='reviews'] .spr-form-contact {
-	display: flex;
-	justify-content: space-between;
-	gap: 0;
-	flex-direction: column;
+	display: grid;
+	gap: var(--grid-desktop-vertical-spacing);
+	grid-template-areas: "name email";
+	grid-template-columns: 1fr 1fr;
 }
 .product-page [data-block-handle='reviews'] .spr-form-label {
 	font-size: 14px;
@@ -1946,7 +1946,7 @@ a.product__text {
 .product-page [data-block-handle='reviews'] .spr-form-review-body,
 .product-page [data-block-handle='reviews'] .spr-form-contact-email,
 .product-page [data-block-handle='reviews'] .spr-form-contact-name {
-	margin-bottom: 3.2rem;
+	margin-bottom: var(--grid-desktop-vertical-spacing);
 }
 
 .product-page [data-block-handle='reviews'] .spr-form-contact-email:before,
@@ -1966,19 +1966,13 @@ a.product__text {
 
 @media screen and (min-width: 750px) {
 	.product-page [data-block-handle='reviews'] {
-		margin: 0 -4.8rem;
+		margin: 0 auto;
+		max-width: 96rem;
 		padding: 4rem 4.8rem;
 	}
 	.product-page [data-block-handle='reviews'] .spr-summary {
 		gap: 20px;
 		flex-direction: row;
-	}
-	.product-page [data-block-handle='reviews'] .spr-form-contact {
-		gap: 4.8rem;
-		flex-direction: row;
-	}
-	.product-page [data-block-handle='reviews'] .spr-form-contact-email,
-	.product-page [data-block-handle='reviews'] .spr-form-contact-name {
-		width: 50%;
+		font-size: 1.3rem;
 	}
 }
