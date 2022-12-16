@@ -62,8 +62,8 @@
 }
 
 .nav-tabs li.active .summary__title {
-	color: var(--gradient-base-accent-2);
-	border-bottom-color: var(--gradient-base-accent-2);
+	color: rgba(0, 0, 0, 1);
+	border-bottom-color: rgba(0, 0, 0, 1);
 }
 
 .tab .icon-accordion {
@@ -75,7 +75,7 @@
 }
 
 .nav-tabs li.active .icon-accordion {
-	fill: var(--gradient-base-accent-2);
+	fill: rgba(0, 0, 0, 1);
 }
 
 .tab details[open] > summary .icon-caret {
@@ -155,9 +155,8 @@
 	.product_tabs_positions_right .tab-header .summary__title {
 		justify-content: right;
 	}
-
 	.product_tabs_positions_right .tab-header .nav-tabs,
 	.product_tabs_positions_left .tab-header .nav-tabs {
-		min-width: 30rem;
+		min-width: 22rem;
 	}
 }
