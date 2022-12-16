@@ -333,7 +333,7 @@
         "swipe_on_mobile": true,
         "padding_top": 0,
         "padding_bottom": 0,
-        "border_top_thickness": 0,
+        "border_top_thickness": 1,
         "border_right_thickness": 0,
         "border_bottom_thickness": 1,
         "border_left_thickness": 0,
@@ -431,7 +431,7 @@
         "heading_size": "h0",
         "title_style": "03",
         "description_style": "body",
-        "description": "<p><\/p>",
+        "description": "",
         "show_description": false,
         "collection": "latest-products",
         "show_card_collection": false,
@@ -459,7 +459,7 @@
         "border_bottom_thickness": 1,
         "border_left_thickness": 0,
         "border_opacity": 100,
-        "mod_class": ""
+        "mod_class": "new-arrivals-collection"
       }
     },
     "b7d4689b-aa5d-4fbd-93cf-446d84d85100": {
@@ -569,7 +569,7 @@
         "heading_size": "h0",
         "title_style": "03",
         "description_style": "body",
-        "description": "<p><\/p>",
+        "description": "",
         "blog": "skateboard",
         "post_limit": 3,
         "columns_desktop": 3,
@@ -580,6 +580,7 @@
         "show_date": true,
         "show_author": false,
         "show_view_all": true,
+        "view_all_content": "View all posts",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 48,
@@ -589,12 +590,6 @@
         "border_bottom_thickness": 0,
         "border_left_thickness": 0,
         "border_opacity": 100
-      }
-    },
-    "am-featured-reviews-carousel": {
-      "type": "am-featured-reviews-carousel",
-      "settings": {
-        "fr_max_width": 100
       }
     }
   },
@@ -608,7 +603,6 @@
     "7afcf70d-4f53-4da2-9322-a5c118360a18",
     "b7d4689b-aa5d-4fbd-93cf-446d84d85100",
     "cb809454-489b-40a4-895f-7a4805ef7846",
-    "c6f98de6-047d-4264-a053-0e2a5b108dab",
-    "am-featured-reviews-carousel"
+    "c6f98de6-047d-4264-a053-0e2a5b108dab"
   ]
 }

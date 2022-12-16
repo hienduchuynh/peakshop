@@ -148,6 +148,9 @@
 	.collection__view-all a:not(.link) {
 		margin-top: 4.8rem;
 	}
+	.new-arrivals-collection  .collection__view-all a:not(.link) { 
+		margin-top: 3.2rem;
+	}
 }
 
 .collection__view-all a span:first-child {
