@@ -285,7 +285,7 @@ header > span {
 
 .article-template__comments-fields input:focus,
 .article-template__comments-fields .field__input:not(:placeholder-shown) {
-  padding: 1.3rem 1.6rem;
+  padding: 1.2rem 1.6rem;
 }
 
 .article-template__comment-fields > * {
