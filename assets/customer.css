@@ -809,6 +809,11 @@
 /* ===== Addresses
 ======================== */
 
+#AddAddress,
+.edit-address {
+  max-width: 96rem;
+}
+
 .addresses > a {
   display: block;
   margin-top: calc(var(--grid-desktop-vertical-spacing)/2);
