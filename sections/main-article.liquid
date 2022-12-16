@@ -210,7 +210,7 @@
 
             <div{% if blog.moderated? == false %} class="article-template__comments-fields"{% endif %}>
               <div class="article-template__comment-fields">
-                <div>
+                <div class="field-name">
                   <label class="field__label" for="CommentForm-author">{{ 'blogs.article.name' | t }} <span aria-hidden="true">*</span></label>
                   <div class="field field--with-error">
                     <input
@@ -236,7 +236,7 @@
                   </div>
                 </div>
 
-                <div>
+                <div class="field-email">
                   <label class="field__label" for="CommentForm-email">{{ 'blogs.article.email' | t }} <span aria-hidden="true">*</span></label>
                   <div class="field field--with-error">
                     <input
@@ -264,7 +264,7 @@
                   </div>
                 </div>
               </div>
-              <div>
+              <div class="field-comment">
                 <label class="form__label field__label" for="CommentForm-body">{{ 'blogs.article.message' | t }} <span aria-hidden="true">*</span></label>
                 <div class="field field--with-error">
                   <textarea
