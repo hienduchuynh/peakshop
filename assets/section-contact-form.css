@@ -48,6 +48,7 @@
 
 .contact-more span svg {
   width: 1.6rem;
+  height: auto;
 }
 
 /* Title */
@@ -166,7 +167,6 @@
 .contact-2 .contact-more span {
   display: inline-block;
   margin: 0 0 1.2rem;
-  background-color: #f4f4f4;
   border-radius: 0.5rem;
   color: aliceblue;
   padding: calc(var(--grid-desktop-horizontal-spacing) / 2);
