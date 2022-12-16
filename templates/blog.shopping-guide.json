@@ -14,7 +14,7 @@
         "page_title": "Shopping Guide",
         "description": "",
         "alignment_title": "left",
-        "layout": "grid",
+        "layout": "collage",
         "number_article": 6,
         "show_image": true,
         "show_excerpt": true,
