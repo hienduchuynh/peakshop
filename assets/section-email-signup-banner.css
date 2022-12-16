@@ -41,6 +41,10 @@
   display: inline-block;
 }
 
+.newsletter-form__field-wrapper .field__label {
+  top: calc(1.5rem + var(--inputs-border-width));
+}
+
 @media screen and (min-width: 750px) {
   .email-signup-banner .email-signup-banner__box {
     --color-foreground: 0, 0, 0;
