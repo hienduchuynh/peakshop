@@ -112,6 +112,7 @@
       "choose_product_options": "Choose options for {{ product_name }}",
       "description": "Description",
       "on_sale": "Sale",
+      "on_new": "New Arrivals",
       "product_variants": "Product variants",
       "media": {
         "gallery_viewer": "Gallery Viewer",
