@@ -169,7 +169,7 @@
         "layout": "grid--gapless",
         "slide_height": "square",
         "slider_visual": "dots",
-        "auto_rotate": false,
+        "auto_rotate": true,
         "change_slides_speed": 5,
         "show_text_below": true,
         "accessibility_info": "ja_slider about our brand",

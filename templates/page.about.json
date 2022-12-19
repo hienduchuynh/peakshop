@@ -47,27 +47,13 @@
           "settings": {
             "text": "<p>In 2015, we opened the ways to our leader store in Chicago, US. In this space we work crosswise over various mediums from fashion and photography to accommodation. There’s nothing we won’t do. Joint efforts are constantly invited and sustained. <\/p>"
           }
-        },
-        "96e9d6a0-f261-46c6-823d-f5906f0bc94f": {
-          "type": "text",
-          "settings": {
-            "text": "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).<\/p>"
-          }
-        },
-        "2f0a103f-07e5-4a08-ab83-2aa0bcf050bc": {
-          "type": "text",
-          "settings": {
-            "text": "<p>default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).<\/p>"
-          }
         }
       },
       "block_order": [
         "template--14995394134089__d907dfba-3a8d-4c3a-a756-aca10721690e-16650398972b716996-0",
         "44929001-e0af-4679-92e9-15be36596752",
         "4682a639-6655-4fc0-b29d-3105b6eaa917",
-        "400a6ab5-7b62-492c-818e-fc31d57eda3f",
-        "96e9d6a0-f261-46c6-823d-f5906f0bc94f",
-        "2f0a103f-07e5-4a08-ab83-2aa0bcf050bc"
+        "400a6ab5-7b62-492c-818e-fc31d57eda3f"
       ],
       "settings": {
         "class_suffix": "about-us",
@@ -86,8 +72,8 @@
           "type": "event_history",
           "settings": {
             "date": "1\/1\/2010",
-            "heading": "Heading",
-            "description": "This is Event",
+            "heading": "Content here",
+            "description": "Joint efforts are constantly invited and sustained.",
             "align_text": "left"
           }
         },
@@ -95,8 +81,8 @@
           "type": "event_history",
           "settings": {
             "date": "6\/8\/2012",
-            "heading": "Heading",
-            "description": "This is Event",
+            "heading": "Content here",
+            "description": "Joint efforts are constantly invited and sustained.",
             "align_text": "right"
           }
         },
@@ -104,8 +90,8 @@
           "type": "event_history",
           "settings": {
             "date": "5\/4\/2015",
-            "heading": "Heading",
-            "description": "This is Event",
+            "heading": "Content here",
+            "description": "Joint efforts are constantly invited and sustained.",
             "align_text": "left"
           }
         },
@@ -113,8 +99,8 @@
           "type": "event_history",
           "settings": {
             "date": "7\/9\/2019",
-            "heading": "Heading",
-            "description": "This is Event",
+            "heading": "Content here",
+            "description": "Joint efforts are constantly invited and sustained.",
             "align_text": "right"
           }
         },
@@ -122,8 +108,8 @@
           "type": "event_history",
           "settings": {
             "date": "10\/6\/2021",
-            "heading": "Heading",
-            "description": "This is Event",
+            "heading": "Content here",
+            "description": "Joint efforts are constantly invited and sustained.",
             "align_text": "left"
           }
         },
@@ -131,8 +117,8 @@
           "type": "event_history",
           "settings": {
             "date": "9\/2\/2022",
-            "heading": "Heading",
-            "description": "This is Event",
+            "heading": "Content here",
+            "description": "Joint efforts are constantly invited and sustained.",
             "align_text": "right"
           }
         }

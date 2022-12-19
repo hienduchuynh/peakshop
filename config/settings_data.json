@@ -83,20 +83,20 @@
     "popup_shadow_horizontal_offset": 0,
     "popup_shadow_vertical_offset": 4,
     "popup_shadow_blur": 5,
-    "drawer_border_thickness": 2,
-    "drawer_border_opacity": 100,
-    "drawer_shadow_opacity": 0,
-    "drawer_shadow_horizontal_offset": 0,
+    "drawer_border_thickness": 0,
+    "drawer_border_opacity": 25,
+    "drawer_shadow_opacity": 25,
+    "drawer_shadow_horizontal_offset": -22,
     "drawer_shadow_vertical_offset": 4,
-    "drawer_shadow_blur": 5,
+    "drawer_shadow_blur": 0,
     "badge_position": "top left",
     "badge_corner_radius": 0,
     "sale_badge_color_scheme": "accent-2",
     "sold_out_badge_color_scheme": "background-1",
     "accent_icons": "accent-1",
     "social_twitter_link": "https:\/\/twitter.com\/shopify",
-    "social_facebook_link": "",
-    "social_pinterest_link": "",
+    "social_facebook_link": "#",
+    "social_pinterest_link": "#",
     "social_instagram_link": "",
     "social_tiktok_link": "",
     "social_tumblr_link": "",
@@ -110,7 +110,9 @@
     "cart_type": "drawer",
     "show_vendor": true,
     "show_cart_note": false,
-    "background_color": "#ffffff",
+    "background_color": "#ffc700",
+    "show_background_image": true,
+    "checkout_header_image": "shopify:\/\/shop_images\/pexels-jeshootscom-442585.jpg",
     "checkout_logo_image": "shopify:\/\/shop_images\/atoms-logo_ab356fac-ace1-43d8-8c8a-369c6f83533b.png",
     "checkout_body_background_color": "#ffffff",
     "checkout_sidebar_background_color": "#fafafa",
@@ -561,6 +563,12 @@
               "heading": "",
               "menu": "footer"
             }
+          },
+          "5b46d073-46bb-43f1-a941-a0c728f4fade": {
+            "type": "social",
+            "settings": {
+              "show_social": true
+            }
           }
         },
         "block_order": [
@@ -568,7 +576,8 @@
           "2f02cd74-f52f-4875-bdfb-336290c29213",
           "e09a2a58-5b5e-4eb4-90aa-29276177996a",
           "footer-05-0",
-          "bc2627a9-4cb9-4497-a3a4-8bd19ca2f0ba"
+          "bc2627a9-4cb9-4497-a3a4-8bd19ca2f0ba",
+          "5b46d073-46bb-43f1-a941-a0c728f4fade"
         ],
         "settings": {
           "heading": "Peakshop",
