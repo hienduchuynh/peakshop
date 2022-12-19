@@ -36,7 +36,7 @@
             "button_label2": "",
             "link2": "",
             "link_style2": "solid",
-            "text_alignment": "center",
+            "text_alignment": "left",
             "image_overlay_opacity": 100,
             "color_scheme": "accent-4",
             "text_alignment_mobile": "center"
