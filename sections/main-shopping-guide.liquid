@@ -75,6 +75,7 @@
                       <div class="custom-model-inner">        
                         <div class="close-btn">{% render 'icon-close' %}</div>
                         <div class="custom-model-wrap">
+                          <h1 class="article-title"> {{ article.title }} </h1>
                           {%- if article.content != blank -%}
                             {{ article.content }}
                           {% else %}

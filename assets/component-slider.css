@@ -31,7 +31,7 @@ slider-component.slider-component-full-width {
   }
 }
 
-@media screen (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   slider-component.page-width {
     padding: 0 4.8rem;
   }

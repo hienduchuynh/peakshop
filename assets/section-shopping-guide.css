@@ -190,3 +190,7 @@
 .main-shopping-guide .model-open .custom-model-inner img {
   max-width: 100%;
 }
+
+.main-shopping-guide .custom-model-main .article-title {
+  margin-top: 0;
+}
