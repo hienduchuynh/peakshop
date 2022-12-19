@@ -24,7 +24,7 @@
   </h1>
   <div class="content">
     <div class="timeline">
-      <div class="container left">
+      {% comment %} <div class="container left">
         <div class="date">15 Dec</div>
         <i class="icon fa fa-home"></i>
         <div class="content">
@@ -74,23 +74,34 @@
           </p>
         </div>
       </div>
-      <div class="container right">
-        <div class="date">01 Jan</div>
-        <i class="icon fa fa-certificate"></i>
-        <div class="content">
-          <h2>Lorem ipsum dolor sit amet</h2>
-          <p>
-            Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
-          </p>
-        </div>
-      </div>
+      {% endcomment %}
+
+      {% for block in section.blocks %}
+        {% case block.type %}
+          {% when 'event_history' %}
+            {% comment %} <div class="slide" >
+              {{ block.settings.image | image_url: width: 2048 | image_tag }}
+            </div> {% endcomment %}
+            <div class="container {{ block.settings.align_text }}" {{ block.shopify_attributes }}>
+              <div class="date">01 Jan</div>
+              <i class="icon fa fa-certificate"></i>
+              <div class="content">
+                <h2>{{ block.settings.heading }}</h2>
+                <p>
+                  {{ block.settings.description }}
+                </p>
+              </div>
+            </div>
+        {% endcase %}
+      {% endfor %}
+
     </div>
   </div>
 </div>
 
 {% schema %}
 {
-  "name": "Timeline",
+  "name": "t:sections.timeline.name",
   "tag": "section",
   "class": "section",
   "settings": [
@@ -149,8 +160,48 @@
       "label": "Module Class Suffix"
     }
   ],
+  "blocks": [
+    {
+      "type": "event_history",
+      "name": "Event History",
+      "settings": [
+          {
+              "type":"header",
+              "content":"Year"
+          },
+          {
+            "type": "text",
+            "id": "heading",
+            "label": "Heading",
+            "default": "Heading"
+          },
+          {
+              "type": "text",
+              "id": "description",
+              "label": "Event",
+              "default": "This is Event"
+          },
+          {
+            "type": "select",
+            "id": "align_text",
+            "options": [
+              {
+                "value": "left",
+                "label": "Left"
+              },
+              {
+                "value": "right",
+                "label": "Right"
+              }
+            ],
+            "default": "left",
+            "label": "Position Text"
+          }
+      ]
+    }
+  ],
   "presets": [{
-    "name": "Timeline",
+    "name": "t:sections.timeline.presets.name",
     "category": "Text"
   }]
 }

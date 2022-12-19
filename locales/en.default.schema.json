@@ -3515,6 +3515,17 @@
         "name": "Page"
       }
     },
+    "timeline": {
+      "name": "Timeline",
+      "settings": {
+        "page": {
+          "label": "Page"
+        }
+      },
+      "presets": {
+        "name": "Timeline"
+      }
+    },
     "page-title": {
       "name": "Page Title",
       "settings": {
