@@ -79,6 +79,16 @@
         "padding_bottom": 48
       }
     },
+    "b02de568-d10d-46f6-a8c8-8318f2f4d050": {
+      "type": "timeline",
+      "settings": {
+        "page_title": "History",
+        "alignment_title": "center",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "suffix-class": ""
+      }
+    },
     "c8fd1c59-1297-4781-902e-86556452b36e": {
       "type": "main-team",
       "blocks": {
@@ -187,23 +197,13 @@
         "border_left_thickness": 0,
         "border_opacity": 0
       }
-    },
-    "b02de568-d10d-46f6-a8c8-8318f2f4d050": {
-      "type": "timeline",
-      "settings": {
-        "page_title": "",
-        "alignment_title": "left",
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "suffix-class": ""
-      }
     }
   },
   "order": [
     "61f849a9-f600-4591-8f82-0e40cc947bc5",
     "main",
     "d907dfba-3a8d-4c3a-a756-aca10721690e",
-    "c8fd1c59-1297-4781-902e-86556452b36e",
-    "b02de568-d10d-46f6-a8c8-8318f2f4d050"
+    "b02de568-d10d-46f6-a8c8-8318f2f4d050",
+    "c8fd1c59-1297-4781-902e-86556452b36e"
   ]
 }
