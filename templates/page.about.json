@@ -81,6 +81,64 @@
     },
     "b02de568-d10d-46f6-a8c8-8318f2f4d050": {
       "type": "timeline",
+      "blocks": {
+        "b7f65254-825c-4271-9eed-e989a3a4d9e7": {
+          "type": "event_history",
+          "settings": {
+            "heading": "Heading",
+            "description": "This is Event",
+            "align_text": "left"
+          }
+        },
+        "09ce1d25-15fe-47a2-9b8b-b91183be07fa": {
+          "type": "event_history",
+          "settings": {
+            "heading": "Heading",
+            "description": "This is Event",
+            "align_text": "right"
+          }
+        },
+        "587ecd54-8c08-466e-8e1a-f121218ddc52": {
+          "type": "event_history",
+          "settings": {
+            "heading": "Heading",
+            "description": "This is Event",
+            "align_text": "left"
+          }
+        },
+        "545019c6-e324-43d6-b0f1-6a22895fd1da": {
+          "type": "event_history",
+          "settings": {
+            "heading": "Heading",
+            "description": "This is Event",
+            "align_text": "right"
+          }
+        },
+        "d00aac84-b828-407c-9ab2-09275db0e6e9": {
+          "type": "event_history",
+          "settings": {
+            "heading": "Heading",
+            "description": "This is Event",
+            "align_text": "left"
+          }
+        },
+        "431e4c86-6c7c-4669-9bf7-0e841d37af97": {
+          "type": "event_history",
+          "settings": {
+            "heading": "Heading",
+            "description": "This is Event",
+            "align_text": "right"
+          }
+        }
+      },
+      "block_order": [
+        "b7f65254-825c-4271-9eed-e989a3a4d9e7",
+        "09ce1d25-15fe-47a2-9b8b-b91183be07fa",
+        "587ecd54-8c08-466e-8e1a-f121218ddc52",
+        "545019c6-e324-43d6-b0f1-6a22895fd1da",
+        "d00aac84-b828-407c-9ab2-09275db0e6e9",
+        "431e4c86-6c7c-4669-9bf7-0e841d37af97"
+      ],
       "settings": {
         "page_title": "History",
         "alignment_title": "center",
