@@ -115,14 +115,13 @@
                         </div>
                     {%- endform -%}
                 </div>
-                {% render 'social-media-icons' %}
                 {% if settings.newsletter_popup_note != blank %}
-                    <div class="newsletter--checked text-center">
-                        <input id="dismiss" type="checkbox" name="dismiss">
-                        <label for="dismiss" class="form-label--checkbox">
-                            {{ settings.newsletter_popup_note }}
+                <div class="newsletter--checked text-center">
+                    <input id="dismiss" type="checkbox" name="dismiss">
+                    <label for="dismiss" class="form-label--checkbox">
+                        {{ settings.newsletter_popup_note }}
                         </label>
-                    </div>
+                        </div>
                 {% endif %}
             </div>
         </div>
