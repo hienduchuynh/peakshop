@@ -25,6 +25,11 @@ class NewsletterPopup extends HTMLElement {
             this.setClosePopup.bind(this)
         );
 
+        this.querySelector('.form-label--checkbox').addEventListener(
+            'click',
+            this.setClosePopup.bind(this)
+        );
+
         document.querySelector('.background-overlay').addEventListener(
             'click', 
             this.setClosePopup.bind(this)
