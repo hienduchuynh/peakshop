@@ -25,6 +25,7 @@
     "main": {
       "type": "main-page",
       "settings": {
+        "page_title": "Keep in touch",
         "alignment_title": "center",
         "padding_top": 48,
         "padding_bottom": 0,
