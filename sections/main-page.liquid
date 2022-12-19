@@ -20,8 +20,11 @@
 
 <div class="page-width section-{{ section.id }}-padding {{ section.settings.suffix-class }} {{ section.settings.alignment_title }}">
   <h1 class="main-page-title page-title h2">
-    {{ page.title | escape }}
-    
+    {%- if section.settings.page_title != blank -%}
+      {{ section.settings.page_title }}
+    {%- else -%}
+      {{ page.title | escape }}
+    {%- endif -%}
   </h1>
   <div class="rte">
     {{ page.content }}
@@ -34,6 +37,11 @@
   "tag": "section",
   "class": "section",
   "settings": [
+    {
+      "type": "text",
+      "id": "page_title",
+      "label": "Page Title"
+    },
     {
       "type": "select",
       "id": "alignment_title",
