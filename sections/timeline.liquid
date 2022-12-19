@@ -1,0 +1,153 @@
+<link rel="stylesheet" href="{{ 'section-timeline.css' | asset_url }}" media="print" onload="this.media='all'">
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="page-width section-{{ section.id }}-padding {{ section.settings.suffix-class }} {{ section.settings.alignment_title }}">
+  <h1 class="main-page-title page-title h2">
+    {%- if section.settings.page_title != blank -%}
+      {{ section.settings.page_title }}
+    {%- else -%}
+      {{ page.title | escape }}
+    {%- endif -%}
+  </h1>
+  <div class="content">
+    <div class="timeline">
+      <div class="container left">
+        <div class="date">15 Dec</div>
+        <i class="icon fa fa-home"></i>
+        <div class="content">
+          <h2>Lorem ipsum dolor sit amet</h2>
+          <p>
+            Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+          </p>
+        </div>
+      </div>
+      <div class="container right">
+        <div class="date">22 Oct</div>
+        <i class="icon fa fa-gift"></i>
+        <div class="content">
+          <h2>Lorem ipsum dolor sit amet</h2>
+          <p>
+            Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+          </p>
+        </div>
+      </div>
+      <div class="container left">
+        <div class="date">10 Jul</div>
+        <i class="icon fa fa-user"></i>
+        <div class="content">
+          <h2>Lorem ipsum dolor sit amet</h2>
+          <p>
+            Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+          </p>
+        </div>
+      </div>
+      <div class="container right">
+        <div class="date">18 May</div>
+        <i class="icon fa fa-running"></i>
+        <div class="content">
+          <h2>Lorem ipsum dolor sit amet</h2>
+          <p>
+            Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+          </p>
+        </div>
+      </div>
+      <div class="container left">
+        <div class="date">10 Feb</div>
+        <i class="icon fa fa-cog"></i>
+        <div class="content">
+          <h2>Lorem ipsum dolor sit amet</h2>
+          <p>
+            Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+          </p>
+        </div>
+      </div>
+      <div class="container right">
+        <div class="date">01 Jan</div>
+        <i class="icon fa fa-certificate"></i>
+        <div class="content">
+          <h2>Lorem ipsum dolor sit amet</h2>
+          <p>
+            Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus erat sagittis non. Ut blandit semper pretium.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Timeline",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "page_title",
+      "label": "Page Title"
+    },
+    {
+      "type": "select",
+      "id": "alignment_title",
+      "options": [
+        {
+          "value": "left",
+          "label": "t:sections.general.settings.alignment_title.options__1.label"
+        },
+        {
+          "value": "center",
+          "label": "t:sections.general.settings.alignment_title.options__2.label"
+        },
+        {
+          "value": "right",
+          "label": "t:sections.general.settings.alignment_title.options__3.label"
+        }
+      ],
+      "default": "left",
+      "label": "t:sections.general.settings.alignment_title.label"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    },
+    {
+      "type": "text",
+      "id": "suffix-class",
+      "label": "Module Class Suffix"
+    }
+  ]
+}
+{% endschema %}
