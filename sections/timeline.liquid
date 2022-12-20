@@ -28,13 +28,29 @@
         {% case block.type %}
           {% when 'event_history' %}
             <div class="container {{ block.settings.align_text }}" {{ block.shopify_attributes }}>
-              <div class="date">{{ block.settings.date }}</div>
-              <i class="icon fa fa-certificate"></i>
               <div class="content">
+                <div class="icon"></div>
+                <div class="date">{{ block.settings.date }}</div>
                 <h2>{{ block.settings.heading }}</h2>
                 <p>
                   {{ block.settings.description }}
                 </p>
+              </div>
+              <div class="image-event">
+                <img
+                  srcset="{% if block.settings.image_event.width >= 350 %}{{ block.settings.image_event | image_url: width: 350 }} 350w,{% endif %}
+                    {% if block.settings.image_event.width >= 750 %}{{ block.settings.image_event | image_url: width: 750 }} 750w,{% endif %}
+                    {% if block.settings.image_event.width >= 1100 %}{{ block.settings.image_event | image_url: width: 1100 }} 1100w,{% endif %}
+                    {% if block.settings.image_event.width >= 1500 %}{{ block.settings.image_event | image_url: width: 1500 }} 1500w,{% endif %}
+                    {% if block.settings.image_event.width >= 2200 %}{{ block.settings.image_event | image_url: width: 2200 }} 2200w,{% endif %}
+                    {% if block.settings.image_event.width >= 3000 %}{{ block.settings.image_event | image_url: width: 3000 }} 3000w,{% endif %}
+                    {{ block.settings.image_event | image_url }} {{ block.settings.image_event.width }}w"
+                  sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 }}px, (min-width: 750px) calc(100vw - 10rem), 100vw"
+                  src="{{ block.settings.image_event | image_url: width: 500 }}"
+                  loading="lazy"
+                  width="1000"
+                  height="700"
+                  alt="{{ article.image.alt | escape }}">
               </div>
             </div>
         {% endcase %}
@@ -131,6 +147,11 @@
               "id": "description",
               "label": "t:sections.timeline.blocks.event_history.settings.label__4",
               "default": "t:sections.timeline.blocks.event_history.settings.label__4"
+          },
+          {
+            "type": "image_picker",
+            "id": "image_event",
+            "label": "t:sections.timeline.blocks.event_history.settings.label__6"
           },
           {
             "type": "select",
