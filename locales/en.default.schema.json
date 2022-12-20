@@ -563,6 +563,12 @@
         },
         "text__color": {
           "label": "Text Color"
+        },
+        "error": {
+          "label": "Title"
+        },
+        "description": {
+          "label": "Description"
         }
       }
     },

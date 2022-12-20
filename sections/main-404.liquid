@@ -12,11 +12,15 @@
   }
 
   .code-message {
-    font-size: 3.6rem;
+    font-size: 4.6rem;
     font-weight: 700;
     margin: 2rem 0;
   }
 
+  .code-description {
+    margin-bottom: 2.4rem;
+    font-size: 2rem;
+  }
 
   @media screen and (min-width: 750px) {
     .template-404 .title + * {
@@ -92,8 +96,11 @@
     </p>
     {% endif %}
     <h1 class="code-message">
-    {{ 'templates.404.title' | t }}
+      {{ section.settings.error }}
     </h1>
+    <p class="code-description">
+      {{ section.settings.description }}
+    </p>
     <a href="{{ routes.all_products_collection_url }}" class="button redirect-home">
       {{ 'general.continue_shopping' | t }}
     </a>
@@ -128,6 +135,16 @@
       "type": "color",
       "id": "text_color",
       "label": "t:sections.main-404.settings.text__color.label"
+    },
+    {
+      "type": "text",
+      "id": "error",
+      "label": "t:sections.main-404.settings.error.label"
+    },
+    {
+      "type": "text",
+      "id": "description",
+      "label": "t:sections.main-404.settings.description.label"
     },
     {
       "type": "header",
