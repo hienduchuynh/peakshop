@@ -79,6 +79,7 @@
 
 .ja-slider .slider-buttons {
   position: static;
+  z-index: 3;
 }
 
 .ja-slider .slider-buttons .slider-button {
