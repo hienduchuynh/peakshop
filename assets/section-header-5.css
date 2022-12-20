@@ -167,6 +167,46 @@ body.page-header-05 .header-wrapper {
     background: none;
 }
 
+.header-05 .menu-drawer summary.menu-drawer__menu-item {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.header-05 .menu-drawer__menu-item > .icon-arrow {
+    white-space: nowrap;
+    transition: transform var(--duration-short) ease;
+    overflow: hidden;
+}
+
+.header-05 .menu-drawer__menu-item > .icon-arrow path {
+    transform: translate(-.25rem);
+    transition: transform var(--duration-short) ease;
+}
+
+.header-05 .menu-drawer__menu-item:hover > .icon-arrow path {
+    transform: translate(-.05rem);
+}
+
+.header-05 .menu-drawer__menu-item > span {
+    position: relative;
+}
+
+.header-05 .menu-drawer__menu-item > span::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    top: 50%;
+    left: -1.2rem;
+    margin-top: -1px;
+    background: rgba(var(--color-foreground));
+    transition: all var(--duration-long) ease;
+}
+
+.header-05 .menu-drawer__menu-item:hover > span::before {
+    width: calc(100% + 2.4rem);
+}
+
 .js .header-05 .menu-drawer__submenu {
     border-left: none;
 }
