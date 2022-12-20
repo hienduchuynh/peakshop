@@ -238,6 +238,11 @@
   }
 }
 
+.about-2 .slideshow__text {
+  height: auto;
+  padding: 0;
+}
+
 @media screen and (min-width: 990px) {
   .about-2 .ja-slider .slideshow .content-box-align-right .grid__item,
   .about-2 .ja-slider .slideshow .content-box-align-left .grid__item {
