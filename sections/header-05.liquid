@@ -141,6 +141,12 @@
   </symbol>
 </svg>
 <div class="header-wrapper color-{{ section.settings.color_scheme }} gradient">
+  <summary id="header-05-offcanvas-button" class="off-canvas header__icon header__icon--menu header__icon--summary link focus-inset" aria-label="{{ 'sections.header.menu' | t }}">
+    <span>
+      {% render 'icon-hamburger' %}
+      {% render 'icon-close' %}
+    </span>
+  </summary>
   <header class="header header-05 {% if section.settings.menu != blank %} header--has-menu{% endif %}">
     {%- if section.settings.logo_position == 'top-center' or section.settings.menu == blank -%}
       <details-modal class="header__search">
@@ -510,6 +516,16 @@
 {%- if settings.cart_type == "notification" -%}
   {%- render 'cart-notification', color_scheme: section.settings.color_scheme -%}
 {%- endif -%}
+
+<script type="text/javascript">
+  window.addEventListener('DOMContentLoaded', (event) => {
+    var el = document.getElementById('header-05-offcanvas-button');
+    var elfacets = document.getElementById('page-header-05');
+    el.onclick = function() {
+      elfacets.classList.toggle('open-header-05');
+    }
+  });
+</script>
 
 {% javascript %}
   class StickyHeader extends HTMLElement {

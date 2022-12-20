@@ -3,15 +3,12 @@ body.page-header-05 .ja-container {
     max-width: 100%;
     display: grid;
     grid-template-areas: "header content-footer";
-    grid-template-columns: 320px calc(100% - 320px);
+    grid-template-columns: 0px calc(100% - 0px);
+    transition: grid-template-columns var(--duration-long) ease;
 }
 
 body.page-header-05 #shopify-section-header-05 {
     grid-area: header;
-    transform: none;
-}
-
-.shopify-section-header-hidden {
     transform: none;
 }
 
@@ -22,10 +19,71 @@ body.page-header-05 .mainContent-footer-wrapper {
 body.page-header-05 .header-wrapper {
     z-index: 3;
     height: 100vh;
-    width: 320px;
+    width: 0;
     position: fixed;
     display: flex;
+    overflow-x: hidden;
     flex-direction: column;
+    transition: width var(--duration-long) ease;
+}
+
+body.page-header-05.open-header-05 .ja-container {
+    grid-template-columns: 320px calc(100% - 320px);
+}
+
+body.page-header-05.open-header-05 .header-wrapper {
+    width: 320px;
+}
+
+body.page-header-05 .header-wrapper .icon-close {
+    display: none;
+}
+
+body.page-header-05 .header-wrapper .icon-hamburger {
+    display: block;
+}
+
+body.page-header-05.open-header-05 .header-wrapper .icon-close {
+    display: block;
+}
+
+body.page-header-05.open-header-05 .header-wrapper .icon-hamburger {
+    display: none;
+}
+
+@media screen and (min-width: 750px) {
+    body.page-header-05 .ja-container {
+        grid-template-columns: 320px calc(100% - 320px);
+    }
+
+    body.page-header-05 .header-wrapper {
+        width: 320px;
+    }
+
+    body.page-header-05 .header__icon--menu { 
+        display: none;
+    }
+}
+
+@media screen and (max-width: 749px) {
+    body.page-header-05 .header__icon--menu {
+        position: fixed;
+        width: 4rem;
+        height: 4rem;
+        background: #000;
+        top: 0;
+        right: 0;
+    }
+
+    body.page-header-05 .header__icon--menu span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.shopify-section-header-hidden {
+    transform: none;
 }
 
 .header-05,
