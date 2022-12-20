@@ -99,6 +99,7 @@
   font-size: calc(var(--font-heading-scale) * 1.4rem);
   text-align: left;
   margin: 2rem 0;
+  justify-content: center;
 }
 
 .customer .field input:focus,
