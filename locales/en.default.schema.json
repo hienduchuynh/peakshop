@@ -3536,7 +3536,8 @@
             "label__2": "Date",
             "label__3": "Heading",
             "label__4": "Description",
-            "label__5": "Position Block"
+            "label__5": "Position Block",
+            "label__6": "Image"
           }
         }
       },
