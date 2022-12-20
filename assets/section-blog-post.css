@@ -218,14 +218,14 @@ header > span {
 ============================ */
 .article-template__link {
   align-items: center;
-  display: flex;
+  display: inline-flex;
   font-size: 1.8rem;
   justify-content: center;
   text-decoration: none;
 }
 
 .article-template__link:hover {
-  color: var(--color-base-accent-3);
+  opacity: 1;
 }
 
 .article-template__link .icon-wrap {
