@@ -1801,6 +1801,18 @@ button.shopify-payment-button__button--unbranded {
 	font-weight: 700;
 }
 
+@media screen and (max-width: 749px) {
+	.button,
+	.button-label,
+	.shopify-challenge__button,
+	.customer button {
+		font-size: 1.4rem;
+		line-height: 1.4;
+		padding: 1.15rem 2.4rem;
+		font-weight: 700;
+	}
+}
+
 .button:hover {
 	opacity: 0.85;
 	outline: none;
