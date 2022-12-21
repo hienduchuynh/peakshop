@@ -47,12 +47,13 @@
 
 @media screen and (max-width: 989px) {
   .newsletter-form__field-wrapper .field__label {
-    --color-base-text: 255,255,255;
-    color: rgb(var(--color-base-text)) ;
+    --color-base-text: 255, 255, 255;
+    color: rgb(var(--color-base-text));
   }
-  .banner--desktop-transparent .email-signup-banner__box .field__input {
-    background-color: transparent;
-  }
+}
+
+.banner--desktop-transparent .email-signup-banner__box .field__input {
+  background-color: transparent;
 }
 
 @media screen and (min-width: 750px) {
@@ -71,7 +72,7 @@
 }
 
 @media screen and (max-width: 989px) {
-  .email-signup-banner .newsletter-form__field-wrapper input{
+  .email-signup-banner .newsletter-form__field-wrapper input {
     border: 2px solid rgb(var(--color-base-solid-button-labels));
   }
 
@@ -174,7 +175,7 @@
     height: auto;
   }
 
-  #password-page-has-image .email-signup-banner .banner__media::after{
+  #password-page-has-image .email-signup-banner .banner__media::after {
     display: none;
   }
 
