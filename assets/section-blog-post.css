@@ -205,9 +205,9 @@ header > span {
   text-decoration: none;
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 550px) {
   .previous_next_buttons .btn {
-    padding: 1.2rem 1.6rem;
+    padding: 1.2rem 2.4rem;
   }
 }
 
@@ -336,4 +336,8 @@ header > span {
   margin-bottom: 10px;
   line-height: 1;
   transform: unset;
+}
+
+button.post_comment:hover {
+  opacity: 1;
 }
