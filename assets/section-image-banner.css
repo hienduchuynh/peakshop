@@ -467,6 +467,12 @@
   line-height: 1.6;
 }
 
+@media screen and (max-width: 749px) {
+  .banner--desktop-transparent .banner__box .banner__heading {
+    margin-left: 0;
+  }
+}
+
 .banner__text.body {
   margin-top: 0;
   margin-bottom: 50px;
