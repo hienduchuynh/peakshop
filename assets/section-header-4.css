@@ -152,6 +152,10 @@
         padding: 2.4rem 3.2rem 0;
     }
 
+    .header-04 header-drawer .search-wrap .search__button {
+        top: 0.8rem;
+    }
+
     .header-04 .menu-drawer__utility-links {
         padding-left: 3.2rem;
         padding-right: 3.2rem;
