@@ -88,3 +88,7 @@ class CustomerAddresses {
     }
   }
 }
+
+window.onload = () => {
+  typeof CustomerAddresses !== 'undefined' && new CustomerAddresses();
+}
