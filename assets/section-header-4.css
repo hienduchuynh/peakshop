@@ -167,3 +167,27 @@
         margin: 0;
     }
 }
+
+@media screen and (max-width: 749px) {
+    .header-04 .menu-drawer__account {
+        padding: 0;
+    }
+
+    .header-04 .menu-drawer__account .icon-account {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .header-04 .menu-drawer__account {
+        margin-bottom: 2.4rem;
+    }
+
+    .header-04 .menu-drawer__utility-links {
+        flex-flow: column;
+    }
+
+    .header-04 .menu-drawer .list-social__link {
+        padding-left: 0;
+    }
+}
