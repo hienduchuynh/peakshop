@@ -35,19 +35,19 @@ body.page-header-05.open-header-05 .header-wrapper {
     width: 320px;
 }
 
-body.page-header-05 .header-wrapper .icon-close {
+body.page-header-05 .header-wrapper > .off-canvas .icon-close {
     display: none;
 }
 
-body.page-header-05 .header-wrapper .icon-hamburger {
+body.page-header-05 .header-wrapper > .off-canvas .icon-hamburger {
     display: block;
 }
 
-body.page-header-05.open-header-05 .header-wrapper .icon-close {
+body.page-header-05.open-header-05 .header-wrapper > .off-canvas .icon-close {
     display: block;
 }
 
-body.page-header-05.open-header-05 .header-wrapper .icon-hamburger {
+body.page-header-05.open-header-05 .header-wrapper > .off-canvas .icon-hamburger {
     display: none;
 }
 
@@ -66,6 +66,17 @@ body.page-header-05.open-header-05 .header-wrapper .icon-hamburger {
 }
 
 @media screen and (max-width: 749px) {
+    body.page-header-05.open-header-05 .mainContent-footer-wrapper {
+        overflow: hidden;
+    }
+
+    body.page-header-05.open-header-05 #MainContent {
+        min-width: 480px;
+        pointer-events: none;
+        overflow: hidden;
+        max-height: 100vh;
+    }
+
     body.page-header-05 .header__icon--menu {
         position: fixed;
         width: 4rem;
