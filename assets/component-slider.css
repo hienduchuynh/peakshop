@@ -496,6 +496,12 @@ slider-component.slider-component-full-width {
   width: 2.4rem;
 }
 
+@media screen and (max-width: 749px) {
+  .slider-button .icon {
+    width: 1.2rem;
+  }
+}
+
 .slider-button[disabled] .icon {
   color: rgba(var(--color-foreground), 0.3);
   cursor: not-allowed;
@@ -537,8 +543,6 @@ slider-component.slider-component-full-width {
   top: 50%;
   width: 3.6rem;
   height: 3.6rem;
-  opacity: 0;
-  display: none;
   border: 2px solid rgba(var(--color-button-text));
   background-color: rgba(var(--color-button));
   transform: translateY(-50%);
@@ -555,8 +559,6 @@ slider-component.slider-component-full-width {
 }
 
 slider-component:hover .slider-button {
-  display: inline-block;
-  opacity: 1;
   color: rgba(0, 0, 0, 1);
 }
 
