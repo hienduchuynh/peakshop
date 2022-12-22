@@ -1546,12 +1546,12 @@ a.product__text {
 	height: 75px;
 }
 
-.thumbnail-list-thumbnail .thumbnail.global-media-settings img,
+.thumbnail-list-thumbnail img,
 .thumbnail-list-thumbnail_slider .thumbnail-list__item img {
 	border: 2px solid rgb(var(--color-base-accent-1));
 }
 
-.thumbnail-list-thumbnail .thumbnail.global-media-settings [aria-current] img,
+.thumbnail-list-thumbnail  [aria-current] img,
 .thumbnail-list-thumbnail_slider .thumbnail-list__item [aria-current] img {
 	border-color: rgba(var(--color-base-accent-1), 0.2);
 }
