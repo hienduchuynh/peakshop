@@ -4,6 +4,7 @@
       "type": "main-page",
       "disabled": true,
       "settings": {
+        "page_title": "",
         "alignment_title": "left",
         "padding_top": 28,
         "padding_bottom": 28,
@@ -126,6 +127,11 @@
         "accessibility_info": "Slideshow about our brand",
         "padding_top": 0,
         "padding_bottom": 0,
+        "border_top_thickness": 0,
+        "border_right_thickness": 0,
+        "border_bottom_thickness": 0,
+        "border_left_thickness": 0,
+        "border_opacity": 0,
         "addition_class": "landing-page"
       }
     },
@@ -173,7 +179,7 @@
           "settings": {
             "button_label_1": "Shop Now",
             "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": true,
+            "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
