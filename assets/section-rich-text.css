@@ -114,8 +114,9 @@
 }
 
 .about-us .rich-text__blocks > img {
-  border: var(--text-boxes-border-width) solid rgba(var(--color-foreground), var(--text-boxes-border-opacity))
-} 
+  border: var(--text-boxes-border-width) solid
+    rgba(var(--color-foreground), var(--text-boxes-border-opacity));
+}
 
 /* FAQ */
 .faqs-page .rich-text {
@@ -141,6 +142,10 @@
   margin-left: 2.4rem;
   padding: 2px 0;
   text-transform: uppercase;
+}
+
+.faqs-page .rich-text__heading:after {
+  display: none;
 }
 
 @media screen and (max-width: 750px) {
