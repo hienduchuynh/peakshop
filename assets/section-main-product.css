@@ -1886,6 +1886,9 @@ a.product__text {
 	padding-top: 1.5rem;
 	padding-bottom: 1.5rem;
 }
+.product-page .spr-starrating .spr-stars svg path { 
+	fill: #ffc700;
+}
 
 .product-page [data-block-handle='reviews'] #shopify-product-reviews {
 	margin: 0;
