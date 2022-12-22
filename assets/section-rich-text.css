@@ -150,6 +150,7 @@
 }
 .faqs-page .rich-text__text {
   margin-left: -2.4rem;
+  -moz-margin-left: 0;
 }
 
 /* Landing Page */
