@@ -54,7 +54,6 @@
 }
 
 .image-with-text-grid .grid--gapless .grid__item.content-container:last-child {
-    border-right-width: 0;
 }
 
 .image-with-text-grid .grid--gapless .grid__item.content-container:last-child:after {
