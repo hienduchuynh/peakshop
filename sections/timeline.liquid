@@ -29,12 +29,13 @@
           {% when 'event_history' %}
             <div class="container {{ block.settings.align_text }}" {{ block.shopify_attributes }}>
               <div class="content">
-                <div class="icon"></div>
-                <div class="date">{{ block.settings.date }}</div>
-                <h2>{{ block.settings.heading }}</h2>
-                <p>
-                  {{ block.settings.description }}
-                </p>
+                <div class="pseudo">
+                  <div class="date">{{ block.settings.date }}</div>
+                  <h2>{{ block.settings.heading }}</h2>
+                  <p>
+                    {{ block.settings.description }}
+                  </p>
+                </div>
               </div>
               <div class="image-event">
                 <img
