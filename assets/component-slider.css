@@ -453,7 +453,7 @@ slider-component.slider-component-full-width {
     display: none;
   }
   .slider:not(.slider--everywhere):not(.slider--desktop)
-    + .slider-buttons--tablet-up {
+    + .slider-buttons--tablet-up:not(.hide-arrow) {
     display: flex;
   }
 }
