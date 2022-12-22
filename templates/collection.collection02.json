@@ -30,7 +30,7 @@
         "show_vendor": true,
         "show_rating": true,
         "enable_quick_add": true,
-        "show_product_description": true,
+        "show_product_description": false,
         "enable_filtering": true,
         "filter_type": "horizontal",
         "enable_sorting": true,
