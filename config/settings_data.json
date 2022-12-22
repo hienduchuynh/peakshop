@@ -566,7 +566,7 @@
           "5b46d073-46bb-43f1-a941-a0c728f4fade": {
             "type": "social",
             "settings": {
-              "show_social": true
+              "show_social": false
             }
           }
         },
