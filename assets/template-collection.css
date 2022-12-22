@@ -369,10 +369,6 @@
 	.collection .slider--desktop {
 		margin-bottom: 0;
 	}
-
-	.collection .slider.slider--desktop .slider__slide {
-		padding-bottom: 0;
-	}
 }
 
 @media screen and (min-width: 1200px) {
