@@ -505,6 +505,22 @@
       },
       "header-04": {
         "type": "header-04",
+        "blocks": {
+          "e7cebc32-d581-451f-bbb6-5f2a1decdbc2": {
+            "type": "logo_image",
+            "settings": {
+              "menu_enable": true,
+              "image": "shopify:\/\/shop_images\/Image_1_de7bae21-8e4c-4974-9b38-42d65ee2bb94.png",
+              "mega_link": "3",
+              "link": "shopify:\/\/collections\/all",
+              "title": "",
+              "subtitle": ""
+            }
+          }
+        },
+        "block_order": [
+          "e7cebc32-d581-451f-bbb6-5f2a1decdbc2"
+        ],
         "settings": {
           "color_scheme": "background-1",
           "layout_type": "logo-menu-icons",
