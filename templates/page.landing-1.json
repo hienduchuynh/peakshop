@@ -109,7 +109,7 @@
             "text_alignment": "center",
             "image_overlay_opacity": 100,
             "color_scheme": "background-1",
-            "text_alignment_mobile": "left"
+            "text_alignment_mobile": "center"
           }
         }
       },
