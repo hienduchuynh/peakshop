@@ -116,6 +116,12 @@
 	.p-info-full-slider.product__info-wrapper {
 		padding-left: 0;
 	}
+	.p-info-full-slider.product__info-wrapper [data-block-handle="star_rating"]{
+		margin-bottom: 12px;
+	}
+	.p-info-full-slider.product__info-wrapper .product-form__input {
+		margin-top: 1.2rem;
+	}
 	.p-info-full-slider .product__text.caption-with-letter-spacing {
 		margin-top: 0;
 	}
@@ -890,13 +896,7 @@ a.product__text {
 		left: 20px;
 		top: 6px;
 	}
-	.product__media-thumbnail_slider .flickity-prev-next-button.next {
-		right: 30px;
-	}
-	.product__media-thumbnail_slider .flickity-prev-next-button.previous {
-		left: 30px;
-	}
-	.product--thumbnail_slider .product__media-wrapper {
+	.product__media-wrapper {
 		border: var(--text-boxes-border-width) solid rgba(var(--color-foreground), var(--text-boxes-border-opacity));
 	}
 
@@ -953,9 +953,17 @@ a.product__text {
 	.slider-main-photo .slider--mobile:not(.slider--tablet) + .slider-buttons {
 		display: flex;
 	}
-	.product__media-list {
+	.product__media-list.product__media-thumbnail_slider {
 		border: var(--text-boxes-border-width) solid rgba(var(--color-foreground), var(--text-boxes-border-opacity));
 	}
+	
+	.product__media-list li {
+		border: var(--text-boxes-border-width) solid rgba(var(--color-foreground), var(--text-boxes-border-opacity));
+	}
+	.product__media-list.product__media-thumbnail_slider li{
+		border: 0;
+	}
+
 	.product--thumbnail .product__media-list,
 	.product--thumbnail_slider .product__media-list {
 		padding-bottom: calc(var(--media-shadow-vertical-offset) * var(--media-shadow-visible));
@@ -1544,12 +1552,12 @@ a.product__text {
 	height: 75px;
 }
 
-.thumbnail-list-thumbnail .thumbnail.global-media-settings img,
+.thumbnail-list-thumbnail img,
 .thumbnail-list-thumbnail_slider .thumbnail-list__item img {
 	border: 2px solid rgb(var(--color-base-accent-1));
 }
 
-.thumbnail-list-thumbnail .thumbnail.global-media-settings [aria-current] img,
+.thumbnail-list-thumbnail  [aria-current] img,
 .thumbnail-list-thumbnail_slider .thumbnail-list__item [aria-current] img {
 	border-color: rgba(var(--color-base-accent-1), 0.2);
 }
@@ -1883,6 +1891,9 @@ a.product__text {
 .product-page [data-block-handle='reviews'] {
 	padding-top: 1.5rem;
 	padding-bottom: 1.5rem;
+}
+.product-page .spr-starrating .spr-stars svg path { 
+	fill: #ffc700;
 }
 
 .product-page [data-block-handle='reviews'] #shopify-product-reviews {

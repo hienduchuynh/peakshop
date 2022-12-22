@@ -130,10 +130,16 @@
 quick-add-modal .product:not(.featured-product) .product__view-details {
 	display: block;
 }
-
+/* 
 quick-add-modal .quick-add-hidden,
 quick-add-modal .product__modal-opener:not(.product__modal-opener--image),
 quick-add-modal .product__media-item:not(:first-child) {
+	display: none !important;
+} */
+
+quick-add-modal .slider-buttons,
+quick-add-modal .quick-add-hidden,
+quick-add-modal .product__modal-opener:not(.product__modal-opener--image) {
 	display: none !important;
 }
 
@@ -210,7 +216,7 @@ quick-add-modal .product-form__buttons {
 	opacity: 0.5;
 }
 .quick-add__submit.loading > .loading-overlay__spinner .path {
-	stroke: rgb(0, 0, 0.1);
+	stroke: rgb(0, 0, 0, 1);
 }
 .quick-add__submit:hover:after,
 .quick-add__submit:after {

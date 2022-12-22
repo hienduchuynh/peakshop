@@ -37,6 +37,10 @@
 	padding-left: 2.5rem;
 }
 
+.facet-filters.sorting .facet-filters__label label{
+color: rgba(30, 41, 59, 0.75);;
+}
+
 @media screen and (min-width: 990px) {
 	.facet-filters {
 		padding-left: 0;

@@ -174,8 +174,8 @@
             {% render 'price', product: card_product, price_class: '' %}
           </div>
           {%- if show_product_description -%}
-            <div class="card__desc">{{ card_product.description | truncatewords: 30, " " }}</div>
-            {%- endif -%}
+            <div class="card__desc">{{ card_product.description | truncatewords: 18, "" }}</div>
+          {%- endif -%}
         </div>
         <div class="card__badge {{ settings.badge_position }}">
           {%- if card_product.available == false -%}
