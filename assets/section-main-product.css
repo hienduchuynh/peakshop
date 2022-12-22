@@ -116,6 +116,12 @@
 	.p-info-full-slider.product__info-wrapper {
 		padding-left: 0;
 	}
+	.p-info-full-slider.product__info-wrapper [data-block-handle="star_rating"]{
+		margin-bottom: 12px;
+	}
+	.p-info-full-slider.product__info-wrapper .product-form__input {
+		margin-top: 1.2rem;
+	}
 	.p-info-full-slider .product__text.caption-with-letter-spacing {
 		margin-top: 0;
 	}
