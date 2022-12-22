@@ -149,8 +149,7 @@
   }
 }
 .faqs-page .rich-text__text {
-  -webkit-margin-left: -2.4rem;
-  -moz-margin-left: 0;
+  margin-left: -2.4rem;
 }
 
 /* Landing Page */
