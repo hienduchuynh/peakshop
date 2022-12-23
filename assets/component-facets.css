@@ -112,7 +112,7 @@ color: rgba(30, 41, 59, 0.75);;
 	height: auto;
 	line-height: calc(1 + 0.5 / var(--font-body-scale));
 	margin: 0;
-	min-width: 16rem !important;
+	min-width: 19rem !important;
 	padding-left: 0;
 	padding-right: 1.75rem;
 }
