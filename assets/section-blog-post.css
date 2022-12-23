@@ -229,7 +229,7 @@ header > span {
 }
 
 .article-template__link .icon-wrap {
-  display: none;
+  display: inline;
   margin-right: 1rem;
   transform: rotate(180deg);
 }
