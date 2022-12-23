@@ -19,7 +19,7 @@
     <nav class="pagination" role="navigation" aria-label="{{ 'general.pagination.label' | t }}">
       <ul class="pagination__list list-unstyled" role="list">
       {%- if paginate.previous -%}
-        <li>
+        <li class="previous">
           <a href="{{ paginate.previous.url }}{{ anchor }}" class="pagination__item pagination__item--next pagination__item-arrow link motion-reduce" aria-label="{{ 'general.pagination.previous' | t }}">
             {% render 'icon-caret' %}
           </a>
@@ -27,21 +27,25 @@
       {%- endif -%}
 
       {%- for part in paginate.parts -%}
-        <li>
-          {%- if part.is_link -%}
-            <a href="{{ part.url }}{{ anchor }}" class="pagination__item link" aria-label="{{ 'general.pagination.page' | t: number: part.title }}">{{ part.title }}</a>
-          {%- else -%}
-            {%- if part.title == paginate.current_page -%}
+        {%- if part.is_link -%}
+          <li class="item">
+            <a href="{{ part.url }}{{ anchor }}" class="pagination__item link" aria-label="{{ 'general.pagination.page' | t: number: part.title }}">{{ part.title }}</a>          
+          </li>
+        {%- else -%}
+          {%- if part.title == paginate.current_page -%}
+            <li class="active">
               <a role="link" aria-disabled="true" class="pagination__item pagination__item--current light" aria-current="page" aria-label="{{ 'general.pagination.page' | t: number: part.title }}">{{ part.title }}</a>
-            {%- else -%}
+            </li>
+          {%- else -%}
+            <li class="item">
               <span class="pagination__item">{{ part.title }}</span>
-            {%- endif -%}
+            </li>
           {%- endif -%}
-        </li>
+        {%- endif -%}
       {%- endfor -%}
 
       {%- if paginate.next -%}
-        <li>
+        <li class="next">
           <a href="{{ paginate.next.url }}{{ anchor }}" class="pagination__item pagination__item--prev pagination__item-arrow link motion-reduce" aria-label="{{ 'general.pagination.next' | t }}" >
             {%- render 'icon-caret' -%}
           </a>

@@ -398,6 +398,11 @@ variant-selects {
 	margin-bottom: 1rem;
 }
 
+.product-form__input--dropdown .select__select {
+	font-size: 1.4rem;
+	font-family: sans-serif;
+}
+
 .product-form__input .form__label {
 	padding-left: 0;
 	margin-bottom: 0;

@@ -8,6 +8,7 @@
   }
 }
 
+
 .pagination__list {
   display: flex;
   flex-wrap: wrap;
@@ -80,4 +81,21 @@ a.pagination__item:hover::after {
 
 .pagination__item-arrow:hover::after {
   display: none;
+}
+
+@media screen and (max-width: 639px) {
+  .pagination__list li.item a,
+  .pagination__list li.item {
+    display: none;
+  }
+  .pagination__list li.active + .item { 
+    display: block;
+    position: relative;
+  }
+  .pagination__list li.active + .item::after { 
+    content: '...';
+    position: absolute;
+    bottom: 10px;
+  }
+
 }
