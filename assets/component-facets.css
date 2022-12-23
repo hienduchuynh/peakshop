@@ -566,6 +566,7 @@ a.active-facets__button.focused .active-facets__button-inner,
 
 .mobile-facets__disclosure {
 	display: flex;
+	z-index: 6;
 }
 
 .mobile-facets__wrapper {
