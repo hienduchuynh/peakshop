@@ -118,6 +118,12 @@
     rgba(var(--color-foreground), var(--text-boxes-border-opacity));
 }
 
+@media screen and (max-width: 1199px) {
+  .about-us .rich-text__blocks {
+    max-width: 100%;
+  }
+}
+
 /* FAQ */
 .faqs-page .rich-text {
   border: 0;
