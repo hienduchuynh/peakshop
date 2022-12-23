@@ -218,7 +218,7 @@ header > span {
 ============================ */
 .article-template__link {
   align-items: center;
-  display: none;
+  display: inline-block;
   font-size: 1.8rem;
   justify-content: center;
   text-decoration: none;
