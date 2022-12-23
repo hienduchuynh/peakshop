@@ -234,11 +234,6 @@ header > span {
   transform: rotate(180deg);
 }
 
-.article-template__link:before,
-.article-template__link:after {
-  display: none;
-}
-
 /* ========== Comment
 ============================ */
 
