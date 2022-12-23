@@ -43,6 +43,12 @@ slider-component.slider-component-full-width {
   }
 }
 
+@media screen and (max-width: 1199px) {
+  slider-component.slider-component-full-width {
+    --desktop-margin-left-first-item: 0;
+  }
+}
+
 .slider__slide {
   --focus-outline-padding: 0.5rem;
   --shadow-padding-top: calc(
