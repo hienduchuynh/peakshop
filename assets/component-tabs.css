@@ -145,8 +145,12 @@
 	.product_tabs_positions_left .tab__content {
 		padding: 9px 0;
 	}
+
 	.product_tabs_positions_left .tab__content div *{ 
 		text-align: left;
+	}
+	.product_tabs_positions_left .tab__content div:empty {
+		display: none !important;
 	}
 	.product_tabs_positions_right {
 		flex-direction: row-reverse;
