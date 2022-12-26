@@ -2688,6 +2688,7 @@ input[type='checkbox'] {
 	position: sticky;
 	top: 0;
 }
+.section-header.menu-open,
 .section-header.menu-open .header-wrapper { 
 	z-index: 7;
 }
