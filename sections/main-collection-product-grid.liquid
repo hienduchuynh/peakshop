@@ -155,68 +155,62 @@
 {% endif %}
 
 <script type="text/javascript">
-  window.addEventListener('DOMContentLoaded', (event) => {
-    {% if section.settings.filter_type == 'offcanvas' %}
-      var el = document.getElementById('filter-off-canvas');
-      var elfacets = document.getElementById('facets-off-canvas');
-      var fl = document.getElementsByClassName('active-facets__button-inner');
-      if (fl.length > 0) {
-        elfacets.classList.add('open-facets');
-      }
-      el.onclick = function() {
-        elfacets.classList.toggle('open-facets');
-      }
-    {% endif %}
-    var filterEl = [];
-
-    const sortBy = document.querySelectorAll('select#SortBy')[1];
-    filterEl.push(sortBy);
-
-    document.querySelectorAll('li.facets__item').forEach(function (el, idx, arr) {
-      filterEl.push(el);
-    })
-    document.querySelectorAll('span.active-facets__button-inner').forEach(function (el, idx, arr) {
-      filterEl.push(el);
-    })
-
-    if (filterEl.length !== 0){
-      filterEl.forEach(function (el, idx) {
-        el.addEventListener('click', function (event) {
-          sleep(550).then(() => {
-            location.reload();
-          })
-        })
-      })
-    }
-
-  });
-
-  function getAllSubCollections() {
-    var collections = ['all'];
-    {%- for link in linklists.main-menu.links -%}
-      {%- if link.links != blank -%}
-        {%- for subLink in link.links -%}
-          var subLink = "{{ subLink.url }}";
-          var collection = subLink.split('/')[2];
-          collections.push(collection);
-        {%- endfor -%}
-      {%- endif -%}
-    {%- endfor -%}
-
-    return collections;
+  // window.addEventListener('DOMContentLoaded', (event) => {
+  {% if section.settings.filter_type == 'offcanvas' %}
+  var el = document.getElementById('filter-off-canvas');
+  var elfacets = document.getElementById('facets-off-canvas');
+  var fl = document.getElementsByClassName('active-facets__button-inner');
+  if (fl.length > 0) {
+	  elfacets.classList.add('open-facets');
   }
 
-  function getCurrentCollection() {
-    const crumb_list = document.querySelector('ol.breadcrumbs__list');
-    const crumb_links = crumb_list.querySelectorAll('a.breadcrumbs__link');
-    var currCollect = '';
-    crumb_links.forEach(function (el, idx, obj) {
-      if (el.href.includes('collections')){
-        currCollect = el.href.split('collections/')[1];
-      }
-    })
-    return currCollect;
+  var open_facet = getCookie('open-facets');
+  var cookie_name = 'open-facets';
+
+  el.onclick = function () {
+	  elfacets.classList.toggle('open-facets');
+	  if (open_facet == null) {
+		  var data = `{"element_id": "filter-off-canvas", "class_name": "open-facets"}`;
+		  setCookie(cookie_name, data, 2);
+	  } else {
+		  eraseCookie(cookie_name);
+	  }
   }
+
+  if (open_facet && open_facet.length > 0) {
+	  open_facet = JSON.parse(open_facet);
+	  elfacets.classList.add(open_facet.class_name);
+  }
+
+  var filterEl = [];
+  const sortBy = document.querySelectorAll('select#SortBy')[1];
+  const btnRemoveAll = document.querySelector('a.active-facets__button-remove');
+	const btnRest = document.querySelector('a.facets__reset');
+
+  filterEl.push(sortBy);
+  filterEl.push(btnRemoveAll);
+  filterEl.push(btnRest);
+
+  document.querySelectorAll('li.facets__item').forEach(function (el, idx, arr) {
+	  filterEl.push(el);
+  })
+  document.querySelectorAll('span.active-facets__button-inner').forEach(function (el, idx, arr) {
+	  filterEl.push(el);
+  })
+
+  if (filterEl.length !== 0) {
+	  filterEl.forEach(function (el, idx) {
+			if (el) {
+				el.addEventListener('click', function (event) {
+					sleep(550).then(() => {
+						location.reload();
+					})
+				})
+			}
+	  })
+  }
+  {% endif %}
+  // });
   
   function setCookie(name, value, days) {
     var expires = '';
