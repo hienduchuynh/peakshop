@@ -2688,8 +2688,9 @@ input[type='checkbox'] {
 	position: sticky;
 	top: 0;
 }
-.section-header.menu-open{ 
+.section-header.menu-open:not(.shopify-section-header-sticky){ 
 	z-index: 7;
+	position: relative;
 }
 
 .shopify-section-header-hidden {
